@@ -5,33 +5,34 @@ import React from "react";
 
 function UniverseSection({ label, count, children }: { label: string; count: number; children: React.ReactNode }) {
   return (
-    <section style={{ marginBottom: 80 }}>
-      <div style={{ display: "flex", alignItems: "center", gap: 24, marginBottom: 32 }}>
+    <section style={{ marginBottom: 64 }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 24 }}>
         <h2 style={{ 
-          fontSize: 14, 
-          letterSpacing: "0.3em", 
+          fontSize: 12, 
+          letterSpacing: "0.25em", 
           color: "var(--text-primary)", 
           fontWeight: 900,
           margin: 0,
-          textTransform: "uppercase"
+          textTransform: "uppercase",
+          whiteSpace: "nowrap"
         }}>
           {label}
         </h2>
         <div style={{ height: 1, flex: 1, background: "linear-gradient(90deg, var(--border), transparent)" }} />
         <span style={{ 
-          fontSize: 10, 
+          fontSize: 9, 
           color: "var(--text-muted)", 
           fontWeight: 700,
           textTransform: "uppercase",
           letterSpacing: "0.1em"
         }}>
-          {count} Units Detected
+          {count} Units
         </span>
       </div>
       <div style={{ 
         display: "grid", 
-        gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))", 
-        gap: 16 
+        gridTemplateColumns: "repeat(3, 1fr)", 
+        gap: 12 
       }}>
         {children}
       </div>
@@ -53,37 +54,38 @@ export default function Home() {
   return (
     <>
       <NavBar crumbs={[]} />
-      <main style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 24px" }}>
-        <div style={{ marginBottom: 80, textAlign: "center" }}>
+      <main style={{ maxWidth: 600, margin: "0 auto", padding: "60px 20px" }}>
+        <div style={{ marginBottom: 60, textAlign: "center" }}>
           <h1 className="spider-glitch" style={{ 
-            fontSize: 64, 
+            fontSize: 48, 
             fontWeight: 900, 
             color: "var(--text-primary)", 
             margin: 0,
             textTransform: "uppercase",
-            letterSpacing: "-0.02em",
-            lineHeight: 0.9
+            letterSpacing: "-0.01em",
+            lineHeight: 0.85
           }}>
             Superhero<br />Stories
           </h1>
           <p style={{ 
-            fontSize: 16, 
+            fontSize: 14, 
             color: "var(--text-secondary)", 
-            marginTop: 24,
-            maxWidth: 500,
+            marginTop: 16,
+            maxWidth: 400,
             marginInline: "auto",
-            lineHeight: 1.6
+            lineHeight: 1.5,
+            opacity: 0.8
           }}>
-            An archive of 108 high-quality canonical narratives for young heroes-in-training.
+            108 canonical narratives for young heroes.
           </p>
         </div>
 
-        <UniverseSection label="Marvel Archive" count={marvelHeroes.length}>
+        <UniverseSection label="MARVEL" count={marvelHeroes.length}>
           {marvelHeroes.map((hero, index) => (
             <div key={hero.id} style={{
-              animationDelay: `${index * 50}ms`,
+              animationDelay: `${index * 40}ms`,
               animationName: "fadeIn",
-              animationDuration: "0.5s",
+              animationDuration: "0.4s",
               animationFillMode: "both",
             }}>
               <HeroCard hero={hero} />
@@ -91,12 +93,12 @@ export default function Home() {
           ))}
         </UniverseSection>
 
-        <UniverseSection label="DC Database" count={dcHeroes.length}>
+        <UniverseSection label="DC" count={dcHeroes.length}>
           {dcHeroes.map((hero, index) => (
             <div key={hero.id} style={{
-              animationDelay: `${index * 50}ms`,
+              animationDelay: `${index * 40}ms`,
               animationName: "fadeIn",
-              animationDuration: "0.5s",
+              animationDuration: "0.4s",
               animationFillMode: "both",
             }}>
               <HeroCard hero={hero} />
@@ -104,11 +106,11 @@ export default function Home() {
           ))}
         </UniverseSection>
 
-        <UniverseSection label="Avengers Ensemble" count={1}>
+        <UniverseSection label="AVENGERS" count={1}>
           <div style={{
             animationDelay: "0ms",
             animationName: "fadeIn",
-            animationDuration: "0.5s",
+            animationDuration: "0.4s",
             animationFillMode: "both",
           }}>
             <HeroCard hero={avengersEntry} />

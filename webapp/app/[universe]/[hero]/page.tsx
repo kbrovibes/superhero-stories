@@ -36,25 +36,27 @@ export default async function HeroPage({ params }: { params: Params }) {
         { label: universe.toUpperCase(), href: "/" },
         { label: hero.name },
       ]} />
-      <main style={{ maxWidth: 960, margin: "0 auto", padding: "48px 24px" }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 20, marginBottom: 24 }}>
-          <span style={{ fontSize: 72 }}>{hero.emoji}</span>
+      <main style={{ maxWidth: 600, margin: "0 auto", padding: "60px 20px" }}>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: 16, marginBottom: 48 }}>
+          <span style={{ fontSize: 96 }}>{hero.emoji}</span>
           <div>
-            <h1 style={{ fontSize: 42, fontWeight: 800, color: "var(--text-primary)", margin: 0, lineHeight: 1.1 }}>{hero.name}</h1>
-            <p style={{ fontSize: 13, color: "var(--text-muted)", margin: "6px 0 0", textTransform: "uppercase", letterSpacing: "0.1em" }}>
-              {universe.toUpperCase()} · {stories.length} Stories
+            <h1 className="spider-glitch" style={{ fontSize: 48, fontWeight: 900, color: "var(--text-primary)", margin: 0, lineHeight: 1, textTransform: "uppercase" }}>{hero.name}</h1>
+            <p style={{ fontSize: 10, color: "var(--text-muted)", margin: "12px 0 0", textTransform: "uppercase", letterSpacing: "0.2em", fontWeight: 700 }}>
+              {universe.toUpperCase()} ARCHIVE · {stories.length} DATA FILES
             </p>
           </div>
         </div>
 
-        <hr style={{ border: "none", borderTop: "1px solid var(--border)", margin: "24px 0" }} />
-
-        <div>
+        <div style={{ 
+          display: "grid", 
+          gridTemplateColumns: "repeat(3, 1fr)", 
+          gap: 12 
+        }}>
           {stories.map((story, index) => (
-            <div key={story.number} style={{
-              animationDelay: `${index * 80}ms`,
+            <div key={story.id} style={{
+              animationDelay: `${index * 50}ms`,
               animationName: "fadeIn",
-              animationDuration: "0.3s",
+              animationDuration: "0.4s",
               animationFillMode: "both",
             }}>
               <StoryRow
