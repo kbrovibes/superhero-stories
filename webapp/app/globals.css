@@ -6,15 +6,15 @@
 }
 
 :root {
-  --bg:              #020205;
-  --surface:         rgba(10, 10, 15, 0.4);
-  --surface-raised:  rgba(18, 18, 30, 0.6);
-  --border:          rgba(255, 255, 255, 0.08);
-  --border-hover:    rgba(255, 255, 255, 0.15);
+  --bg:              #08080c;
+  --surface:         rgba(15, 15, 20, 0.5);
+  --surface-raised:  rgba(25, 25, 35, 0.7);
+  --border:          rgba(255, 255, 255, 0.1);
+  --border-hover:    rgba(255, 255, 255, 0.2);
 
   --text-primary:    #ffffff;
-  --text-secondary:  #b0b0c0;
-  --text-muted:      #606070;
+  --text-secondary:  #d0d0e0;
+  --text-muted:      #808090;
 
   --marvel-accent:   #ff3c5c;
   --marvel-glow:     rgba(255, 60, 92, 0.3);
@@ -46,8 +46,8 @@ body {
   height: 100%;
   z-index: -1;
   overflow: hidden;
-  filter: blur(80px);
-  opacity: 0.4;
+  filter: blur(100px);
+  opacity: 0.18;
 }
 
 .blob {
