@@ -6,15 +6,16 @@ const REPO_ROOT = path.join(process.cwd(), "superhero-repo");
 export type Universe = "marvel" | "dc" | "avengers";
 
 export interface Hero {
-  id: string;
-  name: string;
+  id: string;          // kebab-case folder name
+  name: string;        // display name
   universe: Universe;
   emoji: string;
 }
 
 export interface Story {
-  number: number;
-  title: string;
+  id: string;      // slug from filename, e.g. "01-origin"
+  number: number;  // 1-based index for display ("Story 1 of 5")
+  title: string;   // human-readable, e.g. "Origin"
   body: string;
 }
 
@@ -41,13 +42,13 @@ const HERO_META: Record<string, Pick<Hero, "name" | "emoji">> = {
   "martian-manhunter":  { name: "Martian Manhunter",   emoji: "👽" },
 };
 
-const STORY_TITLES = [
-  "The Origin",
-  "First Villain",
-  "Second Villain",
-  "Artifacts & Lore",
-  "Teamwork",
-];
+function slugToTitle(slug: string): string {
+  return slug
+    .replace(/^\d+-/, "")
+    .split("-")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
 
 export function getHeroes(universe: "marvel" | "dc"): Hero[] {
   const dir = path.join(REPO_ROOT, universe);
@@ -67,14 +68,13 @@ export function getAvengersStories(): Story[] {
   if (!fs.existsSync(dir)) return [];
   const files = fs.readdirSync(dir).filter((f) => f.endsWith(".txt")).sort();
   return files.map((f, i) => {
-    const raw = fs.readFileSync(path.join(dir, f), "utf-8").trim();
-    const lines = raw.split("\n");
-    const firstLine = lines[0].trim();
-    const isTitle = firstLine === firstLine.toUpperCase() && firstLine.length > 0 && !/[.?!]$/.test(firstLine);
+    const id = f.replace(".txt", "");
+    const body = fs.readFileSync(path.join(dir, f), "utf-8").trim();
     return {
+      id,
       number: i + 1,
-      title: isTitle ? toTitleCase(firstLine) : `Story ${i + 1}`,
-      body: isTitle ? lines.slice(1).join("\n").trim() : raw,
+      title: slugToTitle(id),
+      body,
     };
   });
 }
@@ -82,20 +82,22 @@ export function getAvengersStories(): Story[] {
 export function getHeroStories(universe: "marvel" | "dc", heroId: string): Story[] {
   const dir = path.join(REPO_ROOT, universe, heroId);
   if (!fs.existsSync(dir)) return [];
-  return [1, 2, 3, 4, 5].map((n) => {
-    const file = path.join(dir, `${n}.txt`);
-    const body = fs.existsSync(file) ? fs.readFileSync(file, "utf-8").trim() : "";
-    return { number: n, title: STORY_TITLES[n - 1], body };
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".txt")).sort();
+  return files.map((f, i) => {
+    const id = f.replace(".txt", "");
+    const body = fs.readFileSync(path.join(dir, f), "utf-8").trim();
+    return {
+      id,
+      number: i + 1,
+      title: slugToTitle(id),
+      body,
+    };
   });
 }
 
 export function getHero(universe: "marvel" | "dc", heroId: string): Hero | null {
   const heroes = getHeroes(universe);
   return heroes.find((h) => h.id === heroId) ?? null;
-}
-
-function toTitleCase(s: string): string {
-  return s.replace(/\w\S*/g, (w) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase());
 }
 
 export { THEME } from "./theme";

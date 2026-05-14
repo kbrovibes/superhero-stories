@@ -8,8 +8,8 @@ export async function generateStaticParams() {
   const params: { universe: string; hero: string; story: string }[] = [];
   for (const universe of ["marvel", "dc"] as const) {
     for (const hero of getHeroes(universe)) {
-      for (let n = 1; n <= 5; n++) {
-        params.push({ universe, hero: hero.id, story: String(n) });
+      for (const story of getHeroStories(universe, hero.id)) {
+        params.push({ universe, hero: hero.id, story: story.id });
       }
     }
   }
@@ -17,21 +17,21 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: Params }) {
-  const { universe, hero: heroId, story } = await params;
+  const { universe, hero: heroId, story: storyId } = await params;
   const hero = getHero(universe as "marvel" | "dc", heroId);
   const stories = hero ? getHeroStories(universe as "marvel" | "dc", heroId) : [];
-  const s = stories[Number(story) - 1];
+  const s = stories.find((s) => s.id === storyId);
   return { title: s ? `${hero!.name}: ${s.title}` : "Story" };
 }
 
 export default async function StoryPage({ params }: { params: Params }) {
-  const { universe, hero: heroId, story } = await params;
+  const { universe, hero: heroId, story: storyId } = await params;
   if (universe !== "marvel" && universe !== "dc") notFound();
   const hero = getHero(universe, heroId);
   if (!hero) notFound();
   const stories = getHeroStories(universe, heroId);
-  const storyIndex = Number(story) - 1;
-  if (storyIndex < 0 || storyIndex >= stories.length) notFound();
+  const storyIndex = stories.findIndex((s) => s.id === storyId);
+  if (storyIndex === -1) notFound();
   const current = stories[storyIndex];
   const prev = storyIndex > 0 ? stories[storyIndex - 1] : null;
   const next = storyIndex < stories.length - 1 ? stories[storyIndex + 1] : null;
@@ -82,7 +82,7 @@ export default async function StoryPage({ params }: { params: Params }) {
 
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginTop: 48 }}>
           <a
-            href={prev ? `/${universe}/${heroId}/${prev.number}` : undefined}
+            href={prev ? `/${universe}/${heroId}/${prev.id}` : undefined}
             style={{
               height: 72,
               background: "var(--surface)",
@@ -101,7 +101,7 @@ export default async function StoryPage({ params }: { params: Params }) {
             <span style={{ fontSize: 14, fontWeight: 600, color: "var(--text-primary)" }}>{prev?.title ?? ""}</span>
           </a>
           <a
-            href={next ? `/${universe}/${heroId}/${next.number}` : `/${universe}/${heroId}`}
+            href={next ? `/${universe}/${heroId}/${next.id}` : `/${universe}/${heroId}`}
             style={{
               height: 72,
               background: "var(--surface)",

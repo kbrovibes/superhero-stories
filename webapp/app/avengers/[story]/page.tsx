@@ -6,21 +6,21 @@ type Params = Promise<{ story: string }>;
 
 export async function generateStaticParams() {
   const stories = getAvengersStories();
-  return stories.map((s) => ({ story: String(s.number) }));
+  return stories.map((s) => ({ story: s.id }));
 }
 
 export async function generateMetadata({ params }: { params: Params }) {
-  const { story } = await params;
+  const { story: storyId } = await params;
   const stories = getAvengersStories();
-  const s = stories[Number(story) - 1];
+  const s = stories.find((s) => s.id === storyId);
   return { title: s ? `Avengers: ${s.title}` : "Story" };
 }
 
 export default async function AvengersStoryPage({ params }: { params: Params }) {
-  const { story } = await params;
+  const { story: storyId } = await params;
   const stories = getAvengersStories();
-  const idx = Number(story) - 1;
-  if (idx < 0 || idx >= stories.length) notFound();
+  const idx = stories.findIndex((s) => s.id === storyId);
+  if (idx === -1) notFound();
   const current = stories[idx];
   const prev = idx > 0 ? stories[idx - 1] : null;
   const next = idx < stories.length - 1 ? stories[idx + 1] : null;
@@ -71,7 +71,7 @@ export default async function AvengersStoryPage({ params }: { params: Params }) 
 
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginTop: 48 }}>
           <a
-            href={prev ? `/avengers/${prev.number}` : undefined}
+            href={prev ? `/avengers/${prev.id}` : undefined}
             style={{
               height: 72,
               background: "var(--surface)",
@@ -90,7 +90,7 @@ export default async function AvengersStoryPage({ params }: { params: Params }) 
             <span style={{ fontSize: 14, fontWeight: 600, color: "var(--text-primary)" }}>{prev?.title ?? ""}</span>
           </a>
           <a
-            href={next ? `/avengers/${next.number}` : "/avengers"}
+            href={next ? `/avengers/${next.id}` : "/avengers"}
             style={{
               height: 72,
               background: "var(--surface)",

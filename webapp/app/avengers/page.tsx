@@ -39,7 +39,7 @@ export default function AvengersPage() {
                 title={story.title}
                 storyTheme="Ensemble Story"
                 index={index}
-                href={`/avengers/${story.number}`}
+                href={`/avengers/${story.id}`}
                 universe="avengers"
               />
             </div>

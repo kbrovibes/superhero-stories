@@ -10,34 +10,34 @@ superhero-repo/
   marvel/   10 heroes, 5 stories each
   dc/       10 heroes, 5 stories each
   avengers/ 8 multi-hero ensemble stories
-generate-repo.sh   Regenerates all story files from scratch
 ```
 
-## Content Rules (NEVER break these)
-- No death, no tragedy, no scary trauma.
-- Villains are mischievous, never violent or scary.
-- Orphan backstories → "raised by a loving family" or "started a new journey."
-- Audience is 7 years old. Language must be simple and joyful.
-- Each story ~80-100 words.
+## Content Rules
+- Audience: 7-year-old. Tone: warm narrator, like a great picture-book biography.
+- Stories are factual to canonical comics/MCU lore — real names, places, items, mentors, villains.
+- Authentic origin beats are allowed when iconic (Uncle Ben's death, Krypton's destruction, the Wayne murder in Crime Alley, the Stark cave). Keep them tasteful: no gore, no graphic violence, no nightmare imagery. Death is a quiet sadness, not a horror beat.
+- Villains are mischievous-to-menacing, but never sadistic. They scheme, fight, lose. They do not torture.
+- Word target: 300–400 words per story, 4–5 paragraphs.
+- No filler adjectives, no "super-duper amazing" kid-pandering. Density of named-entities matters: at least 5 proper nouns per story (people, places, items).
 
 ## Story Structure Per Hero
-| File  | Theme                              |
-|-------|------------------------------------|
-| 1.txt | Origin — the "how"                 |
-| 2.txt | Villain encounter 1                |
-| 3.txt | Villain encounter 2                |
-| 4.txt | Artifact / lore / world-building   |
-| 5.txt | Teamwork / lesson                  |
+| File                     | Theme                              |
+|--------------------------|------------------------------------||
+| 01-origin.txt            | Origin — the "how"                 |
+| 02-villain-<name>.txt    | Villain encounter 1                |
+| 03-villain-<name>.txt    | Villain encounter 2                |
+| 04-<artifact>.txt        | Artifact / lore / world-building   |
+| 05-teamwork-<topic>.txt  | Teamwork / lesson                  |
 
 ## Key Lore to Preserve
-- Thor: Mjolnir (worthy enchantment) + Stormbreaker (forged in a dying star)
+- Thor: Mjolnir (worthy enchantment) + Stormbreaker (forged in a dying star by Eitri)
 - Cap: Vibranium shield bounces back
-- Iron Man: Arc Reactor in chest powers his suit and ideas
+- Iron Man: Arc Reactor in chest powers his suit and keeps him alive
 - Tesseract: glowing blue cube; one of the Infinity Stones
 - Infinity Stones: six colors, six powers
 - Joker: purple suit, orange tie, bright green hair, huge red smile, "HA HA HA"
 - Two-Face: split charcoal/purple suit, silver coin, one happy face / one uncertain
-- Green Goblin: orange glider, glowing goblin mask, purple costume
+- Green Goblin: orange glider, glowing goblin mask, purple costume, pumpkin bombs
 - Venom: black goo, enormous white eyes, huge teeth — misunderstood, not evil
 
 ## Web App Rules
@@ -45,11 +45,9 @@ generate-repo.sh   Regenerates all story files from scratch
 - All routes use `generateStaticParams` — zero server runtime needed.
 - Transitions: Framer Motion page animations (slide or fade).
 - Palettes: Marvel = red/gold, DC = blue/gold, Avengers = purple/gold.
-- Hero tiles on homepage; story cards on hero page; full text on story page.
-- If stories are refreshed and the app is rebuilt, new content appears automatically.
-
-## Refreshing Stories
-Run `bash generate-repo.sh` to regenerate all 108 story files, then redeploy.
+- Hero tiles on homepage; story rows on hero page; full text on story page.
+- Story files use slug naming: `01-origin.txt`, `02-villain-<name>.txt`, etc.
+- `lib/stories.ts` reads all `*.txt` files in each hero directory, sorted alphabetically; derives `id` and `title` from the filename slug.
 
 ---
 

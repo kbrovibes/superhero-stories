@@ -61,7 +61,7 @@ export default async function HeroPage({ params }: { params: Params }) {
                 title={story.title}
                 storyTheme={STORY_THEMES[index] ?? "Story"}
                 index={index}
-                href={`/${universe}/${heroId}/${story.number}`}
+                href={`/${universe}/${heroId}/${story.id}`}
                 universe={universe as "marvel" | "dc" | "avengers"}
               />
             </div>
