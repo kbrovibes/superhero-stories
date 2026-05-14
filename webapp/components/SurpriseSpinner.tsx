@@ -6,14 +6,20 @@ import SurpriseWinner from "./SurpriseWinner";
 
 type Phase = "idle" | "spinning" | "coasting" | "won";
 
-// Physics constants (candidates per second, ms, dimensionless)
-const MIN_V = 4;
-const MAX_V = 18;
-const RAMP_TIME = 1500;
-const FRICTION_PER_SEC = 0.35;
-const SNAP_VELOCITY = 0.6;
-const SNAP_DURATION = 320;
-const MIN_HOLD = 250;
+// Physics constants
+//
+// Spin phase: velocity ramps from 0 toward MAX_V over RAMP_TIME (smoothed).
+// Coast phase: constant-deceleration model.
+//   distance to stop: d = v0² / (2 * DECEL)
+//   time to stop:     t = v0 / DECEL
+//   This is the same shape as easeOutQuad(progress) = 1 - (1-progress)².
+const MIN_V = 4;             // candidates/sec — velocity floor while held
+const MAX_V = 14;            // candidates/sec — top speed at full hold
+const RAMP_TIME = 900;       // ms — full ramp from idle to MAX_V
+const DECEL = 11;            // candidates/sec² — constant friction during coast
+const MIN_RELEASE_V = 7;     // candidates/sec — floor on release velocity so a short
+                             // hold still travels enough cells to feel like a spin
+const MIN_HOLD = 200;        // ms — taps shorter than this don't count as a spin
 
 function shuffle<T>(arr: T[]): T[] {
   const a = arr.slice();
@@ -49,9 +55,11 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
   const velocityRef = useRef(0);
   const phaseRef = useRef<Phase>("idle");
   const holdStartedAtRef = useRef(0);
-  const snapTargetRef = useRef<number | null>(null);
-  const snapStartedAtRef = useRef(0);
-  const snapStartPosRef = useRef(0);
+  // Coast plan — precomputed on release so the wheel decelerates deterministically.
+  const coastStartPosRef = useRef(0);
+  const coastEndPosRef = useRef(0);
+  const coastStartedAtRef = useRef(0);
+  const coastDurationRef = useRef(0); // ms
   const rafRef = useRef<number | null>(null);
   const lastTsRef = useRef<number | null>(null);
   const pointerIdRef = useRef<number | null>(null);
@@ -76,7 +84,6 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
     setWinner(deck[final]);
     setPhaseBoth("won");
     velocityRef.current = 0;
-    snapTargetRef.current = null;
   }, [deck, deckLen, setPhaseBoth]);
 
   // rAF loop — single source of truth for position/velocity.
@@ -92,37 +99,30 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
         const held = ts - holdStartedAtRef.current;
         const ramp = Math.min(1, held / RAMP_TIME);
         const target = MIN_V + (MAX_V - MIN_V) * ramp;
-        velocityRef.current += (target - velocityRef.current) * Math.min(1, dt * 8);
+        velocityRef.current += (target - velocityRef.current) * Math.min(1, dt * 10);
         positionRef.current += velocityRef.current * dt;
       } else if (phase === "coasting") {
-        velocityRef.current *= Math.pow(FRICTION_PER_SEC, dt);
-        positionRef.current += velocityRef.current * dt;
-        if (velocityRef.current < SNAP_VELOCITY && snapTargetRef.current === null) {
-          const target = Math.ceil(positionRef.current) + 0.5; // land mid-cell for a clean read
-          snapTargetRef.current = target;
-          snapStartedAtRef.current = ts;
-          snapStartPosRef.current = positionRef.current;
-        }
-        if (snapTargetRef.current !== null) {
-          const elapsed = ts - snapStartedAtRef.current;
-          const t = Math.min(1, elapsed / SNAP_DURATION);
-          // easeOutCubic
-          const eased = 1 - Math.pow(1 - t, 3);
-          positionRef.current = snapStartPosRef.current
-            + (snapTargetRef.current - snapStartPosRef.current) * eased;
-          velocityRef.current = 0;
-          if (t >= 1) {
-            const finalIdx = Math.floor(snapTargetRef.current);
-            finalize(finalIdx);
-            return; // stop the loop; a fresh effect will re-start it on "spin again"
-          }
+        // Single parametric ease-out from current → target over a velocity-derived
+        // duration. easeOutQuad is the time-integral of linear velocity decay, so
+        // this is equivalent to constant deceleration — no asymptote, definite stop.
+        const elapsed = ts - coastStartedAtRef.current;
+        const t = Math.min(1, elapsed / coastDurationRef.current);
+        const eased = 1 - (1 - t) * (1 - t); // easeOutQuad
+        const span = coastEndPosRef.current - coastStartPosRef.current;
+        positionRef.current = coastStartPosRef.current + span * eased;
+        velocityRef.current = span * (2 * (1 - t)) / (coastDurationRef.current / 1000);
+        if (t >= 1) {
+          const finalIdx = Math.floor(coastEndPosRef.current);
+          finalize(finalIdx);
+          return; // stop the loop; a fresh effect will re-start on "spin again"
         }
       }
 
       const idx = ((Math.floor(positionRef.current) % deckLen) + deckLen) % deckLen;
       setDisplayIndex(idx);
       const moving = phase === "spinning" || phase === "coasting";
-      setBlurAmt(moving ? Math.min(2, velocityRef.current * 0.12) : 0);
+      // Cap blur lower so the final cells are readable as the wheel slows.
+      setBlurAmt(moving ? Math.min(1.2, velocityRef.current * 0.08) : 0);
       rafRef.current = requestAnimationFrame(tick);
     };
 
@@ -144,8 +144,7 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
       return;
     }
     holdStartedAtRef.current = performance.now();
-    velocityRef.current = MIN_V * 0.4;
-    snapTargetRef.current = null;
+    velocityRef.current = 0; // start from rest — feels like spinning up from a stop
     setPhaseBoth("spinning");
   }, [deckLen, finalize, setPhaseBoth]);
 
@@ -158,6 +157,24 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
       setPhaseBoth("idle");
       return;
     }
+
+    // Plan the coast deterministically from release velocity.
+    const v0 = Math.max(velocityRef.current, MIN_RELEASE_V);
+    const startPos = positionRef.current;
+    const naturalDistance = (v0 * v0) / (2 * DECEL); // kinematics: d = v²/(2a)
+    const naturalEnd = startPos + naturalDistance;
+    // Snap target to nearest cell *center* (integer + 0.5) so the displayed candidate
+    // is the one centered in the viewport when the animation stops.
+    // Round to nearest .5 offset from the natural endpoint.
+    const targetEnd = Math.round(naturalEnd - 0.5) + 0.5;
+    // Recompute duration for the *adjusted* distance, scaled so the visual speed
+    // still matches v0 at t=0 (initial slope of easeOutQuad over [0,1] is 2/T).
+    const adjustedDistance = targetEnd - startPos;
+    const duration = (2 * adjustedDistance / v0) * 1000; // ms; minimum bounded below
+    coastStartPosRef.current = startPos;
+    coastEndPosRef.current = targetEnd;
+    coastStartedAtRef.current = performance.now();
+    coastDurationRef.current = Math.max(450, duration);
     setPhaseBoth("coasting");
   }, [setPhaseBoth]);
 
@@ -191,7 +208,8 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
     setWinner(null);
     positionRef.current = 0;
     velocityRef.current = 0;
-    snapTargetRef.current = null;
+    coastStartedAtRef.current = 0;
+    coastDurationRef.current = 0;
     setDeck(shuffle(candidates));
     setDisplayIndex(0);
     setPhaseBoth("idle");
@@ -267,6 +285,8 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
       {/* HOLD ME button */}
       <button
         type="button"
+        className="surprise-btn"
+        data-phase={phase}
         onPointerDown={onPointerDown}
         onPointerUp={onPointerUp}
         onPointerCancel={onPointerCancel}
@@ -275,27 +295,6 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
         onKeyUp={onKeyUp}
         disabled={phase === "coasting"}
         aria-label={spinning ? "Release to pick" : "Press and hold to spin"}
-        style={{
-          width: 240,
-          height: 240,
-          borderRadius: "50%",
-          border: "1px solid var(--border-hover)",
-          background: "radial-gradient(circle at 30% 30%, var(--av-accent), var(--marvel-accent) 55%, var(--dc-accent))",
-          color: "#0a0a14",
-          fontSize: 24,
-          fontWeight: 900,
-          letterSpacing: "0.08em",
-          textTransform: "uppercase",
-          cursor: phase === "coasting" ? "not-allowed" : "pointer",
-          touchAction: "none",
-          userSelect: "none",
-          boxShadow: spinning
-            ? "0 0 80px var(--av-glow), 0 0 40px var(--marvel-glow), inset 0 0 30px rgba(255,255,255,0.2)"
-            : "0 20px 60px rgba(0,0,0,0.5), inset 0 0 30px rgba(255,255,255,0.15)",
-          transform: spinning ? "scale(0.96)" : "scale(1)",
-          transition: "transform 140ms cubic-bezier(0.23,1,0.32,1), box-shadow 180ms ease",
-          animation: phase === "idle" ? "surprisePulse 2.4s ease-in-out infinite" : undefined,
-        }}
       >
         {spinning ? "RELEASE" : coasting ? "…" : "HOLD ME"}
       </button>
@@ -319,9 +318,62 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
       </span>
 
       <style>{`
+        .surprise-btn {
+          width: 240px;
+          height: 240px;
+          border-radius: 50%;
+          border: 1px solid var(--border-hover);
+          background: radial-gradient(circle at 30% 30%, var(--av-accent), var(--marvel-accent) 55%, var(--dc-accent));
+          color: #0a0a14;
+          font-size: 24px;
+          font-weight: 900;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          cursor: pointer;
+          touch-action: none;
+          user-select: none;
+          box-shadow: 0 20px 60px rgba(0,0,0,0.5), inset 0 0 30px rgba(255,255,255,0.15);
+          transform: scale(1);
+          transition: transform 90ms cubic-bezier(0.23,1,0.32,1), box-shadow 90ms ease;
+          animation: surprisePulse 2.6s ease-in-out infinite;
+          will-change: transform, box-shadow;
+        }
+        .surprise-btn:hover {
+          transform: scale(1.04);
+          box-shadow:
+            0 28px 80px rgba(255,217,0,0.35),
+            0 0 60px rgba(255,60,92,0.35),
+            0 0 40px rgba(0,229,255,0.25),
+            inset 0 0 30px rgba(255,255,255,0.25);
+          animation-play-state: paused;
+        }
+        .surprise-btn:focus-visible {
+          outline: 3px solid var(--av-accent);
+          outline-offset: 6px;
+        }
+        .surprise-btn[data-phase="spinning"] {
+          transform: scale(0.96);
+          box-shadow:
+            0 0 100px var(--av-glow),
+            0 0 60px var(--marvel-glow),
+            0 0 40px var(--dc-glow),
+            inset 0 0 30px rgba(255,255,255,0.25);
+          animation: none;
+          cursor: grabbing;
+        }
+        .surprise-btn[data-phase="coasting"] {
+          transform: scale(0.98);
+          box-shadow: 0 16px 50px rgba(0,0,0,0.4), inset 0 0 30px rgba(255,255,255,0.12);
+          animation: none;
+          cursor: not-allowed;
+          opacity: 0.85;
+        }
         @keyframes surprisePulse {
           0%, 100% { box-shadow: 0 20px 60px rgba(0,0,0,0.5), inset 0 0 30px rgba(255,255,255,0.15); }
-          50%      { box-shadow: 0 20px 80px rgba(255,217,0,0.35), 0 0 40px rgba(255,60,92,0.25), inset 0 0 30px rgba(255,255,255,0.2); }
+          50%      { box-shadow: 0 20px 80px rgba(255,217,0,0.30), 0 0 40px rgba(255,60,92,0.22), inset 0 0 30px rgba(255,255,255,0.20); }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .surprise-btn { animation: none; transition: none; }
         }
       `}</style>
     </div>
