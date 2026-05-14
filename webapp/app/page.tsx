@@ -5,14 +5,34 @@ import React from "react";
 
 function UniverseSection({ label, count, children }: { label: string; count: number; children: React.ReactNode }) {
   return (
-    <section style={{ marginBottom: 48 }}>
-      <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 20 }}>
-        <div style={{ height: 1, flex: 1, background: "var(--border)" }} />
-        <span style={{ fontSize: 11, letterSpacing: "0.15em", color: "var(--text-muted)", fontWeight: 700 }}>{label}</span>
-        <span style={{ fontSize: 12, color: "var(--text-muted)", background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 999, padding: "2px 10px" }}>{count} heroes</span>
-        <div style={{ height: 1, flex: 1, background: "var(--border)" }} />
+    <section style={{ marginBottom: 80 }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 24, marginBottom: 32 }}>
+        <h2 style={{ 
+          fontSize: 14, 
+          letterSpacing: "0.3em", 
+          color: "var(--text-primary)", 
+          fontWeight: 900,
+          margin: 0,
+          textTransform: "uppercase"
+        }}>
+          {label}
+        </h2>
+        <div style={{ height: 1, flex: 1, background: "linear-gradient(90deg, var(--border), transparent)" }} />
+        <span style={{ 
+          fontSize: 10, 
+          color: "var(--text-muted)", 
+          fontWeight: 700,
+          textTransform: "uppercase",
+          letterSpacing: "0.1em"
+        }}>
+          {count} Units Detected
+        </span>
       </div>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: 12 }}>
+      <div style={{ 
+        display: "grid", 
+        gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", 
+        gap: 24 
+      }}>
         {children}
       </div>
     </section>
@@ -32,19 +52,38 @@ export default function Home() {
 
   return (
     <>
-      <NavBar crumbs={[{ label: "Stories" }]} />
-      <main style={{ maxWidth: 960, margin: "0 auto", padding: "48px 24px" }}>
-        <div style={{ marginBottom: 48 }}>
-          <h1 style={{ fontSize: 28, fontWeight: 800, color: "var(--text-primary)", margin: 0 }}>✦ Superhero Stories</h1>
-          <p style={{ fontSize: 14, color: "var(--text-secondary)", margin: "8px 0 0" }}>108 stories across Marvel, DC, and the Avengers.</p>
+      <NavBar crumbs={[]} />
+      <main style={{ maxWidth: 1200, margin: "0 auto", padding: "80px 24px" }}>
+        <div style={{ marginBottom: 80, textAlign: "center" }}>
+          <h1 className="spider-glitch" style={{ 
+            fontSize: 64, 
+            fontWeight: 900, 
+            color: "var(--text-primary)", 
+            margin: 0,
+            textTransform: "uppercase",
+            letterSpacing: "-0.02em",
+            lineHeight: 0.9
+          }}>
+            Superhero<br />Stories
+          </h1>
+          <p style={{ 
+            fontSize: 16, 
+            color: "var(--text-secondary)", 
+            marginTop: 24,
+            maxWidth: 500,
+            marginInline: "auto",
+            lineHeight: 1.6
+          }}>
+            An archive of 108 high-quality canonical narratives for young heroes-in-training.
+          </p>
         </div>
 
-        <UniverseSection label="MARVEL" count={marvelHeroes.length}>
+        <UniverseSection label="Marvel Archive" count={marvelHeroes.length}>
           {marvelHeroes.map((hero, index) => (
             <div key={hero.id} style={{
               animationDelay: `${index * 50}ms`,
               animationName: "fadeIn",
-              animationDuration: "0.3s",
+              animationDuration: "0.5s",
               animationFillMode: "both",
             }}>
               <HeroCard hero={hero} />
@@ -52,12 +91,12 @@ export default function Home() {
           ))}
         </UniverseSection>
 
-        <UniverseSection label="DC" count={dcHeroes.length}>
+        <UniverseSection label="DC Database" count={dcHeroes.length}>
           {dcHeroes.map((hero, index) => (
             <div key={hero.id} style={{
               animationDelay: `${index * 50}ms`,
               animationName: "fadeIn",
-              animationDuration: "0.3s",
+              animationDuration: "0.5s",
               animationFillMode: "both",
             }}>
               <HeroCard hero={hero} />
@@ -65,11 +104,11 @@ export default function Home() {
           ))}
         </UniverseSection>
 
-        <UniverseSection label="AVENGERS" count={1}>
+        <UniverseSection label="Avengers Ensemble" count={1}>
           <div style={{
             animationDelay: "0ms",
             animationName: "fadeIn",
-            animationDuration: "0.3s",
+            animationDuration: "0.5s",
             animationFillMode: "both",
           }}>
             <HeroCard hero={avengersEntry} />

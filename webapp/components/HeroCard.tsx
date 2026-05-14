@@ -20,30 +20,81 @@ export default function HeroCard({ hero }: HeroCardProps) {
 
   return (
     <motion.div
-      whileHover={{ y: -3, scale: 1.02 }}
-      transition={{ type: "spring", stiffness: 400, damping: 25 }}
+      whileHover={{ scale: 1.05, rotateZ: hovered ? -1 : 0 }}
+      whileTap={{ scale: 0.98 }}
+      transition={{ type: "spring", stiffness: 400, damping: 20 }}
     >
       <Link href={href} style={{ textDecoration: "none" }}>
         <div
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
+          className="spider-glitch"
           style={{
+            aspectRatio: "1 / 1",
             background: hovered ? "var(--surface-raised)" : "var(--surface)",
-            borderLeft: `3px solid ${theme.accent}`,
-            boxShadow: hovered
-              ? `0 0 0 1px var(--border-hover), 0 8px 24px ${theme.glow}`
-              : "0 0 0 1px var(--border)",
-            borderRadius: 8,
-            padding: "16px 20px",
+            border: `1px solid ${hovered ? theme.accent : "var(--border)"}`,
+            boxShadow: hovered ? `0 0 30px ${theme.glow}` : "none",
+            borderRadius: 16,
+            padding: 24,
             display: "flex",
+            flexDirection: "column",
             alignItems: "center",
-            gap: 14,
-            transition: "background 0.15s ease, box-shadow 0.15s ease",
+            justifyContent: "center",
+            gap: 16,
+            transition: "all 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
             cursor: "pointer",
+            position: "relative",
+            overflow: "hidden",
           }}
         >
-          <span style={{ fontSize: 40 }}>{hero.emoji}</span>
-          <span style={{ fontSize: 14, fontWeight: 700, color: "var(--text-primary)" }}>{hero.name}</span>
+          {/* Halftone Overlay on Hover */}
+          {hovered && (
+            <div 
+              className="halftone" 
+              style={{ 
+                position: "absolute", 
+                inset: 0, 
+                color: theme.accent,
+                opacity: 0.15 
+              }} 
+            />
+          )}
+
+          <div style={{ 
+            fontSize: 84, 
+            filter: hovered ? `drop-shadow(0 0 10px ${theme.accent})` : "none",
+            transition: "all 0.3s ease"
+          }}>
+            {hero.emoji}
+          </div>
+          
+          <div style={{ 
+            textAlign: "center",
+            display: "flex",
+            flexDirection: "column",
+            gap: 4
+          }}>
+            <span style={{ 
+              fontSize: 18, 
+              fontWeight: 900, 
+              color: "var(--text-primary)", 
+              textTransform: "uppercase",
+              letterSpacing: "0.05em",
+              lineHeight: 1
+            }}>
+              {hero.name}
+            </span>
+            <span style={{ 
+              fontSize: 10, 
+              fontWeight: 600, 
+              color: theme.accent, 
+              textTransform: "uppercase",
+              letterSpacing: "0.2em",
+              opacity: hovered ? 1 : 0.6
+            }}>
+              {hero.universe}
+            </span>
+          </div>
         </div>
       </Link>
     </motion.div>
