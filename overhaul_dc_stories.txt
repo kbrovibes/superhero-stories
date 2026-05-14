@@ -1,0 +1,22 @@
+Overhaul stories for the following DC heroes in webapp/superhero-repo/dc/:
+- Martian Manhunter
+- Shazam
+- Superman
+- The Flash
+- Wonder Woman
+
+Tasks:
+1. For each hero, rewrite the 5 existing .txt files (01-05).
+2. For each hero, create 5 new .txt files (06-10) with relevant themes.
+3. Every file MUST be 400-450 words long and consist of 6-7 paragraphs.
+4. The tone should be narrative and immersive, not just a list of facts.
+5. Use absolute paths based on /Users/karthik/claude/superhero-stories/webapp/superhero-repo/dc/.
+
+Proposed themes for new files (06-10):
+- Martian Manhunter: 06-human-guise-detective-john-jones.txt, 07-fire-weakness.txt, 08-miss-martian.txt, 09-watchtower-vigil.txt, 10-martian-chronicles-memory.txt
+- Shazam: 06-shazam-family.txt, 07-billy-batson-journalism.txt, 08-seven-deadly-sins.txt, 09-wizard-shazam-wisdom.txt, 10-tawny-the-tiger.txt
+- Superman: 06-daily-planet-life.txt, 07-kryptonite-vulnerability.txt, 08-super-family-jon-and-lois.txt, 09-doomsday-battle.txt, 10-metropolis-guardian.txt
+- The Flash: 06-rogues-gallery-philosophy.txt, 07-iris-west-anchor.txt, 08-reverse-flash-rivalry.txt, 09-central-city-museum.txt, 10-speed-force-transcendence.txt
+- Wonder Woman: 06-steve-trevor-and-man-world.txt, 07-ares-god-of-war.txt, 08-themyscira-heritage.txt, 09-ambassador-of-peace.txt, 10-golden-armor-battle.txt
+
+Do NOT commit or push. Just write/overwrite the files.
