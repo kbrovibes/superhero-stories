@@ -1,0 +1,11 @@
+A sophisticated cyberattack was shutting down Gotham's emergency services one
+system at a time — fire dispatch, ambulance radio, police channels going dark in
+sequence. Victor called Barbara before anyone else. "I'll take the east nodes,
+you take the west." They worked in parallel at full speed, two of the sharpest
+technical minds in the hero community moving through the city's network with
+precise coordination. Barbara found the attack's core — a loop of malicious code
+disguised as a routine software update — isolated it, and quarantined it cleanly.
+Victor swept the west side simultaneously. Batman handled the physical relay point.
+All emergency services came back online in twenty-two minutes, two minutes ahead
+of their own estimate. Victor said, "You're good." Barbara closed her laptop.
+"I know," she said.
