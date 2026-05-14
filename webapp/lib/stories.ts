@@ -19,6 +19,16 @@ export interface Story {
   body: string;
 }
 
+export interface Candidate {
+  universe: Universe;
+  heroId: string | null;   // null for ensemble Avengers stories
+  heroName: string;        // "The Avengers" for ensemble
+  heroEmoji: string;
+  storyId: string;
+  storyTitle: string;
+  href: string;            // pre-built link string for next/link
+}
+
 const HERO_META: Record<string, Pick<Hero, "name" | "emoji">> = {
   "iron-man":           { name: "Iron Man",           emoji: "🤖" },
   "spider-man":         { name: "Spider-Man",          emoji: "🕷️" },
@@ -100,6 +110,37 @@ export function getHeroStories(universe: "marvel" | "dc", heroId: string): Story
 export function getHero(universe: "marvel" | "dc", heroId: string): Hero | null {
   const heroes = getHeroes(universe);
   return heroes.find((h) => h.id === heroId) ?? null;
+}
+
+export function getAllCandidates(): Candidate[] {
+  const out: Candidate[] = [];
+  for (const universe of ["marvel", "dc"] as const) {
+    for (const hero of getHeroes(universe)) {
+      for (const story of getHeroStories(universe, hero.id)) {
+        out.push({
+          universe,
+          heroId: hero.id,
+          heroName: hero.name,
+          heroEmoji: hero.emoji,
+          storyId: story.id,
+          storyTitle: story.title,
+          href: `/${universe}/${hero.id}/${story.id}`,
+        });
+      }
+    }
+  }
+  for (const story of getAvengersStories()) {
+    out.push({
+      universe: "avengers",
+      heroId: null,
+      heroName: "The Avengers",
+      heroEmoji: "🛡️",
+      storyId: story.id,
+      storyTitle: story.title,
+      href: `/avengers/${story.id}`,
+    });
+  }
+  return out;
 }
 
 export { THEME } from "./theme";

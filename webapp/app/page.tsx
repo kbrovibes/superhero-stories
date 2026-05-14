@@ -1,12 +1,14 @@
+import Link from "next/link";
 import NavBar from "@/components/NavBar";
 import HeroCard from "@/components/HeroCard";
 import UniverseSection from "@/components/UniverseSection";
-import { getHeroes } from "@/lib/stories";
+import { getAllCandidates, getHeroes } from "@/lib/stories";
 import React from "react";
 
 export default function Home() {
   const marvelHeroes = getHeroes("marvel");
   const dcHeroes = getHeroes("dc");
+  const storyCount = getAllCandidates().length;
 
   const avengersEntry = {
     id: "avengers",
@@ -39,8 +41,31 @@ export default function Home() {
             lineHeight: 1.5,
             opacity: 0.7
           }}>
-            108 canonical narratives for young heroes.
+            {storyCount} canonical narratives for young heroes.
           </p>
+
+          <Link
+            href="/surprise"
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 8,
+              marginTop: 28,
+              padding: "12px 24px",
+              borderRadius: 999,
+              background: "radial-gradient(circle at 30% 30%, var(--av-accent), var(--marvel-accent) 70%, var(--dc-accent))",
+              color: "#0a0a14",
+              fontWeight: 800,
+              fontSize: 14,
+              letterSpacing: "0.08em",
+              textTransform: "uppercase",
+              textDecoration: "none",
+              boxShadow: "0 12px 32px rgba(255,217,0,0.18), 0 6px 16px rgba(255,60,92,0.18)",
+            }}
+          >
+            <span>✦</span>
+            Surprise Me!
+          </Link>
         </div>
 
         <UniverseSection label="AVENGERS" count={1}>
