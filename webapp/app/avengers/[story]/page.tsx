@@ -1,6 +1,5 @@
-import { getAvengersStories } from "@/lib/stories";
-import PageTransition from "@/components/PageTransition";
-import Link from "next/link";
+import { getAvengersStories, THEME } from "@/lib/stories";
+import NavBar from "@/components/NavBar";
 import { notFound } from "next/navigation";
 
 type Params = Promise<{ story: string }>;
@@ -25,57 +24,91 @@ export default async function AvengersStoryPage({ params }: { params: Params }) 
   const current = stories[idx];
   const prev = idx > 0 ? stories[idx - 1] : null;
   const next = idx < stories.length - 1 ? stories[idx + 1] : null;
+  const accent = THEME.avengers.accent;
 
   return (
-    <PageTransition>
-      <main className="min-h-screen bg-gray-950 text-white pb-20">
-        <div className="bg-purple-800 px-6 py-5 flex items-center gap-3">
-          <Link href="/avengers" className="text-white/70 hover:text-white text-sm transition-colors">
-            ← The Avengers
-          </Link>
-          <span className="text-white/30 text-sm">·</span>
-          <span className="text-sm font-semibold text-yellow-400">
-            Story {current.number} of {stories.length}
-          </span>
+    <>
+      <NavBar crumbs={[
+        { label: "Stories", href: "/" },
+        { label: "Avengers", href: "/avengers" },
+        { label: current.title },
+      ]} />
+
+      {/* Progress bar */}
+      <div style={{ height: 3, background: "var(--surface)" }}>
+        <div style={{
+          height: 3,
+          width: `calc(${idx + 1} / ${stories.length} * 100%)`,
+          background: accent,
+          transition: "width 0.3s ease",
+        }} />
+      </div>
+
+      <main style={{ maxWidth: 680, margin: "0 auto", padding: "40px 24px 80px" }}>
+        <div style={{
+          display: "inline-block",
+          border: "1px solid var(--border)",
+          borderRadius: 999,
+          padding: "4px 12px",
+          fontSize: 12,
+          color: "var(--text-muted)",
+          marginBottom: 20,
+        }}>
+          {idx + 1} / {stories.length}
         </div>
 
-        <div className="max-w-2xl mx-auto px-6 mt-10">
-          <div className="mb-2">
-            <span className="text-xs uppercase tracking-widest font-semibold text-yellow-400 opacity-70">
-              Story {current.number}
-            </span>
-          </div>
-          <h1 className="text-3xl sm:text-4xl font-black mb-8 leading-tight">{current.title}</h1>
+        <h1 style={{ fontSize: 36, fontWeight: 800, color: "var(--text-primary)", margin: "0 0 32px", lineHeight: 1.15 }}>
+          {current.title}
+        </h1>
 
-          <div>
-            {current.body.split("\n").filter(Boolean).map((para, i) => (
-              <p key={i} className="text-gray-200 text-lg leading-relaxed mb-5 font-[450]">
-                {para.trim()}
-              </p>
-            ))}
-          </div>
+        <div>
+          {current.body.split("\n").filter(Boolean).map((para, i) => (
+            <p key={i} style={{ fontSize: 19, lineHeight: 1.85, color: "#d4d4e8", margin: "0 0 20px" }}>
+              {para.trim()}
+            </p>
+          ))}
+        </div>
 
-          <div className="mt-12 flex items-center justify-between gap-4">
-            {prev ? (
-              <Link href={`/avengers/${prev.number}`} className="flex-1 rounded-xl p-4 bg-purple-800 hover:brightness-110 transition-[filter] text-left">
-                <div className="text-xs text-white/50 mb-1">← Previous</div>
-                <div className="font-bold text-sm text-yellow-400">{prev.title}</div>
-              </Link>
-            ) : <div className="flex-1" />}
-            {next ? (
-              <Link href={`/avengers/${next.number}`} className="flex-1 rounded-xl p-4 bg-purple-800 hover:brightness-110 transition-[filter] text-right">
-                <div className="text-xs text-white/50 mb-1">Next →</div>
-                <div className="font-bold text-sm text-yellow-400">{next.title}</div>
-              </Link>
-            ) : (
-              <Link href="/avengers" className="flex-1 rounded-xl p-4 bg-gray-800 hover:bg-gray-700 transition-colors text-right">
-                <div className="text-xs text-white/50 mb-1">Done!</div>
-                <div className="font-bold text-sm text-white">Back to Avengers</div>
-              </Link>
-            )}
-          </div>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginTop: 48 }}>
+          <a
+            href={prev ? `/avengers/${prev.number}` : undefined}
+            style={{
+              height: 72,
+              background: "var(--surface)",
+              border: "1px solid var(--border)",
+              borderRadius: 12,
+              padding: "16px 20px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              textDecoration: "none",
+              opacity: prev ? 1 : 0,
+              pointerEvents: prev ? "auto" : "none",
+            }}
+          >
+            <span style={{ fontSize: 12, color: "var(--text-muted)" }}>← Previous</span>
+            <span style={{ fontSize: 14, fontWeight: 600, color: "var(--text-primary)" }}>{prev?.title ?? ""}</span>
+          </a>
+          <a
+            href={next ? `/avengers/${next.number}` : "/avengers"}
+            style={{
+              height: 72,
+              background: "var(--surface)",
+              border: "1px solid var(--border)",
+              borderRadius: 12,
+              padding: "16px 20px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              textDecoration: "none",
+              textAlign: "right",
+            }}
+          >
+            <span style={{ fontSize: 12, color: "var(--text-muted)" }}>{next ? "Next →" : "All Avengers Stories"}</span>
+            <span style={{ fontSize: 14, fontWeight: 600, color: "var(--text-primary)" }}>{next?.title ?? "The Avengers"}</span>
+          </a>
         </div>
       </main>
-    </PageTransition>
+    </>
   );
 }

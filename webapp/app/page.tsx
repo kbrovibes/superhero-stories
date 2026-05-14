@@ -1,89 +1,81 @@
-import { getHeroes } from "@/lib/stories";
+import NavBar from "@/components/NavBar";
 import HeroCard from "@/components/HeroCard";
-import PageTransition from "@/components/PageTransition";
-import Link from "next/link";
+import { getHeroes } from "@/lib/stories";
+import React from "react";
 
-export default function HomePage() {
+function UniverseSection({ label, count, children }: { label: string; count: number; children: React.ReactNode }) {
+  return (
+    <section style={{ marginBottom: 48 }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 20 }}>
+        <div style={{ height: 1, flex: 1, background: "var(--border)" }} />
+        <span style={{ fontSize: 11, letterSpacing: "0.15em", color: "var(--text-muted)", fontWeight: 700 }}>{label}</span>
+        <span style={{ fontSize: 12, color: "var(--text-muted)", background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 999, padding: "2px 10px" }}>{count} heroes</span>
+        <div style={{ height: 1, flex: 1, background: "var(--border)" }} />
+      </div>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: 12 }}>
+        {children}
+      </div>
+    </section>
+  );
+}
+
+export default function Home() {
   const marvelHeroes = getHeroes("marvel");
   const dcHeroes = getHeroes("dc");
 
+  const avengersEntry = {
+    id: "avengers",
+    name: "The Avengers",
+    emoji: "🛡️",
+    universe: "avengers" as const,
+  };
+
   return (
-    <PageTransition>
-      <main className="min-h-screen bg-gray-950 text-white pb-20">
-        {/* Header */}
-        <header className="relative overflow-hidden bg-gradient-to-br from-gray-900 via-gray-950 to-black py-16 px-6 text-center">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900/30 via-transparent to-transparent" />
-          <div className="relative">
-            <p className="text-yellow-400 font-semibold tracking-[0.3em] text-xs uppercase mb-3">
-              ✨ Story Repository ✨
-            </p>
-            <h1 className="text-5xl sm:text-6xl font-black tracking-tight mb-4">
-              Superhero
-              <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400">
-                Stories
-              </span>
-            </h1>
-            <p className="text-gray-400 max-w-sm mx-auto text-base">
-              Pick a hero. Read an adventure. Save the day.
-            </p>
-          </div>
-        </header>
-
-        <div className="max-w-5xl mx-auto px-4 space-y-14 mt-12">
-          {/* Marvel */}
-          <section>
-            <div className="flex items-center gap-3 mb-6">
-              <span className="text-3xl">🔴</span>
-              <h2 className="text-2xl font-black tracking-tight">Marvel Heroes</h2>
-              <span className="ml-auto text-xs text-gray-500 font-medium">{marvelHeroes.length} heroes</span>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-              {marvelHeroes.map((hero) => (
-                <HeroCard key={hero.id} hero={hero} />
-              ))}
-            </div>
-          </section>
-
-          {/* DC */}
-          <section>
-            <div className="flex items-center gap-3 mb-6">
-              <span className="text-3xl">🔵</span>
-              <h2 className="text-2xl font-black tracking-tight">DC Heroes</h2>
-              <span className="ml-auto text-xs text-gray-500 font-medium">{dcHeroes.length} heroes</span>
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-              {dcHeroes.map((hero) => (
-                <HeroCard key={hero.id} hero={hero} />
-              ))}
-            </div>
-          </section>
-
-          {/* Avengers */}
-          <section>
-            <div className="flex items-center gap-3 mb-6">
-              <span className="text-3xl">⭐</span>
-              <h2 className="text-2xl font-black tracking-tight">Avengers Team Stories</h2>
-            </div>
-            <Link href="/avengers">
-              <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-purple-800 to-purple-900 p-8 shadow-xl hover:brightness-110 transition-[filter] cursor-pointer group">
-                <div className="absolute right-0 top-0 text-[120px] opacity-10 leading-none select-none">⭐</div>
-                <p className="text-xs font-semibold uppercase tracking-widest text-yellow-400 mb-2">
-                  Ensemble Stories
-                </p>
-                <h3 className="text-3xl font-black text-white mb-2">The Avengers</h3>
-                <p className="text-purple-200 text-sm max-w-sm">
-                  8 stories where Marvel&apos;s mightiest heroes work together.
-                  Team-ups, training days, and rest days included.
-                </p>
-                <span className="mt-4 inline-block text-yellow-400 font-semibold text-sm group-hover:translate-x-1 transition-transform">
-                  Read all stories →
-                </span>
-              </div>
-            </Link>
-          </section>
+    <>
+      <NavBar crumbs={[{ label: "Stories" }]} />
+      <main style={{ maxWidth: 960, margin: "0 auto", padding: "48px 24px" }}>
+        <div style={{ marginBottom: 48 }}>
+          <h1 style={{ fontSize: 28, fontWeight: 800, color: "var(--text-primary)", margin: 0 }}>✦ Superhero Stories</h1>
+          <p style={{ fontSize: 14, color: "var(--text-secondary)", margin: "8px 0 0" }}>108 stories across Marvel, DC, and the Avengers.</p>
         </div>
+
+        <UniverseSection label="MARVEL" count={marvelHeroes.length}>
+          {marvelHeroes.map((hero, index) => (
+            <div key={hero.id} style={{
+              animationDelay: `${index * 50}ms`,
+              animationName: "fadeIn",
+              animationDuration: "0.3s",
+              animationFillMode: "both",
+            }}>
+              <HeroCard hero={hero} />
+            </div>
+          ))}
+        </UniverseSection>
+
+        <UniverseSection label="DC" count={dcHeroes.length}>
+          {dcHeroes.map((hero, index) => (
+            <div key={hero.id} style={{
+              animationDelay: `${index * 50}ms`,
+              animationName: "fadeIn",
+              animationDuration: "0.3s",
+              animationFillMode: "both",
+            }}>
+              <HeroCard hero={hero} />
+            </div>
+          ))}
+        </UniverseSection>
+
+        <UniverseSection label="AVENGERS" count={1}>
+          <div style={{
+            animationDelay: "0ms",
+            animationName: "fadeIn",
+            animationDuration: "0.3s",
+            animationFillMode: "both",
+          }}>
+            <HeroCard hero={avengersEntry} />
+          </div>
+        </UniverseSection>
       </main>
-    </PageTransition>
+    </>
   );
 }
