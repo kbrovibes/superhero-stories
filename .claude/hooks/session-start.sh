@@ -7,14 +7,19 @@ if [ "${CLAUDE_CODE_REMOTE:-}" != "true" ]; then
 fi
 
 # ── Git credentials ──────────────────────────────────────────────────────────
-# Requires GITHUB_TOKEN env var set in Claude Code web settings.
-# Without it, git push will fail silently rather than blocking the session.
-if [ -n "${GITHUB_TOKEN:-}" ]; then
-  echo "https://x-token:${GITHUB_TOKEN}@github.com" > ~/.git-credentials
+# Reads token from $GITHUB_TOKEN env var, or falls back to .github-token file.
+# To update the token: overwrite .github-token (it is gitignored).
+TOKEN="${GITHUB_TOKEN:-}"
+if [ -z "$TOKEN" ] && [ -f "${CLAUDE_PROJECT_DIR}/.github-token" ]; then
+  TOKEN=$(cat "${CLAUDE_PROJECT_DIR}/.github-token")
+fi
+
+if [ -n "$TOKEN" ]; then
+  echo "https://x-token:${TOKEN}@github.com" > ~/.git-credentials
   git config --global credential.helper store
-  echo "[session-start] git credentials configured from GITHUB_TOKEN"
+  echo "[session-start] git credentials configured"
 else
-  echo "[session-start] WARNING: GITHUB_TOKEN not set — git push will require manual auth"
+  echo "[session-start] WARNING: no token found — git push will require manual auth"
 fi
 
 # ── Node dependencies ─────────────────────────────────────────────────────────
