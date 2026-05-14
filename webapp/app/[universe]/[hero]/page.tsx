@@ -40,8 +40,8 @@ export default async function HeroPage({ params }: { params: Params }) {
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: 16, marginBottom: 48 }}>
           <span style={{ fontSize: 96 }}>{hero.emoji}</span>
           <div>
-            <h1 className="spider-glitch" style={{ fontSize: 48, fontWeight: 900, color: "var(--text-primary)", margin: 0, lineHeight: 1, textTransform: "uppercase" }}>{hero.name}</h1>
-            <p style={{ fontSize: 10, color: "var(--text-muted)", margin: "12px 0 0", textTransform: "uppercase", letterSpacing: "0.2em", fontWeight: 700 }}>
+            <h1 className="liquid-text" style={{ fontSize: 48, fontWeight: 900, margin: 0, lineHeight: 1, textTransform: "uppercase" }}>{hero.name}</h1>
+            <p style={{ fontSize: 10, color: "var(--text-secondary)", margin: "12px 0 0", textTransform: "uppercase", letterSpacing: "0.2em", fontWeight: 700, opacity: 0.6 }}>
               {universe.toUpperCase()} ARCHIVE · {stories.length} DATA FILES
             </p>
           </div>

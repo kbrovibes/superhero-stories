@@ -20,66 +20,54 @@ export default function HeroCard({ hero }: HeroCardProps) {
 
   return (
     <motion.div
-      whileHover={{ scale: 1.02 }}
-      whileTap={{ scale: 0.98 }}
-      transition={{ type: "spring", stiffness: 400, damping: 25 }}
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      transition={{ type: "spring", stiffness: 300, damping: 20 }}
     >
       <Link href={href} style={{ textDecoration: "none" }}>
         <div
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
+          className="liquid-card"
           style={{
             aspectRatio: "1 / 1",
-            background: hovered ? "#000" : "var(--surface)",
-            border: `1px solid ${hovered ? "transparent" : "var(--border)"}`,
-            borderRadius: 12,
+            borderRadius: "24px 8px 24px 8px",
             padding: 16,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
             gap: 12,
-            transition: "background 0.3s ease, border-color 0.3s ease",
             cursor: "pointer",
             position: "relative",
             overflow: "hidden",
           }}
         >
-          {/* Fluid Path SVG Border */}
-          <svg 
+          {/* Liquid Blob Background (Animated on hover) */}
+          <motion.div
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ 
+              scale: hovered ? 1.5 : 0, 
+              opacity: hovered ? 0.2 : 0,
+              rotate: hovered ? 180 : 0
+            }}
+            transition={{ duration: 0.8, ease: "circOut" }}
             style={{
               position: "absolute",
-              inset: 0,
-              width: "100%",
-              height: "100%",
-              pointerEvents: "none",
-              zIndex: 1
+              width: "150%",
+              height: "150%",
+              background: `radial-gradient(circle, ${theme.accent} 0%, transparent 70%)`,
+              filter: "blur(40px)",
+              zIndex: 1,
+              pointerEvents: "none"
             }}
-            viewBox="0 0 100 100"
-            preserveAspectRatio="none"
-          >
-            <motion.rect
-              x="1"
-              y="1"
-              width="98"
-              height="98"
-              rx="12"
-              fill="none"
-              stroke={theme.accent}
-              strokeWidth="2"
-              initial={{ pathLength: 0, opacity: 0 }}
-              animate={{ 
-                pathLength: hovered ? 1 : 0,
-                opacity: hovered ? 1 : 0
-              }}
-              transition={{ duration: 0.6, ease: "easeInOut" }}
-            />
-          </svg>
+          />
 
           <div style={{ 
             fontSize: 48, 
-            filter: hovered ? `drop-shadow(0 0 12px ${theme.accent})` : "none",
-            transition: "all 0.3s ease",
+            filter: hovered ? `drop-shadow(0 0 15px ${theme.accent}88)` : "none",
+            transform: hovered ? "scale(1.1) rotate(5deg)" : "scale(1)",
+            transition: "all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
             zIndex: 2
           }}>
             {hero.emoji}
@@ -94,11 +82,12 @@ export default function HeroCard({ hero }: HeroCardProps) {
           }}>
             <span style={{ 
               fontSize: 14, 
-              fontWeight: 900, 
+              fontWeight: 800, 
               color: "var(--text-primary)", 
               textTransform: "uppercase",
-              letterSpacing: "0.05em",
-              lineHeight: 1.1
+              letterSpacing: "0.02em",
+              lineHeight: 1.1,
+              transition: "color 0.3s ease"
             }}>
               {hero.name}
             </span>
@@ -108,7 +97,8 @@ export default function HeroCard({ hero }: HeroCardProps) {
               color: theme.accent, 
               textTransform: "uppercase",
               letterSpacing: "0.15em",
-              opacity: hovered ? 1 : 0.6
+              opacity: hovered ? 1 : 0.6,
+              transition: "opacity 0.3s ease"
             }}>
               {hero.universe}
             </span>

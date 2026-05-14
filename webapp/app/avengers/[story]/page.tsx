@@ -57,13 +57,13 @@ export default async function AvengersStoryPage({ params }: { params: Params }) 
           {idx + 1} / {stories.length}
         </div>
 
-        <h1 style={{ fontSize: 36, fontWeight: 800, color: "var(--text-primary)", margin: "0 0 32px", lineHeight: 1.15 }}>
+        <h1 className="liquid-text" style={{ fontSize: 36, fontWeight: 900, margin: "0 0 32px", lineHeight: 1.15 }}>
           {current.title}
         </h1>
 
         <div>
           {current.body.split("\n").filter(Boolean).map((para, i) => (
-            <p key={i} style={{ fontSize: 19, lineHeight: 1.85, color: "#d4d4e8", margin: "0 0 20px" }}>
+            <p key={i} style={{ fontSize: 18, lineHeight: 1.8, color: "var(--text-secondary)", margin: "0 0 20px" }}>
               {para.trim()}
             </p>
           ))}
@@ -72,11 +72,10 @@ export default async function AvengersStoryPage({ params }: { params: Params }) 
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginTop: 48 }}>
           <a
             href={prev ? `/avengers/${prev.id}` : undefined}
+            className="liquid-card"
             style={{
               height: 72,
-              background: "var(--surface)",
-              border: "1px solid var(--border)",
-              borderRadius: 12,
+              borderRadius: "16px 4px 16px 4px",
               padding: "16px 20px",
               display: "flex",
               flexDirection: "column",
@@ -86,16 +85,15 @@ export default async function AvengersStoryPage({ params }: { params: Params }) 
               pointerEvents: prev ? "auto" : "none",
             }}
           >
-            <span style={{ fontSize: 12, color: "var(--text-muted)" }}>← Previous</span>
+            <span style={{ fontSize: 11, color: "var(--text-muted)", fontWeight: 700, textTransform: "uppercase" }}>← Previous</span>
             <span style={{ fontSize: 14, fontWeight: 600, color: "var(--text-primary)" }}>{prev?.title ?? ""}</span>
           </a>
           <a
             href={next ? `/avengers/${next.id}` : "/avengers"}
+            className="liquid-card"
             style={{
               height: 72,
-              background: "var(--surface)",
-              border: "1px solid var(--border)",
-              borderRadius: 12,
+              borderRadius: "4px 16px 4px 16px",
               padding: "16px 20px",
               display: "flex",
               flexDirection: "column",
@@ -104,7 +102,7 @@ export default async function AvengersStoryPage({ params }: { params: Params }) 
               textAlign: "right",
             }}
           >
-            <span style={{ fontSize: 12, color: "var(--text-muted)" }}>{next ? "Next →" : "All Avengers Stories"}</span>
+            <span style={{ fontSize: 11, color: "var(--text-muted)", fontWeight: 700, textTransform: "uppercase" }}>{next ? "Next →" : "All Avengers Stories"}</span>
             <span style={{ fontSize: 14, fontWeight: 600, color: "var(--text-primary)" }}>{next?.title ?? "The Avengers"}</span>
           </a>
         </div>

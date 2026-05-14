@@ -6,24 +6,26 @@
 }
 
 :root {
-  --bg:              #050505;
-  --surface:         #0a0a0f;
-  --surface-raised:  #12121e;
-  --border:          rgba(255, 255, 255, 0.05);
-  --border-hover:    rgba(255, 255, 255, 0.12);
+  --bg:              #020205;
+  --surface:         rgba(10, 10, 15, 0.4);
+  --surface-raised:  rgba(18, 18, 30, 0.6);
+  --border:          rgba(255, 255, 255, 0.08);
+  --border-hover:    rgba(255, 255, 255, 0.15);
 
   --text-primary:    #ffffff;
-  --text-secondary:  #a0a0b0;
-  --text-muted:      #505060;
+  --text-secondary:  #b0b0c0;
+  --text-muted:      #606070;
 
-  --marvel-accent:   #ff003c;
-  --marvel-glow:     rgba(255, 0, 60, 0.25);
+  --marvel-accent:   #ff3c5c;
+  --marvel-glow:     rgba(255, 60, 92, 0.3);
 
-  --dc-accent:       #00d4ff;
-  --dc-glow:         rgba(0, 212, 255, 0.25);
+  --dc-accent:       #00e5ff;
+  --dc-glow:         rgba(0, 229, 255, 0.3);
 
-  --av-accent:       #ffcc00;
-  --av-glow:         rgba(255, 204, 0, 0.25);
+  --av-accent:       #ffd900;
+  --av-glow:         rgba(255, 217, 0, 0.3);
+  
+  --liquid-speed:    20s;
 }
 
 body {
@@ -31,34 +33,77 @@ body {
   color: var(--text-primary);
   font-family: 'Space Grotesk', system-ui, sans-serif;
   overflow-x: hidden;
-  background-image: 
-    radial-gradient(circle at 2px 2px, rgba(255,255,255,0.03) 1px, transparent 0);
-  background-size: 24px 24px;
+  min-height: 100vh;
+  position: relative;
 }
 
-/* Halftone Pattern Utility */
-.halftone {
-  background-image: radial-gradient(circle at center, currentColor 1px, transparent 1px);
-  background-size: 4px 4px;
-  opacity: 0.1;
-  pointer-events: none;
+/* Liquid Morph Background Blobs */
+.liquid-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  filter: blur(80px);
+  opacity: 0.4;
 }
 
-/* Spider-Verse Glitch Effect */
-.spider-glitch:hover {
-  text-shadow: 
-    -2px -2px 0 #ff003c, 
-     2px  2px 0 #00d4ff;
-  animation: glitch-anim 0.2s infinite;
+.blob {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, var(--marvel-accent), var(--dc-accent));
+  animation: morph 15s linear infinite alternate, move 30s linear infinite;
 }
 
-@keyframes glitch-anim {
-  0% { transform: translate(0); }
-  20% { transform: translate(-1px, 1px); }
-  40% { transform: translate(-1px, -1px); }
-  60% { transform: translate(1px, 1px); }
-  80% { transform: translate(1px, -1px); }
-  100% { transform: translate(0); }
+.blob:nth-child(2) {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(-45deg, var(--dc-accent), var(--av-accent));
+  animation-duration: 20s, 40s;
+  animation-delay: -5s;
+}
+
+.blob:nth-child(3) {
+  width: 600px;
+  height: 600px;
+  background: linear-gradient(135deg, var(--av-accent), var(--marvel-accent));
+  animation-duration: 25s, 50s;
+  animation-delay: -10s;
+}
+
+@keyframes morph {
+  0% { border-radius: 40% 60% 60% 40% / 40% 40% 60% 60%; }
+  33% { border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%; }
+  66% { border-radius: 30% 70% 70% 30% / 50% 100% 0% 50%; }
+  100% { border-radius: 40% 60% 60% 40% / 40% 40% 60% 60%; }
+}
+
+@keyframes move {
+  0% { transform: translate(-20%, -20%) rotate(0deg); }
+  50% { transform: translate(60%, 40%) rotate(180deg); }
+  100% { transform: translate(-20%, -20%) rotate(360deg); }
+}
+
+/* Gooey Effect Utility */
+.gooey {
+  filter: url('#gooey');
+}
+
+.liquid-card {
+  background: var(--surface);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.liquid-card:hover {
+  border-color: var(--border-hover);
+  background: var(--surface-raised);
+  transform: translateY(-4px);
 }
 
 ::-webkit-scrollbar       { width: 4px; }
@@ -66,6 +111,13 @@ body {
 ::-webkit-scrollbar-thumb { background: var(--text-muted); border-radius: 10px; }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.95) translateY(10px); }
+  from { opacity: 0; transform: scale(0.98) translateY(10px); }
   to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.liquid-text {
+  background: linear-gradient(to bottom, #fff, #a0a0b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }

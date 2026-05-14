@@ -18,69 +18,57 @@ export default function StoryRow({ title, storyTheme, index, href, universe }: S
 
   return (
     <motion.div
-      whileHover={{ scale: 1.02 }}
-      whileTap={{ scale: 0.98 }}
-      transition={{ type: "spring", stiffness: 400, damping: 25 }}
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      transition={{ type: "spring", stiffness: 300, damping: 20 }}
     >
       <Link href={href} style={{ textDecoration: "none" }}>
         <div
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
+          className="liquid-card"
           style={{
             aspectRatio: "1 / 1",
-            background: hovered ? "#000" : "var(--surface)",
-            border: `1px solid ${hovered ? "transparent" : "var(--border)"}`,
-            borderRadius: 12,
+            borderRadius: "16px 32px 16px 32px",
             padding: 16,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
             gap: 8,
-            transition: "background 0.3s ease, border-color 0.3s ease",
             cursor: "pointer",
             position: "relative",
             overflow: "hidden",
           }}
         >
-          {/* Fluid Path SVG Border */}
-          <svg 
+          {/* Liquid Blob Background */}
+          <motion.div
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ 
+              scale: hovered ? 1.5 : 0, 
+              opacity: hovered ? 0.15 : 0,
+              rotate: hovered ? -180 : 0
+            }}
+            transition={{ duration: 0.8, ease: "circOut" }}
             style={{
               position: "absolute",
-              inset: 0,
-              width: "100%",
-              height: "100%",
-              pointerEvents: "none",
-              zIndex: 1
+              width: "150%",
+              height: "150%",
+              background: `radial-gradient(circle, ${theme.accent} 0%, transparent 70%)`,
+              filter: "blur(40px)",
+              zIndex: 1,
+              pointerEvents: "none"
             }}
-            viewBox="0 0 100 100"
-            preserveAspectRatio="none"
-          >
-            <motion.rect
-              x="1"
-              y="1"
-              width="98"
-              height="98"
-              rx="12"
-              fill="none"
-              stroke={theme.accent}
-              strokeWidth="2"
-              initial={{ pathLength: 0, opacity: 0 }}
-              animate={{ 
-                pathLength: hovered ? 1 : 0,
-                opacity: hovered ? 1 : 0
-              }}
-              transition={{ duration: 0.6, ease: "easeInOut" }}
-            />
-          </svg>
+          />
 
           <div style={{
             fontSize: 28,
-            fontWeight: 900,
+            fontWeight: 800,
             color: theme.accent,
-            opacity: 0.4,
+            opacity: 0.3,
             lineHeight: 1,
-            zIndex: 2
+            zIndex: 2,
+            transition: "opacity 0.3s ease"
           }}>
             {String(index + 1).padStart(2, "0")}
           </div>
@@ -94,10 +82,10 @@ export default function StoryRow({ title, storyTheme, index, href, universe }: S
           }}>
             <span style={{ 
               fontSize: 14, 
-              fontWeight: 900, 
+              fontWeight: 800, 
               color: "var(--text-primary)", 
               textTransform: "uppercase",
-              letterSpacing: "0.05em",
+              letterSpacing: "0.02em",
               lineHeight: 1.1
             }}>
               {title}
@@ -107,7 +95,7 @@ export default function StoryRow({ title, storyTheme, index, href, universe }: S
               fontWeight: 600, 
               color: "var(--text-secondary)", 
               textTransform: "uppercase",
-              letterSpacing: "0.15em",
+              letterSpacing: "0.1em",
               opacity: 0.6
             }}>
               {storyTheme}
@@ -117,14 +105,14 @@ export default function StoryRow({ title, storyTheme, index, href, universe }: S
           <motion.span 
             animate={{ 
               opacity: hovered ? 1 : 0,
-              y: hovered ? 0 : 5
+              x: hovered ? 0 : -10
             }}
             style={{
               position: "absolute",
               bottom: 12,
               color: theme.accent,
-              fontSize: 16,
-              fontWeight: 900,
+              fontSize: 18,
+              fontWeight: 800,
               zIndex: 2
             }}
           >

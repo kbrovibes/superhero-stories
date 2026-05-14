@@ -18,8 +18,8 @@ export default function AvengersPage() {
         <div style={{ display: "flex", alignItems: "center", gap: 20, marginBottom: 24 }}>
           <span style={{ fontSize: 72 }}>🛡️</span>
           <div>
-            <h1 style={{ fontSize: 42, fontWeight: 800, color: "var(--text-primary)", margin: 0, lineHeight: 1.1 }}>The Avengers</h1>
-            <p style={{ fontSize: 13, color: "var(--text-muted)", margin: "6px 0 0", textTransform: "uppercase", letterSpacing: "0.1em" }}>
+            <h1 className="liquid-text" style={{ fontSize: 42, fontWeight: 900, margin: 0, lineHeight: 1.1, textTransform: "uppercase" }}>The Avengers</h1>
+            <p style={{ fontSize: 12, color: "var(--text-secondary)", margin: "6px 0 0", textTransform: "uppercase", letterSpacing: "0.15em", fontWeight: 700, opacity: 0.6 }}>
               AVENGERS · {stories.length} Stories
             </p>
           </div>
