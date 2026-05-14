@@ -50,3 +50,47 @@ generate-repo.sh   Regenerates all story files from scratch
 
 ## Refreshing Stories
 Run `bash generate-repo.sh` to regenerate all 108 story files, then redeploy.
+
+---
+
+## Backlog Rules
+
+When the user says "add to backlog", "save for later", "file this", "put this in the backlog", or any similar intent:
+
+### NEVER do this
+- Do **not** run `gh issue create` or create any GitHub issue.
+- Do **not** create an unnumbered file like `backlog/some-feature.md`.
+
+### Always do this
+1. **Look up the next number** — run `ls backlog/` and find the highest `NNN-` prefix, then increment by 1. Start at `001` if backlog is empty.
+2. **Create** `backlog/NNN-kebab-title.md` — zero-padded 3-digit number, kebab-case title.
+3. **Use the template** — every entry must have all five sections below.
+
+### Required file template
+```markdown
+# NNN — Title
+
+**Status:** backlog
+**Estimate:** X minutes
+**Created:** YYYY-MM-DD
+
+## Summary
+One paragraph describing what this is and why it matters.
+
+## Task Breakdown
+| # | Task | Minutes |
+|---|------|---------|
+| 1 | ... | X |
+| 2 | ... | X |
+| **Total** | | **X** |
+
+## Spec
+Full implementation detail — enough for a remote Claude agent to execute
+with no additional context from the original conversation.
+```
+
+### Finding the next number (shell one-liner)
+```bash
+ls backlog/*.md 2>/dev/null | grep -oP '^\d+' | sort -n | tail -1
+# then add 1, zero-pad to 3 digits
+```

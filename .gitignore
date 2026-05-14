@@ -2,4 +2,7 @@ node_modules/
 .next/
 .vercel/
 parts/
+*.db
+*.rvf
+*.rvf.lock
 

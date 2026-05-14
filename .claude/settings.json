@@ -1,5 +1,18 @@
 {
   "permissions": {
     "allow": []
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"\nimport sys, json, re, os\ntry:\n    payload = json.load(sys.stdin)\n    path = payload.get('tool_input',{}).get('file_path','') or payload.get('tool_input',{}).get('file_path','')\n    if not path:\n        sys.exit(0)\n    if 'backlog/' not in path or not path.endswith('.md'):\n        sys.exit(0)\n    fname = os.path.basename(path)\n    errors = []\n    if not re.match(r'^\\d{3}-', fname):\n        errors.append('BACKLOG: filename must start with a 3-digit number (e.g. 001-title.md)')\n    try:\n        content = open(path).read()\n        for section in ['**Status:**', '**Estimate:**', '## Task Breakdown', '## Spec']:\n            if section not in content:\n                errors.append(f'BACKLOG: missing required section: {section}')\n    except:\n        pass\n    if errors:\n        print('\\n'.join(errors), file=sys.stderr)\nexcept:\n    pass\n\""
+          }
+        ]
+      }
+    ]
   }
 }
