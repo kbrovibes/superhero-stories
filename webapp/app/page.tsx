@@ -30,8 +30,8 @@ function UniverseSection({ label, count, children }: { label: string; count: num
       </div>
       <div style={{ 
         display: "grid", 
-        gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", 
-        gap: 24 
+        gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))", 
+        gap: 16 
       }}>
         {children}
       </div>

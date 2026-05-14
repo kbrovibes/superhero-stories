@@ -34,13 +34,13 @@ export default function HeroCard({ hero }: HeroCardProps) {
             background: hovered ? "var(--surface-raised)" : "var(--surface)",
             border: `1px solid ${hovered ? theme.accent : "var(--border)"}`,
             boxShadow: hovered ? `0 0 30px ${theme.glow}` : "none",
-            borderRadius: 16,
-            padding: 24,
+            borderRadius: 12,
+            padding: 16,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            gap: 16,
+            gap: 12,
             transition: "all 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
             cursor: "pointer",
             position: "relative",
@@ -61,7 +61,7 @@ export default function HeroCard({ hero }: HeroCardProps) {
           )}
 
           <div style={{ 
-            fontSize: 84, 
+            fontSize: 48, 
             filter: hovered ? `drop-shadow(0 0 10px ${theme.accent})` : "none",
             transition: "all 0.3s ease"
           }}>
@@ -72,24 +72,24 @@ export default function HeroCard({ hero }: HeroCardProps) {
             textAlign: "center",
             display: "flex",
             flexDirection: "column",
-            gap: 4
+            gap: 2
           }}>
             <span style={{ 
-              fontSize: 18, 
+              fontSize: 14, 
               fontWeight: 900, 
               color: "var(--text-primary)", 
               textTransform: "uppercase",
               letterSpacing: "0.05em",
-              lineHeight: 1
+              lineHeight: 1.1
             }}>
               {hero.name}
             </span>
             <span style={{ 
-              fontSize: 10, 
+              fontSize: 9, 
               fontWeight: 600, 
               color: theme.accent, 
               textTransform: "uppercase",
-              letterSpacing: "0.2em",
+              letterSpacing: "0.15em",
               opacity: hovered ? 1 : 0.6
             }}>
               {hero.universe}
