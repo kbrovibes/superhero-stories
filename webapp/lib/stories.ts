@@ -82,7 +82,9 @@ export function getAvengersStories(): Story[] {
 export function getHeroStories(universe: "marvel" | "dc", heroId: string): Story[] {
   const dir = path.join(REPO_ROOT, universe, heroId);
   if (!fs.existsSync(dir)) return [];
+  
   const files = fs.readdirSync(dir).filter((f) => f.endsWith(".txt")).sort();
+
   return files.map((f, i) => {
     const id = f.replace(".txt", "");
     const body = fs.readFileSync(path.join(dir, f), "utf-8").trim();
