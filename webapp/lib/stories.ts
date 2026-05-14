@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const REPO_ROOT = path.join(process.cwd(), "..", "superhero-repo");
+const REPO_ROOT = path.join(process.cwd(), "superhero-repo");
 
 export type Universe = "marvel" | "dc" | "avengers";
 

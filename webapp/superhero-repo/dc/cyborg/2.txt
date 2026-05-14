@@ -1,0 +1,9 @@
+The Joker had hacked Gotham's outdoor broadcast network — every public screen,
+every digital billboard — and was running his greatest pranks on loop: enormous
+honking sounds on the hour, the word "HA" in very large letters, and a repeating
+image of a whoopee cushion. Victor located the intrusion in 0.4 seconds: a cheerful
+purple router bolted to a lamppost outside City Hall. He cleanly disconnected it
+in one more second. Every screen returned to normal. The Joker looked at his purple
+router. Looked at a blank billboard. "That was fast," he said, sounding genuinely
+impressed. Victor handed him the router back. "You left fingerprints on the
+Ethernet cable," he said. "All of them."
