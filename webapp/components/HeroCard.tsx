@@ -20,20 +20,18 @@ export default function HeroCard({ hero }: HeroCardProps) {
 
   return (
     <motion.div
-      whileHover={{ scale: 1.05, rotateZ: hovered ? -1 : 0 }}
+      whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.98 }}
-      transition={{ type: "spring", stiffness: 400, damping: 20 }}
+      transition={{ type: "spring", stiffness: 400, damping: 25 }}
     >
       <Link href={href} style={{ textDecoration: "none" }}>
         <div
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
-          className="spider-glitch"
           style={{
             aspectRatio: "1 / 1",
-            background: hovered ? "var(--surface-raised)" : "var(--surface)",
-            border: `1px solid ${hovered ? theme.accent : "var(--border)"}`,
-            boxShadow: hovered ? `0 0 30px ${theme.glow}` : "none",
+            background: hovered ? "#000" : "var(--surface)",
+            border: `1px solid ${hovered ? "transparent" : "var(--border)"}`,
             borderRadius: 12,
             padding: 16,
             display: "flex",
@@ -41,29 +39,48 @@ export default function HeroCard({ hero }: HeroCardProps) {
             alignItems: "center",
             justifyContent: "center",
             gap: 12,
-            transition: "all 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+            transition: "background 0.3s ease, border-color 0.3s ease",
             cursor: "pointer",
             position: "relative",
             overflow: "hidden",
           }}
         >
-          {/* Halftone Overlay on Hover */}
-          {hovered && (
-            <div 
-              className="halftone" 
-              style={{ 
-                position: "absolute", 
-                inset: 0, 
-                color: theme.accent,
-                opacity: 0.15 
-              }} 
+          {/* Fluid Path SVG Border */}
+          <svg 
+            style={{
+              position: "absolute",
+              inset: 0,
+              width: "100%",
+              height: "100%",
+              pointerEvents: "none",
+              zIndex: 1
+            }}
+            viewBox="0 0 100 100"
+            preserveAspectRatio="none"
+          >
+            <motion.rect
+              x="1"
+              y="1"
+              width="98"
+              height="98"
+              rx="12"
+              fill="none"
+              stroke={theme.accent}
+              strokeWidth="2"
+              initial={{ pathLength: 0, opacity: 0 }}
+              animate={{ 
+                pathLength: hovered ? 1 : 0,
+                opacity: hovered ? 1 : 0
+              }}
+              transition={{ duration: 0.6, ease: "easeInOut" }}
             />
-          )}
+          </svg>
 
           <div style={{ 
             fontSize: 48, 
-            filter: hovered ? `drop-shadow(0 0 10px ${theme.accent})` : "none",
-            transition: "all 0.3s ease"
+            filter: hovered ? `drop-shadow(0 0 12px ${theme.accent})` : "none",
+            transition: "all 0.3s ease",
+            zIndex: 2
           }}>
             {hero.emoji}
           </div>
@@ -72,7 +89,8 @@ export default function HeroCard({ hero }: HeroCardProps) {
             textAlign: "center",
             display: "flex",
             flexDirection: "column",
-            gap: 2
+            gap: 2,
+            zIndex: 2
           }}>
             <span style={{ 
               fontSize: 14, 
