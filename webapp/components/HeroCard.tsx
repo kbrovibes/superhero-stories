@@ -81,9 +81,9 @@ export default function HeroCard({ hero }: HeroCardProps) {
             zIndex: 2
           }}>
             <span style={{ 
-              fontSize: 14, 
+              fontSize: 13, 
               fontWeight: 800, 
-              color: "var(--text-primary)", 
+              color: "#fff", 
               textTransform: "uppercase",
               letterSpacing: "0.02em",
               lineHeight: 1.1,
@@ -92,12 +92,12 @@ export default function HeroCard({ hero }: HeroCardProps) {
               {hero.name}
             </span>
             <span style={{ 
-              fontSize: 9, 
+              fontSize: 8.5, 
               fontWeight: 600, 
               color: theme.accent, 
               textTransform: "uppercase",
               letterSpacing: "0.15em",
-              opacity: hovered ? 1 : 0.6,
+              opacity: hovered ? 1 : 0.8,
               transition: "opacity 0.3s ease"
             }}>
               {hero.universe}

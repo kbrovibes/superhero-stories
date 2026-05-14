@@ -14,30 +14,32 @@ export default function AvengersPage() {
         { label: "Stories", href: "/" },
         { label: "Avengers" },
       ]} />
-      <main style={{ maxWidth: 960, margin: "0 auto", padding: "48px 24px" }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 20, marginBottom: 24 }}>
-          <span style={{ fontSize: 72 }}>🛡️</span>
+      <main style={{ maxWidth: 600, margin: "0 auto", padding: "60px 20px" }}>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: 16, marginBottom: 48 }}>
+          <span style={{ fontSize: 96 }}>🛡️</span>
           <div>
             <h1 className="liquid-text" style={{ fontSize: 42, fontWeight: 900, margin: 0, lineHeight: 1.1, textTransform: "uppercase" }}>The Avengers</h1>
-            <p style={{ fontSize: 12, color: "var(--text-secondary)", margin: "6px 0 0", textTransform: "uppercase", letterSpacing: "0.15em", fontWeight: 700, opacity: 0.6 }}>
+            <p style={{ fontSize: 10, color: "var(--text-secondary)", margin: "12px 0 0", textTransform: "uppercase", letterSpacing: "0.2em", fontWeight: 700, opacity: 0.6 }}>
               AVENGERS · {stories.length} Stories
             </p>
           </div>
         </div>
 
-        <hr style={{ border: "none", borderTop: "1px solid var(--border)", margin: "24px 0" }} />
-
-        <div>
+        <div style={{ 
+          display: "grid", 
+          gridTemplateColumns: "repeat(3, 1fr)", 
+          gap: 12 
+        }}>
           {stories.map((story, index) => (
             <div key={story.number} style={{
-              animationDelay: `${index * 80}ms`,
+              animationDelay: `${index * 50}ms`,
               animationName: "fadeIn",
-              animationDuration: "0.3s",
+              animationDuration: "0.4s",
               animationFillMode: "both",
             }}>
               <StoryRow
                 title={story.title}
-                storyTheme="Ensemble Story"
+                storyTheme="Ensemble"
                 index={index}
                 href={`/avengers/${story.id}`}
                 universe="avengers"

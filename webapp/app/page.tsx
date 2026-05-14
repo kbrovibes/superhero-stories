@@ -43,6 +43,17 @@ export default function Home() {
           </p>
         </div>
 
+        <UniverseSection label="AVENGERS" count={1}>
+          <div style={{
+            animationDelay: "0ms",
+            animationName: "fadeIn",
+            animationDuration: "0.4s",
+            animationFillMode: "both",
+          }}>
+            <HeroCard hero={avengersEntry} />
+          </div>
+        </UniverseSection>
+
         <UniverseSection label="MARVEL" count={marvelHeroes.length}>
           {marvelHeroes.map((hero, index) => (
             <div key={hero.id} style={{
@@ -67,17 +78,6 @@ export default function Home() {
               <HeroCard hero={hero} />
             </div>
           ))}
-        </UniverseSection>
-
-        <UniverseSection label="AVENGERS" count={1}>
-          <div style={{
-            animationDelay: "0ms",
-            animationName: "fadeIn",
-            animationDuration: "0.4s",
-            animationFillMode: "both",
-          }}>
-            <HeroCard hero={avengersEntry} />
-          </div>
         </UniverseSection>
       </main>
     </>
