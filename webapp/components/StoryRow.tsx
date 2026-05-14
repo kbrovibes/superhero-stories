@@ -82,21 +82,23 @@ export default function StoryRow({ title, storyTheme, index, href, universe }: S
           }}>
             <span style={{ 
               fontSize: 13, 
-              fontWeight: 800, 
+              fontWeight: 900, 
               color: "#fff", 
               textTransform: "uppercase",
-              letterSpacing: "0.02em",
-              lineHeight: 1.1
+              letterSpacing: "0.03em",
+              lineHeight: 1.1,
+              textShadow: "0 2px 4px rgba(0,0,0,0.5)"
             }}>
               {title}
             </span>
             <span style={{ 
               fontSize: 7.5, 
-              fontWeight: 600, 
+              fontWeight: 700, 
               color: "var(--text-secondary)", 
               textTransform: "uppercase",
-              letterSpacing: "0.1em",
-              opacity: 0.8
+              letterSpacing: "0.12em",
+              opacity: 0.9,
+              textShadow: "0 1px 2px rgba(0,0,0,0.3)"
             }}>
               {storyTheme}
             </span>

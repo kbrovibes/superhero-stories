@@ -6,24 +6,24 @@
 }
 
 :root {
-  --bg:              #08080c;
-  --surface:         rgba(15, 15, 20, 0.5);
-  --surface-raised:  rgba(25, 25, 35, 0.7);
-  --border:          rgba(255, 255, 255, 0.1);
-  --border-hover:    rgba(255, 255, 255, 0.2);
+  --bg:              #050508;
+  --surface:         rgba(20, 20, 30, 0.7);
+  --surface-raised:  rgba(30, 30, 45, 0.85);
+  --border:          rgba(255, 255, 255, 0.12);
+  --border-hover:    rgba(255, 255, 255, 0.25);
 
   --text-primary:    #ffffff;
-  --text-secondary:  #d0d0e0;
-  --text-muted:      #808090;
+  --text-secondary:  #e0e0f0;
+  --text-muted:      #9090a0;
 
   --marvel-accent:   #ff3c5c;
-  --marvel-glow:     rgba(255, 60, 92, 0.3);
+  --marvel-glow:     rgba(255, 60, 92, 0.15);
 
   --dc-accent:       #00e5ff;
-  --dc-glow:         rgba(0, 229, 255, 0.3);
+  --dc-glow:         rgba(0, 229, 255, 0.15);
 
   --av-accent:       #ffd900;
-  --av-glow:         rgba(255, 217, 0, 0.3);
+  --av-glow:         rgba(255, 217, 0, 0.15);
   
   --liquid-speed:    20s;
 }
@@ -37,7 +37,7 @@ body {
   position: relative;
 }
 
-/* Liquid Morph Background Blobs */
+/* Liquid Morph Background Blobs - Aggressively Faded */
 .liquid-bg {
   position: fixed;
   top: 0;
@@ -46,8 +46,8 @@ body {
   height: 100%;
   z-index: -1;
   overflow: hidden;
-  filter: blur(100px);
-  opacity: 0.18;
+  filter: blur(120px) saturate(0.6);
+  opacity: 0.12;
 }
 
 .blob {

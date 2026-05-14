@@ -82,23 +82,25 @@ export default function HeroCard({ hero }: HeroCardProps) {
           }}>
             <span style={{ 
               fontSize: 13, 
-              fontWeight: 800, 
+              fontWeight: 900, 
               color: "#fff", 
               textTransform: "uppercase",
-              letterSpacing: "0.02em",
+              letterSpacing: "0.03em",
               lineHeight: 1.1,
-              transition: "color 0.3s ease"
+              transition: "all 0.3s ease",
+              textShadow: "0 2px 4px rgba(0,0,0,0.5)"
             }}>
               {hero.name}
             </span>
             <span style={{ 
               fontSize: 8.5, 
-              fontWeight: 600, 
+              fontWeight: 700, 
               color: theme.accent, 
               textTransform: "uppercase",
               letterSpacing: "0.15em",
-              opacity: hovered ? 1 : 0.8,
-              transition: "opacity 0.3s ease"
+              opacity: hovered ? 1 : 0.9,
+              transition: "opacity 0.3s ease",
+              textShadow: `0 0 10px ${theme.accent}44`
             }}>
               {hero.universe}
             </span>
