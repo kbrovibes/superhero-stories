@@ -9,14 +9,17 @@ interface HeroCardProps {
     id: string;
     name: string;
     emoji: string;
-    universe: "marvel" | "dc" | "avengers";
+    universe: "marvel" | "dc" | "avengers" | "thanos";
   };
 }
 
 export default function HeroCard({ hero }: HeroCardProps) {
   const [hovered, setHovered] = useState(false);
   const theme = THEME[hero.universe];
-  const href = hero.universe === "avengers" ? "/avengers" : `/${hero.universe}/${hero.id}`;
+  const href =
+    hero.universe === "avengers" ? "/avengers" :
+    hero.universe === "thanos"   ? "/thanos"   :
+    `/${hero.universe}/${hero.id}`;
 
   return (
     <motion.div

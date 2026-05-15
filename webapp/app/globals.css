@@ -24,7 +24,10 @@
 
   --av-accent:       #ffd900;
   --av-glow:         rgba(255, 217, 0, 0.15);
-  
+
+  --thanos-accent:   #a26bff;
+  --thanos-glow:     rgba(162, 107, 255, 0.18);
+
   --liquid-speed:    20s;
 }
 

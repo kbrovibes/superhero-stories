@@ -9,7 +9,7 @@ interface StoryRowProps {
   storyTheme: string;
   index: number;
   href: string;
-  universe: "marvel" | "dc" | "avengers";
+  universe: "marvel" | "dc" | "avengers" | "thanos";
 }
 
 export default function StoryRow({ title, storyTheme, index, href, universe }: StoryRowProps) {

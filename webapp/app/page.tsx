@@ -17,6 +17,13 @@ export default function Home() {
     universe: "avengers" as const,
   };
 
+  const thanosEntry = {
+    id: "thanos",
+    name: "Thanos",
+    emoji: "🟣",
+    universe: "thanos" as const,
+  };
+
   return (
     <>
       <NavBar crumbs={[]} />
@@ -75,7 +82,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <UniverseSection label="AVENGERS" count={1}>
+        <UniverseSection label="ENSEMBLE" count={2}>
           <div style={{
             animationDelay: "0ms",
             animationName: "fadeIn",
@@ -83,6 +90,14 @@ export default function Home() {
             animationFillMode: "both",
           }}>
             <HeroCard hero={avengersEntry} />
+          </div>
+          <div style={{
+            animationDelay: "40ms",
+            animationName: "fadeIn",
+            animationDuration: "0.4s",
+            animationFillMode: "both",
+          }}>
+            <HeroCard hero={thanosEntry} />
           </div>
         </UniverseSection>
 

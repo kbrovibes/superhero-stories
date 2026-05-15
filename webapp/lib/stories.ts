@@ -3,7 +3,7 @@ import path from "path";
 
 const REPO_ROOT = path.join(process.cwd(), "superhero-repo");
 
-export type Universe = "marvel" | "dc" | "avengers";
+export type Universe = "marvel" | "dc" | "avengers" | "thanos";
 
 export interface Hero {
   id: string;          // kebab-case folder name
@@ -79,7 +79,15 @@ export function getHeroes(universe: "marvel" | "dc"): Hero[] {
 }
 
 export function getAvengersStories(): Story[] {
-  const dir = path.join(REPO_ROOT, "avengers");
+  return readEnsembleStories("avengers");
+}
+
+export function getThanosStories(): Story[] {
+  return readEnsembleStories("thanos");
+}
+
+function readEnsembleStories(folder: "avengers" | "thanos"): Story[] {
+  const dir = path.join(REPO_ROOT, folder);
   if (!fs.existsSync(dir)) return [];
   const files = fs.readdirSync(dir).filter((f) => f.endsWith(".txt")).sort();
   return files.map((f, i) => {
@@ -143,6 +151,17 @@ export function getAllCandidates(): Candidate[] {
       storyId: story.id,
       storyTitle: story.title,
       href: `/avengers/${story.id}`,
+    });
+  }
+  for (const story of getThanosStories()) {
+    out.push({
+      universe: "thanos",
+      heroId: null,
+      heroName: "Thanos",
+      heroEmoji: "🟣",
+      storyId: story.id,
+      storyTitle: story.title,
+      href: `/thanos/${story.id}`,
     });
   }
   return out;
