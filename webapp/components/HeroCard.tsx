@@ -32,12 +32,12 @@ export default function HeroCard({ hero }: HeroCardProps) {
           style={{
             aspectRatio: "1 / 1",
             borderRadius: "24px 8px 24px 8px",
-            padding: 16,
+            padding: "14px 12px 22px",
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            gap: 12,
+            gap: 4,
             cursor: "pointer",
             position: "relative",
             overflow: "hidden",
@@ -80,15 +80,15 @@ export default function HeroCard({ hero }: HeroCardProps) {
             gap: 2,
             zIndex: 2
           }}>
-            <span style={{ 
-              fontSize: 13, 
-              fontWeight: 900, 
-              color: "#fff", 
+            <span style={{
+              fontSize: 12,
+              fontWeight: 500,
+              color: "#fff",
               textTransform: "uppercase",
-              letterSpacing: "0.03em",
-              lineHeight: 1.1,
+              letterSpacing: "0.05em",
+              lineHeight: 1.15,
               transition: "all 0.3s ease",
-              textShadow: "0 2px 4px rgba(0,0,0,0.5)"
+              textShadow: "0 1px 3px rgba(0,0,0,0.45)"
             }}>
               {hero.name}
             </span>

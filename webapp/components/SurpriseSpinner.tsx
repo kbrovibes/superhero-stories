@@ -242,15 +242,15 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
         aria-hidden={moving}
         style={{
           width: "100%",
-          maxWidth: 420,
-          height: 96,
+          maxWidth: 560,
+          minHeight: 160,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          gap: 4,
-          padding: "12px 20px",
-          borderRadius: 16,
+          gap: 8,
+          padding: "20px 24px",
+          borderRadius: 20,
           border: "1px solid var(--border)",
           background: "var(--surface)",
           backdropFilter: "blur(12px)",
@@ -259,24 +259,28 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
           transition: "filter 120ms linear",
         }}
       >
-        <div style={{ fontSize: 32, lineHeight: 1 }}>{current.heroEmoji}</div>
+        <div style={{ fontSize: 44, lineHeight: 1 }}>{current.heroEmoji}</div>
         <div style={{
-          fontSize: 11,
+          fontSize: 13,
           textTransform: "uppercase",
-          letterSpacing: "0.15em",
+          letterSpacing: "0.18em",
           color: "var(--text-muted)",
           fontWeight: 700,
+          textAlign: "center",
+          lineHeight: 1.2,
+          maxWidth: "100%",
+          wordBreak: "break-word",
         }}>
           {current.heroName}
         </div>
         <div style={{
-          fontSize: 15,
+          fontSize: 18,
           fontWeight: 700,
           color: "var(--text-primary)",
           maxWidth: "100%",
-          overflow: "hidden",
-          textOverflow: "ellipsis",
-          whiteSpace: "nowrap",
+          textAlign: "center",
+          lineHeight: 1.25,
+          wordBreak: "break-word",
         }}>
           {current.storyTitle}
         </div>
@@ -315,11 +319,17 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
               <circle cx="50" cy="32" r="6" />
             </svg>
           ) : (
-            // Pointing-finger / target — idle state, invites a press
-            <svg viewBox="0 0 64 64" width="84" height="84" fill="none" stroke="currentColor" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" focusable="false">
-              <circle cx="32" cy="32" r="22" />
-              <circle cx="32" cy="32" r="10" fill="currentColor" stroke="none" />
-              <path d="M32 4 V14 M32 50 V60 M4 32 H14 M50 32 H60" />
+            // Magic wand with sparkles — idle state, invites a press to "cast" the surprise
+            <svg viewBox="0 0 64 64" width="96" height="96" fill="none" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" focusable="false">
+              {/* wand shaft */}
+              <path d="M14 50 L46 18" />
+              {/* wand tip (filled star burst) */}
+              <path d="M46 18 L50 14 M46 18 L42 14 M46 18 L50 22 M46 18 L42 22" />
+              {/* sparkles around the tip */}
+              <path d="M54 8 L56 4 L58 8 L62 10 L58 12 L56 16 L54 12 L50 10 Z" fill="currentColor" stroke="none" />
+              <circle cx="22" cy="14" r="2" fill="currentColor" stroke="none" />
+              <circle cx="56" cy="34" r="2.5" fill="currentColor" stroke="none" />
+              <circle cx="10" cy="34" r="1.8" fill="currentColor" stroke="none" />
             </svg>
           )}
         </span>
