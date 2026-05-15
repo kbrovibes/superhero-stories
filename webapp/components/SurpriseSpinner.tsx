@@ -282,7 +282,7 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
         </div>
       </div>
 
-      {/* HOLD ME button */}
+      {/* HOLD ME button — icon-only, no selectable text for clean mobile press-and-hold */}
       <button
         type="button"
         className="surprise-btn"
@@ -293,10 +293,36 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
         onPointerLeave={(e) => { if (pointerIdRef.current !== null) onPointerUp(e); }}
         onKeyDown={onKeyDown}
         onKeyUp={onKeyUp}
+        onContextMenu={(e) => e.preventDefault()}
         disabled={phase === "coasting"}
         aria-label={spinning ? "Release to pick" : "Press and hold to spin"}
       >
-        {spinning ? "RELEASE" : coasting ? "…" : "HOLD ME"}
+        <span className="surprise-btn-icon" aria-hidden="true">
+          {spinning ? (
+            // Sparkle burst — spinning state
+            <svg viewBox="0 0 64 64" width="84" height="84" fill="currentColor" focusable="false">
+              <path d="M32 4 L36 24 L56 28 L36 32 L32 52 L28 32 L8 28 L28 24 Z" />
+              <circle cx="14" cy="14" r="3" />
+              <circle cx="50" cy="14" r="3" />
+              <circle cx="50" cy="50" r="3" />
+              <circle cx="14" cy="50" r="3" />
+            </svg>
+          ) : coasting ? (
+            // Three dots — coasting
+            <svg viewBox="0 0 64 64" width="84" height="84" fill="currentColor" focusable="false">
+              <circle cx="14" cy="32" r="6" />
+              <circle cx="32" cy="32" r="6" />
+              <circle cx="50" cy="32" r="6" />
+            </svg>
+          ) : (
+            // Pointing-finger / target — idle state, invites a press
+            <svg viewBox="0 0 64 64" width="84" height="84" fill="none" stroke="currentColor" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" focusable="false">
+              <circle cx="32" cy="32" r="22" />
+              <circle cx="32" cy="32" r="10" fill="currentColor" stroke="none" />
+              <path d="M32 4 V14 M32 50 V60 M4 32 H14 M50 32 H60" />
+            </svg>
+          )}
+        </span>
       </button>
 
       <p style={{ fontSize: 12, color: "var(--text-muted)", margin: 0, minHeight: 18 }}>
@@ -332,11 +358,38 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
           cursor: pointer;
           touch-action: none;
           user-select: none;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          -webkit-touch-callout: none;
+          -webkit-tap-highlight-color: transparent;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
           box-shadow: 0 20px 60px rgba(0,0,0,0.5), inset 0 0 30px rgba(255,255,255,0.15);
           transform: scale(1);
           transition: transform 90ms cubic-bezier(0.23,1,0.32,1), box-shadow 90ms ease;
           animation: surprisePulse 2.6s ease-in-out infinite;
           will-change: transform, box-shadow;
+        }
+        .surprise-btn-icon {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          pointer-events: none;
+          user-select: none;
+          -webkit-user-select: none;
+          -webkit-touch-callout: none;
+        }
+        .surprise-btn-icon svg {
+          filter: drop-shadow(0 4px 12px rgba(0,0,0,0.25));
+        }
+        .surprise-btn[data-phase="spinning"] .surprise-btn-icon svg {
+          animation: surpriseIconSpin 0.9s linear infinite;
+        }
+        @keyframes surpriseIconSpin {
+          from { transform: rotate(0deg); }
+          to   { transform: rotate(360deg); }
         }
         .surprise-btn:hover {
           transform: scale(1.04);

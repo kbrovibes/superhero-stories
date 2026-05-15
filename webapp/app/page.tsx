@@ -46,6 +46,8 @@ export default function Home() {
 
           <Link
             href="/surprise"
+            aria-label="Surprise Me — pick a random story"
+            className="surprise-cta"
             style={{
               display: "inline-flex",
               alignItems: "center",
@@ -61,10 +63,15 @@ export default function Home() {
               textTransform: "uppercase",
               textDecoration: "none",
               boxShadow: "0 12px 32px rgba(255,217,0,0.18), 0 6px 16px rgba(255,60,92,0.18)",
+              userSelect: "none",
+              WebkitUserSelect: "none",
+              WebkitTouchCallout: "none",
+              WebkitTapHighlightColor: "transparent",
+              touchAction: "manipulation",
             }}
           >
-            <span>✦</span>
-            Surprise Me!
+            <span aria-hidden="true">✦</span>
+            <span aria-hidden="true">Surprise Me!</span>
           </Link>
         </div>
 
