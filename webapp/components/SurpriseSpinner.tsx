@@ -259,7 +259,23 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
           transition: "filter 120ms linear",
         }}
       >
-        <div style={{ fontSize: 44, lineHeight: 1 }}>{current.heroEmoji}</div>
+        <div style={{
+          width: 64,
+          height: 64,
+          borderRadius: "50%",
+          overflow: "hidden",
+          border: "2px solid rgba(255,255,255,0.18)",
+          boxShadow: "0 4px 14px rgba(0,0,0,0.35)",
+          background: "#0a0a14",
+        }}>
+          <img
+            src={`/avatars/${current.universe}/${current.heroId ?? current.universe}.svg`}
+            alt=""
+            width={64}
+            height={64}
+            style={{ display: "block", width: "100%", height: "100%", objectFit: "cover" }}
+          />
+        </div>
         <div style={{
           fontSize: 13,
           textTransform: "uppercase",

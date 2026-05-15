@@ -66,14 +66,27 @@ export default function HeroCard({ hero }: HeroCardProps) {
             }}
           />
 
-          <div style={{ 
-            fontSize: 48, 
-            filter: hovered ? `drop-shadow(0 0 15px ${theme.accent}88)` : "none",
-            transform: hovered ? "scale(1.1) rotate(5deg)" : "scale(1)",
+          <div style={{
+            width: 84,
+            height: 84,
+            borderRadius: "50%",
+            overflow: "hidden",
+            border: `2px solid ${theme.accent}55`,
+            boxShadow: hovered
+              ? `0 8px 28px ${theme.accent}66, 0 0 0 4px ${theme.accent}22`
+              : `0 4px 14px rgba(0,0,0,0.35)`,
+            transform: hovered ? "scale(1.06)" : "scale(1)",
             transition: "all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
-            zIndex: 2
+            zIndex: 2,
+            background: "#0a0a14",
           }}>
-            {hero.emoji}
+            <img
+              src={`/avatars/${hero.universe}/${hero.id}.svg`}
+              alt=""
+              width={84}
+              height={84}
+              style={{ display: "block", width: "100%", height: "100%", objectFit: "cover" }}
+            />
           </div>
           
           <div style={{ 

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs><radialGradient id="g" cx="30%" cy="28%" r="95%"><stop offset="0%" stop-color="#ffd76b"/><stop offset="55%" stop-color="#c2356a"/><stop offset="100%" stop-color="#2a0a24"/></radialGradient></defs>
+  <rect width="200" height="200" fill="url(#g)"/>
+  <path d="M100 50 L150 100 L100 150 L50 100 Z" fill="#fff"/>
+  <path d="M100 70 L130 100 L100 130 L70 100 Z" fill="#ffe066"/>
+  <path d="M100 88 L116 100 L100 112 L84 100 Z" fill="#fff"/>
+</svg>
