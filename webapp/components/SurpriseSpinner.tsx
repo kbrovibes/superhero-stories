@@ -4,7 +4,12 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Candidate } from "@/lib/stories";
 import SurpriseWinner from "./SurpriseWinner";
 
-type Phase = "idle" | "spinning" | "coasting" | "won";
+type Phase = "idle" | "spinning" | "coasting" | "settled" | "won";
+
+// How long to hold the final candidate visible after the wheel stops, before
+// transitioning to the winner reveal. Short enough to stay snappy, long enough
+// that the user can read what they landed on.
+const SETTLE_MS = 850;
 
 // Physics constants
 //
@@ -112,9 +117,21 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
         positionRef.current = coastStartPosRef.current + span * eased;
         velocityRef.current = span * (2 * (1 - t)) / (coastDurationRef.current / 1000);
         if (t >= 1) {
-          const finalIdx = Math.floor(coastEndPosRef.current);
-          finalize(finalIdx);
-          return; // stop the loop; a fresh effect will re-start on "spin again"
+          // Snap to the final cell and enter the "settled" hold. The viewport
+          // shows the final candidate clearly, then we transition to the
+          // winner reveal after SETTLE_MS so the user has time to read it.
+          const n = deckLen;
+          const finalIdx = ((Math.floor(coastEndPosRef.current) % n) + n) % n;
+          positionRef.current = finalIdx + 0.5;
+          velocityRef.current = 0;
+          setDisplayIndex(finalIdx);
+          setBlurAmt(0);
+          setPhaseBoth("settled");
+          window.setTimeout(() => {
+            // Guard against onSpinAgain or other phase changes during the pause.
+            if (phaseRef.current === "settled") finalize(finalIdx);
+          }, SETTLE_MS);
+          return; // stop the loop; finalize() (or settle-cleanup) will re-arm.
         }
       }
 
@@ -218,9 +235,10 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
   // Aria-live message
   const liveMessage = useMemo(() => {
     if (phase === "spinning") return "Spinning…";
+    if (phase === "settled" && deck[displayIndex]) return `Landed on ${deck[displayIndex].heroName}, ${deck[displayIndex].storyTitle}`;
     if (phase === "won" && winner) return `Picked: ${winner.heroName}, ${winner.storyTitle}`;
     return "";
-  }, [phase, winner]);
+  }, [phase, winner, deck, displayIndex]);
 
   if (deckLen === 0) {
     return <p style={{ color: "var(--text-muted)" }}>No stories yet.</p>;
@@ -233,6 +251,7 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
   const current = deck[displayIndex];
   const spinning = phase === "spinning";
   const coasting = phase === "coasting";
+  const settled  = phase === "settled";
   const moving = spinning || coasting;
 
   return (
@@ -240,6 +259,8 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
       {/* Viewport strip */}
       <div
         aria-hidden={moving}
+        data-phase={phase}
+        className={settled ? "surprise-viewport surprise-viewport--settled" : "surprise-viewport"}
         style={{
           width: "100%",
           maxWidth: 560,
@@ -251,12 +272,16 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
           gap: 8,
           padding: "20px 24px",
           borderRadius: 20,
-          border: "1px solid var(--border)",
+          border: settled ? "1px solid var(--av-accent)" : "1px solid var(--border)",
           background: "var(--surface)",
           backdropFilter: "blur(12px)",
           overflow: "hidden",
           filter: blurAmt > 0 ? `blur(${blurAmt}px)` : undefined,
-          transition: "filter 120ms linear",
+          transition: "filter 120ms linear, border-color 220ms ease, box-shadow 220ms ease, transform 220ms cubic-bezier(0.34, 1.56, 0.64, 1)",
+          transform: settled ? "scale(1.04)" : "scale(1)",
+          boxShadow: settled
+            ? "0 12px 40px rgba(255,217,0,0.28), 0 0 0 4px rgba(255,217,0,0.08)"
+            : "none",
         }}
       >
         <div style={{
@@ -314,7 +339,7 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
         onKeyDown={onKeyDown}
         onKeyUp={onKeyUp}
         onContextMenu={(e) => e.preventDefault()}
-        disabled={phase === "coasting"}
+        disabled={phase === "coasting" || phase === "settled"}
         aria-label={spinning ? "Release to pick" : "Press and hold to spin"}
       >
         <span className="surprise-btn-icon" aria-hidden="true">
@@ -355,6 +380,7 @@ export default function SurpriseSpinner({ candidates }: SurpriseSpinnerProps) {
         {phase === "idle" && "Tap and hold — or press Space."}
         {spinning && "Holding… let go to pick."}
         {coasting && "Coming to a stop…"}
+        {settled && "And the pick is…"}
       </p>
 
       <span aria-live="polite" role="status" style={{
