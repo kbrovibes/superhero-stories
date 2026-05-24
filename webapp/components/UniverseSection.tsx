@@ -45,10 +45,10 @@ export default function UniverseSection({ label, count, children }: { label: str
           {count} Units
         </span>
       </div>
-      <div style={{ 
-        display: "grid", 
-        gridTemplateColumns: "repeat(3, 1fr)", 
-        gap: 12 
+      <div style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(3, 1fr)",
+        gap: 10
       }}>
         {children}
       </div>

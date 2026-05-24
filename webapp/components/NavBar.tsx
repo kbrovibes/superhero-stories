@@ -1,32 +1,48 @@
 "use client";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 
 interface Crumb { label: string; href?: string; }
 interface NavBarProps { crumbs: Crumb[]; }
 
 export default function NavBar({ crumbs }: NavBarProps) {
+  const isHome = crumbs.length === 0;
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    if (!isHome) return;
+    const handler = () => setScrolled(window.scrollY > 40);
+    window.addEventListener("scroll", handler, { passive: true });
+    handler();
+    return () => window.removeEventListener("scroll", handler);
+  }, [isHome]);
+
+  const visible = !isHome || scrolled;
+
   return (
-    <nav style={{
-      height: 60,
-      background: "rgba(10, 10, 15, 0.5)",
-      backdropFilter: "blur(12px)",
-      borderBottom: "1px solid var(--border)",
-      display: "flex",
-      alignItems: "center",
-      padding: "0 24px",
-      gap: 8,
-      position: "sticky",
-      top: 0,
-      zIndex: 50,
-    }}>
-      <Link href="/" style={{ 
-        fontWeight: 900, 
-        color: "var(--text-primary)", 
-        textDecoration: "none", 
+    <motion.nav
+      initial={false}
+      animate={{ y: visible ? 0 : -72, opacity: visible ? 1 : 0 }}
+      transition={{ duration: 0.25, ease: "easeInOut" }}
+      style={{
+        height: 60,
+        background: "rgba(10, 10, 15, 0.5)",
+        backdropFilter: "blur(12px)",
+        borderBottom: "1px solid var(--border)",
+        display: "flex",
+        alignItems: "center",
+        padding: "0 24px",
+        gap: 8,
+        position: "sticky",
+        top: 0,
+        zIndex: 50,
+      }}>
+      <Link href="/" style={{
+        fontWeight: 900,
+        color: "var(--text-primary)",
+        textDecoration: "none",
         marginRight: 16,
-        letterSpacing: "-0.02em",
-        fontSize: 18,
         display: "flex",
         alignItems: "center",
         gap: 6
@@ -38,7 +54,10 @@ export default function NavBar({ crumbs }: NavBarProps) {
         >
           ✦
         </motion.span>
-        Stories
+        <span style={{ display: "flex", flexDirection: "column", lineHeight: 1.1, gap: 0 }}>
+          <span style={{ fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", opacity: 0.7 }}>Superhero</span>
+          <span style={{ fontSize: 15, letterSpacing: "-0.02em", textTransform: "uppercase" }}>Stories</span>
+        </span>
       </Link>
       <div style={{ display: "flex", alignItems: "center", gap: 8, marginTop: 2 }}>
         {crumbs.map((crumb, i) => (
@@ -69,6 +88,6 @@ export default function NavBar({ crumbs }: NavBarProps) {
           </span>
         ))}
       </div>
-    </nav>
+    </motion.nav>
   );
 }

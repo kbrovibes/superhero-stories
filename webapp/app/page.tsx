@@ -74,7 +74,6 @@ export default function Home() {
                 touchAction: "manipulation",
               }}
             >
-              <span aria-hidden="true">✦</span>
               <span>Surprise Me!</span>
             </Link>
             <Link
@@ -104,7 +103,6 @@ export default function Home() {
                 touchAction: "manipulation",
               }}
             >
-              <span aria-hidden="true">⚡</span>
               <span>Quiz Me!</span>
             </Link>
           </div>

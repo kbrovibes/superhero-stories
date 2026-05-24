@@ -34,13 +34,13 @@ export default function HeroCard({ hero }: HeroCardProps) {
           className="liquid-card"
           style={{
             aspectRatio: "1 / 1",
-            borderRadius: "24px 8px 24px 8px",
-            padding: "14px 12px 22px",
+            borderRadius: "20px 6px 20px 6px",
+            padding: "10px 10px 14px",
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            gap: 4,
+            gap: 6,
             cursor: "pointer",
             position: "relative",
             overflow: "hidden",
@@ -67,14 +67,14 @@ export default function HeroCard({ hero }: HeroCardProps) {
           />
 
           <div style={{
-            width: 84,
-            height: 84,
+            width: 68,
+            height: 68,
             borderRadius: "50%",
             overflow: "hidden",
             border: `2px solid ${theme.accent}55`,
             boxShadow: hovered
-              ? `0 8px 28px ${theme.accent}66, 0 0 0 4px ${theme.accent}22`
-              : `0 4px 14px rgba(0,0,0,0.35)`,
+              ? `0 6px 22px ${theme.accent}66, 0 0 0 3px ${theme.accent}22`
+              : `0 3px 10px rgba(0,0,0,0.35)`,
             transform: hovered ? "scale(1.06)" : "scale(1)",
             transition: "all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
             zIndex: 2,
@@ -83,8 +83,8 @@ export default function HeroCard({ hero }: HeroCardProps) {
             <img
               src={`/avatars/${hero.universe}/${hero.id}.svg`}
               alt=""
-              width={84}
-              height={84}
+              width={68}
+              height={68}
               style={{ display: "block", width: "100%", height: "100%", objectFit: "cover" }}
             />
           </div>
@@ -97,7 +97,7 @@ export default function HeroCard({ hero }: HeroCardProps) {
             zIndex: 2
           }}>
             <span style={{
-              fontSize: 12,
+              fontSize: 11,
               fontWeight: 500,
               color: "#fff",
               textTransform: "uppercase",
