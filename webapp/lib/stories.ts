@@ -17,6 +17,8 @@ export interface Story {
   number: number;  // 1-based index for display ("Story 1 of 5")
   title: string;   // human-readable, e.g. "Origin"
   body: string;
+  tldr?: string;      // companion .tldr.txt file
+  readAloud?: string; // companion .readaloud.txt file
 }
 
 export interface Candidate {
@@ -89,15 +91,19 @@ export function getThanosStories(): Story[] {
 function readEnsembleStories(folder: "avengers" | "thanos"): Story[] {
   const dir = path.join(REPO_ROOT, folder);
   if (!fs.existsSync(dir)) return [];
-  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".txt")).sort();
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".txt") && !f.endsWith(".tldr.txt") && !f.endsWith(".readaloud.txt")).sort();
   return files.map((f, i) => {
     const id = f.replace(".txt", "");
     const body = fs.readFileSync(path.join(dir, f), "utf-8").trim();
+    const tldrPath = path.join(dir, f.replace(".txt", ".tldr.txt"));
+    const readAloudPath = path.join(dir, f.replace(".txt", ".readaloud.txt"));
     return {
       id,
       number: i + 1,
       title: slugToTitle(id),
       body,
+      tldr: fs.existsSync(tldrPath) ? fs.readFileSync(tldrPath, "utf-8").trim() : undefined,
+      readAloud: fs.existsSync(readAloudPath) ? fs.readFileSync(readAloudPath, "utf-8").trim() : undefined,
     };
   });
 }
@@ -105,17 +111,21 @@ function readEnsembleStories(folder: "avengers" | "thanos"): Story[] {
 export function getHeroStories(universe: "marvel" | "dc", heroId: string): Story[] {
   const dir = path.join(REPO_ROOT, universe, heroId);
   if (!fs.existsSync(dir)) return [];
-  
-  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".txt")).sort();
+
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".txt") && !f.endsWith(".tldr.txt") && !f.endsWith(".readaloud.txt")).sort();
 
   return files.map((f, i) => {
     const id = f.replace(".txt", "");
     const body = fs.readFileSync(path.join(dir, f), "utf-8").trim();
+    const tldrPath = path.join(dir, f.replace(".txt", ".tldr.txt"));
+    const readAloudPath = path.join(dir, f.replace(".txt", ".readaloud.txt"));
     return {
       id,
       number: i + 1,
       title: slugToTitle(id),
       body,
+      tldr: fs.existsSync(tldrPath) ? fs.readFileSync(tldrPath, "utf-8").trim() : undefined,
+      readAloud: fs.existsSync(readAloudPath) ? fs.readFileSync(readAloudPath, "utf-8").trim() : undefined,
     };
   });
 }

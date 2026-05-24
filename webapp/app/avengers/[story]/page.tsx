@@ -1,5 +1,6 @@
 import { getAvengersStories, THEME } from "@/lib/stories";
 import NavBar from "@/components/NavBar";
+import StoryTabs from "@/components/StoryTabs";
 import { notFound } from "next/navigation";
 
 type Params = Promise<{ story: string }>;
@@ -61,13 +62,12 @@ export default async function AvengersStoryPage({ params }: { params: Params }) 
           {current.title}
         </h1>
 
-        <div>
-          {current.body.split("\n").filter(Boolean).map((para, i) => (
-            <p key={i} style={{ fontSize: 18, lineHeight: 1.8, color: "var(--text-secondary)", margin: "0 0 20px" }}>
-              {para.trim()}
-            </p>
-          ))}
-        </div>
+        <StoryTabs
+          body={current.body}
+          tldr={current.tldr}
+          readAloud={current.readAloud}
+          accent={accent}
+        />
 
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginTop: 48 }}>
           <a
