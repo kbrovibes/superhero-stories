@@ -14,6 +14,36 @@ import {
   pickRandom,
 } from "@/lib/quiz";
 
+// ─── Static hero list ─────────────────────────────────────────────────────────
+
+const HERO_LIST: { id: string; name: string; universe: "marvel" | "dc" }[] = [
+  { id: "iron-man",        name: "Iron Man",         universe: "marvel" },
+  { id: "spider-man",      name: "Spider-Man",       universe: "marvel" },
+  { id: "thor",            name: "Thor",             universe: "marvel" },
+  { id: "captain-america", name: "Captain America",  universe: "marvel" },
+  { id: "hulk",            name: "Hulk",             universe: "marvel" },
+  { id: "black-widow",     name: "Black Widow",      universe: "marvel" },
+  { id: "hawkeye",         name: "Hawkeye",          universe: "marvel" },
+  { id: "doctor-strange",  name: "Doctor Strange",   universe: "marvel" },
+  { id: "black-panther",   name: "Black Panther",    universe: "marvel" },
+  { id: "ant-man",         name: "Ant-Man",          universe: "marvel" },
+  { id: "scarlet-witch",   name: "Scarlet Witch",    universe: "marvel" },
+  { id: "vision",          name: "Vision",           universe: "marvel" },
+  { id: "falcon",          name: "Falcon",           universe: "marvel" },
+  { id: "winter-soldier",  name: "Winter Soldier",   universe: "marvel" },
+  { id: "star-lord",       name: "Star-Lord",        universe: "marvel" },
+  { id: "batman",          name: "Batman",           universe: "dc" },
+  { id: "superman",        name: "Superman",         universe: "dc" },
+  { id: "wonder-woman",    name: "Wonder Woman",     universe: "dc" },
+  { id: "the-flash",       name: "The Flash",        universe: "dc" },
+  { id: "aquaman",         name: "Aquaman",          universe: "dc" },
+  { id: "green-lantern",   name: "Green Lantern",    universe: "dc" },
+  { id: "batgirl",         name: "Batgirl",          universe: "dc" },
+  { id: "shazam",          name: "Shazam",           universe: "dc" },
+  { id: "cyborg",          name: "Cyborg",           universe: "dc" },
+  { id: "martian-manhunter", name: "Martian Manhunter", universe: "dc" },
+];
+
 // ─── Config ───────────────────────────────────────────────────────────────────
 
 const DIFFICULTIES: { id: Difficulty; label: string; color: string }[] = [
@@ -48,17 +78,22 @@ function ConfigScreen({
 }) {
   const [difficulty, setDifficulty] = useState<Difficulty>("medium");
   const [scope, setScope] = useState<QuizScope>(initialScope);
-  const [scopeLabel, setScopeLabel] = useState(initialLabel);
   const [count, setCount] = useState(5);
 
-  const scopeOptions: { id: QuizScope; label: string }[] = [
-    { id: "all",    label: "All Heroes" },
-    { id: "marvel", label: "Marvel Only" },
-    { id: "dc",     label: "DC Only" },
-    ...(initialScope !== "all" && initialScope !== "marvel" && initialScope !== "dc"
-      ? [{ id: initialScope, label: initialLabel }]
-      : []),
-  ];
+  // Derive display label from scope
+  const scopeLabel = scope === "all" ? "All Heroes"
+    : scope === "marvel" ? "Marvel"
+    : scope === "dc" ? "DC"
+    : HERO_LIST.find(h => h.id === scope)?.name ?? scope;
+
+  // Which universe tab is active (for the top row buttons)
+  const universeTab: "all" | "marvel" | "dc" =
+    scope === "all" || scope === "marvel" || scope === "dc"
+      ? (scope as "all" | "marvel" | "dc")
+      : (HERO_LIST.find(h => h.id === scope)?.universe ?? "all");
+
+  // Heroes visible below the universe toggle
+  const visibleHeroes = universeTab === "all" ? HERO_LIST : HERO_LIST.filter(h => h.universe === universeTab);
 
   function handleStart() {
     const pool = filterQuestions(allQuestions as QuizQuestion[], difficulty, scope);
@@ -115,25 +150,51 @@ function ConfigScreen({
         <label style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--text-muted)", display: "block", marginBottom: 12 }}>
           Characters
         </label>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-          {scopeOptions.map((s) => (
+        {/* Universe toggle */}
+        <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>
+          {(["all", "marvel", "dc"] as const).map((u) => (
             <button
-              key={s.id}
-              onClick={() => { setScope(s.id); setScopeLabel(s.label); }}
+              key={u}
+              onClick={() => setScope(u)}
               style={{
-                padding: "8px 16px",
+                flex: 1,
+                padding: "9px 0",
+                borderRadius: 10,
+                border: universeTab === u ? "2px solid var(--av-accent)" : "2px solid var(--border)",
+                background: universeTab === u ? "rgba(255,217,0,0.12)" : "var(--surface)",
+                color: universeTab === u ? "var(--av-accent)" : "var(--text-muted)",
+                fontWeight: 700,
+                fontSize: 12,
+                letterSpacing: "0.08em",
+                textTransform: "uppercase",
+                cursor: "pointer",
+                transition: "all 0.15s",
+              }}
+            >
+              {u === "all" ? "All" : u.toUpperCase()}
+            </button>
+          ))}
+        </div>
+        {/* Individual hero chips */}
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+          {visibleHeroes.map((h) => (
+            <button
+              key={h.id}
+              onClick={() => setScope(h.id)}
+              style={{
+                padding: "6px 12px",
                 borderRadius: 999,
-                border: scope === s.id ? "2px solid var(--av-accent)" : "2px solid var(--border)",
-                background: scope === s.id ? "rgba(255,217,0,0.12)" : "var(--surface)",
-                color: scope === s.id ? "var(--av-accent)" : "var(--text-muted)",
-                fontWeight: 600,
-                fontSize: 13,
+                border: scope === h.id ? "2px solid var(--marvel-accent)" : "1px solid var(--border)",
+                background: scope === h.id ? "rgba(229,9,20,0.15)" : "transparent",
+                color: scope === h.id ? "var(--marvel-accent)" : "var(--text-muted)",
+                fontWeight: scope === h.id ? 700 : 500,
+                fontSize: 12,
                 cursor: "pointer",
                 transition: "all 0.15s",
                 whiteSpace: "nowrap",
               }}
             >
-              {s.label}
+              {h.name}
             </button>
           ))}
         </div>

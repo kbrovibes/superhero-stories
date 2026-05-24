@@ -40,7 +40,7 @@ export default function HeroCard({ hero }: HeroCardProps) {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            gap: 6,
+            gap: 2,
             cursor: "pointer",
             position: "relative",
             overflow: "hidden",
