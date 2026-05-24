@@ -3,6 +3,7 @@
 import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
+import NavBar from "@/components/NavBar";
 import allQuestions from "@/lib/quiz-questions.json";
 import {
   type Difficulty,
@@ -68,17 +69,15 @@ function ConfigScreen({
   const available = filterQuestions(allQuestions as QuizQuestion[], difficulty, scope).length;
 
   return (
-    <div style={{ maxWidth: 480, margin: "0 auto", padding: "60px 24px" }}>
-      <Link href="/" style={{ fontSize: 13, color: "var(--text-muted)", textDecoration: "none", letterSpacing: "0.08em", textTransform: "uppercase" }}>
-        ← Home
-      </Link>
-
-      <h1 className="liquid-text" style={{ fontSize: 52, fontWeight: 900, margin: "24px 0 8px", lineHeight: 0.9, textTransform: "uppercase" }}>
-        Quiz<br />Time!
-      </h1>
-      <p style={{ fontSize: 14, color: "var(--text-muted)", margin: "0 0 48px" }}>
-        Test your superhero knowledge.
-      </p>
+    <div style={{ maxWidth: 480, margin: "0 auto", padding: "40px 24px 80px" }}>
+      <div style={{ textAlign: "center", marginBottom: 48 }}>
+        <h1 className="liquid-text" style={{ fontSize: 52, fontWeight: 900, margin: "0 0 8px", lineHeight: 0.9, textTransform: "uppercase" }}>
+          Quiz<br />Time!
+        </h1>
+        <p style={{ fontSize: 14, color: "var(--text-muted)", margin: 0 }}>
+          Test your superhero knowledge.
+        </p>
+      </div>
 
       {/* Difficulty */}
       <div style={{ marginBottom: 36 }}>
@@ -497,8 +496,11 @@ function QuizController() {
 
 export default function QuizPage() {
   return (
-    <Suspense>
-      <QuizController />
-    </Suspense>
+    <>
+      <NavBar crumbs={[{ label: "Stories", href: "/" }, { label: "Quiz Time" }]} />
+      <Suspense>
+        <QuizController />
+      </Suspense>
+    </>
   );
 }

@@ -55,8 +55,8 @@ export default function NavBar({ crumbs }: NavBarProps) {
           ✦
         </motion.span>
         <span style={{ display: "flex", flexDirection: "column", lineHeight: 1.1, gap: 0 }}>
-          <span style={{ fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", opacity: 0.7 }}>Superhero</span>
-          <span style={{ fontSize: 15, letterSpacing: "-0.02em", textTransform: "uppercase" }}>Stories</span>
+          <span style={{ fontSize: 11, letterSpacing: "0.17em", textTransform: "uppercase", opacity: 0.7 }}>Superhero</span>
+          <span style={{ fontSize: 18, letterSpacing: "0.02em", textTransform: "uppercase" }}>Stories</span>
         </span>
       </Link>
       <div style={{ display: "flex", alignItems: "center", gap: 8, marginTop: 2 }}>
