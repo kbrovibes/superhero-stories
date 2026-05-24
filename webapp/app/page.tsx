@@ -29,15 +29,9 @@ export default function Home() {
       <NavBar crumbs={[]} />
       <main style={{ maxWidth: 600, margin: "0 auto", padding: "60px 20px" }}>
         <div style={{ marginBottom: 60, textAlign: "center" }}>
-          <h1 className="liquid-text" style={{
-            fontSize: 52,
-            fontWeight: 900,
-            margin: 0,
-            textTransform: "uppercase",
-            letterSpacing: "-0.01em",
-            lineHeight: 0.85
-          }}>
-            Superhero<br />Stories
+          <h1 className="liquid-text" style={{ margin: 0, lineHeight: 0.88, display: "flex", flexDirection: "column", alignItems: "flex-start" }}>
+            <span style={{ fontSize: 52, fontWeight: 900, textTransform: "uppercase", letterSpacing: "-0.01em", display: "block" }}>Superhero</span>
+            <span style={{ fontSize: 74, fontWeight: 900, textTransform: "uppercase", letterSpacing: "-0.02em", display: "block" }}>Stories</span>
           </h1>
           <p style={{ 
             fontSize: 14, 
@@ -51,16 +45,19 @@ export default function Home() {
             {storyCount} canonical narratives for young heroes.
           </p>
 
-          <div style={{ display: "flex", gap: 12, marginTop: 28, justifyContent: "center", flexWrap: "wrap" }}>
+          <div style={{ display: "flex", gap: 12, marginTop: 28, justifyContent: "center", flexWrap: "wrap", width: "100%", maxWidth: 380, marginInline: "auto" }}>
             <Link
               href="/surprise"
               aria-label="Surprise Me — pick a random story"
               className="surprise-cta"
               style={{
-                display: "inline-flex",
+                flex: 1,
+                minWidth: 148,
+                display: "flex",
                 alignItems: "center",
+                justifyContent: "center",
                 gap: 8,
-                padding: "12px 24px",
+                padding: "12px 16px",
                 borderRadius: 999,
                 background: "radial-gradient(circle at 30% 30%, var(--av-accent), var(--marvel-accent) 70%, var(--dc-accent))",
                 color: "#0a0a14",
@@ -84,10 +81,13 @@ export default function Home() {
               href="/quiz"
               aria-label="Quiz Me — test your hero knowledge"
               style={{
-                display: "inline-flex",
+                flex: 1,
+                minWidth: 148,
+                display: "flex",
                 alignItems: "center",
+                justifyContent: "center",
                 gap: 8,
-                padding: "12px 24px",
+                padding: "12px 16px",
                 borderRadius: 999,
                 background: "radial-gradient(circle at 70% 30%, var(--thanos-accent), var(--dc-accent) 70%)",
                 color: "#0a0a14",
