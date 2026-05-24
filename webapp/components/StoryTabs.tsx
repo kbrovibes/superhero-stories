@@ -11,6 +11,8 @@ interface StoryTabsProps {
 
 type TabId = "tldr" | "summary" | "readaloud";
 
+const PARA_STYLE = { fontSize: 18, lineHeight: 1.8, color: "var(--text-secondary)", margin: "0 0 20px" } as const;
+
 export default function StoryTabs({ body, tldr, readAloud, accent }: StoryTabsProps) {
   const [active, setActive] = useState<TabId>("summary");
 
@@ -20,19 +22,12 @@ export default function StoryTabs({ body, tldr, readAloud, accent }: StoryTabsPr
     { id: "readaloud", label: "Read Aloud", available: !!readAloud },
   ];
   const tabs = allTabs.filter((t) => t.available);
-
-  // If the default active tab is unavailable (e.g. summary always exists, but be safe)
   const activeTab = tabs.find((t) => t.id === active) ? active : tabs[0]?.id ?? "summary";
 
   return (
     <div>
       {/* Tab bar */}
-      <div style={{
-        display: "flex",
-        gap: 4,
-        borderBottom: "1px solid var(--border)",
-        marginBottom: 28,
-      }}>
+      <div style={{ display: "flex", gap: 4, borderBottom: "1px solid var(--border)", marginBottom: 28 }}>
         {tabs.map((tab) => {
           const isActive = tab.id === activeTab;
           return (
@@ -60,24 +55,13 @@ export default function StoryTabs({ body, tldr, readAloud, accent }: StoryTabsPr
         })}
       </div>
 
-      {/* TLDR content */}
+      {/* TLDR */}
       {activeTab === "tldr" && tldr && (
         <div>
           {tldr.split("\n").filter(Boolean).map((line, i) => {
             const isBullet = line.startsWith("•");
             return (
-              <div
-                key={i}
-                style={{
-                  display: "flex",
-                  alignItems: "flex-start",
-                  gap: isBullet ? 10 : 0,
-                  fontSize: 16,
-                  lineHeight: 1.9,
-                  color: "var(--text-secondary)",
-                  marginBottom: 4,
-                }}
-              >
+              <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: isBullet ? 10 : 0, ...PARA_STYLE }}>
                 {isBullet ? (
                   <>
                     <span style={{ color: accent, flexShrink: 0, marginTop: 2 }}>•</span>
@@ -92,24 +76,20 @@ export default function StoryTabs({ body, tldr, readAloud, accent }: StoryTabsPr
         </div>
       )}
 
-      {/* Summary content */}
+      {/* Summary */}
       {activeTab === "summary" && (
         <div>
           {body.split("\n").filter(Boolean).map((para, i) => (
-            <p key={i} style={{ fontSize: 18, lineHeight: 1.8, color: "var(--text-secondary)", marginBottom: 20, margin: "0 0 20px" }}>
-              {para.trim()}
-            </p>
+            <p key={i} style={PARA_STYLE}>{para.trim()}</p>
           ))}
         </div>
       )}
 
-      {/* Read Aloud content */}
+      {/* Read Aloud */}
       {activeTab === "readaloud" && readAloud && (
         <div>
           {readAloud.split("\n").filter(Boolean).map((para, i) => (
-            <p key={i} style={{ fontSize: 19, lineHeight: 2.0, color: "var(--text-primary)", marginBottom: 24, margin: "0 0 24px" }}>
-              {para.trim()}
-            </p>
+            <p key={i} style={PARA_STYLE}>{para.trim()}</p>
           ))}
         </div>
       )}

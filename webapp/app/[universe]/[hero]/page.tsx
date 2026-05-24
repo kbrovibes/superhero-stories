@@ -1,6 +1,7 @@
 import { getHero, getHeroStories, getHeroes } from "@/lib/stories";
 import NavBar from "@/components/NavBar";
 import StoryRow from "@/components/StoryRow";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
 type Params = Promise<{ universe: string; hero: string }>;
@@ -45,6 +46,27 @@ export default async function HeroPage({ params }: { params: Params }) {
               {universe.toUpperCase()} ARCHIVE · {stories.length} DATA FILES
             </p>
           </div>
+          <Link
+            href={`/quiz?scope=${heroId}&universe=${universe}&label=${encodeURIComponent(hero.name)}`}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 6,
+              padding: "8px 20px",
+              borderRadius: 999,
+              background: "radial-gradient(circle at 70% 30%, var(--thanos-accent), var(--dc-accent) 70%)",
+              color: "#0a0a14",
+              fontWeight: 800,
+              fontSize: 12,
+              letterSpacing: "0.1em",
+              textTransform: "uppercase",
+              textDecoration: "none",
+              boxShadow: "0 6px 20px rgba(162,107,255,0.2)",
+            }}
+          >
+            <span>⚡</span>
+            <span>Quiz {hero.name}</span>
+          </Link>
         </div>
 
         <div style={{ 

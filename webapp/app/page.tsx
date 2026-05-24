@@ -29,9 +29,9 @@ export default function Home() {
       <NavBar crumbs={[]} />
       <main style={{ maxWidth: 600, margin: "0 auto", padding: "60px 20px" }}>
         <div style={{ marginBottom: 60, textAlign: "center" }}>
-          <h1 className="liquid-text" style={{ 
-            fontSize: 48, 
-            fontWeight: 900, 
+          <h1 className="liquid-text" style={{
+            fontSize: 52,
+            fontWeight: 900,
             margin: 0,
             textTransform: "uppercase",
             letterSpacing: "-0.01em",
@@ -51,35 +51,63 @@ export default function Home() {
             {storyCount} canonical narratives for young heroes.
           </p>
 
-          <Link
-            href="/surprise"
-            aria-label="Surprise Me — pick a random story"
-            className="surprise-cta"
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 8,
-              marginTop: 28,
-              padding: "12px 24px",
-              borderRadius: 999,
-              background: "radial-gradient(circle at 30% 30%, var(--av-accent), var(--marvel-accent) 70%, var(--dc-accent))",
-              color: "#0a0a14",
-              fontWeight: 800,
-              fontSize: 14,
-              letterSpacing: "0.08em",
-              textTransform: "uppercase",
-              textDecoration: "none",
-              boxShadow: "0 12px 32px rgba(255,217,0,0.18), 0 6px 16px rgba(255,60,92,0.18)",
-              userSelect: "none",
-              WebkitUserSelect: "none",
-              WebkitTouchCallout: "none",
-              WebkitTapHighlightColor: "transparent",
-              touchAction: "manipulation",
-            }}
-          >
-            <span aria-hidden="true">✦</span>
-            <span aria-hidden="true">Surprise Me!</span>
-          </Link>
+          <div style={{ display: "flex", gap: 12, marginTop: 28, justifyContent: "center", flexWrap: "wrap" }}>
+            <Link
+              href="/surprise"
+              aria-label="Surprise Me — pick a random story"
+              className="surprise-cta"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 8,
+                padding: "12px 24px",
+                borderRadius: 999,
+                background: "radial-gradient(circle at 30% 30%, var(--av-accent), var(--marvel-accent) 70%, var(--dc-accent))",
+                color: "#0a0a14",
+                fontWeight: 800,
+                fontSize: 14,
+                letterSpacing: "0.08em",
+                textTransform: "uppercase",
+                textDecoration: "none",
+                boxShadow: "0 12px 32px rgba(255,217,0,0.18), 0 6px 16px rgba(255,60,92,0.18)",
+                userSelect: "none",
+                WebkitUserSelect: "none",
+                WebkitTouchCallout: "none",
+                WebkitTapHighlightColor: "transparent",
+                touchAction: "manipulation",
+              }}
+            >
+              <span aria-hidden="true">✦</span>
+              <span>Surprise Me!</span>
+            </Link>
+            <Link
+              href="/quiz"
+              aria-label="Quiz Me — test your hero knowledge"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 8,
+                padding: "12px 24px",
+                borderRadius: 999,
+                background: "radial-gradient(circle at 70% 30%, var(--thanos-accent), var(--dc-accent) 70%)",
+                color: "#0a0a14",
+                fontWeight: 800,
+                fontSize: 14,
+                letterSpacing: "0.08em",
+                textTransform: "uppercase",
+                textDecoration: "none",
+                boxShadow: "0 12px 32px rgba(162,107,255,0.22), 0 6px 16px rgba(0,229,255,0.15)",
+                userSelect: "none",
+                WebkitUserSelect: "none",
+                WebkitTouchCallout: "none",
+                WebkitTapHighlightColor: "transparent",
+                touchAction: "manipulation",
+              }}
+            >
+              <span aria-hidden="true">⚡</span>
+              <span>Quiz Me!</span>
+            </Link>
+          </div>
         </div>
 
         <UniverseSection label="ENSEMBLE" count={2}>
