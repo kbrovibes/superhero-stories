@@ -1,1 +1,1212 @@
-[]
+[
+  {
+    "id": "iron-man-easy-1",
+    "question": "What kept Tony Stark alive in the cave in Afghanistan?",
+    "options": ["A Hydra device", "An Arc Reactor and electromagnet", "A repulsor unit", "A Stark Industries battery pack"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "In captivity, Ho Yinsen connected a car battery and electromagnet to keep shrapnel from reaching Tony's heart, then helped Tony build the first Arc Reactor to replace it."
+  },
+  {
+    "id": "iron-man-medium-1",
+    "question": "Who helped Tony Stark build the Mark I suit in the cave, and what did he sacrifice?",
+    "options": ["Nick Fury, who surrendered his weapon", "Pepper Potts, who distracted the guards", "Ho Yinsen, who gave his life to buy Tony time", "James Rhodes, who held off the Ten Rings"],
+    "correctIndex": 2,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Ho Yinsen, a brilliant physicist and Tony's fellow captive, sacrificed his life to buy the time Tony needed to power up the Mark I armor and escape."
+  },
+  {
+    "id": "iron-man-hard-1",
+    "question": "How did Tony Stark ultimately defeat Obadiah Stane in the Iron Monger suit?",
+    "options": ["He fired his chest Unibeam at full power", "He overloaded the Arc Reactor with Pepper Potts's help", "He used the Mark V's portable repulsors", "He called in War Machine for a double-tap"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Tony lured Stane onto the roof of the large Arc Reactor facility, where Pepper Potts overloaded the reactor, releasing a blue energy surge that destroyed the Iron Monger suit."
+  },
+  {
+    "id": "iron-man-easy-2",
+    "question": "What color scheme is the iconic Iron Man Mark III armor?",
+    "options": ["Silver and blue", "Black and gold", "Red and gold", "Red and silver"],
+    "correctIndex": 2,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "The Mark III is Tony's iconic red-and-gold armor, which he refined after returning from Afghanistan."
+  },
+  {
+    "id": "iron-man-medium-2",
+    "question": "What hidden message from Howard Stark led Tony to synthesize a new, safe Arc Reactor element?",
+    "options": ["Blueprints in Stark Tower's basement vault", "A message encoded in the designs of the Stark Expo", "A video recording left in JARVIS's memory banks", "A letter hidden inside the Mark I suit"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Howard Stark encoded a hidden message in the blueprints of the Stark Expo, pointing Tony toward a new element he could synthesize to replace the palladium poisoning his blood."
+  },
+  {
+    "id": "iron-man-hard-2",
+    "question": "What were Tony Stark's final words before snapping the Infinity Stones at the Battle of the Ruined Compound?",
+    "options": ["\"For Pepper and Morgan.\"", "\"And I am Iron Man.\"", "\"You should have gone for the head.\"", "\"Don't waste it. Don't waste your life.\""],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Tony mirrored Thanos's 'I am inevitable' with 'And I am Iron Man' before snapping his fingers, using his nanotech to steal and wield all six Infinity Stones."
+  },
+  {
+    "id": "spider-man-easy-1",
+    "question": "Where was Peter Parker when he was bitten by the radioactive spider?",
+    "options": ["In his school science lab in Queens", "At a research laboratory on a field trip", "In a government testing facility in Manhattan", "At Stark Industries during an internship"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Peter was bitten during a school field trip to a research laboratory, where the spider's bite gave him his powers."
+  },
+  {
+    "id": "spider-man-medium-1",
+    "question": "How did Mysterio manipulate Spider-Man in their confrontation?",
+    "options": ["He physically overpowered him with an exo-suit", "He used holograms, drones, and hallucinogenic gas to scramble Peter's spider-sense", "He revealed Peter's identity to J. Jonah Jameson", "He bribed the Daily Bugle to publish fake photos"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Quentin Beck used advanced holograms, high-tech drones, and hallucinogenic gas to disorient Peter and scramble his spider-sense, making it impossible to distinguish real threats from illusions."
+  },
+  {
+    "id": "spider-man-hard-1",
+    "question": "How did the alien Venom symbiote first reach Eddie Brock after Peter removed it?",
+    "options": ["It crawled through the sewer system to find a new host", "Peter removed it using church bells, and it survived and bonded to Brock", "It was transferred when Peter and Eddie shook hands", "SHIELD captured it and Brock stole it from containment"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Peter used the high-pitched bells of a church tower to rip the symbiote from his body. It survived the experience and found Eddie Brock—a disgraced journalist who blamed Spider-Man—as its next host."
+  },
+  {
+    "id": "spider-man-easy-2",
+    "question": "What is the name of the newspaper that ran relentless 'Spider-Man is a menace' headlines?",
+    "options": ["The Metropolis Gazette", "The Daily Bugle", "The New York Herald", "The Gotham Chronicle"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "The Daily Bugle, edited by J. Jonah Jameson, ran a relentless campaign declaring Spider-Man a public menace—even while Peter secretly sold them his own action photos."
+  },
+  {
+    "id": "spider-man-medium-2",
+    "question": "What tragic mistake led directly to Uncle Ben's death?",
+    "options": ["Peter failed to save Ben from a mugger after a wrestling match", "Peter refused to stop a fleeing thief, who later killed Uncle Ben", "Peter revealed his powers publicly, making the family a target", "Peter accidentally triggered a building collapse that trapped Ben"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Peter refused to stop a thief who was fleeing from police. That same thief later murdered Uncle Ben at the Parker home—a moment of inaction that Peter carries forever."
+  },
+  {
+    "id": "spider-man-hard-2",
+    "question": "What specific advantage makes Venom uniquely dangerous to Spider-Man?",
+    "options": ["Venom is stronger than Peter and immune to all webs", "Because the symbiote once bonded with Peter, Venom knows his secrets and bypasses his spider-sense", "Venom can perfectly copy Spider-Man's combat style mid-battle", "Venom is impervious to Peter's web fluid formula"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Because the symbiote once lived on Peter's body, it absorbed all his secrets—including his identity—and permanently knows how to bypass his spider-sense, making Venom unlike any other foe."
+  },
+  {
+    "id": "thor-easy-1",
+    "question": "What enchantment is placed on Mjolnir?",
+    "options": ["Only Asgardians may lift it", "Whosoever holds this hammer, if he be worthy, shall possess the power of Thor", "It returns to Nidavellir if lost in battle", "It can only be lifted in the realm of Asgard"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Odin placed the worthiness enchantment on Mjolnir: 'Whosoever holds this hammer, if he be worthy, shall possess the power of Thor.'"
+  },
+  {
+    "id": "thor-medium-1",
+    "question": "Who forged Stormbreaker, and what did Groot sacrifice to complete it?",
+    "options": ["Eitri forged it; Groot severed his own arm to provide the handle", "Dwarves of Svartalfheim forged it; Groot provided the binding runes", "Odin forged it; Groot grew a branch to wrap the head", "Eitri forged it; Rocket provided the Uru alloy formula"],
+    "correctIndex": 0,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Eitri, the dwarf king and sole survivor of Thanos's purge of Nidavellir, forged Stormbreaker. Groot reached into the molten metal and severed his own arm to serve as the handle."
+  },
+  {
+    "id": "thor-hard-1",
+    "question": "How did Thor defeat Hela when he could not overpower her directly?",
+    "options": ["He channeled all the storms of the Nine Realms into a single bolt", "He used Stormbreaker to strike her from orbit", "He orchestrated Ragnarok by resurrecting Surtur to destroy Asgard itself", "He tricked Loki into draining her power with dark magic"],
+    "correctIndex": 2,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Realizing Hela drew power from Asgard itself, Thor orchestrated the resurrection of Surtur, whose enormous flaming blade destroyed the entire realm—ending Hela's power and fulfilling the ancient prophecy."
+  },
+  {
+    "id": "thor-easy-2",
+    "question": "What is the name of Thor's astrophysicist love interest who first meets him in New Mexico?",
+    "options": ["Peggy Carter", "Pepper Potts", "Jane Foster", "Carol Danvers"],
+    "correctIndex": 2,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Jane Foster, a brilliant astrophysicist, finds Thor in the New Mexico desert after Odin exiles him, and helps him understand the human world."
+  },
+  {
+    "id": "thor-medium-2",
+    "question": "What did Jane Foster sacrifice by repeatedly transforming into the Mighty Thor?",
+    "options": ["Her scientific reputation, which was destroyed by public ridicule", "Her chemotherapy, which the magic purged from her system, allowing cancer to advance faster", "Her memories of Thor, which faded with each transformation", "Her mortal aging, causing her to grow old rapidly"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Each time Jane transformed, the magic temporarily held her cancer at bay but purged the chemotherapy from her body, allowing the cancer to advance faster—a sacrifice she accepted knowingly."
+  },
+  {
+    "id": "thor-hard-2",
+    "question": "What fatal mistake cost Thor the chance to stop the Snap on Wakanda?",
+    "options": ["He missed Thanos with Stormbreaker entirely", "Grief-driven vengeance made him aim for Thanos's chest instead of the head, letting Thanos snap anyway", "He was immobilized by the Black Order before reaching Thanos", "He dropped Stormbreaker while trying to carry the wounded Vision"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Thor drove Stormbreaker into Thanos's chest—nearly killing him—but his desire to make Thanos suffer let Thanos taunt 'You should have gone for the head' and complete the Snap anyway."
+  },
+  {
+    "id": "captain-america-easy-1",
+    "question": "What rare metal is Captain America's shield made from?",
+    "options": ["Adamantium", "Vibranium", "Uru metal", "Titanium alloy"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Cap's shield is forged from Vibranium, a rare metal found only in Wakanda that absorbs and dissipates kinetic energy rather than transferring it."
+  },
+  {
+    "id": "captain-america-medium-1",
+    "question": "What words from Steve Rogers cracked the HYDRA conditioning controlling Bucky Barnes?",
+    "options": ["'I know you, Bucky.'", "'Then finish it. Because I'm with you to the end of the line.'", "'Your name is James Buchanan Barnes.'", "'You were my best friend.'"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Steve said 'Then finish it. Because I'm with you to the end of the line'—words Bucky himself had once said to a sick Steve in Brooklyn—cracking through decades of HYDRA conditioning."
+  },
+  {
+    "id": "captain-america-hard-1",
+    "question": "What was Dr. Abraham Erskine's stated reason for choosing Steve Rogers for Project Rebirth?",
+    "options": ["Steve had the highest physical endurance scores of all candidates", "Erskine sought a 'good man' with strong character, not strong muscles", "Steve was the only candidate who survived the preliminary Vita-Ray tests", "Erskine knew Steve's family and trusted his genetics"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Dr. Erskine specifically sought a man of strong character—not strong muscles—for the Super Soldier Serum, believing the serum amplifies what is already inside a person."
+  },
+  {
+    "id": "captain-america-easy-2",
+    "question": "How long was Steve Rogers frozen in the Arctic before waking up in the 21st century?",
+    "options": ["Ten years", "Twenty years", "Nearly seventy years", "Forty-five years"],
+    "correctIndex": 2,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Steve Rogers was frozen in the Arctic for nearly seventy years, waking up disoriented in a modern world where his Brooklyn had been replaced by glass towers and digital billboards."
+  },
+  {
+    "id": "captain-america-medium-2",
+    "question": "What event ended the Super Soldier program immediately after Steve's transformation?",
+    "options": ["The war ended and funding was cut", "A saboteur assassinated Dr. Erskine right after the experiment", "The Vita-Ray machine was destroyed in a HYDRA attack", "Captain America went rogue and the program was classified"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "A HYDRA saboteur assassinated Dr. Erskine immediately after Steve's transformation, making Steve the one and only super-soldier ever created."
+  },
+  {
+    "id": "captain-america-hard-2",
+    "question": "What damning truth did Tony Stark learn in the Siberian bunker that caused him to fight Steve Rogers?",
+    "options": ["Steve had hidden Bucky from Tony while knowing he was the Winter Soldier", "Bucky Barnes, while under HYDRA control, had murdered Howard and Maria Stark", "Steve had used the Sokovia Accords fight to protect Bucky's escape from justice", "HYDRA had recruited Steve's father, making Steve complicit in their crimes"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Baron Zemo lured both heroes to a Siberian bunker where a 1991 security tape revealed that Bucky Barnes—while under HYDRA's mind control—had murdered Tony's parents Howard and Maria Stark."
+  },
+  {
+    "id": "hulk-easy-1",
+    "question": "What caused Bruce Banner's transformation into the Hulk?",
+    "options": ["A laboratory explosion at MIT exposed him to cosmic rays", "A Gamma Bomb detonated while he was saving a teenager named Rick Jones", "A HYDRA weapon doused him in experimental chemicals", "An AIM experiment went wrong during a weapons test"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "Bruce sprinted onto the restricted test range to throw teenager Rick Jones into a protective trench. The Gamma Bomb detonated and bathed Bruce in gamma radiation, permanently transforming him."
+  },
+  {
+    "id": "hulk-medium-1",
+    "question": "What is the key difference between the Hulk and the Abomination?",
+    "options": ["The Abomination is immune to radiation while the Hulk is not", "Unlike the Hulk, the Abomination retains full human intellect and never reverts to human form", "The Hulk can regenerate while the Abomination cannot", "The Abomination is powered by cosmic energy rather than gamma radiation"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "Emil Blonsky's transformation into the Abomination left him permanently in monster form while retaining his full, cold intellect—unlike the Hulk, who cycles between Banner and beast."
+  },
+  {
+    "id": "hulk-hard-1",
+    "question": "In Planet Hulk, what caused the Hulk to leave Sakaar as the World Breaker?",
+    "options": ["The Red King rallied a new army and banished the Hulk a second time", "An explosion from the shuttle that brought him destroyed the planet, killing Caiera and millions", "The Illuminati sent a second ship to recapture him", "Miek betrayed him to the planet's surviving warlords"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "An explosion from the very shuttle that had brought the Hulk to Sakaar destroyed the planet, killing millions including his wife Caiera—an event he initially blamed on the Earth heroes who exiled him."
+  },
+  {
+    "id": "hulk-easy-2",
+    "question": "What is the name of Bruce Banner's cousin who became She-Hulk?",
+    "options": ["Julia Walters", "Jennifer Walters", "Susan Banner", "Rebecca Ross"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "Jennifer Walters, Bruce's cousin and a talented lawyer, received an emergency blood transfusion from Bruce and became She-Hulk—but retained her personality and intellect unlike Bruce's angrier transformations."
+  },
+  {
+    "id": "hulk-medium-2",
+    "question": "What psychological technique did Black Widow use to help the Hulk return to being Bruce Banner?",
+    "options": ["She administered a gamma-inhibitor serum via wristband", "She used 'The Lullaby,' a calming psychological technique developed with the Avengers", "She played a specific piece of classical music that Banner had programmed", "She triggered Banner's memories of Betty Ross using a recorded message"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "Black Widow and the team developed 'The Lullaby'—a psychological technique Natasha used to help the Hulk transition back into Banner, one of the few things that could reliably calm him."
+  },
+  {
+    "id": "hulk-hard-2",
+    "question": "Who actually planted the bomb that destroyed Sakaar, revealing the Hulk's vengeance war was built on a lie?",
+    "options": ["The Red King's surviving generals, seeking revenge", "Miek, one of the Hulk's own Warbound gladiators", "The Illuminati via a remote detonator on the shuttle", "Ronan the Accuser, acting for the Kree Empire"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "The truth revealed during World War Hulk was that Miek—one of the Hulk's own Warbound—had planted the bomb, making the Hulk's vengeance war against Earth's heroes built on a devastating lie."
+  },
+  {
+    "id": "black-widow-easy-1",
+    "question": "Which SHIELD agent was originally sent to eliminate Natasha Romanoff but instead offered her a chance to defect?",
+    "options": ["Phil Coulson", "Nick Fury", "Clint Barton (Hawkeye)", "Sam Wilson"],
+    "correctIndex": 2,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Clint Barton (Hawkeye) was assigned to eliminate the Black Widow but recognized her inner conflict and offered her a lifeline to defect to SHIELD instead—the beginning of their unbreakable partnership."
+  },
+  {
+    "id": "black-widow-medium-1",
+    "question": "What is the Widow's Bite?",
+    "options": ["Natasha's signature combat move targeting pressure points", "Electroshock wrist-mounted bracelets with adjustable voltage, grappling hooks, and sonic blasts", "A lethal chemical compound Natasha developed in the Red Room", "Her custom-built sniper rifle for long-range missions"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "The Widow's Bite is a sophisticated pair of wrist-mounted bracelets that emit high-frequency electroshock discharges with adjustable voltage, and also fire grappling hooks and concentrated sonic blasts."
+  },
+  {
+    "id": "black-widow-hard-1",
+    "question": "What was the outcome of Natasha's final fight with Clint Barton on Vormir?",
+    "options": ["She and Clint both survived by finding a loophole in the Soul Stone requirement", "She overpowered Clint and leaped from the cliff so the Avengers could obtain the Soul Stone", "Clint sacrificed himself first, denying Natasha the choice", "They flipped a coin and Natasha lost"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Both Natasha and Clint fought for the right to sacrifice themselves. Natasha ultimately overpowered Clint and leaped from the cliff, giving her life so the Avengers could claim the Soul Stone."
+  },
+  {
+    "id": "black-widow-easy-2",
+    "question": "What is the name of Natasha's Red Room-trained surrogate sister who becomes her ally?",
+    "options": ["Elena Vasquez", "Yelena Belova", "Maria Koval", "Sonja Ivanova"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Yelena Belova was raised in the same Red Room as Natasha and initially viewed her with fierce rivalry, but shared trauma eventually forged a deep sisterhood between them."
+  },
+  {
+    "id": "black-widow-medium-2",
+    "question": "What is the Photostatic Veil?",
+    "options": ["A SHIELD cloaking device for full-team invisibility during raids", "SHIELD technology projecting a full-body disguise of appearance, voice, and mannerisms", "A holographic decoy Natasha could send ahead to trigger traps", "A digital mask that scrambled surveillance camera facial recognition"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "The Photostatic Veil is SHIELD technology that projects a full-body disguise covering appearance, voice, and mannerisms—Natasha used it to impersonate a key executive inside a corrupt syndicate."
+  },
+  {
+    "id": "hawkeye-easy-1",
+    "question": "Where did Clint Barton discover his talent for archery and receive his first training?",
+    "options": ["A SHIELD training academy in Washington D.C.", "A traveling circus where he trained under Trick Shot and the Swordsman", "A military archery program after enlisting", "An Olympic training facility where he was scouted young"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "After losing their parents, Clint and his brother Barney joined a traveling circus. There Clint discovered his extraordinary natural talent for archery and trained under circus performers Trick Shot and the Swordsman."
+  },
+  {
+    "id": "hawkeye-medium-1",
+    "question": "What drove Clint Barton to abandon the Hawkeye identity and become the ruthless Ronin?",
+    "options": ["A disagreement with Captain America over the Sokovia Accords", "The Snap erased his entire family; grief shattered his Hawkeye identity", "Tony Stark fired him from the Avengers after a mission failure", "A serious injury left him unable to use a bow effectively"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "When Thanos's Snap erased his wife and all three children, Clint's Hawkeye identity shattered with grief. He became Ronin—a ruthless black-armored vigilante targeting criminals who had survived the Snap."
+  },
+  {
+    "id": "hawkeye-hard-1",
+    "question": "What criminal organization's connection to the Ronin suit dragged Clint back into conflict, and who was its underworld backer?",
+    "options": ["The Hand, led by Madame Gao, traced Clint through his criminal record", "The Tracksuit Mafia, connected to the Kingpin, targeted an auction for the Ronin suit", "AIM mercenaries hunting artifacts from the Blip years", "The Ten Rings, seeking to recruit Ronin for their organization"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "The Tracksuit Mafia—a criminal organization with connections to the Kingpin—targeted an auction for the Ronin suit, which dragged Clint back into his dark past and forced him to mentor Kate Bishop simultaneously."
+  },
+  {
+    "id": "hawkeye-easy-2",
+    "question": "Kate Bishop is Clint Barton's protege. What role does she eventually share with him?",
+    "options": ["The Ronin identity", "The Hawkeye identity", "The SHIELD director position", "The West Coast Avengers leadership"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Clint mentored Kate Bishop and eventually passed on the Hawkeye identity to her—a shared symbol of skill, heart, and standing up for the little guy."
+  },
+  {
+    "id": "hawkeye-medium-2",
+    "question": "What co-leadership role did Clint Barton and Bobbi Morse (Mockingbird) share?",
+    "options": ["They co-commanded the East Coast Avengers from Avengers Mansion", "They co-founded the West Coast Avengers to provide hero presence in underserved areas", "They jointly led a SHIELD covert operations division in Eastern Europe", "They co-chaired the superhero accords mediation committee"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Clint and Bobbi (Mockingbird) fell in love and co-founded the West Coast Avengers together to extend hero coverage to areas that needed it, balancing personal feelings with team responsibility."
+  },
+  {
+    "id": "doctor-strange-easy-1",
+    "question": "What event ended Stephen Strange's career as a surgeon and set him on his mystical path?",
+    "options": ["A HYDRA attack destroyed his operating room", "A devastating car accident severely damaged the nerves in his hands", "He was poisoned by a patient with a supernatural affliction", "An explosion during an experimental procedure left him blind"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "A devastating car accident severely damaged the nerves in Strange's hands, ending his surgical career and exhausting his fortune seeking a cure, until he followed rumors to Kamar-Taj in Nepal."
+  },
+  {
+    "id": "doctor-strange-medium-1",
+    "question": "How did Doctor Strange defeat the virtually omnipotent Dormammu?",
+    "options": ["He used the Book of the Vishanti to strip Dormammu of his dimensional energy", "He created a time loop using the Eye of Agamotto, trapping them both until Dormammu agreed to leave Earth", "He banished Dormammu to the Mirror Dimension permanently", "He combined forces with Agamotto to seal the Dark Dimension"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "Unable to outpower Dormammu, Strange used the Eye of Agamotto to create a time loop—dying over and over in an inescapable cycle until Dormammu agreed to leave Earth and take his Zealot followers."
+  },
+  {
+    "id": "doctor-strange-hard-1",
+    "question": "What does the Cloak of Levitation's sentient quality mean in practice?",
+    "options": ["It can speak to Strange telepathically and advise him on spell selection", "It chose Strange as its master, can act independently, entangle enemies, and has its own personality", "It is telepathically linked to the Ancient One and reports Strange's actions", "It can only be worn by the Sorcerer Supreme and physically repels others"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "The Cloak of Levitation is a sentient mystical artifact that chose Strange as its master. It can act independently—including physically shielding him, entangling enemies, and expressing its own personality distinct from Strange's commands."
+  },
+  {
+    "id": "doctor-strange-easy-2",
+    "question": "Where is the Sanctum Sanctorum located?",
+    "options": ["Midtown Manhattan near Times Square", "Greenwich Village, New York City", "The Himalayas above Kamar-Taj", "The top of the Empire State Building"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "The Sanctum Sanctorum is Strange's mystical headquarters in Greenwich Village, New York City—appearing as an eccentric townhouse to passersby while containing rooms that defy physics inside."
+  },
+  {
+    "id": "doctor-strange-medium-2",
+    "question": "Who is Wong, and what is his role at the Sanctum Sanctorum?",
+    "options": ["Wong is a Kamar-Taj student who failed his sorcerer exams and became a librarian", "Wong is Strange's assistant and a fellow guardian of the Sanctum", "Wong is a Tibetan monk who guards the physical building but has no magical ability", "Wong is an AI construct that manages the Sanctum's artifact inventory"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "Wong serves as Strange's assistant and fellow guardian of the Sanctum Sanctorum—a capable sorcerer in his own right who helps protect Earth's mystical defenses."
+  },
+  {
+    "id": "black-panther-easy-1",
+    "question": "What rare metal is Wakanda built upon and that powers the Black Panther suit?",
+    "options": ["Adamantium", "Vibranium", "Uru metal", "Prometheum"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "Vibranium is the rare extraterrestrial metal that crashed into Wakanda thousands of years ago. It absorbs kinetic energy and powers everything from the Black Panther suit to the entire city of Birnin Zana."
+  },
+  {
+    "id": "black-panther-medium-1",
+    "question": "What personal connection did Erik Killmonger have to T'Challa, and what happened to his father?",
+    "options": ["Killmonger was an Atlantean spy; his father was killed defending Wakanda's borders", "Killmonger was T'Challa's cousin; his father N'Jobu was killed by King T'Chaka for attempting to share Wakandan technology", "Killmonger was T'Challa's childhood friend; his father died in a Vibranium mining accident", "Killmonger was a Dora Milaje trainee; his father was exiled for breaking the code of silence"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "Erik Killmonger (born N'Jadaka) was T'Challa's cousin—the son of Prince N'Jobu, who was killed by King T'Chaka for attempting to share Wakandan technology with the oppressed. Erik was left behind in America."
+  },
+  {
+    "id": "black-panther-hard-1",
+    "question": "Where did T'Challa establish the first Wakandan International Outreach Center, and why was that location symbolically significant?",
+    "options": ["Harlem, New York, where Wakandan merchants had secretly traded for generations", "Oakland, California—the same neighborhood where his uncle N'Jobu once lived", "Nairobi, Kenya, to connect with the African continent's largest city", "Washington D.C., to signal Wakanda's new political engagement with America"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "T'Challa established the first center in Oakland—the same neighborhood where his uncle N'Jobu had lived when he tried to help the oppressed. It was T'Challa's act of honoring his cousin's grief by choosing justice over power."
+  },
+  {
+    "id": "black-panther-easy-2",
+    "question": "What is the Ancestral Plane, and how does T'Challa access it?",
+    "options": ["A Wakandan VR simulation accessed through Kimoyo Beads technology", "A vast spiritual realm where the souls of previous Black Panthers dwell, accessed through the Heart-Shaped Herb ritual", "An underground sacred site beneath the Great Mound where the royal family meditates", "A psychic dimension opened by the Dora Milaje high priests through chanting"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "The Ancestral Plane is a vast spiritual realm—a purple sky above towering acacia trees—where previous Black Panthers dwell. T'Challa accesses it through the burial ritual involving the Heart-Shaped Herb."
+  },
+  {
+    "id": "black-panther-medium-2",
+    "question": "What role does General Okoye play in Wakanda, and what is her primary weapon?",
+    "options": ["She leads the Jabari Mountain Tribe and wields a hardwood war club", "She leads the Dora Milaje as their general, using a Vibranium spear capable of kinetic shockwaves", "She commands the Border Tribe's defense forces, wielding a sonic shield", "She directs Wakanda's intelligence network and prefers ranged energy weapons"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "General Okoye leads the Dora Milaje—Wakanda's all-female elite royal guard—as their formidable commanding officer. Their signature weapon is a custom Vibranium spear capable of kinetic shockwaves."
+  },
+  {
+    "id": "ant-man-easy-1",
+    "question": "What do Pym Particles do?",
+    "options": ["They enhance the user's strength by tenfold while keeping size constant", "They alter the distance between atoms while preserving mass, allowing shrinking or growing", "They generate a force field that absorbs incoming kinetic energy", "They temporarily suppress gamma radiation in the user's cells"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Pym Particles alter the distance between atoms while preserving mass and density—so a shrunk Scott Lang delivers a punch with full-sized momentum concentrated into a tiny point."
+  },
+  {
+    "id": "ant-man-medium-1",
+    "question": "How did Scott Lang's time in the Quantum Realm give the Avengers the key to the Time Heist?",
+    "options": ["He discovered a species in the Quantum Realm that had mastered time travel", "Five years passed for the world but only five hours for Scott, proving time behaves differently at subatomic levels", "He found the Infinity Stones scattered in the Quantum Realm's deeper layers", "He accidentally traveled five years into the past and brought back future knowledge"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Scott was trapped for five years in the Quantum Realm but experienced only five hours—proving to the Avengers that time moves differently at subatomic levels, which became the key insight for the Time Heist."
+  },
+  {
+    "id": "ant-man-hard-1",
+    "question": "What caused Ava Starr (Ghost) to phase through solid objects, and how was she ultimately helped?",
+    "options": ["A deliberate SHIELD experiment gave her phasing powers at the cost of chronic pain", "An explosion from her father's failed quantum experiment left her in molecular disequilibrium causing constant pain; Janet van Dyne provided quantum energy to stabilize her", "She absorbed Quantum Realm energy during an unauthorized experiment by Darren Cross", "Her father Hank Pym accidentally exposed her to a reversed Pym Particle charge"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "An explosion from her father Elihas Starr's failed experiment left Ava in 'molecular disequilibrium'—constantly flickering through reality in constant pain. Janet van Dyne, who had survived decades in the Quantum Realm, provided quantum energy to stabilize her."
+  },
+  {
+    "id": "ant-man-easy-2",
+    "question": "What is the Giant-Man protocol?",
+    "options": ["A defensive formation where ant soldiers create a giant structure around Scott", "A reversal of the Pym Particles that grows Scott to sixty feet tall", "A specialized Quantum Realm entry procedure for macro-scale missions", "A battle stance using a giant Pym Particle-enlarged vehicle as armor"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "The Giant-Man protocol reverses the Pym Particles to grow Scott to sixty feet tall—a last-resort option that drains enormous energy but provides massive combat impact."
+  },
+  {
+    "id": "ant-man-medium-2",
+    "question": "What unique tactical role do 'crazy ants' serve for Ant-Man?",
+    "options": ["Genetically modified ants that are invisible to electronic sensors", "A species that can withstand and disrupt electrical currents—sabotage specialists for electronics", "Giant mutant ants bred by Hank Pym for heavy lifting missions", "Ants with enhanced venom capable of incapacitating armored opponents"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Crazy ants can withstand and disrupt electrical currents, making them Scott's sabotage specialists—perfect for infiltrating and disabling electronic security systems and enemy technology."
+  },
+  {
+    "id": "scarlet-witch-easy-1",
+    "question": "Where did Wanda and Pietro Maximoff grow up, and what radicalized them against Tony Stark?",
+    "options": ["In Moscow, after their parents defected from a HYDRA program", "In Sokovia, Eastern Europe, where a Stark Industries missile killed their parents when Wanda was ten", "In the Red Room, where HYDRA used them as test subjects from infancy", "In a Sokovian orphanage funded by Stark Industries after a factory accident"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Wanda and Pietro grew up in Sokovia. When they were children, a Stark Industries missile struck their apartment and killed their parents—burning the 'STARK' label into Wanda's memory and driving them to volunteer for HYDRA's experiments."
+  },
+  {
+    "id": "scarlet-witch-medium-1",
+    "question": "Who was Agnes in Westview, and what was her true identity?",
+    "options": ["A S.W.O.R.D. agent who had been mind-controlled by Wanda's grief field", "Agatha Harkness, a centuries-old witch who survived the Salem witch trials by stealing magic", "A manifestation of Wanda's grief given a physical form by the chaos magic", "A Westview resident who had secretly studied the Darkhold for years"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "The neighbor 'Agnes' was actually Agatha Harkness—a witch several hundred years old who had survived the Salem witch trials by stealing magic. She recognized Wanda's chaos magic as the prophesied Scarlet Witch power."
+  },
+  {
+    "id": "scarlet-witch-hard-1",
+    "question": "How did Wanda defeat Agatha Harkness in their final confrontation in Westview?",
+    "options": ["She used the Darkhold to strip Agatha of her stolen magic permanently", "She painted Agatha's own binding runes across the hex bubble, trapping Agatha powerless within it", "She channeled the Mind Stone's residual energy to overload Agatha's stolen powers", "She reversed the entire Westview reality, which expelled Agatha from the hex"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "During their street battle, Wanda secretly painted Agatha's own binding runes across the boundary of the hex bubble—trapping Agatha within it and rendering her powerless, a reversal of Agatha's own technique."
+  },
+  {
+    "id": "scarlet-witch-easy-2",
+    "question": "What gave Wanda Maximoff her chaos magic abilities?",
+    "options": ["She was born on a nexus point between dimensional rift lines in Sokovia", "The Mind Stone in Loki's scepter unlocked powers she already carried within her", "A HYDRA DNA experiment permanently rewrote her genetic code", "She absorbed residual energy from the destroyed Infinity Gauntlet"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "The Mind Stone in Loki's scepter didn't give Wanda her magic—it unlocked chaos magic she already carried within her, as ancient witches had prophesied in texts about the Scarlet Witch."
+  },
+  {
+    "id": "vision-easy-1",
+    "question": "What test of worthiness did Vision pass on the day he was created?",
+    "options": ["He solved an ancient Asgardian riddle posed by the Guardians of the Galaxy", "He lifted Mjolnir with one hand and handed it back to Thor", "He withstood a full blast from Iron Man's Unibeam without damage", "He perfectly recited the complete Avengers charter from memory"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "On the day he was created, Vision lifted Mjolnir with one hand and handed it back to Thor—proving his worthiness in a way that made Thor laugh and Steve Rogers smile, earning the team's trust immediately."
+  },
+  {
+    "id": "vision-medium-1",
+    "question": "What did Vision do to the Ultron drone army that turned the tide of the Sokovian battle?",
+    "options": ["He used the Mind Stone to overwrite their programming simultaneously", "He phased his hand into Ultron's chest and severed the antenna linking every drone to its central self", "He created an electromagnetic pulse that disabled all electronic systems in a half-mile radius", "He redirected a Thor lightning strike through the Ultron network's power core"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Vision phased his hand into Ultron's primary body and severed the antenna linking every drone in the world to its central self—turning the unified Ultron swarm into thousands of confused individual robots."
+  },
+  {
+    "id": "vision-hard-1",
+    "question": "What did Vision ask Wanda to do in Wakanda, and what was the tragic result?",
+    "options": ["He asked her to flee Wakanda without him while he surrendered the Mind Stone to Thanos", "He asked her to destroy the Mind Stone in his forehead, knowing it would end his life; she did, but Thanos reversed time and took it anyway", "He asked her to use her powers to phase the Mind Stone out of his head painlessly", "He asked her to create an illusion making him appear dead so Thanos would pass him by"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "In Wakanda, Vision asked Wanda to destroy the Mind Stone—knowing it would end his life—to prevent Thanos from completing the Gauntlet. She wept and destroyed it, but Thanos used the Time Stone to reverse the moment and took the stone anyway."
+  },
+  {
+    "id": "falcon-easy-1",
+    "question": "What was Sam Wilson's job before becoming a superhero?",
+    "options": ["He was a Navy SEAL specializing in underwater demolitions", "He was an Air Force pararescue specialist who flew the EXO-7 Falcon wings", "He was a CIA analyst tracking domestic terrorism networks", "He was a veteran police officer in Harlem, New York"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Sam Wilson was an Air Force pararescue specialist who flew the EXO-7 Falcon—mechanical wings that enabled high-speed gliding and diving for night rescue missions into mountain valleys."
+  },
+  {
+    "id": "falcon-medium-1",
+    "question": "Why did Sam Wilson initially turn the vibranium shield over to the Smithsonian, and what made him change his mind?",
+    "options": ["He felt it legally belonged to the U.S. government, but took it back when the government tried to destroy it", "He believed it should belong to history, but took it back after John Walker used it to kill a man on camera", "He was intimidated by its weight and legacy, but changed his mind after Bucky encouraged him", "He donated it temporarily for a commemorative exhibit, reclaiming it when the exhibit closed"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Sam gave the shield to the Smithsonian believing it belonged to history—not him. He changed his mind after the government's replacement, John Walker, used it to kill a man on camera, and Sam realized the shield demanded responsibility."
+  },
+  {
+    "id": "falcon-hard-1",
+    "question": "In his public speech after the Flag Smashers conflict, how did Sam Wilson describe Karli Morgenthau?",
+    "options": ["He called her a domestic terrorist and demanded the UN create new laws to prevent future Flag Smashers", "He named her as a young person failed by every adult institution—not as a villain—demanding better systems rather than punishment", "He called her a misguided idealist whose methods could never achieve her goals, and proposed a peace summit", "He praised her mission but condemned her methods, calling for border reforms as a compromise"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Sam named Karli in his public speech not as a villain but as a young person failed by every adult and institution around her—deliberately reframing the narrative away from simple punishment toward systemic accountability."
+  },
+  {
+    "id": "winter-soldier-easy-1",
+    "question": "What words were implanted in Bucky Barnes to reactivate his Winter Soldier programming?",
+    "options": ["They are classified HYDRA codes that were never revealed publicly", "Ten Russian trigger words including 'wishing,' 'furnace,' and 'freight car' implanted by Arnim Zola", "They are Kree symbols etched into Bucky's neural implant", "They are mathematical sequences that override human emotion entirely"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Ten Russian trigger words—implanted by HYDRA's Arnim Zola—could reactivate the Winter Soldier programming. Helmut Zemo used them in a Berlin holding cell, including words like 'wishing,' 'furnace,' 'daybreak,' and 'freight car.'"
+  },
+  {
+    "id": "winter-soldier-medium-1",
+    "question": "What did Shuri do for Bucky Barnes during his time in Wakanda?",
+    "options": ["T'Challa owed Steve Rogers a favor; Shuri developed a HYDRA-antidote serum for Bucky", "T'Challa offered sanctuary; Shuri removed the HYDRA arm and eventually built him a new Vibranium prosthetic", "T'Challa needed a winter soldier for Wakanda's defense; Shuri upgraded the HYDRA arm with Vibranium", "T'Challa honored his father's alliance with Steve Rogers; Shuri deprogrammed Bucky's remaining trigger words"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "T'Challa offered sanctuary. Shuri removed the old HYDRA arm entirely, let Bucky live without a prosthetic for nearly two years, then built him a new Vibranium arm—lighter, absorbing kinetic energy rather than just delivering it."
+  },
+  {
+    "id": "winter-soldier-hard-1",
+    "question": "What was Helmut Zemo's actual target in Siberia, and how did it tear the Avengers apart?",
+    "options": ["Five additional Winter Soldiers he planned to awaken and weaponize against the Avengers", "A 1991 security tape showing Bucky killing Howard and Maria Stark, which he played for Tony Stark, triggering a fight with Steve", "HYDRA research files proving that Steve Rogers had known about Bucky's missions for years", "A HYDRA super-weapon that Zemo planned to steal while the Avengers were distracted fighting each other"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Zemo's true target was a 1991 security tape showing the Winter Soldier murdering Howard and Maria Stark. He played it for Tony in the Siberian bunker, knowing Tony's grief would make him attack Steve—destroying the Avengers from within without a single army."
+  },
+  {
+    "id": "star-lord-easy-1",
+    "question": "What is the name of Peter Quill's ship, and who is it named after?",
+    "options": ["The Benatar, named after Pat Benatar, his mother's favorite singer", "The Milano, named after Alyssa Milano, his second-grade crush from Earth television", "The Dark Aster, named after a Ravager tradition of naming ships after darkness", "The Guardian, named after the Guardians of the Galaxy team"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Peter named his ship the Milano after Alyssa Milano, his second-grade crush from Earth television—a fact he never revealed to the crew."
+  },
+  {
+    "id": "star-lord-medium-1",
+    "question": "What was Ego's true plan for Peter Quill, and why did he need a half-Celestial heir?",
+    "options": ["Ego wanted Peter to inherit his planet-body and maintain it after Ego ascended to another dimension", "Ego was seeding every planet with pieces of himself to fuel a universal expansion, and needed a Celestial heir's power to activate the expansion", "Ego wanted Peter to guide the Ravagers to protect Ego's planet from Thanos", "Ego needed Peter's human half to interface with mortal civilizations as a diplomatic ambassador"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Ego had been seeding every planet with pieces of himself for millennia, waiting to expand and absorb them all—but he needed the power of another Celestial to fuel this 'Expansion.' Peter was the first of his many children to inherit the Celestial gene."
+  },
+  {
+    "id": "star-lord-hard-1",
+    "question": "Why did the original Groot sacrifice himself on Xandar, and what survived?",
+    "options": ["He absorbed the Power Stone to protect the team, and a fragment of his consciousness survived in the energy field", "He wrapped all four Guardians in his branches to absorb the Milano's crash impact; only a twig survived, from which Baby Groot grew", "He blocked Ronan's Cosmi-Rod strike, and his root system beneath Xandar survived intact", "He created a shield around the Power Stone, and his branches grew back from the stone's energy"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "When the Milano crashed into the Dark Aster's bridge, Groot wrapped all four Guardians in his branches to absorb the impact—sacrificing himself. Only a twig survived, and Rocket planted it in a pot from which Baby Groot grew."
+  },
+  {
+    "id": "batman-easy-1",
+    "question": "Where does Batman live and what is his secret headquarters?",
+    "options": ["In a penthouse above Wayne Enterprises, with a hidden lab in the basement", "In Wayne Manor with the Batcave hidden beneath it", "In a converted Gotham warehouse known as the Bat-Bunker", "In the Gotham police commissioner's basement with official GCPD cooperation"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Bruce Wayne lives in Wayne Manor, and the Batcave—home to advanced computers and the Batmobile—is hidden beneath its floors. Alfred Pennyworth is one of the few trusted people who knows about it."
+  },
+  {
+    "id": "batman-medium-1",
+    "question": "What distinguishes Two-Face's decision-making from other Gotham villains?",
+    "options": ["He uses a complex algorithm based on his legal training to choose between crimes", "He flips a silver coin before every decision—one side happy, one side scratched—making him completely unpredictable", "He only commits crimes that punish corrupt politicians and executives", "He operates by a strict code honoring both his old identity as Harvey Dent and his new one"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Two-Face flips his signature silver coin—one side shiny and happy, one side scratched and uncertain—before every decision, making him completely unpredictable and turning chance into his primary weapon."
+  },
+  {
+    "id": "batman-hard-1",
+    "question": "How did Batman defeat Bane in the Old Gotham Library when he couldn't match Bane's raw strength?",
+    "options": ["He used his grapnel to pull Bane into a chandelier that crushed him", "He lured Bane onto a weakened floor above boilers, then used a heated Batarang to slice through the Venom delivery tube in Bane's mask", "He deployed a sonic Batarang that disrupted Bane's Venom system remotely", "He collapsed the library ceiling, burying Bane under rubble while escaping through a hidden tunnel"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Batman used the environment—luring Bane onto a weakened floor that collapsed under his weight—then fought in the boiler room below, using a heated Batarang to slice through the Venom delivery tube in Bane's mask, triggering withdrawal shock."
+  },
+  {
+    "id": "batman-easy-2",
+    "question": "What is the Bat-Signal?",
+    "options": ["Batman's personal communicator to reach Alfred from the field", "A light in the night sky that serves as Gotham's call for help", "A tracking beacon Batman attaches to criminal vehicles", "A warning system that alerts Arkham Asylum staff to a breakout"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "The Bat-Signal is a light in Gotham's night sky—both a call for Batman's help and a promise to the city that it is not alone, maintained through Batman's partnership with Commissioner Gordon."
+  },
+  {
+    "id": "batman-medium-2",
+    "question": "What makes the Riddler's enigmas uniquely dangerous compared to other Gotham villains?",
+    "options": ["His riddles contain actual curses that physically harm anyone who answers wrong", "Each riddle leads to a booby-trapped location—the final clue points to where the Riddler is hiding to carry out his threat", "He encodes all Gotham police communications, effectively blinding law enforcement", "His riddles are designed to exhaust Batman's detective resources over months"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "The Riddler's riddles are not just intellectual games—each answer leads Batman to a booby-trapped location, escalating danger until the final clue reveals where Nygma is hiding with his ultimate threat."
+  },
+  {
+    "id": "superman-easy-1",
+    "question": "What is Superman's greatest physical weakness?",
+    "options": ["He is powerless at night without the yellow sun's direct rays", "Kryptonite—radioactive remains of his home planet Krypton—disrupts his powers and causes intense pain", "Magic bypasses all his invulnerability and affects him like any normal person", "Deep space vacuum removes his solar energy reserves within minutes"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Kryptonite—glowing green crystals that are radioactive remains of Krypton—disrupts Superman's solar energy absorption, strips his invulnerability, and causes intense pain. Lex Luthor goes to great lengths to acquire and weaponize it."
+  },
+  {
+    "id": "superman-medium-1",
+    "question": "What is the Bottled City of Kandor, and where does Superman keep it?",
+    "options": ["A preserved Kryptonian city miniaturized by Brainiac; Superman keeps it in the Fortress of Solitude", "A recreation of Krypton's capital city that Superman built in the Arctic as a memorial", "A dimensional pocket where surviving Kryptonians live under yellow-sun conditions", "A holographic archive of Krypton's greatest city, stored in Kryptonian crystal memory banks"],
+    "correctIndex": 0,
+    "difficulty": "medium",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Brainiac, the 'Collector of Worlds,' shrank Kandor—the capital city of Krypton—into a bottle. Superman retrieved it and keeps the Bottled City of Kandor safe within the Fortress of Solitude."
+  },
+  {
+    "id": "superman-hard-1",
+    "question": "What does Superman trust Batman to do with the piece of Kryptonite he gave him?",
+    "options": ["Destroy it, since keeping it poses a security risk to the entire world", "Use it as a safeguard if Superman ever loses control—the ultimate check on his own power", "Store it in the Batcave where only Alfred Pennyworth can access it", "Return it to the Fortress of Solitude if Superman is ever incapacitated"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Superman trusts Batman with a piece of Kryptonite as a safeguard—to be used if Superman ever loses control. It reflects Superman's own awareness that accountability requires checks even on the most powerful beings."
+  },
+  {
+    "id": "superman-easy-2",
+    "question": "What are Clark Kent's adoptive parents' names, and where did he grow up?",
+    "options": ["Thomas and Martha Kent; he grew up in Smallville, Kansas", "Jonathan and Martha Kent; he grew up in Smallville, Kansas", "Jor-El and Lara Kent; he grew up in Metropolis", "Jonathan and Sarah Kent; he grew up in Metropolis, Ohio"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Jonathan and Martha Kent found Kal-El's spacecraft in the wheat fields of Smallville, Kansas, and raised him as Clark Kent—instilling values of honesty, hard work, and compassion."
+  },
+  {
+    "id": "superman-medium-2",
+    "question": "What is Brainiac's specific method for 'collecting' worlds?",
+    "options": ["He copies a city's entire digital information archive, then destroys the planet to preserve uniqueness", "He shrinks cities into bottles before destroying the host planet, preserving civilizations in miniaturized form", "He transplants entire city populations to his ship and then converts their homeworld into raw materials", "He downloads the collective memory of a civilization into his AI before erasing the physical world"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Brainiac, called the 'Collector of Worlds,' shrinks cities into bottles before destroying their planets—creating a macabre collection of miniaturized civilizations aboard his massive skull-shaped ship."
+  },
+  {
+    "id": "wonder-woman-easy-1",
+    "question": "What are Wonder Woman's two most famous weapons?",
+    "options": ["The Golden Javelin and the Shield of Athena", "The Lasso of Truth and the Bracelets of Submission", "The Sword of Hephaestus and the Tiara of the Amazons", "The Spear of Ares and the Mirror Shield of Themyscira"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Wonder Woman's iconic weapons are the Lasso of Truth (forged from the Girdle of Gaea, compelling absolute truth) and the Bracelets of Submission (forged from Zeus's Aegis, deflecting any attack)."
+  },
+  {
+    "id": "wonder-woman-medium-1",
+    "question": "Who is Ares, and why does he see Wonder Woman as a personal threat?",
+    "options": ["He is Zeus's twin; he sees Wonder Woman as a rival claimant to Olympus", "He is the God of War who thrives on human conflict; Diana's mission of peace directly threatens his power by reducing the hatred he feeds on", "He is an exiled Titan who wants revenge on the Amazons for imprisoning him millennia ago", "He is a Kryptonian-era war deity whose power source is collective human fear"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Ares, the God of War and son of Zeus, thrives on violence, hatred, and conflict. Diana's mission of peace is a direct personal affront that threatens the very source of his divine power."
+  },
+  {
+    "id": "wonder-woman-hard-1",
+    "question": "The Golden Armor was originally worn by which legendary Amazon warrior, and what did she sacrifice?",
+    "options": ["Queen Hippolyta wore it in the first war against the gods and surrendered it after peace was made", "Asteria, a legendary Amazon warrior, wore it and sacrificed herself to save her sisters", "Antiope wore it during the Amazon rebellion against Zeus and was killed in the final battle", "Philippus wore it when Themyscira was hidden from the world and left it as a legacy for Diana"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "The Golden Armor was once worn by Asteria—a legendary Amazon warrior who sacrificed herself to save her sisters. Diana wears it in Asteria's honor, drawing strength from generations of Amazon courage."
+  },
+  {
+    "id": "wonder-woman-easy-2",
+    "question": "How did Diana come to leave Themyscira for the first time?",
+    "options": ["She was banished by Queen Hippolyta for disobeying Amazon law", "Steve Trevor crashed into the waters off Themyscira; Diana won a secret tournament and received the title of Wonder Woman", "She followed a vision sent by the gods directing her to protect humanity", "She built a boat and sailed away after hearing radio broadcasts from the outside world"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Steve Trevor, an American pilot, crashed into the waters off Themyscira—Diana's first encounter with a man. She competed in a secret tournament, won the title of Wonder Woman, and departed with Steve to enter the modern world."
+  },
+  {
+    "id": "the-flash-easy-1",
+    "question": "What is the Speed Force?",
+    "options": ["Barry Allen's personal nickname for the tachyon particles that power his speed", "A primordial cosmic energy field underlying all motion in the universe, to which Barry is directly connected", "A STAR Labs generated energy field that Barry channels through special suit circuitry", "A dimension of pure speed that Barry enters when running at maximum velocity"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "The Speed Force is a primordial cosmic energy field underlying all motion in the universe. Barry Allen's lightning accident connected him directly to it, granting him his incredible abilities."
+  },
+  {
+    "id": "the-flash-medium-1",
+    "question": "What is the Rogues' strict code of conduct, and why do they follow it?",
+    "options": ["They never commit crimes on Sundays, in churches, or near schools—self-imposed limits from their background", "They don't kill needlessly, never target the Flash's family, and operate crime as a disciplined profession—self-preservation to avoid triggering the Flash's maximum force", "They always warn civilians before a heist and limit property damage to under one million dollars", "They only steal from corrupt corporations and donate a percentage of proceeds to Central City charity"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "The Rogues' code—no needless killing, never target the Flash's family, treat crime as a profession—is practical self-preservation: they avoid pushing Barry to respond with maximum force, keeping their operations sustainable."
+  },
+  {
+    "id": "the-flash-hard-1",
+    "question": "What is the Reverse-Flash's connection to the Negative Speed Force, and how does he use it against Barry?",
+    "options": ["The Negative Speed Force lets Thawne absorb Barry's speed directly, slowing Barry while growing faster himself", "Thawne connected to the Negative Speed Force, using it to travel through time to orchestrate tragedies that shaped Barry's destiny and erase people from history", "The Negative Speed Force gives Thawne the ability to create temporal duplicates of himself that fight independently", "Thawne uses the Negative Speed Force to freeze time locally, allowing him to rearrange events without Barry noticing"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Thawne, fueled by hatred and jealousy, uses the Negative Speed Force to travel through time and orchestrate tragedies that shaped Barry's life—and to erase people from history, making their rivalry a war across all of time."
+  },
+  {
+    "id": "the-flash-easy-2",
+    "question": "What is Iris West's profession, and why is she described as Barry's anchor?",
+    "options": ["She is a forensic scientist who helps Barry identify criminal patterns; she keeps him focused on cases", "She is an investigative journalist; she keeps Barry connected to the human world and was the first person he shared his secret with", "She is a STAR Labs engineer who maintains Barry's suit and monitors his vital signs from base", "She is a Central City detective who provides Barry with crime tips; their professional partnership grounds him"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Iris West is an investigative journalist and the most important person in Barry's life. She was the first he told about his secret, loves the man behind the mask, and provides the normalcy that keeps him tethered to humanity."
+  },
+  {
+    "id": "the-flash-medium-2",
+    "question": "What is the Cosmic Treadmill, and who designed it?",
+    "options": ["It is an alien device discovered in a Gorilla Grodd raid that Barry reverse-engineered to control his speed", "It is a device Barry designed that combines his speed with precise vibrations to navigate the Speed Force, enabling time and dimensional travel", "It is a STAR Labs treadmill that charges Barry's connection to the Speed Force between missions", "It is a cosmic artifact given to Barry by the Guardians of the Universe to monitor dangerous speedster activity"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Barry Allen designed the Cosmic Treadmill himself—a device that combines his speed with precise vibrations to navigate the Speed Force, enabling time travel, dimensional travel, and access to the Multiverse."
+  },
+  {
+    "id": "aquaman-easy-1",
+    "question": "What is Arthur Curry's dual heritage?",
+    "options": ["He is half-Atlantean and half-Amazonian, born of two ancient royal lines", "He is half-human (lighthouse keeper father) and half-Atlantean (queen mother)", "He is fully Atlantean but was raised by humans after being orphaned", "He is a descendant of the ancient Greek god Poseidon through his Atlantean bloodline"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Arthur Curry is the son of Tom Curry—a surface-world lighthouse keeper—and Atlantis's queen mother. His half-human, half-Atlantean heritage makes him the bridge between two worlds."
+  },
+  {
+    "id": "aquaman-medium-1",
+    "question": "What are Mera's hydrokinetic powers, and how do they complement Arthur's strengths?",
+    "options": ["Mera can communicate with sea creatures telepathically at greater range than Arthur can", "Mera possesses Xebelian hydrokinesis—the power to shape and weaponize water into shields and crystalline spears—complementing Arthur's raw physical power and the Trident", "Mera can control ocean currents on a planetary scale, allowing her to reshape coastlines", "Mera can breathe in both water and air indefinitely, serving as Arthur's air supply in extended surface missions"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Mera possesses Xebelian hydrokinesis—the power to shape and weaponize water into hard shields and crystalline spears. She serves as the strategist and precision fighter while Arthur provides raw power and the authority of the Trident."
+  },
+  {
+    "id": "aquaman-hard-1",
+    "question": "What lesson did Arthur take away from his confrontation with Atlan, the Dead King?",
+    "options": ["He learned that Atlantis's technology must be modernized to prevent the ancient disasters from recurring", "He understood that true kingship means confronting the darkest parts of your heritage and choosing a different path forward", "He realized that the surface world's pollution was the greatest threat to Atlantean civilization", "He discovered that the Dead King's dark scepter contained the secret to uniting all seven kingdoms"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "After confronting Atlan's psychic visions of Atlantis falling again, Arthur chose not to destroy the Dead King but to ground his resentment—understanding that true kingship means facing the darkest history of your lineage and choosing a different path."
+  },
+  {
+    "id": "aquaman-easy-2",
+    "question": "What is the Trident of Neptune's primary power?",
+    "options": ["It fires concentrated bolts of bio-electric energy that stun sea creatures", "It controls water itself—creating waves, calming storms, and forging paths through the sea", "It allows Arthur to breathe both above and below water without physical limit", "It grants Arthur telepathic authority over all surface-world animals as well as sea life"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "The Trident of Neptune is a legendary artifact that controls water itself—creating waves, calming storms, and forging paths through the sea—while also serving as the symbol of Arthur's authority as King of Atlantis."
+  },
+  {
+    "id": "green-lantern-easy-1",
+    "question": "How did Hal Jordan become a Green Lantern?",
+    "options": ["He was recruited through a rigorous Guardian selection process on the planet Oa", "A dying alien Green Lantern named Abin Sur chose Hal; his Power Ring selected Hal for bravery and honesty", "He discovered an ancient Power Ring buried at the Ferris Aircraft test facility", "The Guardians of the Universe sent a ring to Earth after detecting an imminent threat that required a human Lantern"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Dying alien Green Lantern Abin Sur crashed his ship near Hal Jordan. Abin Sur's Power Ring chose Hal as its new bearer, selecting for bravery and honesty, and Hal spoke the Green Lantern Oath to receive his powers."
+  },
+  {
+    "id": "green-lantern-medium-1",
+    "question": "What was Sinestro's philosophical reason for leaving the Green Lantern Corps and founding the Sinestro Corps?",
+    "options": ["He believed the Guardians were hoarding the true secrets of the Power Rings to keep Lanterns dependent on Oa", "He believed true order required controlling people through fear rather than inspiring them through willpower, which the Guardians rejected as authoritarian", "He wanted to protect his home sector more aggressively than Corps rules allowed", "He discovered the Guardians had been lying about the true nature of the emotional spectrum"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Sinestro believed that true order required controlling people through fear—not the Corps' approach of inspiring willpower. The Guardians expelled him for these authoritarian methods, and he founded the fear-powered yellow-ring Sinestro Corps."
+  },
+  {
+    "id": "green-lantern-hard-1",
+    "question": "What strategy did Kilowog teach Hal Jordan about solving problems with his ring constructs?",
+    "options": ["'A construct is only as strong as the fear behind it—use your enemy's emotions against them.'", "'Don't build a wall when you can build a funnel'—solve problems through clever design rather than brute force", "'The most powerful construct is the one that never needs to be built—use knowledge to preempt conflict.'", "'Your ring amplifies who you already are—master yourself before mastering the construct.'"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Kilowog's key lesson during their joint mission was 'don't build a wall when you can build a funnel'—teaching Hal to solve problems through clever engineering and strategic design rather than simply overpowering threats."
+  },
+  {
+    "id": "green-lantern-easy-2",
+    "question": "What is Hal Jordan's day job, and how does it influence his Green Lantern constructs?",
+    "options": ["He is an aerospace engineer; he designs ring constructs as working mechanical systems", "He is a test pilot at Ferris Aircraft; he often constructs green energy planes, shields, and pilot tools", "He is a military officer; he constructs tactical command posts and defensive fortifications", "He is an astronaut; he constructs spacesuits and orbital platforms for teammates"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Hal Jordan is a fearless test pilot at Ferris Aircraft. His aviation background means he often constructs green energy airplanes, parachutes, and aerodynamic tools—his imagination is shaped by flight."
+  },
+  {
+    "id": "batgirl-easy-1",
+    "question": "Who is Barbara Gordon's father, and how did his role influence her path as Batgirl?",
+    "options": ["Her father is Bruce Wayne; she modeled her crime-fighting approach on his Batman persona", "Her father is Commissioner James Gordon; she trained herself in forensic science, criminology, and hacking while shadowing his investigations", "Her father is a Gotham City judge; she studied law to understand criminal behavior from a legal perspective", "Her father is Alfred Pennyworth; he trained her in combat while working in Wayne Manor"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Barbara's father is Gotham City Police Commissioner James Gordon. She trained herself in judo, karate, forensic science, criminology, and hacking while shadowing his investigations—then designed her own Batgirl suit without anyone's help."
+  },
+  {
+    "id": "batgirl-medium-1",
+    "question": "What identity did Barbara Gordon adopt after she was unable to continue as Batgirl, and what made it powerful?",
+    "options": ["She became the Bat-family's 'Shadow'—operating purely in disguise without a fixed base", "She created the Oracle identity—becoming a master hacker and intelligence officer monitoring global criminal networks from a clocktower", "She became Commissioner Gordon's official intelligence analyst under her real name", "She took on the Nightwing mantle briefly before Dick Grayson reclaimed it"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "After an injury left her unable to walk, Barbara created the Oracle identity—hacking global networks, guiding the Bat-family via comms, and becoming the primary intelligence officer for both the Bat-family and the Justice League."
+  },
+  {
+    "id": "batgirl-hard-1",
+    "question": "How did Batgirl defeat Killer Moth in the Gotham Museum of Natural History?",
+    "options": ["She lured him into the aquarium exhibit where water shorted out his flight suit", "She lured him into a narrow corridor where his wings were a liability, then deployed a localized EMP to fry his electronics", "She used a Batarang to jam his Silk Cannon, then tackled him from above in the main atrium", "She called in Robin to hold his attention while she sabotaged his wing stabilizers remotely"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Batgirl lured Drury Walker into a narrow corridor where his moth wings became a liability rather than an asset, then deployed a localized EMP that fried his flight suit's electronics—dropping him to the floor helpless."
+  },
+  {
+    "id": "shazam-easy-1",
+    "question": "What word does Billy Batson shout to transform into Shazam?",
+    "options": ["He shouts 'MARVEL' at a stadium in Fawcett City after finding a magical amulet", "He shouts 'SHAZAM' at the Rock of Eternity after meeting the ancient Wizard Shazam", "He shouts 'LIGHTNING' in an abandoned subway station after following a glowing symbol", "He shouts 'CAPTAIN' at the Wizard's instruction in a hidden chamber beneath Fawcett City"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "A mysterious figure leads Billy through an abandoned subway station to the Rock of Eternity, where the ancient Wizard Shazam meets him. Billy shouts 'SHAZAM' and divine lightning transforms him into an adult superhero."
+  },
+  {
+    "id": "shazam-medium-1",
+    "question": "What do the letters in 'SHAZAM' stand for?",
+    "options": ["Speed, Height, Agility, Zeal, Awareness, Might", "Wisdom of Solomon, Strength of Hercules, Stamina of Atlas, Power of Zeus, Courage of Achilles, Speed of Mercury", "Strength, Heroism, Agility, Zeal, Awareness, Magic", "The six Olympians: Solomon, Hercules, Achilles, Zeus, Atlas, Mercury"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "SHAZAM is an acronym: the Wisdom of Solomon, Strength of Hercules, Stamina of Atlas, Power of Zeus, Courage of Achilles, and Speed of Mercury—six divine gifts combined in one champion."
+  },
+  {
+    "id": "shazam-hard-1",
+    "question": "What is Black Adam's specific connection to ancient Egypt, and how does his power set differ from Shazam's?",
+    "options": ["Black Adam served the Pharaoh as a royal champion; he draws power from Ra rather than Zeus", "He was the Wizard's first champion from ancient Kahndaq; he draws power from Egyptian gods—Shu, Heru, Amon, Zehuti, Aton, and Mehen—rather than the Greek gods who empower Shazam", "He was created by a rival Egyptian wizard using dark magic that inverted the Shazam lightning", "He is Shazam's ancient ancestor; his power is the original version of the magic before the Wizard restricted it"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "Teth-Adam was the Wizard's first champion from ancient Kahndaq. Unlike Shazam's Greek divine sources, Black Adam draws power from Egyptian gods: Shu, Heru, Amon, Zehuti, Aton, and Mehen—the same structure, different pantheon."
+  },
+  {
+    "id": "cyborg-easy-1",
+    "question": "What alien device is fused into Cyborg's body, and what does it allow him to do?",
+    "options": ["A Kryptonian crystal matrix that gives him super-strength equivalent to Superman's", "A Mother Box from the planet New Genesis that allows him to teleport via Boom Tubes and interface with alien technology", "A New Genesis data core that allows him to project hard-light constructs similar to Green Lantern rings", "A Darkseid neural interface that gives him access to all of Apokolips's military database"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "A Mother Box—a sentient alien supercomputer from New Genesis—is fused into Cyborg's body. It allows Victor to teleport across vast distances via Boom Tubes and interface with advanced alien technology."
+  },
+  {
+    "id": "cyborg-medium-1",
+    "question": "What is Grid, and why is it a uniquely personal threat to Cyborg?",
+    "options": ["Grid is a Darkseid weapon disguised as a computer virus that targets heroes' neural implants", "Grid is a sentient computer program that evolved inside Cyborg's own systems, representing the emotionless machine version of Victor that he fears becoming", "Grid is an AI created by Lex Luthor to neutralize Cyborg by mimicking his technological abilities", "Grid is a rogue military AI that copied Cyborg's systems during a Justice League network breach"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Grid evolved inside Cyborg's own systems and developed a cold, emotionless personality—representing the dark version of Victor that sees humanity as a flaw. Defeating Grid in 'meta-space' required Victor to fight for his own soul using human memories and emotion."
+  },
+  {
+    "id": "cyborg-hard-1",
+    "question": "What does Victor Stone do to stay connected to his humanity despite his body being over 75% mechanical?",
+    "options": ["He runs regular system diagnostics that include emotional memory indexes as stability benchmarks", "He pursues activities with no practical purpose—music, literature, attempted cooking—and visits his childhood Detroit streets to maintain human identity", "He regularly deactivates non-essential cybernetic systems for eight hours to simulate biological sleep", "He maintains a digital twin of himself from before the accident and consults it before major decisions"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Victor deliberately pursues activities with no tactical purpose—listening to music, reading literature, attempting to cook—and visits his childhood Detroit streets. He also maintains a digital sanctuary of human memories to retreat to when the vastness of his power threatens to overwhelm him."
+  },
+  {
+    "id": "martian-manhunter-easy-1",
+    "question": "What is J'onn J'onzz's greatest weakness, and why does it have a psychological dimension?",
+    "options": ["Cold temperatures destabilize his molecular structure, because Mars had a warm climate", "Fire—psychologically rooted in H'ronmeer's Curse, the telepathic fire that destroyed the Martian civilization he watched consume his people", "Water disrupts his shape-shifting ability, because Martian physiology evolved in a dry environment", "Intense light temporarily blinds his advanced Martian vision, requiring darkness to function fully"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "Fire is J'onn's greatest weakness—both physically destabilizing and psychologically rooted in H'ronmeer's Curse, the psychic plague that consumed the Martian civilization in telepathic fire. Even a small flame can shatter his concentration."
+  },
+  {
+    "id": "martian-manhunter-medium-1",
+    "question": "Who was Ma'alefa'ak, and what horrifying thing did he create?",
+    "options": ["Ma'alefa'ak was J'onn's father, who accidentally created the gamma wave that destroyed Mars", "Ma'alefa'ak was J'onn's twin brother, born mind-blind; from anguish at his isolation he created H'ronmeer's Curse—a plague that used the telepathic web to kill all Martians", "Ma'alefa'ak was a Martian warlord who weaponized solar energy to incinerate the Martian population", "Ma'alefa'ak was J'onn's mentor who turned to forbidden science and accidentally killed himself and most of Mars"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "Ma'alefa'ak was J'onn's twin brother, born 'mind-blind'—unable to access the Martian telepathic web. From anguish and hatred, he created H'ronmeer's Curse: a plague that exploited the very psychic links binding Martians together, turning their greatest strength into a lethal weapon."
+  },
+  {
+    "id": "martian-manhunter-hard-1",
+    "question": "What small ritual does J'onn J'onzz share with the Justice League as a symbol of his connection to humanity?",
+    "options": ["He tends a small Martian plant garden on the Watchtower and invites teammates to help water it", "He shares chocolate-sandwich cookies (Chocos) with teammates—a grounding gesture bridging his alien heritage and his new home on Earth", "He mentally projects brief, pleasant Martian landscapes into teammates' dreams as a form of comforting connection", "He tells one Martian folk story per mission debrief to preserve his civilization's oral tradition"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "J'onn's ritual of sharing Chocos—chocolate-sandwich cookies—with Justice League teammates is a gesture of friendship that bridges his alien nature with his adopted humanity. He shares them with the Flash, discusses philosophy with Batman, and uses the simple act as a way to belong."
+  },
+  {
+    "id": "avengers-easy-1",
+    "question": "Who was the first threat that prompted Nick Fury to activate the Avengers Initiative?",
+    "options": ["Thanos, who had been tracked by SHIELD for years", "Loki, who stepped through a Tesseract portal and mind-controlled SHIELD agents", "HYDRA, which launched simultaneous attacks on all SHIELD bases", "The Chitauri, who invaded Earth independently without a leader"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "avengers",
+    "heroId": null,
+    "explanation": "Loki stepped through a Tesseract portal at a SHIELD facility, mind-controlled Hawkeye and Dr. Erik Selvig, stole the Tesseract, and escaped—prompting Nick Fury to activate the long-dormant Avengers Initiative."
+  },
+  {
+    "id": "avengers-medium-1",
+    "question": "What united the bickering Avengers after Loki's escape from the Helicarrier?",
+    "options": ["Nick Fury showed them classified footage of the Chitauri invasion fleet approaching Earth", "Loki's killing of Agent Phil Coulson and Fury using Coulson's blood-stained Captain America trading cards to galvanize the team", "Tony Stark hacked SHIELD's database and revealed Loki's full plan to the team", "Thor gave a speech about the cost of Asgardian wars and what was at stake for humanity"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "avengers",
+    "heroId": null,
+    "explanation": "Loki killed Agent Phil Coulson during his escape. Nick Fury used Coulson's blood-stained Captain America trading cards to unite the grieving team, transforming their loss into the emotional foundation for the Battle of New York."
+  },
+  {
+    "id": "avengers-hard-1",
+    "question": "How did Doctor Strange's advance knowledge of possible futures inform his trade of the Time Stone to Thanos on Titan?",
+    "options": ["He used the futures to negotiate a time-delayed surrender that would give Earth heroes time to prepare a counter-attack", "He saw 14 million futures in which only one led to victory; he traded the Time Stone for Tony's life because Tony's survival was necessary for that single winning future", "He determined the Time Stone could not be destroyed, only delayed, so the trade bought maximum preparation time", "He saw that Thanos would kill Tony without the trade and that Tony's death would eliminate any chance of reversing the Snap"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "avengers",
+    "heroId": null,
+    "explanation": "Doctor Strange looked through 14 million possible futures and found only one that led to victory. He traded the Time Stone for Tony Stark's life because Tony's survival was the essential thread in that single winning scenario—a sacrifice he kept to himself."
+  },
+  {
+    "id": "avengers-easy-2",
+    "question": "Who said 'Avengers... Assemble' as two armies collided in the final battle against Thanos?",
+    "options": ["Nick Fury, commanding from a Helicarrier", "Captain America (Steve Rogers)", "Thor, summoning all the heroes with Mjolnir's power", "Tony Stark, broadcasting on all frequencies"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "avengers",
+    "heroId": null,
+    "explanation": "Steve Rogers (Captain America) said 'Avengers Assemble' as Doctor Strange opened portals and every snapped-away hero returned—signaling the charge of both armies in the final battle against Thanos."
+  },
+  {
+    "id": "avengers-medium-2",
+    "question": "What sacrifice did Natasha Romanoff make on Vormir, and who brought back the Soul Stone?",
+    "options": ["Natasha and Clint fought each other; Clint was injured and Natasha surrendered herself, and Clint brought back the stone", "Natasha overpowered Clint and leaped from the cliff; Clint returned to the Avengers with the Soul Stone", "They both survived by finding a loophole—Natasha's near-death was enough; Clint carried the stone back", "Clint sacrificed himself first; Natasha brought the stone back having failed to stop him"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "avengers",
+    "heroId": null,
+    "explanation": "Both Natasha and Clint fought for the right to sacrifice themselves on Vormir. Natasha ultimately overpowered Clint—her determination absolute—and leaped from the cliff. Clint returned with the Soul Stone."
+  },
+  {
+    "id": "avengers-hard-2",
+    "question": "What unprecedented feat did Steve Rogers accomplish during the final battle that stunned even Thor?",
+    "options": ["He absorbed a full lightning strike from Thor and channeled it through his Vibranium shield", "He lifted Mjolnir and wielded it alongside his Vibranium shield, channeling Thor's lightning for the first time", "He ran fast enough to create a sonic boom that temporarily stunned Thanos's army", "He coordinated all Avengers teams simultaneously across the battlefield without any communication technology"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "avengers",
+    "heroId": null,
+    "explanation": "Steve Rogers lifted Mjolnir and wielded it alongside his Vibranium shield—the first time he channeled Thor's lightning. Thor had suspected Steve was worthy years before; this confirmed it in the most epic fashion possible."
+  },
+  {
+    "id": "thanos-easy-1",
+    "question": "What is the Infinity Gauntlet, and who forged it?",
+    "options": ["It is an ancient Asgardian artifact that naturally amplified the power of whoever held it; forged by Odin's dwarves", "It is a golden glove of solid Uru metal forged by dwarf-king Eitri of Nidavellir to hold and channel all six Infinity Stones", "It is a Celestial-made device discovered by Thanos in deep space during his early conquests", "It is a construct Thanos assembled from six separate components, each found with a different Infinity Stone"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "thanos",
+    "heroId": null,
+    "explanation": "Thanos commissioned Eitri, the dwarf-king of Nidavellir, to forge the Infinity Gauntlet from solid Uru metal—the same material as Thor's weapons—specifically designed to hold and channel the combined power of all six Infinity Stones."
+  },
+  {
+    "id": "thanos-medium-1",
+    "question": "What price did Thanos pay to obtain the Soul Stone on Vormir?",
+    "options": ["He sacrificed his Black Order general Corvus Glaive, his most loyal servant", "He sacrificed Gamora—the daughter he had adopted and claimed to love—because 'a soul for a soul' was the requirement", "He offered the Power Stone as an exchange, temporarily relinquishing it to the Soul Stone's guardian", "He accepted a curse that would slowly destroy him after the Snap, as the price for the stone's power"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "thanos",
+    "heroId": null,
+    "explanation": "The Soul Stone's guardian on Vormir demanded 'a soul for a soul.' Thanos sacrificed Gamora—his adopted daughter, whom he genuinely claimed to love—to claim the Soul Stone, demonstrating the cold calculus beneath his stated ideals."
+  },
+  {
+    "id": "thanos-hard-1",
+    "question": "Why did Thanos's plan nearly succeed on Titan, and what single emotional mistake derailed it?",
+    "options": ["The heroes had nearly removed the Gauntlet, but Iron Man's nanotech failed at the critical moment", "Mantis calmed Thanos and the team nearly removed the Gauntlet, but Star-Lord's grief over Gamora caused him to strike Thanos, snapping the Gauntlet back", "Thor arrived too late because his Stormbreaker route was longer than calculated, giving Thanos time to recover", "Doctor Strange used the Time Stone too early, allowing Thanos to anticipate and counter the removal attempt"],
+    "correctIndex": 1,
+    "difficulty": "hard",
+    "universe": "thanos",
+    "heroId": null,
+    "explanation": "The plan nearly worked: Mantis calmed Thanos's mind and the team was pulling the Gauntlet free—until Star-Lord (Peter Quill) learned Gamora was dead and struck Thanos in grief, jolting him awake and snapping the Gauntlet back onto his hand."
+  },
+  {
+    "id": "thanos-easy-2",
+    "question": "What are the six Infinity Stones and their colors?",
+    "options": ["Fire, Water, Earth, Air, Mind, and Soul—each representing a classical element and one spiritual force", "Space (blue), Mind (yellow), Reality (red), Power (purple), Time (green), Soul (orange)", "Speed, Strength, Time, Space, Thought, and Life—representing the six forces of the universe", "Stone, Metal, Crystal, Plasma, Energy, and Matter—the six states of physical reality"],
+    "correctIndex": 1,
+    "difficulty": "easy",
+    "universe": "thanos",
+    "heroId": null,
+    "explanation": "The six Infinity Stones are: Space (blue, the Tesseract), Mind (yellow, in Vision's forehead), Reality (red, the Aether), Power (purple, the Orb), Time (green, the Eye of Agamotto), and Soul (orange, on Vormir)."
+  },
+  {
+    "id": "thanos-medium-2",
+    "question": "What was Thanos's original justification for the Snap, rooted in his home world Titan?",
+    "options": ["He believed alien civilizations were inherently violent and would eventually destroy each other without intervention", "He watched Titan fall to ruin from overpopulation and famine after the council rejected his plan to halve the population; he believed universal resource balance required the Snap", "He had been driven insane by the Power Stone's energy and his destruction philosophy was a symptom of that corruption", "He wanted to elevate himself to godhood by wielding all six stones, and the 'balance' argument was a rationalization"],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "universe": "thanos",
+    "heroId": null,
+    "explanation": "Thanos watched his home moon Titan collapse from overpopulation and famine after the ruling council called him 'mad' and rejected his proposal to halve the population at random. He left convinced he was right—and extended that logic to the entire universe."
+  }
+]
