@@ -3,6 +3,8 @@ import NavBar from "@/components/NavBar";
 import StoryRow from "@/components/StoryRow";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import allQuestions from "@/lib/quiz-questions.json";
+import type { QuizQuestion } from "@/lib/quiz";
 
 type Params = Promise<{ universe: string; hero: string }>;
 
@@ -30,6 +32,12 @@ export default async function HeroPage({ params }: { params: Params }) {
   const hero = getHero(universe, heroId);
   if (!hero) notFound();
   const stories = getHeroStories(universe, heroId);
+  const heroQs = (allQuestions as QuizQuestion[]).filter(q => q.heroId === heroId);
+  const qBank = {
+    easy: heroQs.filter(q => q.difficulty === "easy").length,
+    medium: heroQs.filter(q => q.difficulty === "medium").length,
+    hard: heroQs.filter(q => q.difficulty === "hard").length,
+  };
 
   return (
     <>
@@ -45,6 +53,27 @@ export default async function HeroPage({ params }: { params: Params }) {
             <p style={{ fontSize: 10, color: "var(--text-secondary)", margin: "12px 0 0", textTransform: "uppercase", letterSpacing: "0.2em", fontWeight: 700, opacity: 0.6 }}>
               {universe.toUpperCase()} ARCHIVE · {stories.length} DATA FILES
             </p>
+            <div style={{ display: "flex", gap: 6, marginTop: 10, justifyContent: "center" }}>
+              {(["easy", "medium", "hard"] as const).map((d) => {
+                const count = qBank[d];
+                const color = d === "easy" ? "#22c55e" : d === "medium" ? "#f59e0b" : "#ef4444";
+                return (
+                  <span key={d} style={{
+                    fontSize: 10,
+                    fontWeight: 700,
+                    letterSpacing: "0.08em",
+                    textTransform: "uppercase",
+                    color: count >= 10 ? color : "var(--text-muted)",
+                    border: `1px solid ${count >= 10 ? color + "55" : "var(--border)"}`,
+                    borderRadius: 999,
+                    padding: "2px 8px",
+                    opacity: count === 0 ? 0.35 : 1,
+                  }}>
+                    {count} {d[0].toUpperCase()}
+                  </span>
+                );
+              })}
+            </div>
           </div>
           <Link
             href={`/quiz?scope=${heroId}&universe=${universe}&label=${encodeURIComponent(hero.name)}`}

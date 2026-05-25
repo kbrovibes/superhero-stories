@@ -268,14 +268,20 @@ function QuestionScreen({
   question,
   index,
   total,
+  existingPick,
   onAnswer,
+  onNext,
+  onBack,
 }: {
   question: QuizQuestion;
   index: number;
   total: number;
+  existingPick?: number | null;
   onAnswer: (picked: number) => void;
+  onNext: () => void;
+  onBack?: () => void;
 }) {
-  const [picked, setPicked] = useState<number | null>(null);
+  const [picked, setPicked] = useState<number | null>(existingPick ?? null);
   const answered = picked !== null;
 
   const diffColor = { easy: "#22c55e", medium: "#f59e0b", hard: "#ef4444" }[question.difficulty];
@@ -283,7 +289,7 @@ function QuestionScreen({
   function handlePick(i: number) {
     if (answered) return;
     setPicked(i);
-    setTimeout(() => onAnswer(i), 900);
+    onAnswer(i);
   }
 
   function optionStyle(i: number) {
@@ -351,6 +357,7 @@ function QuestionScreen({
           fontSize: 14,
           color: "var(--text-secondary)",
           lineHeight: 1.6,
+          marginBottom: 24,
         }}>
           <span style={{ fontWeight: 700, color: picked === question.correctIndex ? "#22c55e" : "#ef4444", marginRight: 6 }}>
             {picked === question.correctIndex ? "✓ Correct!" : "✗ Not quite."}
@@ -358,6 +365,48 @@ function QuestionScreen({
           {question.explanation}
         </div>
       )}
+
+      {/* Navigation */}
+      <div style={{ display: "flex", gap: 10 }}>
+        {onBack && (
+          <button
+            onClick={onBack}
+            style={{
+              padding: "13px 20px",
+              borderRadius: 14,
+              border: "2px solid var(--border)",
+              background: "var(--surface)",
+              color: "var(--text-muted)",
+              fontWeight: 700,
+              fontSize: 14,
+              cursor: "pointer",
+              letterSpacing: "0.04em",
+            }}
+          >
+            ← Back
+          </button>
+        )}
+        {answered && (
+          <button
+            onClick={onNext}
+            style={{
+              flex: 1,
+              padding: "13px 0",
+              borderRadius: 14,
+              border: "none",
+              background: "radial-gradient(circle at 30% 30%, var(--thanos-accent), var(--dc-accent) 70%)",
+              color: "#0a0a14",
+              fontWeight: 800,
+              fontSize: 15,
+              letterSpacing: "0.06em",
+              textTransform: "uppercase",
+              cursor: "pointer",
+            }}
+          >
+            {index + 1 < total ? "Next →" : "See Results →"}
+          </button>
+        )}
+      </div>
     </div>
   );
 }
@@ -496,30 +545,33 @@ function QuizController() {
   const [phase, setPhase] = useState<Phase>("config");
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [answers, setAnswers] = useState<QuizAnswer[]>([]);
+  const [answers, setAnswers] = useState<Record<number, QuizAnswer>>({});
   const [lastConfig, setLastConfig] = useState<{ difficulty: Difficulty; scope: QuizScope; scopeLabel: string; count: number } | null>(null);
 
   function handleStart(difficulty: Difficulty, scope: QuizScope, scopeLabel: string, count: number, picked: QuizQuestion[]) {
     setLastConfig({ difficulty, scope, scopeLabel, count });
     setQuestions(picked);
     setCurrentIndex(0);
-    setAnswers([]);
+    setAnswers({});
     setPhase("playing");
   }
 
   function handleAnswer(picked: number) {
     const q = questions[currentIndex];
     const newAnswer: QuizAnswer = { question: q, picked, correct: picked === q.correctIndex };
-    const newAnswers = [...answers, newAnswer];
-    setAnswers(newAnswers);
+    setAnswers(prev => ({ ...prev, [currentIndex]: newAnswer }));
+  }
 
-    setTimeout(() => {
-      if (currentIndex + 1 < questions.length) {
-        setCurrentIndex(currentIndex + 1);
-      } else {
-        setPhase("results");
-      }
-    }, 300);
+  function handleNext() {
+    if (currentIndex + 1 >= questions.length) {
+      setPhase("results");
+    } else {
+      setCurrentIndex(currentIndex + 1);
+    }
+  }
+
+  function handleBack() {
+    if (currentIndex > 0) setCurrentIndex(currentIndex - 1);
   }
 
   function handleRetry() {
@@ -528,7 +580,7 @@ function QuizController() {
     const picked = pickRandom(pool, lastConfig.count);
     setQuestions(picked);
     setCurrentIndex(0);
-    setAnswers([]);
+    setAnswers({});
     setPhase("playing");
   }
 
@@ -547,12 +599,16 @@ function QuizController() {
         question={questions[currentIndex]}
         index={currentIndex}
         total={questions.length}
+        existingPick={answers[currentIndex]?.picked ?? null}
         onAnswer={handleAnswer}
+        onNext={handleNext}
+        onBack={currentIndex > 0 ? handleBack : undefined}
       />
     );
   }
 
-  return <ResultsScreen answers={answers} onRetry={handleRetry} onReconfigure={handleReconfigure} />;
+  const orderedAnswers = questions.map((_, i) => answers[i]).filter(Boolean) as QuizAnswer[];
+  return <ResultsScreen answers={orderedAnswers} onRetry={handleRetry} onReconfigure={handleReconfigure} />;
 }
 
 export default function QuizPage() {
