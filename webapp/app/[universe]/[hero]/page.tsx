@@ -5,6 +5,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import allQuestions from "@/lib/quiz-questions.json";
 import type { QuizQuestion } from "@/lib/quiz";
+import { THEME } from "@/lib/theme";
 
 type Params = Promise<{ universe: string; hero: string }>;
 
@@ -38,6 +39,7 @@ export default async function HeroPage({ params }: { params: Params }) {
     medium: heroQs.filter(q => q.difficulty === "medium").length,
     hard: heroQs.filter(q => q.difficulty === "hard").length,
   };
+  const theme = THEME[universe as "marvel" | "dc"];
 
   return (
     <>
@@ -47,7 +49,32 @@ export default async function HeroPage({ params }: { params: Params }) {
       ]} />
       <main style={{ maxWidth: 600, margin: "0 auto", padding: "60px 20px" }}>
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: 16, marginBottom: 48 }}>
-          <span style={{ fontSize: 96 }}>{hero.emoji}</span>
+          {/* Cartoon avatar bubble */}
+          <div style={{ position: "relative" }}>
+            <div style={{
+              width: 160, height: 160,
+              borderRadius: "50%",
+              overflow: "hidden",
+              border: `3px solid ${theme.accent}77`,
+              boxShadow: `0 0 0 6px ${theme.accent}18, 0 0 48px ${theme.accent}44, 0 16px 48px rgba(0,0,0,0.6)`,
+              background: "#0a0a14",
+              position: "relative",
+            }}>
+              <img
+                src={`/avatars/${universe}/${heroId}.webp`}
+                alt={hero.name}
+                width={160}
+                height={160}
+                style={{ display: "block", width: "100%", height: "100%", objectFit: "cover" }}
+              />
+              {/* vignette so edges dissolve into page background */}
+              <div style={{
+                position: "absolute", inset: 0, borderRadius: "50%",
+                background: "radial-gradient(circle, transparent 50%, rgba(5,5,8,0.65) 100%)",
+                pointerEvents: "none",
+              }} />
+            </div>
+          </div>
           <div>
             <h1 className="liquid-text" style={{ fontSize: 44, fontWeight: 900, margin: 0, lineHeight: 1, textTransform: "uppercase", textAlign: "center" }}>{hero.name}</h1>
             <p style={{ fontSize: 10, color: "var(--text-secondary)", margin: "12px 0 0", textTransform: "uppercase", letterSpacing: "0.2em", fontWeight: 700, opacity: 0.6 }}>

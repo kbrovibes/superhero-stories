@@ -71,22 +71,31 @@ export default function HeroCard({ hero }: HeroCardProps) {
             height: 68,
             borderRadius: "50%",
             overflow: "hidden",
-            border: `2px solid ${theme.accent}55`,
+            border: `2px solid ${theme.accent}66`,
             boxShadow: hovered
-              ? `0 6px 22px ${theme.accent}66, 0 0 0 3px ${theme.accent}22`
-              : `0 3px 10px rgba(0,0,0,0.35)`,
-            transform: hovered ? "scale(1.06)" : "scale(1)",
+              ? `0 0 0 3px ${theme.accent}33, 0 8px 24px ${theme.accent}55`
+              : `0 0 0 1px ${theme.accent}22, 0 3px 10px rgba(0,0,0,0.5)`,
+            transform: hovered ? "scale(1.08)" : "scale(1)",
             transition: "all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
             zIndex: 2,
             background: "#0a0a14",
+            position: "relative",
           }}>
             <img
-              src={`/avatars/${hero.universe}/${hero.id}.svg`}
-              alt=""
+              src={hero.universe === "avengers"
+                ? `/avatars/avengers/avengers.svg`
+                : `/avatars/${hero.universe}/${hero.id}.webp`}
+              alt={hero.name}
               width={68}
               height={68}
               style={{ display: "block", width: "100%", height: "100%", objectFit: "cover" }}
             />
+            {/* inner vignette so cartoon edges melt into the dark card */}
+            <div style={{
+              position: "absolute", inset: 0, borderRadius: "50%",
+              background: "radial-gradient(circle, transparent 55%, rgba(5,5,8,0.55) 100%)",
+              pointerEvents: "none",
+            }} />
           </div>
           
           <div style={{ 

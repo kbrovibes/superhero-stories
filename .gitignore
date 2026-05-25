@@ -7,3 +7,6 @@ parts/
 *.rvf.lock
 
 .github-token
+
+# hero reference photos + generation scripts (not shipped)
+hero-images/
