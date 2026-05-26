@@ -17,8 +17,9 @@ export interface Story {
   number: number;  // 1-based index for display ("Story 1 of 5")
   title: string;   // human-readable, e.g. "Origin"
   body: string;
-  tldr?: string;      // companion .tldr.txt file
-  readAloud?: string; // companion .readaloud.txt file
+  tldr?: string;       // companion .tldr.txt file
+  readAloud?: string;  // companion .readaloud.txt file
+  storyTime?: string;  // companion .storytime.txt — long-form 700-800w read-aloud
 }
 
 export interface Candidate {
@@ -91,12 +92,13 @@ export function getThanosStories(): Story[] {
 function readEnsembleStories(folder: "avengers" | "thanos"): Story[] {
   const dir = path.join(REPO_ROOT, folder);
   if (!fs.existsSync(dir)) return [];
-  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".txt") && !f.endsWith(".tldr.txt") && !f.endsWith(".readaloud.txt")).sort();
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".txt") && !f.endsWith(".tldr.txt") && !f.endsWith(".readaloud.txt") && !f.endsWith(".storytime.txt")).sort();
   return files.map((f, i) => {
     const id = f.replace(".txt", "");
     const body = fs.readFileSync(path.join(dir, f), "utf-8").trim();
     const tldrPath = path.join(dir, f.replace(".txt", ".tldr.txt"));
     const readAloudPath = path.join(dir, f.replace(".txt", ".readaloud.txt"));
+    const storyTimePath = path.join(dir, f.replace(".txt", ".storytime.txt"));
     return {
       id,
       number: i + 1,
@@ -104,6 +106,7 @@ function readEnsembleStories(folder: "avengers" | "thanos"): Story[] {
       body,
       tldr: fs.existsSync(tldrPath) ? fs.readFileSync(tldrPath, "utf-8").trim() : undefined,
       readAloud: fs.existsSync(readAloudPath) ? fs.readFileSync(readAloudPath, "utf-8").trim() : undefined,
+      storyTime: fs.existsSync(storyTimePath) ? fs.readFileSync(storyTimePath, "utf-8").trim() : undefined,
     };
   });
 }
@@ -112,13 +115,14 @@ export function getHeroStories(universe: "marvel" | "dc", heroId: string): Story
   const dir = path.join(REPO_ROOT, universe, heroId);
   if (!fs.existsSync(dir)) return [];
 
-  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".txt") && !f.endsWith(".tldr.txt") && !f.endsWith(".readaloud.txt")).sort();
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".txt") && !f.endsWith(".tldr.txt") && !f.endsWith(".readaloud.txt") && !f.endsWith(".storytime.txt")).sort();
 
   return files.map((f, i) => {
     const id = f.replace(".txt", "");
     const body = fs.readFileSync(path.join(dir, f), "utf-8").trim();
     const tldrPath = path.join(dir, f.replace(".txt", ".tldr.txt"));
     const readAloudPath = path.join(dir, f.replace(".txt", ".readaloud.txt"));
+    const storyTimePath = path.join(dir, f.replace(".txt", ".storytime.txt"));
     return {
       id,
       number: i + 1,
@@ -126,6 +130,7 @@ export function getHeroStories(universe: "marvel" | "dc", heroId: string): Story
       body,
       tldr: fs.existsSync(tldrPath) ? fs.readFileSync(tldrPath, "utf-8").trim() : undefined,
       readAloud: fs.existsSync(readAloudPath) ? fs.readFileSync(readAloudPath, "utf-8").trim() : undefined,
+      storyTime: fs.existsSync(storyTimePath) ? fs.readFileSync(storyTimePath, "utf-8").trim() : undefined,
     };
   });
 }

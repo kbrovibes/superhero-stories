@@ -66,6 +66,7 @@ export default async function ThanosStoryPage({ params }: { params: Params }) {
           body={current.body}
           tldr={current.tldr}
           readAloud={current.readAloud}
+          storyTime={current.storyTime}
           accent={accent}
         />
 

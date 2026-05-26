@@ -77,6 +77,7 @@ export default async function StoryPage({ params }: { params: Params }) {
           body={current.body}
           tldr={current.tldr}
           readAloud={current.readAloud}
+          storyTime={current.storyTime}
           accent={accent}
         />
 
