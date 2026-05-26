@@ -1,0 +1,63 @@
+The first mechanical spider appeared on a Tuesday, on the roof of a sandwich shop on Broad Street.
+
+It was about the size of a shopping cart, made of gleaming chrome, with eight articulated legs that tapped on the rooftop tiles like a very impatient visitor. Where its eyes should have been, there were two round lenses that glowed a cheerful orange. It sat very still for a moment.
+
+Then it fired a stream of foam at the passing pigeons.
+
+The pigeons were unharmed — just bewildered and slightly foamy. But the people walking below scattered with shrieks of laughter and confusion, and Victor Stone, who had been buying a sandwich when his proximity sensors lit up, looked at the spider and said, "Okay. Here we go."
+
+GIZMO.
+
+He was a kid, which somehow made everything both simpler and more complicated. Not much younger than Victor — a small, wiry inventor with oversized goggles pushed up on his forehead and an enormous toolbelt that clanked with every step. He treated the city like a workshop and everyone else as test subjects for whatever he'd built that week.
+
+Today's exhibition: the mechanical spiders (six of them, it turned out), a pair of flying drones equipped with bubble-blowing nozzles that produced iridescent bubbles the size of cars, and a tickle-bot — a round, rolling device about the size of a basketball with extendable foam arms that, on contact, produced a tickling sensation that made it completely impossible to run.
+
+The tickle-bot got Victor first.
+
+FWOOP — it rolled out from behind a mailbox and hit him in the shin, and Victor's leg seized with a sensation somewhere between a laugh and a flinch, and he stumbled sideways into a streetlight with a resounding CLANG.
+
+"HA!" Gizmo shouted from a rooftop two buildings away, doing a small victory jump that made all his tools clatter. "The tickle-bot works on cyborgs! Logging that result!"
+
+Victor steadied himself, scanned the tickle-bot's mechanical signature, and calculated its reset interval. Exactly 8.3 seconds between tickle pulses. He could work with that.
+
+He transformed his right arm into the sonic cannon — a low-frequency setting, enough to scatter moving parts without hurting anyone — and waited for the 8.3-second window.
+
+THWOOM. The tickle-bot spun three times and went still.
+
+Gizmo, who had been watching through his goggle-lenses, made a note on his datapad. "Eight-point-three seconds. He clocked the interval. Updating the algorithm for version two."
+
+That was the thing about Gizmo that Victor could not help but notice, even in the middle of the chase. He was always learning. Every gadget that failed was a note in a database. Every countermeasure Victor deployed was a problem to solve for the next version.
+
+The chase went across three rooftops, down a fire escape, through a parking garage where Gizmo's drones filled the air with car-sized bubbles that made navigating almost completely impossible, and finally up onto the city's elevated transit platform, where Victor caught up.
+
+Gizmo had one more gadget left — a mechanical spider on each side, flanking him, orange lenses glowing. He grinned. "Stalemate, right? You can't disarm both at once."
+
+"I don't need to," Victor said.
+
+He sent a signal through the city's wireless network — a frequency he had worked out from the spiders' control signatures during the chase — and both of them simply sat down, legs folding like closing umbrellas, and went to sleep.
+
+Gizmo stared.
+
+"You reverse-engineered my control frequency in real time," he said, his voice caught somewhere between outraged and deeply impressed.
+
+"You left your signal unencrypted," Victor said. "That's a version-two problem for you."
+
+Gizmo was silent for a moment. Then, slowly, he said: "If you wanted to help me fix the encryption... I mean, not that I want your help... but hypothetically..."
+
+Victor looked at this small, brilliant, chaotic kid who had just deployed bubble drones and a tickle-bot and six mechanical spiders on a Tuesday afternoon.
+
+He thought about what he could become with some actual direction.
+
+"I have contacts at S.T.A.R. Labs who run a youth engineering program," Victor said carefully. "Real equipment. Real problems to solve. Things that actually help people."
+
+Gizmo's nose wrinkled like this was a terrible idea.
+
+But he didn't say no.
+
+Victor filed the day's report back at S.T.A.R. Labs that evening and spent an hour trying to get the last of the soap solution out of his left knee joint. He made a note: Gizmo's bubbles were extraordinary, actually. Better materials than anything Victor had seen from a solo inventor that age.
+
+He was going to be something remarkable, that kid.
+
+Hopefully something that helped people.
+
+The jury was still out on version two.
