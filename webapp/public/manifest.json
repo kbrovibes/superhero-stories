@@ -1,6 +1,6 @@
 {
   "name": "Superhero Stories",
-  "short_name": "Hero Stories",
+  "short_name": "Superhero Stories",
   "description": "A story repository for young heroes-in-training",
   "start_url": "/",
   "display": "standalone",

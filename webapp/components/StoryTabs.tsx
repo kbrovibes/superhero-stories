@@ -10,7 +10,7 @@ interface StoryTabsProps {
   accent: string;
 }
 
-type TabId = "tldr" | "summary" | "readaloud" | "storytime";
+type TabId = "tldr" | "summary" | "storytime";
 
 const PARA_STYLE = { fontSize: 18, lineHeight: 1.8, color: "var(--text-secondary)", margin: "0 0 20px" } as const;
 const STORY_PARA_STYLE = { fontSize: 20, lineHeight: 2.0, color: "var(--text-secondary)", margin: "0 0 24px" } as const;
@@ -21,7 +21,6 @@ export default function StoryTabs({ body, tldr, readAloud, storyTime, accent }: 
   const allTabs: { id: TabId; label: string; available: boolean }[] = [
     { id: "tldr",      label: "TLDR",        available: !!tldr },
     { id: "summary",   label: "Summary",     available: true },
-    { id: "readaloud", label: "Read Aloud",  available: !!readAloud },
     { id: "storytime", label: "Story Time",  available: !!storyTime },
   ];
   const tabs = allTabs.filter((t) => t.available);
@@ -83,15 +82,6 @@ export default function StoryTabs({ body, tldr, readAloud, storyTime, accent }: 
       {activeTab === "summary" && (
         <div>
           {body.split("\n").filter(Boolean).map((para, i) => (
-            <p key={i} style={PARA_STYLE}>{para.trim()}</p>
-          ))}
-        </div>
-      )}
-
-      {/* Read Aloud */}
-      {activeTab === "readaloud" && readAloud && (
-        <div>
-          {readAloud.split("\n").filter(Boolean).map((para, i) => (
             <p key={i} style={PARA_STYLE}>{para.trim()}</p>
           ))}
         </div>
