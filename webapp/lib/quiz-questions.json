@@ -15943,5 +15943,1505 @@
     "universe": "marvel",
     "heroId": "ant-man",
     "explanation": "Paxton is a San Francisco cop who helps raise Cassie alongside Scott's ex-wife Maggie."
+  },
+  {
+    "id": "scarlet-witch-trivia-1",
+    "question": "What is Scarlet Witch's real name?",
+    "options": [
+      "Wanda Maximoff",
+      "Wendy Marvell",
+      "Wanda Stark",
+      "Wanda Romanoff"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Wanda Maximoff grew up in Sokovia and later became the Scarlet Witch."
+  },
+  {
+    "id": "scarlet-witch-trivia-2",
+    "question": "What country were Wanda and her twin brother born in?",
+    "options": [
+      "Sokovia",
+      "Latveria",
+      "Wakanda",
+      "Genosha"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "The Maximoff twins grew up in the small country of Sokovia."
+  },
+  {
+    "id": "scarlet-witch-trivia-3",
+    "question": "What is the name of Wanda's twin brother?",
+    "options": [
+      "Pietro",
+      "Peter",
+      "Paolo",
+      "Piotr"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Pietro Maximoff is her twin brother, also known as Quicksilver."
+  },
+  {
+    "id": "scarlet-witch-trivia-4",
+    "question": "What superhero name does Pietro go by?",
+    "options": [
+      "Quicksilver",
+      "Speedster",
+      "Flash",
+      "Zoom"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Pietro is called Quicksilver because he runs faster than the eye can see."
+  },
+  {
+    "id": "scarlet-witch-trivia-5",
+    "question": "Which Infinity Stone unlocked Wanda's magical powers?",
+    "options": [
+      "The Mind Stone",
+      "The Time Stone",
+      "The Soul Stone",
+      "The Reality Stone"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "The glowing blue Mind Stone, inside Loki's scepter, awakened Wanda's hidden magic."
+  },
+  {
+    "id": "scarlet-witch-trivia-6",
+    "question": "What sneaky organization experimented on the twins?",
+    "options": [
+      "HYDRA",
+      "S.H.I.E.L.D.",
+      "A.I.M.",
+      "The Hand"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "HYDRA, led by Baron Strucker, used the Mind Stone on the Maximoff twins."
+  },
+  {
+    "id": "scarlet-witch-trivia-7",
+    "question": "What color is Wanda's magic energy?",
+    "options": [
+      "Red",
+      "Blue",
+      "Green",
+      "Gold"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Her hexes glow a bright scarlet red, which is how she got her name."
+  },
+  {
+    "id": "scarlet-witch-trivia-8",
+    "question": "Which evil robot tried to destroy the world in Sokovia?",
+    "options": [
+      "Ultron",
+      "Vision",
+      "JARVIS",
+      "MODOK"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Ultron was the robot whose plan Wanda saw inside his mind."
+  },
+  {
+    "id": "scarlet-witch-trivia-9",
+    "question": "Who does Wanda fall in love with on the Avengers?",
+    "options": [
+      "Vision",
+      "Hawkeye",
+      "Captain America",
+      "Doctor Strange"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Wanda and Vision became sweethearts, sharing a deep, quiet bond."
+  },
+  {
+    "id": "scarlet-witch-trivia-10",
+    "question": "What town does Wanda turn into a sitcom world?",
+    "options": [
+      "Westview",
+      "Eastview",
+      "Sokovia City",
+      "Bayville"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "She wraps the New Jersey town of Westview in a magical hex bubble."
+  },
+  {
+    "id": "scarlet-witch-trivia-11",
+    "question": "What are the names of Wanda's twin sons?",
+    "options": [
+      "Tommy and Billy",
+      "Tommy and Bobby",
+      "Pietro and Vision Jr.",
+      "Max and Bill"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Tommy is the speedster like his uncle Pietro, and Billy has magic like Wanda."
+  },
+  {
+    "id": "scarlet-witch-trivia-12",
+    "question": "Which of Wanda's sons is a super-fast speedster?",
+    "options": [
+      "Tommy",
+      "Billy",
+      "Pietro Jr.",
+      "Vis"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Tommy zooms around just like his uncle Quicksilver."
+  },
+  {
+    "id": "scarlet-witch-trivia-13",
+    "question": "Which witch lived next door pretending to be Wanda's friend?",
+    "options": [
+      "Agatha Harkness",
+      "Morgan le Fay",
+      "Selene",
+      "Margali"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Agatha pretended to be nosy neighbor Agnes while secretly studying Wanda's magic."
+  },
+  {
+    "id": "scarlet-witch-trivia-14",
+    "question": "What is the dangerous magic book Wanda reads called?",
+    "options": [
+      "The Darkhold",
+      "The Necronomicon",
+      "The Book of Vishanti",
+      "The Eye of Agamotto"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "The Darkhold is a spooky spellbook that whispers and corrupts whoever reads it."
+  },
+  {
+    "id": "scarlet-witch-trivia-15",
+    "question": "What mountain reveals Wanda's true Scarlet Witch destiny?",
+    "options": [
+      "Wundagore Mountain",
+      "Mount Olympus",
+      "Mount Wundagar",
+      "Bald Mountain"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Ancient carvings on Wundagore Mountain show the Scarlet Witch was foretold long ago."
+  },
+  {
+    "id": "scarlet-witch-trivia-16",
+    "question": "Which sorcerer does Wanda meet in Multiverse of Madness?",
+    "options": [
+      "Doctor Strange",
+      "Wong",
+      "Mordo",
+      "Ancient One"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Doctor Strange tries to stop Wanda after the Darkhold takes hold of her."
+  },
+  {
+    "id": "scarlet-witch-trivia-17",
+    "question": "Which huge villain did Wanda nearly defeat in Endgame?",
+    "options": [
+      "Thanos",
+      "Ultron",
+      "Loki",
+      "Hela"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Wanda's red hexes nearly tore Thanos apart during the final battle."
+  },
+  {
+    "id": "scarlet-witch-trivia-18",
+    "question": "What is the name of the wizards' temple in Kathmandu?",
+    "options": [
+      "Kamar-Taj",
+      "Sanctum Sanctorum",
+      "Wundagore",
+      "Asgard"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Kamar-Taj is where Doctor Strange and the sorcerers train and guard their books."
+  },
+  {
+    "id": "scarlet-witch-trivia-19",
+    "question": "What can Wanda do besides lift things with her mind?",
+    "options": [
+      "Fly through the air",
+      "Breathe underwater",
+      "Talk to fish",
+      "Turn invisible"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Wanda can fly using her red hex energy, lifting herself like a feather."
+  },
+  {
+    "id": "scarlet-witch-trivia-20",
+    "question": "What special crown does Scarlet Witch wear?",
+    "options": [
+      "A red tiara",
+      "A gold helmet",
+      "A silver circlet",
+      "A spiky cap"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "scarlet-witch",
+    "explanation": "Her Scarlet Witch costume includes a pointed red tiara like the ancient drawings."
+  },
+  {
+    "id": "vision-trivia-1",
+    "question": "What color is the Infinity Stone in Vision's forehead?",
+    "options": [
+      "Yellow",
+      "Blue",
+      "Purple",
+      "Red"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "The yellow Mind Stone is set into Vision's forehead and gives him his powers."
+  },
+  {
+    "id": "vision-trivia-2",
+    "question": "Which Infinity Stone is in Vision's forehead?",
+    "options": [
+      "Mind Stone",
+      "Time Stone",
+      "Soul Stone",
+      "Power Stone"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Vision carries the Mind Stone, which is why he can think so quickly and shoot beams from his head."
+  },
+  {
+    "id": "vision-trivia-3",
+    "question": "Who was Vision before he had a body?",
+    "options": [
+      "JARVIS",
+      "FRIDAY",
+      "Ultron",
+      "EDITH"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Vision began as JARVIS, Tony Stark's calm British AI, before Tony and Bruce uploaded him into a new body."
+  },
+  {
+    "id": "vision-trivia-4",
+    "question": "Which two Avengers built Vision's body together?",
+    "options": [
+      "Tony Stark and Bruce Banner",
+      "Steve Rogers and Thor",
+      "Tony Stark and Hank Pym",
+      "Bruce Banner and Hank Pym"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Tony Stark and Bruce Banner uploaded JARVIS into the cradle body that Helen Cho had grown."
+  },
+  {
+    "id": "vision-trivia-5",
+    "question": "Who used lightning to wake Vision up?",
+    "options": [
+      "Thor",
+      "Tony Stark",
+      "Bruce Banner",
+      "Captain America"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Thor brought the cradle to life with a powerful strike of lightning, and Vision floated up."
+  },
+  {
+    "id": "vision-trivia-6",
+    "question": "What strong metal is Vision's body made of?",
+    "options": [
+      "Vibranium",
+      "Adamantium",
+      "Uru",
+      "Titanium"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Vision's body was grown from vibranium in Helen Cho's cradle, the same metal as Cap's shield."
+  },
+  {
+    "id": "vision-trivia-7",
+    "question": "Who was Vision's body originally meant for?",
+    "options": [
+      "Ultron",
+      "Thanos",
+      "Loki",
+      "Bucky"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Ultron grew the body to upload himself, but the Avengers yanked it away and gave it to JARVIS."
+  },
+  {
+    "id": "vision-trivia-8",
+    "question": "What hammer was Vision able to lift?",
+    "options": [
+      "Mjolnir",
+      "Stormbreaker",
+      "Jarnbjorn",
+      "Gungnir"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Vision lifted Mjolnir on his very first day, proving to the Avengers he was worthy."
+  },
+  {
+    "id": "vision-trivia-9",
+    "question": "Which Avenger does Vision fall in love with?",
+    "options": [
+      "Wanda Maximoff",
+      "Natasha Romanoff",
+      "Pepper Potts",
+      "Carol Danvers"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Vision loves Wanda Maximoff, the Scarlet Witch, and even cooks paprikash for her."
+  },
+  {
+    "id": "vision-trivia-10",
+    "question": "What can Vision do that lets him walk through walls?",
+    "options": [
+      "Phase through them",
+      "Teleport",
+      "Turn invisible",
+      "Run super fast"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Vision can change his density to phase through solid walls, becoming as light as mist."
+  },
+  {
+    "id": "vision-trivia-11",
+    "question": "Where does Vision shoot his powerful yellow beam from?",
+    "options": [
+      "The gem in his forehead",
+      "His eyes",
+      "His hands",
+      "His chest"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Vision fires a focused yellow laser straight from the Mind Stone in his forehead."
+  },
+  {
+    "id": "vision-trivia-12",
+    "question": "In which city were Vision and Wanda attacked by Thanos's Black Order?",
+    "options": [
+      "Edinburgh",
+      "London",
+      "Paris",
+      "Sokovia"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Corvus Glaive and Proxima Midnight attacked Vision and Wanda in rainy Edinburgh, Scotland."
+  },
+  {
+    "id": "vision-trivia-13",
+    "question": "Which country did the Avengers take Vision to so Shuri could help him?",
+    "options": [
+      "Wakanda",
+      "Sokovia",
+      "Norway",
+      "Iceland"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "The team flew Vision to Wakanda, hoping Shuri could safely remove the Mind Stone."
+  },
+  {
+    "id": "vision-trivia-14",
+    "question": "Who finally rips the Mind Stone from Vision's head?",
+    "options": [
+      "Thanos",
+      "Ultron",
+      "Loki",
+      "Killmonger"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Thanos uses the Time Stone to undo Wanda's sacrifice and pulls the Mind Stone out himself."
+  },
+  {
+    "id": "vision-trivia-15",
+    "question": "What town does Wanda build a magical Hex around in WandaVision?",
+    "options": [
+      "Westview",
+      "Westchester",
+      "Sokovia",
+      "Edinburgh"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Wanda's grief creates the Westview Hex, where she lives a sitcom life with Vision."
+  },
+  {
+    "id": "vision-trivia-16",
+    "question": "Which side did Vision pick during the Avengers Civil War?",
+    "options": [
+      "Team Iron Man",
+      "Team Cap",
+      "He stayed neutral",
+      "Team Wakanda"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Vision sided with Tony Stark, and he accidentally hit Rhodey with a beam during the airport fight."
+  },
+  {
+    "id": "vision-trivia-17",
+    "question": "Inside the Westview Hex, what are Wanda and Vision's twin sons named?",
+    "options": [
+      "Tommy and Billy",
+      "Pietro and Wanda",
+      "Jack and Sam",
+      "Peter and Miles"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Tommy is fast like his uncle Pietro, and Billy has magic powers like his mother."
+  },
+  {
+    "id": "vision-trivia-18",
+    "question": "Vision is in a way the 'twin' of which villain?",
+    "options": [
+      "Ultron",
+      "Thanos",
+      "Loki",
+      "Red Skull"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Vision and Ultron were built from the same cradle body and share JARVIS as their first voice."
+  },
+  {
+    "id": "vision-trivia-19",
+    "question": "Who rebuilds the all-white Vision in WandaVision?",
+    "options": [
+      "SWORD",
+      "SHIELD",
+      "HYDRA",
+      "Stark Industries"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "SWORD director Hayward rebuilds Vision's body as the white, memory-less White Vision."
+  },
+  {
+    "id": "vision-trivia-20",
+    "question": "What does Vision tell Wanda grief is?",
+    "options": [
+      "Love persevering",
+      "A storm that passes",
+      "A door closing",
+      "The end of joy"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "vision",
+    "explanation": "Vision gently tells Wanda, 'What is grief, if not love persevering?' \u2014 one of his most famous lines."
+  },
+  {
+    "id": "falcon-trivia-1",
+    "question": "What is Sam Wilson's superhero name before he becomes Captain America?",
+    "options": [
+      "Falcon",
+      "Hawk",
+      "Eagle",
+      "Redwing"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Sam Wilson is called Falcon because of his EXO-7 wing pack that lets him fly like a bird."
+  },
+  {
+    "id": "falcon-trivia-2",
+    "question": "Which branch of the military did Sam Wilson serve in?",
+    "options": [
+      "U.S. Air Force",
+      "U.S. Navy",
+      "U.S. Marines",
+      "U.S. Coast Guard"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Sam was an Air Force pararescue specialist who rescued injured soldiers from dangerous places."
+  },
+  {
+    "id": "falcon-trivia-3",
+    "question": "What is the name of Falcon's flying wing pack?",
+    "options": [
+      "EXO-7 Falcon",
+      "Sky-Diver X",
+      "Wing-1 Jet",
+      "Aero-Falcon"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "The EXO-7 Falcon is a jetpack and wingsuit that unfolds from a metal backpack."
+  },
+  {
+    "id": "falcon-trivia-4",
+    "question": "What famous phrase does Steve Rogers say to Sam when they first meet?",
+    "options": [
+      "On your left.",
+      "Hello there.",
+      "Catch up, soldier.",
+      "Nice running."
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Steve says \"On your left.\" every time he laps Sam jogging on the National Mall."
+  },
+  {
+    "id": "falcon-trivia-5",
+    "question": "Where do Sam and Steve first meet?",
+    "options": [
+      "The National Mall in Washington D.C.",
+      "Central Park in New York",
+      "A gym in Brooklyn",
+      "An Air Force base in Texas"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Sam is jogging around the National Mall in Washington, D.C. when Steve runs past him."
+  },
+  {
+    "id": "falcon-trivia-6",
+    "question": "What is the name of Falcon's little flying drone?",
+    "options": [
+      "Redwing",
+      "Skybot",
+      "Talon",
+      "Bluejay"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Redwing is a small drone that flies alongside Sam to scout, fight, and watch his back."
+  },
+  {
+    "id": "falcon-trivia-7",
+    "question": "Who hands Sam the shield at the end of Avengers: Endgame?",
+    "options": [
+      "Steve Rogers",
+      "Bucky Barnes",
+      "Tony Stark",
+      "Nick Fury"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "An older Steve Rogers walks up to Sam by a lake and gently gives him the shield."
+  },
+  {
+    "id": "falcon-trivia-8",
+    "question": "What special metal is Captain America's shield made of?",
+    "options": [
+      "Vibranium",
+      "Adamantium",
+      "Gold",
+      "Titanium"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "The shield is made of vibranium from Wakanda, which is super light and bounces back."
+  },
+  {
+    "id": "falcon-trivia-9",
+    "question": "Which longtime friend of Steve Rogers becomes Sam's partner?",
+    "options": [
+      "Bucky Barnes",
+      "Nick Fury",
+      "Clint Barton",
+      "Scott Lang"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Sam and Bucky Barnes, the Winter Soldier, team up after Steve passes the shield along."
+  },
+  {
+    "id": "falcon-trivia-10",
+    "question": "What is the name of the group Karli Morgenthau leads?",
+    "options": [
+      "Flag Smashers",
+      "HYDRA",
+      "Ten Rings",
+      "Watchdogs"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "The Flag Smashers want a world with no borders and take a super-soldier serum like Captain America's."
+  },
+  {
+    "id": "falcon-trivia-11",
+    "question": "Who is given the shield by the government before Sam takes it back?",
+    "options": [
+      "John Walker",
+      "Bucky Barnes",
+      "Sharon Carter",
+      "Joaquin Torres"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "John Walker is named the new Captain America by the government, but he is not ready for the symbol."
+  },
+  {
+    "id": "falcon-trivia-12",
+    "question": "Which country gives Sam the technology to build his new Captain America suit?",
+    "options": [
+      "Wakanda",
+      "Sokovia",
+      "Latveria",
+      "Genosha"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Shuri of Wakanda forges Sam's new red, white, and blue suit using Wakandan vibranium tech."
+  },
+  {
+    "id": "falcon-trivia-13",
+    "question": "Who is Sam Wilson's sister, who lives in Louisiana?",
+    "options": [
+      "Sarah",
+      "Sharon",
+      "Karli",
+      "Riley"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Sarah Wilson lives in Louisiana with her sons, and Sam and Bucky help her fix the family boat."
+  },
+  {
+    "id": "falcon-trivia-14",
+    "question": "What does Sam help his sister Sarah fix in Louisiana?",
+    "options": [
+      "The family fishing boat",
+      "Their grandmother's house",
+      "A pickup truck",
+      "A barn roof"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Sam, Bucky, and Sarah work together to repair the old Wilson family fishing boat."
+  },
+  {
+    "id": "falcon-trivia-15",
+    "question": "Who is Isaiah Bradley?",
+    "options": [
+      "A forgotten Black super-soldier",
+      "A famous Air Force pilot",
+      "Sam's high school coach",
+      "A Wakandan scientist"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Isaiah Bradley was a hero given the super-soldier serum long ago, but his story was hidden away."
+  },
+  {
+    "id": "falcon-trivia-16",
+    "question": "Which evil organization tried to take over the world using Project Insight?",
+    "options": [
+      "HYDRA",
+      "AIM",
+      "The Hand",
+      "The Ten Rings"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "HYDRA hid inside S.H.I.E.L.D. and built Project Insight, which Sam helped Steve shut down."
+  },
+  {
+    "id": "falcon-trivia-17",
+    "question": "Where did Sam work after leaving the Air Force?",
+    "options": [
+      "A VA hospital helping veterans",
+      "A flight school",
+      "A car repair shop",
+      "A police station"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Sam counseled other veterans at a VA Hospital clinic before becoming a hero again."
+  },
+  {
+    "id": "falcon-trivia-18",
+    "question": "Who becomes the next Falcon after Sam becomes Captain America?",
+    "options": [
+      "Joaquin Torres",
+      "John Walker",
+      "Bucky Barnes",
+      "Redwing"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Sam's friend Joaquin Torres puts on the wings and takes over as the new Falcon."
+  },
+  {
+    "id": "falcon-trivia-19",
+    "question": "Who was Sam's wingman lost on a mission years before he met Steve?",
+    "options": [
+      "Riley",
+      "Joaquin",
+      "Bucky",
+      "Walker"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Sam's best friend Riley was shot down during an Air Force pararescue mission, which is why Sam stopped flying."
+  },
+  {
+    "id": "falcon-trivia-20",
+    "question": "How does Sam finally win against Karli on the New York rooftop?",
+    "options": [
+      "He talks to her instead of fighting",
+      "He throws the shield hardest",
+      "He calls in the Avengers",
+      "He uses Redwing's lasers"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "falcon",
+    "explanation": "Sam wins by being patient and giving a careful speech, showing strength does not always mean fists."
+  },
+  {
+    "id": "winter-soldier-trivia-1",
+    "question": "What is Bucky's full real name?",
+    "options": [
+      "James Buchanan Barnes",
+      "Jason Bradley Barnes",
+      "John Bucky Banner",
+      "James Bradley Bishop"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Bucky's real name is James Buchanan Barnes. 'Bucky' is his lifelong nickname."
+  },
+  {
+    "id": "winter-soldier-trivia-2",
+    "question": "Who was Bucky's best friend since they were boys?",
+    "options": [
+      "Steve Rogers",
+      "Tony Stark",
+      "Sam Wilson",
+      "Bruce Banner"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Bucky and Steve Rogers grew up together in Brooklyn and stayed best friends through World War II."
+  },
+  {
+    "id": "winter-soldier-trivia-3",
+    "question": "In which city did Bucky and Steve grow up?",
+    "options": [
+      "Brooklyn",
+      "Queens",
+      "Boston",
+      "Chicago"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Both boys grew up in Brooklyn, New York. Bucky often stood up for the smaller Steve."
+  },
+  {
+    "id": "winter-soldier-trivia-4",
+    "question": "What army unit was Sergeant Barnes part of in WWII?",
+    "options": [
+      "The 107th Infantry",
+      "The 442nd Regiment",
+      "The Howling Commandos only",
+      "The 101st Airborne"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Bucky served as a sergeant in the 107th Infantry before being captured by HYDRA."
+  },
+  {
+    "id": "winter-soldier-trivia-5",
+    "question": "Which HYDRA scientist experimented on Bucky during the war?",
+    "options": [
+      "Arnim Zola",
+      "Helmut Zemo",
+      "Red Skull",
+      "Ultron"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Arnim Zola, HYDRA's scientist, experimented on Bucky, which is why he survived the long fall."
+  },
+  {
+    "id": "winter-soldier-trivia-6",
+    "question": "How did Bucky fall during the WWII mission with Captain America?",
+    "options": [
+      "From a moving train in the Alps",
+      "From an airplane",
+      "Off a cliff",
+      "Off a battleship"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Bucky slipped from a moving train in the snowy Alps while Steve tried to reach him."
+  },
+  {
+    "id": "winter-soldier-trivia-7",
+    "question": "What did HYDRA replace Bucky's lost arm with?",
+    "options": [
+      "A silver metal arm",
+      "A wooden arm",
+      "A glass arm",
+      "A plastic arm"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "HYDRA gave Bucky a silver and black metal arm marked with a red star."
+  },
+  {
+    "id": "winter-soldier-trivia-8",
+    "question": "What symbol was painted on Bucky's old metal arm?",
+    "options": [
+      "A red star",
+      "A black skull",
+      "A gold eagle",
+      "A silver moon"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "The Winter Soldier's shoulder bore a bright red star \u2014 HYDRA's mark on him."
+  },
+  {
+    "id": "winter-soldier-trivia-9",
+    "question": "How did HYDRA keep Bucky between missions?",
+    "options": [
+      "Frozen in cryo-sleep",
+      "Locked in a vault",
+      "Sent home to Brooklyn",
+      "On a desert island"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "HYDRA froze Bucky in a cryo chamber so he would not age between their missions."
+  },
+  {
+    "id": "winter-soldier-trivia-10",
+    "question": "Who said 'Who the hell is Bucky?' when he saw his old friend?",
+    "options": [
+      "The Winter Soldier",
+      "Steve Rogers",
+      "Sam Wilson",
+      "Nick Fury"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Brainwashed Bucky didn't remember Steve and asked, 'Who the hell is Bucky?' during their fight."
+  },
+  {
+    "id": "winter-soldier-trivia-11",
+    "question": "Which villain used trigger words to control the Winter Soldier?",
+    "options": [
+      "Helmut Zemo",
+      "Loki",
+      "Thanos",
+      "Killmonger"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Helmut Zemo read ten Russian words from a red book to switch Bucky into Winter Soldier mode."
+  },
+  {
+    "id": "winter-soldier-trivia-12",
+    "question": "Which is one of Bucky's trigger words?",
+    "options": [
+      "Furnace",
+      "Pumpkin",
+      "Window",
+      "Mountain"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "The ten words include Longing, Rusted, Furnace, Daybreak, Seventeen, Benign, Nine, Homecoming, One, Freight car."
+  },
+  {
+    "id": "winter-soldier-trivia-13",
+    "question": "Which country helped deprogram Bucky and made his new arm?",
+    "options": [
+      "Wakanda",
+      "Sokovia",
+      "Latveria",
+      "Genosha"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Wakandan scientists removed the trigger words from his mind, and Shuri built him a new arm."
+  },
+  {
+    "id": "winter-soldier-trivia-14",
+    "question": "Who designed Bucky's gold and black vibranium arm?",
+    "options": [
+      "Shuri",
+      "Tony Stark",
+      "Hank Pym",
+      "Reed Richards"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Princess Shuri of Wakanda built Bucky's vibranium arm, much lighter and stronger than HYDRA's."
+  },
+  {
+    "id": "winter-soldier-trivia-15",
+    "question": "What special metal is Bucky's Wakandan arm made of?",
+    "options": [
+      "Vibranium",
+      "Adamantium",
+      "Uru",
+      "Promethium"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Shuri built the arm from vibranium, the rare metal that absorbs vibrations and is nearly unbreakable."
+  },
+  {
+    "id": "winter-soldier-trivia-16",
+    "question": "What nickname did the Wakandan kids give Bucky?",
+    "options": [
+      "White Wolf",
+      "Snow Soldier",
+      "Iron Friend",
+      "Silver Star"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Children of the village called him White Wolf as he healed and tended goats in Wakanda."
+  },
+  {
+    "id": "winter-soldier-trivia-17",
+    "question": "In which city was Bucky hiding when Zemo found him in Civil War?",
+    "options": [
+      "Bucharest",
+      "Madripoor",
+      "Sokovia",
+      "Vienna"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Bucky was living quietly in a small apartment in Bucharest, Romania, eating plums from the market."
+  },
+  {
+    "id": "winter-soldier-trivia-18",
+    "question": "Which hero became Bucky's partner after Steve passed the shield on?",
+    "options": [
+      "Sam Wilson",
+      "Clint Barton",
+      "Scott Lang",
+      "Peter Parker"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Bucky teamed with Sam Wilson, the new Captain America, in The Falcon and the Winter Soldier."
+  },
+  {
+    "id": "winter-soldier-trivia-19",
+    "question": "What does Bucky keep in a small notebook?",
+    "options": [
+      "A list of amends to make",
+      "Recipes from Brooklyn",
+      "Wakandan songs",
+      "Steve's birthdays"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Bucky writes down people HYDRA hurt through him so he can find ways to make amends."
+  },
+  {
+    "id": "winter-soldier-trivia-20",
+    "question": "What happened to Bucky when Thanos snapped his fingers?",
+    "options": [
+      "He turned to dust in Wakanda",
+      "He was thrown into space",
+      "He was frozen again",
+      "He was unharmed"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "winter-soldier",
+    "explanation": "Bucky dusted away on the Wakandan battlefield in Infinity War and returned five years later in Endgame."
+  },
+  {
+    "id": "star-lord-trivia-1",
+    "question": "What is Star-Lord's real name?",
+    "options": [
+      "Peter Quill",
+      "Peter Parker",
+      "Quill Stark",
+      "Peter Yondu"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Star-Lord's real name is Peter Quill. His mother Meredith gave him the nickname Star-Lord when he was little."
+  },
+  {
+    "id": "star-lord-trivia-2",
+    "question": "Where on Earth did Peter Quill grow up before being taken into space?",
+    "options": [
+      "Missouri",
+      "California",
+      "New York",
+      "Texas"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Peter was a Missouri kid. He was taken from a Missouri hospital parking lot in 1988 when he was eight."
+  },
+  {
+    "id": "star-lord-trivia-3",
+    "question": "Who is the blue-skinned space pirate who abducted Peter and raised him?",
+    "options": [
+      "Yondu Udonta",
+      "Kraglin",
+      "Ronan",
+      "Drax"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Yondu Udonta, captain of the Ravagers, took Peter from Earth and raised him as one of his crew."
+  },
+  {
+    "id": "star-lord-trivia-4",
+    "question": "What is the name of Peter's mother?",
+    "options": [
+      "Meredith Quill",
+      "Mary Quill",
+      "Margaret Quill",
+      "Melissa Quill"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Meredith Quill was Peter's mom. She made him the Awesome Mix cassette tape he treasures."
+  },
+  {
+    "id": "star-lord-trivia-5",
+    "question": "What is the name of Peter Quill's spaceship?",
+    "options": [
+      "The Milano",
+      "The Benatar",
+      "The Dark Aster",
+      "The Quadrant"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Peter's ship is the Milano. He named her after Alyssa Milano, his childhood TV crush from Earth."
+  },
+  {
+    "id": "star-lord-trivia-6",
+    "question": "What music tape does Peter listen to most often?",
+    "options": [
+      "Awesome Mix Vol. 1",
+      "Galaxy Hits",
+      "Earth Tunes",
+      "Yondu's Mix"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Awesome Mix Vol. 1 was made by his mother Meredith. It is his most prized possession from Earth."
+  },
+  {
+    "id": "star-lord-trivia-7",
+    "question": "Who is Peter Quill's Celestial father?",
+    "options": [
+      "Ego the Living Planet",
+      "Thanos",
+      "Yondu",
+      "High Evolutionary"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Ego the Living Planet is Peter's biological father. Peter chose to reject Ego after learning what he did."
+  },
+  {
+    "id": "star-lord-trivia-8",
+    "question": "Which green-skinned warrior on the team did Peter fall in love with?",
+    "options": [
+      "Gamora",
+      "Nebula",
+      "Mantis",
+      "Ayesha"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Peter loves Gamora, who used to be trained as an assassin by Thanos before joining the Guardians."
+  },
+  {
+    "id": "star-lord-trivia-9",
+    "question": "What is the name of the talking raccoon on Peter's team?",
+    "options": [
+      "Rocket",
+      "Cosmo",
+      "Lylla",
+      "Howard"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Rocket Raccoon is the team's weapons expert. He builds amazing guns and ship modifications."
+  },
+  {
+    "id": "star-lord-trivia-10",
+    "question": "What three words can Groot say?",
+    "options": [
+      "I am Groot",
+      "We are Groot",
+      "Hello there friends",
+      "Trees are nice"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Groot can only say 'I am Groot,' but his friends understand all the different meanings."
+  },
+  {
+    "id": "star-lord-trivia-11",
+    "question": "How did Peter distract Ronan the Accuser during their final battle?",
+    "options": [
+      "A dance-off",
+      "A riddle",
+      "Singing a lullaby",
+      "Telling a joke"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Peter challenged Ronan to a dance-off on Xandar. The silly distraction let Rocket knock the Power Stone loose."
+  },
+  {
+    "id": "star-lord-trivia-12",
+    "question": "What color is the Power Stone that Peter and his team shared?",
+    "options": [
+      "Purple",
+      "Green",
+      "Yellow",
+      "Blue"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "The Power Stone glows purple. The Guardians linked hands to share its power without being destroyed."
+  },
+  {
+    "id": "star-lord-trivia-13",
+    "question": "What weapon does Yondu control by whistling?",
+    "options": [
+      "A Yaka arrow",
+      "A laser sword",
+      "A boomerang",
+      "A magic dagger"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Yondu's Yaka arrow flies and turns wherever he whistles. It can take down whole rooms of enemies."
+  },
+  {
+    "id": "star-lord-trivia-14",
+    "question": "Which planet did Peter and the Guardians save from Ronan?",
+    "options": [
+      "Xandar",
+      "Sovereign",
+      "Knowhere",
+      "Morag"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Xandar is the home of the Nova Corps. Ronan tried to destroy it with the Power Stone."
+  },
+  {
+    "id": "star-lord-trivia-15",
+    "question": "Knowhere, the space colony where the Guardians live in Vol. 3, is built inside what?",
+    "options": [
+      "A giant Celestial head",
+      "A frozen comet",
+      "A hollow moon",
+      "A space station ring"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Knowhere is built inside the giant severed head of an ancient Celestial floating in deep space."
+  },
+  {
+    "id": "star-lord-trivia-16",
+    "question": "Who is the quiet empath who turns out to be Peter's half-sister?",
+    "options": [
+      "Mantis",
+      "Nebula",
+      "Gamora",
+      "Ayesha"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Mantis grew up on Ego's planet and is Peter's half-sister. She can feel and change emotions by touch."
+  },
+  {
+    "id": "star-lord-trivia-17",
+    "question": "Who is the villain that created Rocket in Guardians Vol. 3?",
+    "options": [
+      "The High Evolutionary",
+      "Ego",
+      "Ayesha",
+      "Thanos"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "The High Evolutionary experimented on animals like Rocket to build his perfect Counter-Earth."
+  },
+  {
+    "id": "star-lord-trivia-18",
+    "question": "What music player does Peter use after his Walkman breaks?",
+    "options": [
+      "A Zune",
+      "An iPod",
+      "A radio",
+      "A record player"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Peter gets a Zune from Kraglin loaded with hundreds of Earth songs after his old Walkman is destroyed."
+  },
+  {
+    "id": "star-lord-trivia-19",
+    "question": "What did Yondu tell Peter about Ego?",
+    "options": [
+      "He wasn't your daddy",
+      "He loved you really",
+      "He is still alive",
+      "He is proud of you"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "Yondu told Peter, 'He may have been your father, but he wasn't your daddy.' Yondu was Peter's real dad."
+  },
+  {
+    "id": "star-lord-trivia-20",
+    "question": "What is the name of the new ship the Guardians built after losing the Milano?",
+    "options": [
+      "The Benatar",
+      "The Milano 2",
+      "The Quadrant",
+      "The Bowie"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "star-lord",
+    "explanation": "The Benatar was built from spare parts of a Sovereign Quadrant and a Ravager hauler after Ego's planet fell."
   }
 ]
