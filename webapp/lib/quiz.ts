@@ -1,6 +1,5 @@
-export type Difficulty = "easy" | "medium" | "hard";
+export type Difficulty = "easy" | "medium" | "hard" | "trivia";
 export type QuizUniverse = "marvel" | "dc" | "avengers" | "thanos";
-export type QuizScope = "all" | "marvel" | "dc" | string; // string = heroId
 
 export interface QuizQuestion {
   id: string;
@@ -13,30 +12,23 @@ export interface QuizQuestion {
   explanation: string;
 }
 
-export interface QuizConfig {
-  difficulty: Difficulty;
-  scope: QuizScope;
-  scopeLabel: string;
-  count: number;
-}
-
 export interface QuizAnswer {
   question: QuizQuestion;
   picked: number;
   correct: boolean;
 }
 
-export function filterQuestions(
+// Multi-hero filter. heroIds=null means "everything" (incl. ensemble nulls).
+export function filterQuestionsByHeroes(
   questions: QuizQuestion[],
   difficulty: Difficulty,
-  scope: QuizScope,
+  heroIds: string[] | null,
 ): QuizQuestion[] {
   return questions.filter((q) => {
     if (q.difficulty !== difficulty) return false;
-    if (scope === "all") return true;
-    if (scope === "marvel") return q.universe === "marvel";
-    if (scope === "dc") return q.universe === "dc";
-    return q.heroId === scope;
+    if (heroIds === null) return true;
+    if (q.heroId === null) return false;
+    return heroIds.includes(q.heroId);
   });
 }
 

@@ -1,16 +1,15 @@
 "use client";
 
-import { useState, useEffect, Suspense } from "react";
+import { useState, useMemo, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import NavBar from "@/components/NavBar";
 import allQuestions from "@/lib/quiz-questions.json";
 import {
   type Difficulty,
-  type QuizScope,
   type QuizQuestion,
   type QuizAnswer,
-  filterQuestions,
+  filterQuestionsByHeroes,
   pickRandom,
 } from "@/lib/quiz";
 
@@ -44,9 +43,14 @@ const HERO_LIST: { id: string; name: string; universe: "marvel" | "dc" }[] = [
   { id: "martian-manhunter", name: "Martian Manhunter", universe: "dc" },
 ];
 
+const ALL_IDS = HERO_LIST.map((h) => h.id);
+const MARVEL_IDS = HERO_LIST.filter((h) => h.universe === "marvel").map((h) => h.id);
+const DC_IDS = HERO_LIST.filter((h) => h.universe === "dc").map((h) => h.id);
+
 // ─── Config ───────────────────────────────────────────────────────────────────
 
-const DIFFICULTIES: { id: Difficulty; label: string; color: string }[] = [
+const MODES: { id: Difficulty; label: string; color: string }[] = [
+  { id: "trivia", label: "Trivia", color: "#a26bff" },
   { id: "easy",   label: "Easy",   color: "#22c55e" },
   { id: "medium", label: "Medium", color: "#f59e0b" },
   { id: "hard",   label: "Hard",   color: "#ef4444" },
@@ -65,46 +69,69 @@ function scoreEmoji(correct: number, total: number) {
   return "💪";
 }
 
+function describeSelection(selected: string[]): string {
+  if (selected.length === 0) return "No heroes";
+  if (selected.length === ALL_IDS.length) return "All Heroes";
+  if (selected.length === MARVEL_IDS.length && selected.every((id) => MARVEL_IDS.includes(id))) return "Marvel";
+  if (selected.length === DC_IDS.length && selected.every((id) => DC_IDS.includes(id))) return "DC";
+  if (selected.length === 1) return HERO_LIST.find((h) => h.id === selected[0])?.name ?? selected[0];
+  return `${selected.length} heroes`;
+}
+
+// Parse ?scope=... from old hero-page links. Accepts:
+//   "all" | "marvel" | "dc"  → expanded preset
+//   "<heroId>"               → single hero
+//   "id1,id2,id3"            → multi
+function parseInitialSelection(scope: string | null): string[] {
+  if (!scope || scope === "all") return [...ALL_IDS];
+  if (scope === "marvel") return [...MARVEL_IDS];
+  if (scope === "dc") return [...DC_IDS];
+  const ids = scope.split(",").map((s) => s.trim()).filter((id) => ALL_IDS.includes(id));
+  return ids.length > 0 ? ids : [...ALL_IDS];
+}
+
 // ─── Config Screen ────────────────────────────────────────────────────────────
 
 function ConfigScreen({
-  initialScope,
-  initialLabel,
+  initialSelected,
   onStart,
 }: {
-  initialScope: QuizScope;
-  initialLabel: string;
-  onStart: (difficulty: Difficulty, scope: QuizScope, scopeLabel: string, count: number, questions: QuizQuestion[]) => void;
+  initialSelected: string[];
+  onStart: (mode: Difficulty, selected: string[], scopeLabel: string, count: number, questions: QuizQuestion[]) => void;
 }) {
-  const [difficulty, setDifficulty] = useState<Difficulty>("medium");
-  const [scope, setScope] = useState<QuizScope>(initialScope);
-  const [count, setCount] = useState(5);
+  const [mode, setMode] = useState<Difficulty>("trivia");
+  const [selected, setSelected] = useState<string[]>(initialSelected);
+  const [count, setCount] = useState(10);
 
-  // Derive display label from scope
-  const scopeLabel = scope === "all" ? "All Heroes"
-    : scope === "marvel" ? "Marvel"
-    : scope === "dc" ? "DC"
-    : HERO_LIST.find(h => h.id === scope)?.name ?? scope;
+  const selectedSet = useMemo(() => new Set(selected), [selected]);
 
-  // Which universe tab is active (for the top row buttons)
-  const universeTab: "all" | "marvel" | "dc" =
-    scope === "all" || scope === "marvel" || scope === "dc"
-      ? (scope as "all" | "marvel" | "dc")
-      : (HERO_LIST.find(h => h.id === scope)?.universe ?? "all");
-
-  // Heroes visible below the universe toggle
-  const visibleHeroes = universeTab === "all" ? HERO_LIST : HERO_LIST.filter(h => h.universe === universeTab);
-
-  function handleStart() {
-    const pool = filterQuestions(allQuestions as QuizQuestion[], difficulty, scope);
-    const picked = pickRandom(pool, count);
-    onStart(difficulty, scope, scopeLabel, count, picked);
+  function toggleHero(id: string) {
+    setSelected((prev) =>
+      prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id],
+    );
   }
 
-  const available = filterQuestions(allQuestions as QuizQuestion[], difficulty, scope).length;
+  function selectAll() { setSelected([...ALL_IDS]); }
+  function selectMarvel() { setSelected([...MARVEL_IDS]); }
+  function selectDC() { setSelected([...DC_IDS]); }
+  function selectNone() { setSelected([]); }
+
+  const available = filterQuestionsByHeroes(
+    allQuestions as QuizQuestion[],
+    mode,
+    selected,
+  ).length;
+
+  const scopeLabel = describeSelection(selected);
+
+  function handleStart() {
+    const pool = filterQuestionsByHeroes(allQuestions as QuizQuestion[], mode, selected);
+    const picked = pickRandom(pool, count);
+    onStart(mode, selected, scopeLabel, count, picked);
+  }
 
   return (
-    <div style={{ maxWidth: 480, margin: "0 auto", padding: "40px 24px 80px" }}>
+    <div style={{ maxWidth: 520, margin: "0 auto", padding: "40px 24px 80px" }}>
       <div style={{ textAlign: "center", marginBottom: 48 }}>
         <h1 className="liquid-text" style={{ fontSize: 52, fontWeight: 900, margin: "0 0 8px", lineHeight: 0.9, textTransform: "uppercase" }}>
           Quiz<br />Time!
@@ -114,23 +141,22 @@ function ConfigScreen({
         </p>
       </div>
 
-      {/* Difficulty */}
+      {/* Mode */}
       <div style={{ marginBottom: 36 }}>
         <label style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--text-muted)", display: "block", marginBottom: 12 }}>
-          Difficulty
+          Mode
         </label>
-        <div style={{ display: "flex", gap: 10 }}>
-          {DIFFICULTIES.map((d) => (
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 8 }}>
+          {MODES.map((d) => (
             <button
               key={d.id}
-              onClick={() => setDifficulty(d.id)}
+              onClick={() => setMode(d.id)}
               style={{
-                flex: 1,
                 padding: "12px 0",
                 borderRadius: 12,
-                border: difficulty === d.id ? `2px solid ${d.color}` : "2px solid var(--border)",
-                background: difficulty === d.id ? `${d.color}22` : "var(--surface)",
-                color: difficulty === d.id ? d.color : "var(--text-muted)",
+                border: mode === d.id ? `2px solid ${d.color}` : "2px solid var(--border)",
+                background: mode === d.id ? `${d.color}22` : "var(--surface)",
+                color: mode === d.id ? d.color : "var(--text-muted)",
                 fontWeight: 700,
                 fontSize: 13,
                 letterSpacing: "0.06em",
@@ -145,63 +171,85 @@ function ConfigScreen({
         </div>
       </div>
 
-      {/* Scope */}
+      {/* Heroes */}
       <div style={{ marginBottom: 36 }}>
-        <label style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--text-muted)", display: "block", marginBottom: 12 }}>
-          Characters
-        </label>
-        {/* Universe toggle */}
-        <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>
-          {(["all", "marvel", "dc"] as const).map((u) => (
-            <button
-              key={u}
-              onClick={() => setScope(u)}
-              style={{
-                flex: 1,
-                padding: "9px 0",
-                borderRadius: 10,
-                border: universeTab === u ? "2px solid var(--av-accent)" : "2px solid var(--border)",
-                background: universeTab === u ? "rgba(255,217,0,0.12)" : "var(--surface)",
-                color: universeTab === u ? "var(--av-accent)" : "var(--text-muted)",
-                fontWeight: 700,
-                fontSize: 12,
-                letterSpacing: "0.08em",
-                textTransform: "uppercase",
-                cursor: "pointer",
-                transition: "all 0.15s",
-              }}
-            >
-              {u === "all" ? "All" : u.toUpperCase()}
-            </button>
-          ))}
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 12 }}>
+          <label style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--text-muted)" }}>
+            Heroes · {selected.length} selected
+          </label>
+          <button
+            onClick={selectNone}
+            disabled={selected.length === 0}
+            style={{
+              padding: 0,
+              border: "none",
+              background: "transparent",
+              color: selected.length === 0 ? "var(--text-muted)" : "var(--marvel-accent)",
+              fontWeight: 600,
+              fontSize: 11,
+              letterSpacing: "0.08em",
+              textTransform: "uppercase",
+              cursor: selected.length === 0 ? "default" : "pointer",
+            }}
+          >
+            Clear
+          </button>
         </div>
-        {/* Individual hero chips */}
+
+        {/* Quick-select buttons */}
+        <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>
+          <button
+            onClick={selectAll}
+            style={quickBtnStyle(selected.length === ALL_IDS.length)}
+          >
+            All
+          </button>
+          <button
+            onClick={selectMarvel}
+            style={quickBtnStyle(selected.length === MARVEL_IDS.length && selected.every((id) => MARVEL_IDS.includes(id)))}
+          >
+            Marvel
+          </button>
+          <button
+            onClick={selectDC}
+            style={quickBtnStyle(selected.length === DC_IDS.length && selected.every((id) => DC_IDS.includes(id)))}
+          >
+            DC
+          </button>
+        </div>
+
+        {/* Hero chips — multi-select */}
         <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
-          {visibleHeroes.map((h) => (
-            <button
-              key={h.id}
-              onClick={() => setScope(h.id)}
-              style={{
-                padding: "6px 12px",
-                borderRadius: 999,
-                border: scope === h.id ? "2px solid var(--marvel-accent)" : "1px solid var(--border)",
-                background: scope === h.id ? "rgba(229,9,20,0.15)" : "transparent",
-                color: scope === h.id ? "var(--marvel-accent)" : "var(--text-muted)",
-                fontWeight: scope === h.id ? 700 : 500,
-                fontSize: 12,
-                cursor: "pointer",
-                transition: "all 0.15s",
-                whiteSpace: "nowrap",
-              }}
-            >
-              {h.name}
-            </button>
-          ))}
+          {HERO_LIST.map((h) => {
+            const on = selectedSet.has(h.id);
+            const accent = h.universe === "marvel" ? "var(--marvel-accent)" : "var(--dc-accent)";
+            const tint = h.universe === "marvel" ? "rgba(229,9,20,0.18)" : "rgba(0,153,255,0.18)";
+            return (
+              <button
+                key={h.id}
+                onClick={() => toggleHero(h.id)}
+                style={{
+                  padding: "6px 12px",
+                  borderRadius: 999,
+                  border: on ? `2px solid ${accent}` : "1px solid var(--border)",
+                  background: on ? tint : "transparent",
+                  color: on ? accent : "var(--text-muted)",
+                  fontWeight: on ? 700 : 500,
+                  fontSize: 12,
+                  cursor: "pointer",
+                  transition: "all 0.15s",
+                  whiteSpace: "nowrap",
+                }}
+              >
+                {on ? "✓ " : ""}{h.name}
+              </button>
+            );
+          })}
         </div>
       </div>
 
       {/* Question count */}
-      <div style={{ marginBottom: 48 }}>
+      <div style={{ marginBottom: 32 }}>
         <label style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--text-muted)", display: "block", marginBottom: 12 }}>
           Questions
         </label>
@@ -232,34 +280,55 @@ function ConfigScreen({
       {/* Start */}
       <button
         onClick={handleStart}
-        disabled={available === 0}
+        disabled={available === 0 || selected.length === 0}
         style={{
           width: "100%",
           padding: "16px 0",
           borderRadius: 16,
           border: "none",
-          background: available === 0
+          background: (available === 0 || selected.length === 0)
             ? "var(--surface)"
             : "radial-gradient(circle at 30% 30%, var(--thanos-accent), var(--dc-accent) 70%)",
-          color: available === 0 ? "var(--text-muted)" : "#0a0a14",
+          color: (available === 0 || selected.length === 0) ? "var(--text-muted)" : "#0a0a14",
           fontWeight: 800,
           fontSize: 16,
           letterSpacing: "0.08em",
           textTransform: "uppercase",
-          cursor: available === 0 ? "not-allowed" : "pointer",
+          cursor: (available === 0 || selected.length === 0) ? "not-allowed" : "pointer",
           transition: "opacity 0.15s",
         }}
       >
-        {available === 0 ? "Questions Loading…" : `Start Quiz · ${Math.min(count, available)} Questions`}
+        {selected.length === 0
+          ? "Pick at least one hero"
+          : available === 0
+            ? "No questions in pool"
+            : `Start · ${Math.min(count, available)} Questions`}
       </button>
 
-      {available > 0 && (
+      {available > 0 && selected.length > 0 && (
         <p style={{ textAlign: "center", fontSize: 12, color: "var(--text-muted)", marginTop: 12 }}>
-          {available} questions available in pool
+          {available} {mode} questions available across {scopeLabel.toLowerCase()}
         </p>
       )}
     </div>
   );
+}
+
+function quickBtnStyle(active: boolean): React.CSSProperties {
+  return {
+    flex: 1,
+    padding: "9px 0",
+    borderRadius: 10,
+    border: active ? "2px solid var(--av-accent)" : "2px solid var(--border)",
+    background: active ? "rgba(255,217,0,0.12)" : "var(--surface)",
+    color: active ? "var(--av-accent)" : "var(--text-muted)",
+    fontWeight: 700,
+    fontSize: 12,
+    letterSpacing: "0.08em",
+    textTransform: "uppercase",
+    cursor: "pointer",
+    transition: "all 0.15s",
+  };
 }
 
 // ─── Question Screen ──────────────────────────────────────────────────────────
@@ -284,7 +353,12 @@ function QuestionScreen({
   const [picked, setPicked] = useState<number | null>(existingPick ?? null);
   const answered = picked !== null;
 
-  const diffColor = { easy: "#22c55e", medium: "#f59e0b", hard: "#ef4444" }[question.difficulty];
+  const diffColor = {
+    easy: "#22c55e",
+    medium: "#f59e0b",
+    hard: "#ef4444",
+    trivia: "#a26bff",
+  }[question.difficulty];
 
   function handlePick(i: number) {
     if (answered) return;
@@ -539,17 +613,19 @@ type Phase = "config" | "playing" | "results";
 function QuizController() {
   const searchParams = useSearchParams();
 
-  const initialScope = (searchParams.get("scope") ?? "all") as QuizScope;
-  const initialLabel = searchParams.get("label") ?? "All Heroes";
+  const initialSelected = useMemo(
+    () => parseInitialSelection(searchParams.get("scope")),
+    [searchParams],
+  );
 
   const [phase, setPhase] = useState<Phase>("config");
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, QuizAnswer>>({});
-  const [lastConfig, setLastConfig] = useState<{ difficulty: Difficulty; scope: QuizScope; scopeLabel: string; count: number } | null>(null);
+  const [lastConfig, setLastConfig] = useState<{ mode: Difficulty; selected: string[]; scopeLabel: string; count: number } | null>(null);
 
-  function handleStart(difficulty: Difficulty, scope: QuizScope, scopeLabel: string, count: number, picked: QuizQuestion[]) {
-    setLastConfig({ difficulty, scope, scopeLabel, count });
+  function handleStart(mode: Difficulty, selected: string[], scopeLabel: string, count: number, picked: QuizQuestion[]) {
+    setLastConfig({ mode, selected, scopeLabel, count });
     setQuestions(picked);
     setCurrentIndex(0);
     setAnswers({});
@@ -559,7 +635,7 @@ function QuizController() {
   function handleAnswer(picked: number) {
     const q = questions[currentIndex];
     const newAnswer: QuizAnswer = { question: q, picked, correct: picked === q.correctIndex };
-    setAnswers(prev => ({ ...prev, [currentIndex]: newAnswer }));
+    setAnswers((prev) => ({ ...prev, [currentIndex]: newAnswer }));
   }
 
   function handleNext() {
@@ -576,7 +652,7 @@ function QuizController() {
 
   function handleRetry() {
     if (!lastConfig) return;
-    const pool = filterQuestions(allQuestions as QuizQuestion[], lastConfig.difficulty, lastConfig.scope);
+    const pool = filterQuestionsByHeroes(allQuestions as QuizQuestion[], lastConfig.mode, lastConfig.selected);
     const picked = pickRandom(pool, lastConfig.count);
     setQuestions(picked);
     setCurrentIndex(0);
@@ -589,7 +665,7 @@ function QuizController() {
   }
 
   if (phase === "config") {
-    return <ConfigScreen initialScope={initialScope} initialLabel={initialLabel} onStart={handleStart} />;
+    return <ConfigScreen initialSelected={initialSelected} onStart={handleStart} />;
   }
 
   if (phase === "playing") {
