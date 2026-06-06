@@ -18943,5 +18943,1505 @@
     "universe": "dc",
     "heroId": "aquaman",
     "explanation": "In classic comics Aquaman rides a giant seahorse named Storm across the seas."
+  },
+  {
+    "id": "green-lantern-trivia-1",
+    "question": "What is Hal Jordan's job before he becomes Green Lantern?",
+    "options": [
+      "Test pilot",
+      "Police officer",
+      "Scientist",
+      "Reporter"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Hal Jordan is a fearless test pilot at Ferris Aircraft in Coast City."
+  },
+  {
+    "id": "green-lantern-trivia-2",
+    "question": "Which dying alien gives Hal Jordan the Power Ring?",
+    "options": [
+      "Abin Sur",
+      "Sinestro",
+      "Kilowog",
+      "Tomar-Re"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Abin Sur crash-lands on Earth and passes his ring to Hal before he dies."
+  },
+  {
+    "id": "green-lantern-trivia-3",
+    "question": "What planet do the Guardians of the Universe live on?",
+    "options": [
+      "Oa",
+      "Krypton",
+      "Thanagar",
+      "Apokolips"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "The Guardians live on the planet Oa, the center of the Green Lantern Corps."
+  },
+  {
+    "id": "green-lantern-trivia-4",
+    "question": "Which space sector does Hal Jordan protect?",
+    "options": [
+      "Sector 2814",
+      "Sector 1417",
+      "Sector 9000",
+      "Sector 42"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Sector 2814 includes Earth, and Hal is one of its assigned Green Lanterns."
+  },
+  {
+    "id": "green-lantern-trivia-5",
+    "question": "What is the Power Ring shaped to recharge from?",
+    "options": [
+      "A lantern-shaped battery",
+      "A glowing sun",
+      "A crystal stone",
+      "A magic book"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "The ring recharges from a green lantern-shaped Power Battery."
+  },
+  {
+    "id": "green-lantern-trivia-6",
+    "question": "What emotion powers the green ring?",
+    "options": [
+      "Willpower",
+      "Anger",
+      "Fear",
+      "Hope"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Green is the color of willpower on the Emotional Spectrum."
+  },
+  {
+    "id": "green-lantern-trivia-7",
+    "question": "Which color is the ring's classic weakness?",
+    "options": [
+      "Yellow",
+      "Red",
+      "Blue",
+      "Black"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Yellow, tied to fear, was the ring's classic weakness in old comics."
+  },
+  {
+    "id": "green-lantern-trivia-8",
+    "question": "How does the first line of the Lantern oath begin?",
+    "options": [
+      "In brightest day",
+      "In darkest hour",
+      "By stars above",
+      "With shining heart"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "The oath starts, \"In brightest day, in blackest night, no evil shall escape my sight.\""
+  },
+  {
+    "id": "green-lantern-trivia-9",
+    "question": "What city does Hal Jordan call home?",
+    "options": [
+      "Coast City",
+      "Gotham City",
+      "Metropolis",
+      "Central City"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Hal lives and flies test jets in sunny Coast City."
+  },
+  {
+    "id": "green-lantern-trivia-10",
+    "question": "What can the Power Ring create?",
+    "options": [
+      "Anything Hal imagines",
+      "Only swords",
+      "Only shields",
+      "Only force fields"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "The ring makes glowing green constructs of anything the wearer pictures clearly."
+  },
+  {
+    "id": "green-lantern-trivia-11",
+    "question": "Who was Hal's mentor before turning into a villain with a yellow ring?",
+    "options": [
+      "Sinestro",
+      "Atrocitus",
+      "Larfleeze",
+      "Black Hand"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Sinestro trained Hal, then formed the yellow Sinestro Corps powered by fear."
+  },
+  {
+    "id": "green-lantern-trivia-12",
+    "question": "Which color ring does Carol Ferris wear as Star Sapphire?",
+    "options": [
+      "Violet",
+      "Pink",
+      "Silver",
+      "Gold"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Carol's Star Sapphire ring is violet, powered by love on the Emotional Spectrum."
+  },
+  {
+    "id": "green-lantern-trivia-13",
+    "question": "Atrocitus leads which angry group of Lanterns?",
+    "options": [
+      "Red Lanterns",
+      "Blue Lanterns",
+      "White Lanterns",
+      "Indigo Tribe"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "The Red Lanterns are fueled by rage, and Atrocitus is their leader."
+  },
+  {
+    "id": "green-lantern-trivia-14",
+    "question": "What emotion powers Larfleeze's orange ring?",
+    "options": [
+      "Greed",
+      "Hope",
+      "Joy",
+      "Patience"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Larfleeze hoards the orange light of avarice, also called greed."
+  },
+  {
+    "id": "green-lantern-trivia-15",
+    "question": "Parallax is the giant entity made of which feeling?",
+    "options": [
+      "Fear",
+      "Anger",
+      "Sadness",
+      "Boredom"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Parallax is the yellow fear entity that once corrupted Hal Jordan."
+  },
+  {
+    "id": "green-lantern-trivia-16",
+    "question": "What do the Guardians of the Universe look like?",
+    "options": [
+      "Small blue-skinned ancient beings",
+      "Tall robots",
+      "Glowing flames",
+      "Winged giants"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "The Guardians are small, blue-skinned, white-haired beings older than most stars."
+  },
+  {
+    "id": "green-lantern-trivia-17",
+    "question": "Which Earth Green Lantern is an architect and former Marine?",
+    "options": [
+      "John Stewart",
+      "Guy Gardner",
+      "Kyle Rayner",
+      "Simon Baz"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "John Stewart is an architect, ex-Marine, and one of Earth's Green Lanterns."
+  },
+  {
+    "id": "green-lantern-trivia-18",
+    "question": "Which Earth Green Lantern is known as a creative artist?",
+    "options": [
+      "Kyle Rayner",
+      "Guy Gardner",
+      "John Stewart",
+      "Hal Jordan"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Kyle Rayner is an artist whose imagination fuels wild ring constructs."
+  },
+  {
+    "id": "green-lantern-trivia-19",
+    "question": "Which big team did Hal Jordan help found?",
+    "options": [
+      "The Justice League",
+      "The Avengers",
+      "The Teen Titans",
+      "The X-Men"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Hal is a founding member of the Justice League alongside Superman and Batman."
+  },
+  {
+    "id": "green-lantern-trivia-20",
+    "question": "Who is Hal's loyal mechanic best friend at Ferris Aircraft?",
+    "options": [
+      "Tom Kalmaku",
+      "Carol Ferris",
+      "Barry Allen",
+      "Oliver Queen"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "green-lantern",
+    "explanation": "Tom \"Pieface\" Kalmaku is Hal's trusted mechanic and close friend."
+  },
+  {
+    "id": "batgirl-trivia-1",
+    "question": "What is Batgirl's real name?",
+    "options": [
+      "Barbara Gordon",
+      "Selina Kyle",
+      "Dinah Lance",
+      "Helena Bertinelli"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Barbara Gordon becomes Batgirl, inspired by Batman's example to protect Gotham City."
+  },
+  {
+    "id": "batgirl-trivia-2",
+    "question": "Who is Barbara Gordon's father?",
+    "options": [
+      "Mayor Hill",
+      "Commissioner James Gordon",
+      "Alfred Pennyworth",
+      "Lucius Fox"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Her dad is Commissioner James Gordon, the top police officer in Gotham City."
+  },
+  {
+    "id": "batgirl-trivia-3",
+    "question": "In which city does Batgirl protect the streets?",
+    "options": [
+      "Metropolis",
+      "Star City",
+      "Gotham City",
+      "Central City"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Batgirl patrols Gotham City, the same town Batman calls home."
+  },
+  {
+    "id": "batgirl-trivia-4",
+    "question": "What is Barbara Gordon's day job in the classic comics?",
+    "options": [
+      "Doctor",
+      "Librarian",
+      "Reporter",
+      "Chef"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Barbara works at the Gotham Public Library by day, surrounded by the books she loves."
+  },
+  {
+    "id": "batgirl-trivia-5",
+    "question": "How did Barbara first put on the Batgirl suit?",
+    "options": [
+      "Bruce gave it to her",
+      "She found it in a cave",
+      "She sewed it for a costume party",
+      "Her father made it"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Barbara stitched the suit herself for a costume party, then kept wearing it to fight crime."
+  },
+  {
+    "id": "batgirl-trivia-6",
+    "question": "What two colors appear most often on Batgirl's classic suit?",
+    "options": [
+      "Red and blue",
+      "Purple and yellow",
+      "Green and silver",
+      "Pink and white"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Her classic costume is bright purple with yellow bat symbol, gloves, and boots."
+  },
+  {
+    "id": "batgirl-trivia-7",
+    "question": "What sharp throwing weapons does Batgirl use?",
+    "options": [
+      "Boomerangs",
+      "Batarangs",
+      "Darts",
+      "Shurikens"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Batgirl throws batarangs from her utility belt, just like Batman does."
+  },
+  {
+    "id": "batgirl-trivia-8",
+    "question": "What vehicle does Batgirl zoom around Gotham on?",
+    "options": [
+      "The Batcycle",
+      "A skateboard",
+      "A jetpack",
+      "A speedboat"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Batgirl rides her sleek Batcycle through Gotham's streets at lightning speed."
+  },
+  {
+    "id": "batgirl-trivia-9",
+    "question": "What special memory ability does Barbara Gordon have?",
+    "options": [
+      "She reads minds",
+      "Photographic memory",
+      "She sees the future",
+      "She forgets nothing for a day"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Barbara has a photographic memory, meaning she remembers nearly everything she reads or sees."
+  },
+  {
+    "id": "batgirl-trivia-10",
+    "question": "What name does Barbara use when she becomes the team's master computer expert?",
+    "options": [
+      "Oracle",
+      "Spyglass",
+      "Cipher",
+      "Beacon"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "As Oracle, Barbara helps heroes everywhere using her brilliant mind and computer skills."
+  },
+  {
+    "id": "batgirl-trivia-11",
+    "question": "From which Gotham landmark does Oracle run her command center?",
+    "options": [
+      "Wayne Tower",
+      "The Clock Tower",
+      "City Hall",
+      "Arkham Library"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Oracle works from the Gotham Clock Tower, watching over the city through her screens."
+  },
+  {
+    "id": "batgirl-trivia-12",
+    "question": "Which team did Barbara help create with Black Canary?",
+    "options": [
+      "Teen Titans",
+      "Birds of Prey",
+      "Justice Society",
+      "Suicide Squad"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Barbara and Dinah Lance founded the Birds of Prey, a team of brave heroines."
+  },
+  {
+    "id": "batgirl-trivia-13",
+    "question": "What is Black Canary's real name?",
+    "options": [
+      "Dinah Lance",
+      "Selina Kyle",
+      "Helena Bertinelli",
+      "Barbara Gordon"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Dinah Lance is Black Canary, Barbara's best friend and Birds of Prey partner."
+  },
+  {
+    "id": "batgirl-trivia-14",
+    "question": "Which Robin is often Barbara's close friend and partner?",
+    "options": [
+      "Tim Drake",
+      "Damian Wayne",
+      "Dick Grayson",
+      "Jason Todd"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Dick Grayson, the first Robin who later becomes Nightwing, is one of Barbara's closest allies."
+  },
+  {
+    "id": "batgirl-trivia-15",
+    "question": "Which Birds of Prey teammate is the daughter of a mobster?",
+    "options": [
+      "Huntress",
+      "Power Girl",
+      "Zatanna",
+      "Hawkgirl"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Huntress, Helena Bertinelli, fights crime alongside Barbara and Black Canary."
+  },
+  {
+    "id": "batgirl-trivia-16",
+    "question": "Which giggling villain is one of Batgirl's biggest foes?",
+    "options": [
+      "The Penguin",
+      "The Joker",
+      "Mr. Freeze",
+      "Scarecrow"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "The Joker, with his purple suit and wild laugh, is one of Batgirl's most dangerous enemies."
+  },
+  {
+    "id": "batgirl-trivia-17",
+    "question": "Which puzzle-loving villain often challenges Batgirl with brainy clues?",
+    "options": [
+      "The Riddler",
+      "Two-Face",
+      "Bane",
+      "Clayface"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "The Riddler loves leaving question-mark puzzles, but Barbara's sharp mind always solves them."
+  },
+  {
+    "id": "batgirl-trivia-18",
+    "question": "Which winged villain was one of the very first crooks Batgirl stopped?",
+    "options": [
+      "Firefly",
+      "Killer Moth",
+      "Man-Bat",
+      "Vulture"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Killer Moth was the bumbling crook Batgirl beat on her very first night out."
+  },
+  {
+    "id": "batgirl-trivia-19",
+    "question": "Which trendy Gotham neighborhood does the New 52 Batgirl call home?",
+    "options": [
+      "Crime Alley",
+      "The Narrows",
+      "Burnside",
+      "Tricorner"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Burnside is the lively Gotham neighborhood where Barbara protects her young neighbors."
+  },
+  {
+    "id": "batgirl-trivia-20",
+    "question": "What sport did Barbara train in, giving her amazing flips and balance?",
+    "options": [
+      "Swimming",
+      "Gymnastics",
+      "Skiing",
+      "Archery"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batgirl",
+    "explanation": "Barbara is a trained gymnast, which helps her flip, leap, and balance across Gotham rooftops."
+  },
+  {
+    "id": "shazam-trivia-1",
+    "question": "What magic word does Billy Batson shout to become Shazam?",
+    "options": [
+      "SHAZAM!",
+      "ABRACADABRA!",
+      "LIGHTNING!",
+      "PRESTO!"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "When Billy yells 'SHAZAM!', a bolt of lightning strikes and turns him into a grown-up superhero."
+  },
+  {
+    "id": "shazam-trivia-2",
+    "question": "What is Billy Batson's home city?",
+    "options": [
+      "Gotham City",
+      "Metropolis",
+      "Philadelphia",
+      "Star City"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "Billy lives in Philadelphia, where he rides the trolleys and tries to find his place."
+  },
+  {
+    "id": "shazam-trivia-3",
+    "question": "Who gives Billy his powers at the Rock of Eternity?",
+    "options": [
+      "Zeus himself",
+      "The Wizard Shazam",
+      "Doctor Fate",
+      "Merlin"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "The ancient Wizard Shazam chooses Billy as his champion and passes the lightning down to him."
+  },
+  {
+    "id": "shazam-trivia-4",
+    "question": "What does the 'S' in SHAZAM stand for?",
+    "options": [
+      "Speed",
+      "Strength",
+      "Solomon",
+      "Stamina"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "Solomon gives Shazam his wisdom \u2014 the smarts to make good choices in a tough moment."
+  },
+  {
+    "id": "shazam-trivia-5",
+    "question": "Which Greek hero gives Shazam his super strength?",
+    "options": [
+      "Hercules",
+      "Achilles",
+      "Atlas",
+      "Perseus"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "The 'H' in SHAZAM is Hercules, the strongest hero in old Greek stories."
+  },
+  {
+    "id": "shazam-trivia-6",
+    "question": "Which god gives Shazam his lightning power?",
+    "options": [
+      "Apollo",
+      "Poseidon",
+      "Hades",
+      "Zeus"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "The 'Z' is Zeus, king of the gods, who lets Shazam call down thunder and lightning."
+  },
+  {
+    "id": "shazam-trivia-7",
+    "question": "Which fast god gives Shazam his super speed?",
+    "options": [
+      "Mercury",
+      "Hermes",
+      "Atlas",
+      "Apollo"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "Mercury, the winged messenger of the Roman gods, makes Shazam zip faster than a car."
+  },
+  {
+    "id": "shazam-trivia-8",
+    "question": "What color is Shazam's cape?",
+    "options": [
+      "Black",
+      "Yellow",
+      "White",
+      "Blue"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "Shazam wears a bright red suit with a flowing white cape and a gold lightning bolt."
+  },
+  {
+    "id": "shazam-trivia-9",
+    "question": "What shape is on the front of Shazam's chest?",
+    "options": [
+      "A star",
+      "A lightning bolt",
+      "A shield",
+      "A bat"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "A big gold lightning bolt sits in the middle of his chest, matching the magic that makes him."
+  },
+  {
+    "id": "shazam-trivia-10",
+    "question": "What is the name of the magical place where the Wizard lives?",
+    "options": [
+      "The Watchtower",
+      "The Fortress of Solitude",
+      "The Rock of Eternity",
+      "Mount Olympus"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "The Rock of Eternity is a hidden stone temple where the Wizard sits on his throne."
+  },
+  {
+    "id": "shazam-trivia-11",
+    "question": "What are the names of Billy's kind foster parents?",
+    "options": [
+      "Rosa and Victor Vasquez",
+      "Martha and Jonathan Kent",
+      "Aunt May and Uncle Ben",
+      "Alfred and Bruce"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "Rosa and Victor Vasquez take Billy in and give him a real, loving family."
+  },
+  {
+    "id": "shazam-trivia-12",
+    "question": "Who is Billy's best friend and foster brother who loves superheroes?",
+    "options": [
+      "Pedro Pe\u00f1a",
+      "Eugene Choi",
+      "Freddy Freeman",
+      "Dick Grayson"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "Freddy Freeman knows everything about superheroes and becomes Captain Marvel Jr. in the Shazam Family."
+  },
+  {
+    "id": "shazam-trivia-13",
+    "question": "Which foster sister is the oldest and becomes Mary Marvel?",
+    "options": [
+      "Darla Dudley",
+      "Mary Bromfield",
+      "Anthea",
+      "Hespera"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "Mary Bromfield is the big sister of the foster home and gets her own lightning powers."
+  },
+  {
+    "id": "shazam-trivia-14",
+    "question": "Which little foster sister is the youngest of the Shazam Family?",
+    "options": [
+      "Darla Dudley",
+      "Mary Bromfield",
+      "Kalypso",
+      "Anthea"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "Darla Dudley is the smallest and sweetest of the foster kids who joins the Shazam Family."
+  },
+  {
+    "id": "shazam-trivia-15",
+    "question": "Who is the jealous scientist villain who hated Billy in the 2019 film?",
+    "options": [
+      "Lex Luthor",
+      "Dr. Thaddeus Sivana",
+      "Mister Mind",
+      "The Joker"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "Dr. Thaddeus Sivana was passed over by the Wizard and steals dark powers to fight Shazam."
+  },
+  {
+    "id": "shazam-trivia-16",
+    "question": "Who is Shazam's ancient enemy from the land of Kahndaq in Egypt?",
+    "options": [
+      "Black Adam",
+      "Anubis",
+      "Ra's al Ghul",
+      "Ozymandias"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "Black Adam was the Wizard's champion long ago, but he used the lightning for revenge."
+  },
+  {
+    "id": "shazam-trivia-17",
+    "question": "Mister Mind is a tiny villain who looks like what kind of creature?",
+    "options": [
+      "A bat",
+      "A mouse",
+      "A worm with glasses",
+      "A spider"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "Mister Mind is a clever little worm with glasses and a tiny voice box who plans big schemes."
+  },
+  {
+    "id": "shazam-trivia-18",
+    "question": "Who are the Daughters of Atlas in Fury of the Gods?",
+    "options": [
+      "Hespera, Kalypso, and Anthea",
+      "Rosa, Mary, and Darla",
+      "Diana, Donna, and Cassie",
+      "The Fates"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "Hespera, Kalypso, and Anthea are three goddesses who want the stolen powers back."
+  },
+  {
+    "id": "shazam-trivia-19",
+    "question": "What happens when Shazam shouts 'SHAZAM!' a second time?",
+    "options": [
+      "He flies faster",
+      "He turns back into Billy",
+      "He calls more lightning",
+      "He summons the Wizard"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "Saying the word again turns the grown-up hero right back into kid Billy Batson."
+  },
+  {
+    "id": "shazam-trivia-20",
+    "question": "What kind of animal is Shazam's old friend Tawky Tawny?",
+    "options": [
+      "A talking tiger",
+      "A flying horse",
+      "A clever fox",
+      "A wise owl"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "shazam",
+    "explanation": "Tawky Tawny is a friendly tiger who can talk and wears a tidy suit jacket."
+  },
+  {
+    "id": "cyborg-trivia-1",
+    "question": "What is Cyborg's real name?",
+    "options": [
+      "Victor Stone",
+      "Vincent Stark",
+      "Vernon Steel",
+      "Vance Storm"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Cyborg's real name is Victor Stone, and his friends call him Vic."
+  },
+  {
+    "id": "cyborg-trivia-2",
+    "question": "What sport did Victor Stone play in high school?",
+    "options": [
+      "Football",
+      "Basketball",
+      "Baseball",
+      "Hockey"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Victor was a star football player before his accident at S.T.A.R. Labs."
+  },
+  {
+    "id": "cyborg-trivia-3",
+    "question": "What city is Victor Stone from?",
+    "options": [
+      "Detroit",
+      "Gotham",
+      "Metropolis",
+      "Central City"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Victor grew up in Detroit, the busy city where his father worked as a scientist."
+  },
+  {
+    "id": "cyborg-trivia-4",
+    "question": "What is the name of Cyborg's scientist father?",
+    "options": [
+      "Silas Stone",
+      "Simon Stone",
+      "Samuel Stone",
+      "Sidney Stone"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Dr. Silas Stone is a brilliant scientist who saved his son's life using alien technology."
+  },
+  {
+    "id": "cyborg-trivia-5",
+    "question": "Where does Silas Stone work as a scientist?",
+    "options": [
+      "S.T.A.R. Labs",
+      "LexCorp",
+      "Wayne Tech",
+      "Daily Planet"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Silas Stone works at S.T.A.R. Labs, where the accident that changed Victor happened."
+  },
+  {
+    "id": "cyborg-trivia-6",
+    "question": "What alien device did Silas use to save Victor's life?",
+    "options": [
+      "A Mother Box",
+      "A Cosmic Cube",
+      "A Power Ring",
+      "A Lasso"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "The Mother Box is a living machine from the planet Apokolips that fused with Victor."
+  },
+  {
+    "id": "cyborg-trivia-7",
+    "question": "What planet does the Mother Box come from?",
+    "options": [
+      "Apokolips",
+      "Krypton",
+      "Mars",
+      "Themyscira"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Mother Boxes come from Apokolips, a faraway world full of strange technology."
+  },
+  {
+    "id": "cyborg-trivia-8",
+    "question": "What is Cyborg's famous catchphrase?",
+    "options": [
+      "Booyah!",
+      "Bazinga!",
+      "Shazam!",
+      "Avengers Assemble!"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Cyborg shouts 'Booyah!' when he's excited, especially in the Teen Titans cartoon."
+  },
+  {
+    "id": "cyborg-trivia-9",
+    "question": "What loud weapon does Cyborg fire from his arm?",
+    "options": [
+      "A sonic cannon",
+      "A laser sword",
+      "A freeze ray",
+      "A grappling hook"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "His sonic cannon, sometimes called a white-noise cannon, blasts powerful sound waves."
+  },
+  {
+    "id": "cyborg-trivia-10",
+    "question": "What kind of portal can Cyborg open to travel far away?",
+    "options": [
+      "A Boom Tube",
+      "A wormhole",
+      "A rainbow bridge",
+      "A speed force tunnel"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Boom Tubes are noisy portals from Apokolips that let Cyborg travel across the universe."
+  },
+  {
+    "id": "cyborg-trivia-11",
+    "question": "What team of young heroes did Cyborg help start?",
+    "options": [
+      "The Teen Titans",
+      "The X-Men",
+      "The Avengers",
+      "The Fantastic Four"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Cyborg is a founding member of the Teen Titans, a team of young heroes."
+  },
+  {
+    "id": "cyborg-trivia-12",
+    "question": "Which green shapeshifter is one of Cyborg's best friends?",
+    "options": [
+      "Beast Boy",
+      "Aquaman",
+      "Martian Manhunter",
+      "Hulk"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Beast Boy, whose real name is Garfield Logan, can turn into any animal he wants."
+  },
+  {
+    "id": "cyborg-trivia-13",
+    "question": "What shape is Titans Tower, the Teen Titans' headquarters?",
+    "options": [
+      "The letter T",
+      "The letter A",
+      "A pyramid",
+      "A circle"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Titans Tower is shaped like a giant letter T and sits on an island near the bay."
+  },
+  {
+    "id": "cyborg-trivia-14",
+    "question": "Which Teen Titan is a princess from outer space?",
+    "options": [
+      "Starfire",
+      "Raven",
+      "Wonder Girl",
+      "Supergirl"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Starfire is a princess from the planet Tamaran and one of Cyborg's Teen Titans teammates."
+  },
+  {
+    "id": "cyborg-trivia-15",
+    "question": "Which famous super-team did Cyborg help found in the Justice League movie?",
+    "options": [
+      "The Justice League",
+      "The Suicide Squad",
+      "The Legion of Doom",
+      "The Watchmen"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "In the Justice League film, Cyborg joins Batman, Superman, Wonder Woman, Flash, and Aquaman."
+  },
+  {
+    "id": "cyborg-trivia-16",
+    "question": "Which giant horned villain does Cyborg fight in Justice League?",
+    "options": [
+      "Steppenwolf",
+      "Lex Luthor",
+      "The Joker",
+      "Sinestro"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Steppenwolf is a huge warrior from Apokolips who comes to Earth to steal Mother Boxes."
+  },
+  {
+    "id": "cyborg-trivia-17",
+    "question": "Which evil twin AI of Cyborg is made from his own dark code?",
+    "options": [
+      "Grid",
+      "Ultron",
+      "Brainiac",
+      "Skynet"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Grid is a wicked computer mind born inside Cyborg's systems, a dark mirror of Vic."
+  },
+  {
+    "id": "cyborg-trivia-18",
+    "question": "What special power lets Cyborg talk to any computer?",
+    "options": [
+      "A computer-link",
+      "Telepathy",
+      "Magic",
+      "Super hearing"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Cyborg's computer-link lets him connect to any network on Earth in a heartbeat."
+  },
+  {
+    "id": "cyborg-trivia-19",
+    "question": "What can Cyborg turn his hands into?",
+    "options": [
+      "Tools and weapons",
+      "Flower bouquets",
+      "Balloons",
+      "Mittens"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "Cyborg can reshape his arms into hammers, claws, scanners, or his sonic cannon."
+  },
+  {
+    "id": "cyborg-trivia-20",
+    "question": "What is the Justice League's headquarters in space called?",
+    "options": [
+      "The Watchtower",
+      "The Hall of Doom",
+      "The Daily Planet",
+      "Titans Tower"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "cyborg",
+    "explanation": "The Watchtower is the Justice League's base, where Cyborg helps watch over Earth."
+  },
+  {
+    "id": "martian-manhunter-trivia-1",
+    "question": "What is Martian Manhunter's real Martian name?",
+    "options": [
+      "J'onn J'onzz",
+      "Kal-El",
+      "Thanagar",
+      "Bruce Wayne"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "His true Martian name is J'onn J'onzz, the last Green Martian from Mars."
+  },
+  {
+    "id": "martian-manhunter-trivia-2",
+    "question": "What planet is Martian Manhunter originally from?",
+    "options": [
+      "Mars",
+      "Krypton",
+      "Saturn",
+      "Thanagar"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "J'onn is the last Green Martian, born on the Red Planet, Mars."
+  },
+  {
+    "id": "martian-manhunter-trivia-3",
+    "question": "Which scientist accidentally pulled J'onn to Earth with a teleport beam?",
+    "options": [
+      "Dr. Saul Erdel",
+      "Dr. Will Magnus",
+      "Professor Ivo",
+      "Dr. Sivana"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "Dr. Saul Erdel's transmatter beam accidentally locked onto J'onn and pulled him across space to Earth."
+  },
+  {
+    "id": "martian-manhunter-trivia-4",
+    "question": "What human name does J'onn use as a detective disguise?",
+    "options": [
+      "John Jones",
+      "Clark Kent",
+      "Jim Corrigan",
+      "Henry Allen"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "J'onn shapeshifts into Detective John Jones to live and work among humans."
+  },
+  {
+    "id": "martian-manhunter-trivia-5",
+    "question": "What is Martian Manhunter's biggest weakness?",
+    "options": [
+      "Fire",
+      "Water",
+      "Sunlight",
+      "Magnets"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "Fire is J'onn's greatest weakness, both physically and as a painful reminder of his lost home."
+  },
+  {
+    "id": "martian-manhunter-trivia-6",
+    "question": "What cookies does J'onn love eating on Earth?",
+    "options": [
+      "Chocos",
+      "Oreos",
+      "Ginger snaps",
+      "Animal crackers"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "J'onn famously adores Choco cookies, his favorite Earth treat and a sign of trust with friends."
+  },
+  {
+    "id": "martian-manhunter-trivia-7",
+    "question": "Which super-team did Martian Manhunter help found?",
+    "options": [
+      "Justice League",
+      "Teen Titans",
+      "Doom Patrol",
+      "Suicide Squad"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "J'onn is a founding member of the Justice League and often called the team's 'heart.'"
+  },
+  {
+    "id": "martian-manhunter-trivia-8",
+    "question": "What power lets J'onn read and speak through minds?",
+    "options": [
+      "Telepathy",
+      "Telekinesis",
+      "X-ray vision",
+      "Super-hearing"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "Telepathy lets J'onn link minds with allies and gently sense thoughts and feelings."
+  },
+  {
+    "id": "martian-manhunter-trivia-9",
+    "question": "Which power lets J'onn change his shape into anyone?",
+    "options": [
+      "Shapeshifting",
+      "Invisibility",
+      "Flight",
+      "Super-speed"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "Shapeshifting lets J'onn become any person or creature, which is how he hides as John Jones."
+  },
+  {
+    "id": "martian-manhunter-trivia-10",
+    "question": "What is the name of J'onn's evil brother and main villain?",
+    "options": [
+      "Ma'alefa'ak",
+      "Despero",
+      "Brainiac",
+      "Sinestro"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "Ma'alefa'ak, also called Malefic, is J'onn's twisted brother and a dangerous White Martian."
+  },
+  {
+    "id": "martian-manhunter-trivia-11",
+    "question": "What is the name of J'onn's lost Martian wife?",
+    "options": [
+      "M'yri'ah",
+      "K'hym",
+      "Diana",
+      "Lois"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "M'yri'ah was J'onn's beloved wife on Mars, lost long before he came to Earth."
+  },
+  {
+    "id": "martian-manhunter-trivia-12",
+    "question": "What was the name of J'onn's daughter on Mars?",
+    "options": [
+      "K'hym",
+      "M'gann",
+      "Cay'an",
+      "Mari"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "K'hym was J'onn's daughter, whose memory he carries with deep love and sadness."
+  },
+  {
+    "id": "martian-manhunter-trivia-13",
+    "question": "What is the Justice League's satellite headquarters called?",
+    "options": [
+      "The Watchtower",
+      "The Hall of Doom",
+      "The Bat-Cave",
+      "The Daily Planet"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "J'onn often keeps quiet vigil at the Watchtower, the Justice League's satellite HQ above Earth."
+  },
+  {
+    "id": "martian-manhunter-trivia-14",
+    "question": "What color is J'onn J'onzz's skin in his Martian form?",
+    "options": [
+      "Green",
+      "Blue",
+      "Red",
+      "Purple"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "As the last Green Martian, J'onn has bright green skin and usually wears a blue cape."
+  },
+  {
+    "id": "martian-manhunter-trivia-15",
+    "question": "Which power lets J'onn walk through solid walls?",
+    "options": [
+      "Intangibility",
+      "Heat vision",
+      "Strength",
+      "Telepathy"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "Intangibility, or phasing, lets J'onn shift his molecules to pass through solid objects."
+  },
+  {
+    "id": "martian-manhunter-trivia-16",
+    "question": "What are J'onn's glowing eye-blasts often called?",
+    "options": [
+      "Martian Vision",
+      "Omega Beams",
+      "Optic Blasts",
+      "Heat Rays"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "Martian Vision is J'onn's powerful energy blast fired from his eyes."
+  },
+  {
+    "id": "martian-manhunter-trivia-17",
+    "question": "Which giant pink-skinned alien tyrant is a major J'onn villain?",
+    "options": [
+      "Despero",
+      "Darkseid",
+      "Mongul",
+      "Lobo"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "Despero is a powerful alien tyrant who has clashed many times with J'onn and the Justice League."
+  },
+  {
+    "id": "martian-manhunter-trivia-18",
+    "question": "What kind of Martians are J'onn's enemies, the invaders led by his brother?",
+    "options": [
+      "White Martians",
+      "Sun Martians",
+      "Ice Martians",
+      "Shadow Martians"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "The White Martians are J'onn's ancient enemies and Ma'alefa'ak is one of them."
+  },
+  {
+    "id": "martian-manhunter-trivia-19",
+    "question": "Which Justice League hero is NOT a founding member alongside J'onn?",
+    "options": [
+      "Robin",
+      "Superman",
+      "Wonder Woman",
+      "Batman"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "Robin is Batman's sidekick, not a Justice League founder like Superman, Wonder Woman, and Batman."
+  },
+  {
+    "id": "martian-manhunter-trivia-20",
+    "question": "Why is J'onn often called the 'heart' of the Justice League?",
+    "options": [
+      "He cares deeply for the team",
+      "He has heat vision",
+      "He flies the fastest",
+      "He is the leader"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "martian-manhunter",
+    "explanation": "J'onn's empathy, kindness, and telepathic bond with teammates make him the emotional heart of the League."
   }
 ]
