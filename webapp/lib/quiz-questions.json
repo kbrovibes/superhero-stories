@@ -14443,5 +14443,1505 @@
     "universe": "marvel",
     "heroId": "hulk",
     "explanation": "In Infinity War, Thanos defeated Hulk on the Asgardian ship at the start."
+  },
+  {
+    "id": "black-widow-trivia-1",
+    "question": "What is Black Widow's real name?",
+    "options": [
+      "Natasha Romanoff",
+      "Wanda Maximoff",
+      "Carol Danvers",
+      "Peggy Carter"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Black Widow's real name is Natasha Romanoff, a former Russian spy turned Avenger."
+  },
+  {
+    "id": "black-widow-trivia-2",
+    "question": "Where was Natasha trained as a young spy?",
+    "options": [
+      "The Red Room",
+      "Stark Tower",
+      "The Triskelion",
+      "Hogwarts"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Natasha was trained from childhood in the Red Room, a secret Russian spy program."
+  },
+  {
+    "id": "black-widow-trivia-3",
+    "question": "Who is Natasha's sister from her undercover family?",
+    "options": [
+      "Yelena Belova",
+      "Wanda Maximoff",
+      "Sharon Carter",
+      "Gamora"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Yelena Belova is Natasha's spirited little sister, also a trained Widow."
+  },
+  {
+    "id": "black-widow-trivia-4",
+    "question": "Which Avenger recruited Natasha to SHIELD?",
+    "options": [
+      "Hawkeye",
+      "Iron Man",
+      "Thor",
+      "Captain America"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Clint Barton, Hawkeye, made a 'different call' and brought Natasha into SHIELD."
+  },
+  {
+    "id": "black-widow-trivia-5",
+    "question": "What are Natasha's electric wrist gadgets called?",
+    "options": [
+      "Widow's Bites",
+      "Repulsors",
+      "Web-Shooters",
+      "Vibranium Cuffs"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Her Widow's Bite gauntlets give off electric stings to stop bad guys."
+  },
+  {
+    "id": "black-widow-trivia-6",
+    "question": "On which planet did Natasha give up her life for the Soul Stone?",
+    "options": [
+      "Vormir",
+      "Titan",
+      "Sakaar",
+      "Xandar"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "On Vormir, Natasha sacrificed herself so Clint could bring back the Soul Stone."
+  },
+  {
+    "id": "black-widow-trivia-7",
+    "question": "Who is Natasha's father figure, the Red Guardian?",
+    "options": [
+      "Alexei Shostakov",
+      "Howard Stark",
+      "Nick Fury",
+      "Odin"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Alexei Shostakov, the Red Guardian, was Russia's super-soldier and Natasha's pretend dad."
+  },
+  {
+    "id": "black-widow-trivia-8",
+    "question": "Who is the mother figure in Natasha's spy family?",
+    "options": [
+      "Melina Vostokoff",
+      "Maria Hill",
+      "May Parker",
+      "Peggy Carter"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Melina Vostokoff, a brilliant scientist and Widow, played Natasha's mother in Ohio."
+  },
+  {
+    "id": "black-widow-trivia-9",
+    "question": "Which villain runs the Red Room program?",
+    "options": [
+      "Dreykov",
+      "Loki",
+      "Thanos",
+      "Ultron"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "General Dreykov is the cruel mastermind who built the Red Room to control young Widows."
+  },
+  {
+    "id": "black-widow-trivia-10",
+    "question": "Which city do Natasha and Clint famously remember 'very differently'?",
+    "options": [
+      "Budapest",
+      "Paris",
+      "Tokyo",
+      "Berlin"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Budapest is the mission Natasha and Clint joke about remembering completely differently."
+  },
+  {
+    "id": "black-widow-trivia-11",
+    "question": "What soft Russian song does Natasha use to calm the Hulk?",
+    "options": [
+      "A lullaby",
+      "A marching tune",
+      "An opera aria",
+      "A pop song"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Natasha quietly sings a Russian lullaby that helps Hulk turn back into Bruce Banner."
+  },
+  {
+    "id": "black-widow-trivia-12",
+    "question": "What color is the new suit Natasha wears in the 2021 film?",
+    "options": [
+      "White",
+      "Gold",
+      "Pink",
+      "Green"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "In the 2021 movie, Natasha wears a bright white tactical suit during the snowy finale."
+  },
+  {
+    "id": "black-widow-trivia-13",
+    "question": "Which copy-cat villain mimics every Avenger's moves?",
+    "options": [
+      "Taskmaster",
+      "Crossbones",
+      "Whiplash",
+      "Klaw"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Taskmaster, secretly Antonia Dreykov, can copy Hawkeye, Cap, and Black Panther's moves."
+  },
+  {
+    "id": "black-widow-trivia-14",
+    "question": "Who is the SHIELD director Natasha works closely with?",
+    "options": [
+      "Nick Fury",
+      "Phil Coulson",
+      "Tony Stark",
+      "Sam Wilson"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Nick Fury is the eye-patched SHIELD director who trusts Natasha with top missions."
+  },
+  {
+    "id": "black-widow-trivia-15",
+    "question": "What twin weapons does Natasha often spin in battle?",
+    "options": [
+      "Batons",
+      "Hammers",
+      "Bows",
+      "Lightsabers"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Natasha twirls a pair of glowing batons that she can collapse and clip to her belt."
+  },
+  {
+    "id": "black-widow-trivia-16",
+    "question": "Which Winter Soldier is connected to Natasha's spy past?",
+    "options": [
+      "Bucky Barnes",
+      "Steve Rogers",
+      "Sam Wilson",
+      "Scott Lang"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Bucky Barnes, the Winter Soldier, once trained Widows and crossed paths with Natasha."
+  },
+  {
+    "id": "black-widow-trivia-17",
+    "question": "Which African city is Natasha in during a Civil War mission?",
+    "options": [
+      "Lagos",
+      "Wakanda",
+      "Cairo",
+      "Nairobi"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "In Lagos, Nigeria, Natasha helps Cap chase Crossbones at a busy market."
+  },
+  {
+    "id": "black-widow-trivia-18",
+    "question": "What flying jet does Natasha often pilot for the Avengers?",
+    "options": [
+      "The Quinjet",
+      "The Milano",
+      "The Bus",
+      "The Helicarrier"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "Natasha is one of the team's best Quinjet pilots, calm and steady at the controls."
+  },
+  {
+    "id": "black-widow-trivia-19",
+    "question": "Which two bright red streaks color Natasha's hair?",
+    "options": [
+      "The tips",
+      "The roots",
+      "The bangs",
+      "The whole top"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "In the 2021 film, Natasha dyes the tips of her hair a bright reddish-blonde."
+  },
+  {
+    "id": "black-widow-trivia-20",
+    "question": "In which floating city does Natasha fight Ultron's robots?",
+    "options": [
+      "Sokovia",
+      "Wakanda",
+      "Asgard",
+      "New York"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-widow",
+    "explanation": "In Sokovia, the Avengers stop Ultron as the city lifts into the sky."
+  },
+  {
+    "id": "hawkeye-trivia-1",
+    "question": "What is Hawkeye's real name?",
+    "options": [
+      "Clint Barton",
+      "Clint Eastwood",
+      "Steve Barton",
+      "Cliff Barton"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Clint Barton is the world's greatest archer and a founding Avenger."
+  },
+  {
+    "id": "hawkeye-trivia-2",
+    "question": "What weapon is Hawkeye most famous for using?",
+    "options": [
+      "A recurve bow and arrows",
+      "A hammer",
+      "A shield",
+      "Two swords"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Hawkeye uses a recurve bow with a quiver full of special trick arrows."
+  },
+  {
+    "id": "hawkeye-trivia-3",
+    "question": "Where did young Clint first learn his archery skills?",
+    "options": [
+      "A traveling circus",
+      "A military academy",
+      "Stark Industries",
+      "A space station"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Clint and his brother Barney ran away to a circus where Clint discovered his perfect aim."
+  },
+  {
+    "id": "hawkeye-trivia-4",
+    "question": "What is the name of Hawkeye's wife?",
+    "options": [
+      "Laura Barton",
+      "Pepper Potts",
+      "Jane Foster",
+      "Wanda Maximoff"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Laura Barton lives on the family's secret farm with their three children."
+  },
+  {
+    "id": "hawkeye-trivia-5",
+    "question": "How many children do Clint and Laura have?",
+    "options": [
+      "Three",
+      "One",
+      "Two",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Clint and Laura have three kids: Cooper, Lila, and Nathaniel."
+  },
+  {
+    "id": "hawkeye-trivia-6",
+    "question": "Where does Clint hide his family from his hero life?",
+    "options": [
+      "A secret farmhouse",
+      "Avengers Tower",
+      "Wakanda",
+      "A submarine"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "The Barton family lives on a quiet farm hidden far from the city."
+  },
+  {
+    "id": "hawkeye-trivia-7",
+    "question": "Who is Clint Barton's best friend on the Avengers?",
+    "options": [
+      "Natasha Romanoff",
+      "Tony Stark",
+      "Thor",
+      "Bruce Banner"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Clint recruited Natasha to SHIELD and they became the closest of friends."
+  },
+  {
+    "id": "hawkeye-trivia-8",
+    "question": "Who controlled Hawkeye's mind in the first Avengers movie?",
+    "options": [
+      "Loki",
+      "Thanos",
+      "Ultron",
+      "Red Skull"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Loki used his glowing scepter to take over Clint's mind early in the movie."
+  },
+  {
+    "id": "hawkeye-trivia-9",
+    "question": "What clever items fill Hawkeye's quiver?",
+    "options": [
+      "Trick arrows",
+      "Glowing crystals",
+      "Magic feathers",
+      "Mini hammers"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "His arrows include explosive tips, grappling hooks, putty, EMP, and even Pym arrows."
+  },
+  {
+    "id": "hawkeye-trivia-10",
+    "question": "What is the name of Clint's young prot\u00e9g\u00e9 in the Hawkeye show?",
+    "options": [
+      "Kate Bishop",
+      "America Chavez",
+      "Cassie Lang",
+      "Riri Williams"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Kate Bishop idolized Clint since childhood and trained to become the next Hawkeye."
+  },
+  {
+    "id": "hawkeye-trivia-11",
+    "question": "What is the name of Kate Bishop's loyal dog?",
+    "options": [
+      "Lucky the Pizza Dog",
+      "Krypto",
+      "Cosmo",
+      "Sparky"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Lucky is a golden retriever who loves pizza and follows Kate everywhere."
+  },
+  {
+    "id": "hawkeye-trivia-12",
+    "question": "What goofy word does the Tracksuit Mafia always say?",
+    "options": [
+      "Bro",
+      "Dude",
+      "Pal",
+      "Boss"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Every Tracksuit thug calls everyone 'bro,' making them easy to recognize."
+  },
+  {
+    "id": "hawkeye-trivia-13",
+    "question": "What helps Clint hear better since his ears were hurt?",
+    "options": [
+      "Hearing aids",
+      "Magic spells",
+      "A helmet",
+      "Earplugs"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Clint wears hearing aids after years of loud battles damaged his hearing."
+  },
+  {
+    "id": "hawkeye-trivia-14",
+    "question": "What new identity did Clint take after losing his family in the Snap?",
+    "options": [
+      "Ronin",
+      "Nomad",
+      "Daredevil",
+      "Punisher"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "As Ronin he wore black armor and used a sword, traveling alone for five sad years."
+  },
+  {
+    "id": "hawkeye-trivia-15",
+    "question": "Which weapon did Clint use as Ronin instead of his bow?",
+    "options": [
+      "A sword",
+      "A staff",
+      "A whip",
+      "A pistol"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Ronin's signature weapon is a katana sword, very different from his usual arrows."
+  },
+  {
+    "id": "hawkeye-trivia-16",
+    "question": "What color does Hawkeye traditionally wear in the comics?",
+    "options": [
+      "Purple",
+      "Red",
+      "Silver",
+      "Yellow"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Hawkeye's classic comic costume features bright purple, his trademark color."
+  },
+  {
+    "id": "hawkeye-trivia-17",
+    "question": "Who sacrificed herself on Vormir so Clint could get the Soul Stone?",
+    "options": [
+      "Natasha Romanoff",
+      "Pepper Potts",
+      "Gamora",
+      "Wanda Maximoff"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "On the cliffs of Vormir, Natasha gave her life so Clint could bring the stone home."
+  },
+  {
+    "id": "hawkeye-trivia-18",
+    "question": "Who is Natasha Romanoff's sister who meets Clint in the Hawkeye show?",
+    "options": [
+      "Yelena Belova",
+      "Melina Vostokoff",
+      "Wanda Maximoff",
+      "Sharon Carter"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Yelena Belova is Natasha's adopted little sister who comes searching for Clint."
+  },
+  {
+    "id": "hawkeye-trivia-19",
+    "question": "Which deaf hero, also called Echo, appears in the Hawkeye show?",
+    "options": [
+      "Maya Lopez",
+      "Kate Bishop",
+      "Jessica Jones",
+      "Misty Knight"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Maya Lopez leads the Tracksuit Mafia and can copy any movement she sees."
+  },
+  {
+    "id": "hawkeye-trivia-20",
+    "question": "Which famous mission did Clint and Natasha share in their past?",
+    "options": [
+      "Budapest",
+      "Sokovia",
+      "Wakanda",
+      "Atlantis"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hawkeye",
+    "explanation": "Clint and Natasha often joke about Budapest, a tough early SHIELD mission together."
+  },
+  {
+    "id": "doctor-strange-trivia-1",
+    "question": "What was Stephen Strange's job before he became a sorcerer?",
+    "options": [
+      "Neurosurgeon",
+      "Lawyer",
+      "Pilot",
+      "Detective"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "Stephen Strange was a brilliant neurosurgeon who operated on people's brains and nerves."
+  },
+  {
+    "id": "doctor-strange-trivia-2",
+    "question": "What accident hurt Stephen Strange's hands?",
+    "options": [
+      "A car crash",
+      "A plane crash",
+      "A skiing fall",
+      "A fire"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "A car crash damaged the nerves in his hands and ended his surgery career."
+  },
+  {
+    "id": "doctor-strange-trivia-3",
+    "question": "Where did Stephen travel to learn magic?",
+    "options": [
+      "Kamar-Taj in Nepal",
+      "Wakanda",
+      "Asgard",
+      "Atlantis"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "He journeyed to Kamar-Taj, a hidden school in the mountains of Kathmandu, Nepal."
+  },
+  {
+    "id": "doctor-strange-trivia-4",
+    "question": "Who was Strange's first teacher of the Mystic Arts?",
+    "options": [
+      "The Ancient One",
+      "Wong",
+      "Nick Fury",
+      "Odin"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "The Ancient One was the powerful Sorcerer Supreme who first taught Stephen at Kamar-Taj."
+  },
+  {
+    "id": "doctor-strange-trivia-5",
+    "question": "Who is Doctor Strange's best friend and fellow sorcerer?",
+    "options": [
+      "Wong",
+      "Happy Hogan",
+      "Bucky",
+      "Bruce Banner"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "Wong is Strange's closest friend, librarian of Kamar-Taj, and later Sorcerer Supreme."
+  },
+  {
+    "id": "doctor-strange-trivia-6",
+    "question": "What magical cape chose Stephen as its wearer?",
+    "options": [
+      "The Cloak of Levitation",
+      "The Iron Cape",
+      "The Cape of Storms",
+      "The Star Cloak"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "The Cloak of Levitation is a sentient red cape that picked Strange and helps him fly."
+  },
+  {
+    "id": "doctor-strange-trivia-7",
+    "question": "Which Infinity Stone lives inside the Eye of Agamotto?",
+    "options": [
+      "The Time Stone",
+      "The Mind Stone",
+      "The Power Stone",
+      "The Soul Stone"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "The Eye of Agamotto holds the green Time Stone, which lets Strange control time."
+  },
+  {
+    "id": "doctor-strange-trivia-8",
+    "question": "What small ring helps sorcerers open portals?",
+    "options": [
+      "The Sling Ring",
+      "The Mood Ring",
+      "The Sun Ring",
+      "The Sky Ring"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "The Sling Ring is worn on the fingers and makes glowing orange portals between places."
+  },
+  {
+    "id": "doctor-strange-trivia-9",
+    "question": "On what street is the New York Sanctum Sanctorum?",
+    "options": [
+      "Bleecker Street",
+      "Sesame Street",
+      "Fifth Avenue",
+      "Park Lane"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "The Sanctum Sanctorum stands on Bleecker Street in Greenwich Village, New York."
+  },
+  {
+    "id": "doctor-strange-trivia-10",
+    "question": "Besides New York, where are the other two Sanctums?",
+    "options": [
+      "London and Hong Kong",
+      "Paris and Tokyo",
+      "Rome and Cairo",
+      "Berlin and Sydney"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "Three Sanctums protect Earth: New York, London, and Hong Kong."
+  },
+  {
+    "id": "doctor-strange-trivia-11",
+    "question": "Who is the dread lord of the Dark Dimension?",
+    "options": [
+      "Dormammu",
+      "Loki",
+      "Thanos",
+      "Ultron"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "Dormammu is a giant fiery being who wants to swallow every dimension into his own."
+  },
+  {
+    "id": "doctor-strange-trivia-12",
+    "question": "What famous words did Strange say to Dormammu?",
+    "options": [
+      "Dormammu, I've come to bargain",
+      "Avengers assemble",
+      "By the Vishanti",
+      "I am Iron Man"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "Strange trapped Dormammu in a time loop and kept saying 'Dormammu, I've come to bargain.'"
+  },
+  {
+    "id": "doctor-strange-trivia-13",
+    "question": "How did Strange defeat Dormammu?",
+    "options": [
+      "He trapped him in a time loop",
+      "He punched him out",
+      "He froze him in ice",
+      "He flew him to the sun"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "Using the Time Stone, Strange looped time so Dormammu would relive defeat forever."
+  },
+  {
+    "id": "doctor-strange-trivia-14",
+    "question": "How many futures did Strange see while fighting Thanos on Titan?",
+    "options": [
+      "14,000,605",
+      "1,000",
+      "500,000",
+      "9,999,999"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "Strange peered ahead and saw 14,000,605 possible futures using the Time Stone."
+  },
+  {
+    "id": "doctor-strange-trivia-15",
+    "question": "How many of those futures ended with the heroes winning?",
+    "options": [
+      "One",
+      "Twelve",
+      "A hundred",
+      "Zero"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "Out of millions, only one future led to victory, so Strange carefully steered toward it."
+  },
+  {
+    "id": "doctor-strange-trivia-16",
+    "question": "Who was Strange's student who later turned against him?",
+    "options": [
+      "Karl Mordo",
+      "Wong",
+      "Christine Palmer",
+      "Kaecilius"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "Karl Mordo trained beside Strange but later decided sorcerers were breaking nature's rules."
+  },
+  {
+    "id": "doctor-strange-trivia-17",
+    "question": "Who is the doctor Stephen used to work with at the hospital?",
+    "options": [
+      "Christine Palmer",
+      "Jane Foster",
+      "Pepper Potts",
+      "Helen Cho"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "Christine Palmer was a surgeon at the hospital and stayed Stephen's loyal friend."
+  },
+  {
+    "id": "doctor-strange-trivia-18",
+    "question": "Who is the girl who can punch portals between universes?",
+    "options": [
+      "America Chavez",
+      "Kamala Khan",
+      "Cassie Lang",
+      "Shuri"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "America Chavez can open star-shaped portals to other universes by kicking or punching."
+  },
+  {
+    "id": "doctor-strange-trivia-19",
+    "question": "What dimension does Strange use as a safe battle space?",
+    "options": [
+      "The Mirror Dimension",
+      "The Quantum Realm",
+      "The Negative Zone",
+      "The Phantom Zone"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "The Mirror Dimension reflects our world so sorcerers can fight without hurting anyone."
+  },
+  {
+    "id": "doctor-strange-trivia-20",
+    "question": "What ancient spellbook do dark sorcerers steal pages from?",
+    "options": [
+      "The Book of Cagliostro",
+      "The Necronomicon",
+      "The Darkhold Atlas",
+      "The Book of Vishanti"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "doctor-strange",
+    "explanation": "The Book of Cagliostro is a forbidden text that holds powerful and dangerous spells."
+  },
+  {
+    "id": "black-panther-trivia-1",
+    "question": "What is the name of the hidden African country that Black Panther rules?",
+    "options": [
+      "Wakanda",
+      "Sokovia",
+      "Genosha",
+      "Latveria"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "Wakanda looks like simple farmland from above, but it is secretly the most advanced country on Earth."
+  },
+  {
+    "id": "black-panther-trivia-2",
+    "question": "What is Black Panther's real name?",
+    "options": [
+      "T'Challa",
+      "T'Chaka",
+      "M'Baku",
+      "N'Jadaka"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "T'Challa is the prince who becomes King of Wakanda after his father passes away."
+  },
+  {
+    "id": "black-panther-trivia-3",
+    "question": "What rare metal makes Wakanda so powerful?",
+    "options": [
+      "Vibranium",
+      "Adamantium",
+      "Uru",
+      "Titanium"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "A vibranium meteor crashed in Wakanda long ago, giving the kingdom its strongest metal in the world."
+  },
+  {
+    "id": "black-panther-trivia-4",
+    "question": "Who is T'Challa's genius little sister?",
+    "options": [
+      "Shuri",
+      "Nakia",
+      "Okoye",
+      "Ramonda"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "Shuri runs Wakanda's labs and built T'Challa's vibranium suit and kimoyo beads."
+  },
+  {
+    "id": "black-panther-trivia-5",
+    "question": "What special plant gives the Black Panther his powers?",
+    "options": [
+      "The Heart-Shaped Herb",
+      "The Sun Lotus",
+      "The Vibranium Vine",
+      "The Panther Berry"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "The Heart-Shaped Herb grants super strength and speed, and connects T'Challa to the ancestral plane."
+  },
+  {
+    "id": "black-panther-trivia-6",
+    "question": "What does T'Challa's suit do when enemies hit it?",
+    "options": [
+      "Absorbs the kinetic energy",
+      "Turns invisible",
+      "Makes copies of itself",
+      "Heals his wounds"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "The vibranium-weave suit stores the energy from punches and blasts, then releases it back in a shockwave."
+  },
+  {
+    "id": "black-panther-trivia-7",
+    "question": "Who is the leader of the Dora Milaje, Wakanda's royal guards?",
+    "options": [
+      "Okoye",
+      "Nakia",
+      "Shuri",
+      "Ramonda"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "General Okoye leads the Dora Milaje, the fearless all-women warriors who protect the throne."
+  },
+  {
+    "id": "black-panther-trivia-8",
+    "question": "What is the name of Wakanda's golden capital city?",
+    "options": [
+      "Birnin Zana",
+      "Necropolis",
+      "Attilan",
+      "Kun-Lun"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "Birnin Zana, the Golden City, blends towering African design with futuristic vibranium technology."
+  },
+  {
+    "id": "black-panther-trivia-9",
+    "question": "Who is T'Challa's mother, the Queen Mother of Wakanda?",
+    "options": [
+      "Ramonda",
+      "Storm",
+      "Nakia",
+      "Shuri"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "Queen Ramonda is T'Challa and Shuri's wise mother who guides the royal family."
+  },
+  {
+    "id": "black-panther-trivia-10",
+    "question": "What does everyone shout while crossing their arms in the Wakanda Salute?",
+    "options": [
+      "Wakanda Forever!",
+      "For Honor!",
+      "Hail the King!",
+      "Panther Pride!"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "Crossed arms with closed fists and the cry \"Wakanda Forever!\" is the kingdom's proud salute."
+  },
+  {
+    "id": "black-panther-trivia-11",
+    "question": "Who is T'Challa's cousin who challenges him for the throne?",
+    "options": [
+      "Erik Killmonger",
+      "Ulysses Klaue",
+      "Namor",
+      "M'Baku"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "Erik \"Killmonger\" Stevens, whose Wakandan name is N'Jadaka, is the son of T'Challa's uncle N'Jobu."
+  },
+  {
+    "id": "black-panther-trivia-12",
+    "question": "Who leads the mountain-dwelling Jabari Tribe?",
+    "options": [
+      "M'Baku",
+      "W'Kabi",
+      "Zuri",
+      "T'Chaka"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "M'Baku leads the Jabari, the gorilla-worshipping tribe who live high in the snowy mountains."
+  },
+  {
+    "id": "black-panther-trivia-13",
+    "question": "What does T'Challa visit when he uses the Heart-Shaped Herb?",
+    "options": [
+      "The Ancestral Plane",
+      "The Quantum Realm",
+      "Asgard",
+      "The Mirror Dimension"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "Under a purple sky among acacia trees, T'Challa meets the spirits of past Black Panthers for guidance."
+  },
+  {
+    "id": "black-panther-trivia-14",
+    "question": "What is the name of the smuggler who steals vibranium from Wakanda?",
+    "options": [
+      "Ulysses Klaue",
+      "Justin Hammer",
+      "Aldrich Killian",
+      "Norman Osborn"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "Ulysses Klaue is the loud, mean weapons dealer with a sonic arm who steals Wakanda's precious metal."
+  },
+  {
+    "id": "black-panther-trivia-15",
+    "question": "What does T'Challa's suit have on its fingers for fighting?",
+    "options": [
+      "Retractable vibranium claws",
+      "Flame throwers",
+      "Web shooters",
+      "Lightning bolts"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "Sharp vibranium claws slide out from the panther suit and can cut through almost anything."
+  },
+  {
+    "id": "black-panther-trivia-16",
+    "question": "What are the wrist gadgets Shuri makes that can heal and communicate?",
+    "options": [
+      "Kimoyo Beads",
+      "Repulsor Gloves",
+      "Mood Rings",
+      "Power Bands"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "Kimoyo beads worn on the wrist can project holograms, heal injuries, and send messages anywhere."
+  },
+  {
+    "id": "black-panther-trivia-17",
+    "question": "Who is Nakia, T'Challa's brave friend?",
+    "options": [
+      "A Wakandan War Dog spy",
+      "A Dora Milaje captain",
+      "A Jabari warrior",
+      "A border guard"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "Nakia is a War Dog, one of Wakanda's secret spies, who travels the world helping people in need."
+  },
+  {
+    "id": "black-panther-trivia-18",
+    "question": "Where does the King face challengers in ritual combat?",
+    "options": [
+      "Warrior Falls",
+      "The Great Mound",
+      "Birnin Zana plaza",
+      "The throne room"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "Warrior Falls is the sacred waterfall arena where Wakandan tribes challenge for the throne."
+  },
+  {
+    "id": "black-panther-trivia-19",
+    "question": "What is the Great Mound in Wakanda?",
+    "options": [
+      "The huge vibranium mine",
+      "The royal palace",
+      "A volcano",
+      "A library of scrolls"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "The Great Mound is the giant pile of vibranium ore that powers all of Wakanda's technology."
+  },
+  {
+    "id": "black-panther-trivia-20",
+    "question": "How did King T'Chaka, T'Challa's father, die?",
+    "options": [
+      "A bombing at a UN meeting",
+      "An asgardian battle",
+      "A robot attack",
+      "A space accident"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "black-panther",
+    "explanation": "King T'Chaka was killed in a bombing at the United Nations, which led T'Challa to become king."
+  },
+  {
+    "id": "ant-man-trivia-1",
+    "question": "What is Scott Lang's superhero name?",
+    "options": [
+      "Ant-Man",
+      "Bug Boy",
+      "Tiny Titan",
+      "Insect Knight"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Scott Lang took up the mantle of Ant-Man after Hank Pym chose him as his successor."
+  },
+  {
+    "id": "ant-man-trivia-2",
+    "question": "Who is Scott Lang's beloved daughter?",
+    "options": [
+      "Cassie Lang",
+      "Hope Lang",
+      "Janet Lang",
+      "Maggie Lang"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Cassie Lang is Scott's daughter and the reason he wants to be a hero she can be proud of."
+  },
+  {
+    "id": "ant-man-trivia-3",
+    "question": "Who invented the Pym Particles that let Scott shrink and grow?",
+    "options": [
+      "Dr. Hank Pym",
+      "Tony Stark",
+      "Bruce Banner",
+      "Reed Richards"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Dr. Hank Pym discovered the Pym Particle and was the original Ant-Man before Scott."
+  },
+  {
+    "id": "ant-man-trivia-4",
+    "question": "What do Pym Particles do?",
+    "options": [
+      "Change size by altering space between atoms",
+      "Turn things invisible",
+      "Slow down time",
+      "Create lightning"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Pym Particles shrink or grow things while keeping their mass, so a tiny punch hits just as hard."
+  },
+  {
+    "id": "ant-man-trivia-5",
+    "question": "What is the name of Scott's favorite flying carpenter ant?",
+    "options": [
+      "Anthony",
+      "Buzzy",
+      "Pym",
+      "Scout"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Anthony (Ant-thony) is the carpenter ant Scott rides through the sky like a tiny steed."
+  },
+  {
+    "id": "ant-man-trivia-6",
+    "question": "Who is Scott's best friend and chatty storyteller?",
+    "options": [
+      "Luis",
+      "Paxton",
+      "Kurt",
+      "Darren"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Luis is Scott's loyal best friend, famous for his hilarious, rambling story style."
+  },
+  {
+    "id": "ant-man-trivia-7",
+    "question": "Hank Pym's daughter, Hope van Dyne, becomes which superhero?",
+    "options": [
+      "The Wasp",
+      "Stinger",
+      "Quantum Queen",
+      "Honeybee"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Hope van Dyne takes up her mother Janet's mantle and becomes the Wasp, with wings and stingers."
+  },
+  {
+    "id": "ant-man-trivia-8",
+    "question": "Where was Janet van Dyne lost for 30 years before being rescued?",
+    "options": [
+      "The Quantum Realm",
+      "Asgard",
+      "The Negative Zone",
+      "Wakanda"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Janet, the original Wasp, was stranded in the Quantum Realm for decades before her family found her."
+  },
+  {
+    "id": "ant-man-trivia-9",
+    "question": "Who is Darren Cross, the villain who built the Yellowjacket suit?",
+    "options": [
+      "Hank Pym's former protege",
+      "Scott's brother",
+      "A SHIELD agent",
+      "A circus performer"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Darren Cross was Hank Pym's student before turning against him and creating the dangerous Yellowjacket suit."
+  },
+  {
+    "id": "ant-man-trivia-10",
+    "question": "What color is Darren Cross's villain suit?",
+    "options": [
+      "Yellow and black",
+      "Red and gold",
+      "Green and purple",
+      "Blue and silver"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "The Yellowjacket suit is yellow and black with stingers, plasma cannons, and flight capability."
+  },
+  {
+    "id": "ant-man-trivia-11",
+    "question": "What is Ghost's real name?",
+    "options": [
+      "Ava Starr",
+      "Wanda Maximoff",
+      "Yelena Belova",
+      "Carol Danvers"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Ava Starr became Ghost after a quantum accident left her able to phase through solid objects."
+  },
+  {
+    "id": "ant-man-trivia-12",
+    "question": "What special power does Ghost have?",
+    "options": [
+      "Phasing through solid objects",
+      "Turning into fire",
+      "Reading minds",
+      "Super speed"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Ghost can phase through walls and become invisible because she is out of sync with reality."
+  },
+  {
+    "id": "ant-man-trivia-13",
+    "question": "Which city is Scott Lang's hometown?",
+    "options": [
+      "San Francisco",
+      "New York",
+      "Chicago",
+      "Seattle"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Scott lives in San Francisco, where Hank Pym's lab and the Pym house are also located."
+  },
+  {
+    "id": "ant-man-trivia-14",
+    "question": "What ice cream shop did Scott briefly work at after getting out of prison?",
+    "options": [
+      "Baskin-Robbins",
+      "Cold Stone",
+      "Dairy Queen",
+      "Ben & Jerry's"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Scott worked at Baskin-Robbins, but as his boss said, 'Baskin-Robbins always finds out.'"
+  },
+  {
+    "id": "ant-man-trivia-15",
+    "question": "What happens when Scott uses the Giant-Man power?",
+    "options": [
+      "He grows to towering heights",
+      "He turns invisible",
+      "He gains laser eyes",
+      "He flies into space"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Giant-Man reverses the Pym Particles so Scott grows huge, like he did at the German airport battle."
+  },
+  {
+    "id": "ant-man-trivia-16",
+    "question": "What does Scott's cybernetic helmet let him do?",
+    "options": [
+      "Talk to and lead ants",
+      "Shoot lasers",
+      "Read books fast",
+      "Fly without wings"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "The helmet uses pheromones and signals so Scott can communicate with many species of ants."
+  },
+  {
+    "id": "ant-man-trivia-17",
+    "question": "How long was Scott trapped in the Quantum Realm before the Time Heist?",
+    "options": [
+      "Five years",
+      "Five days",
+      "Fifty years",
+      "One hour"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Scott was stuck for five years on Earth, but inside the Quantum Realm it felt like only five hours."
+  },
+  {
+    "id": "ant-man-trivia-18",
+    "question": "What weapons does the Wasp have that Ant-Man doesn't?",
+    "options": [
+      "Wings and bio-electric stingers",
+      "A magic hammer",
+      "A vibranium shield",
+      "Webshooters"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Hope's Wasp suit has wings for flight and bio-electric stingers, giving her aerial combat power."
+  },
+  {
+    "id": "ant-man-trivia-19",
+    "question": "Which giant villain does Ant-Man face in the Quantumania story?",
+    "options": [
+      "Kang the Conqueror",
+      "Thanos",
+      "Ultron",
+      "Loki"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Kang the Conqueror is a powerful time-traveling villain Scott meets deep in the Quantum Realm."
+  },
+  {
+    "id": "ant-man-trivia-20",
+    "question": "What is Cassie Lang's stepdad Jim Paxton's job?",
+    "options": [
+      "Police officer",
+      "Pizza chef",
+      "Pilot",
+      "Doctor"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "ant-man",
+    "explanation": "Paxton is a San Francisco cop who helps raise Cassie alongside Scott's ex-wife Maggie."
   }
 ]
