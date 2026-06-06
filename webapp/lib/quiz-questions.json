@@ -17443,5 +17443,1505 @@
     "universe": "marvel",
     "heroId": "star-lord",
     "explanation": "The Benatar was built from spare parts of a Sovereign Quadrant and a Ravager hauler after Ego's planet fell."
+  },
+  {
+    "id": "batman-trivia-1",
+    "question": "What is Batman's real name?",
+    "options": [
+      "Bruce Wayne",
+      "Clark Kent",
+      "Peter Parker",
+      "Barry Allen"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Bruce Wayne is the billionaire heir to Wayne Enterprises who becomes Batman at night."
+  },
+  {
+    "id": "batman-trivia-2",
+    "question": "Which city does Batman protect?",
+    "options": [
+      "Gotham City",
+      "Metropolis",
+      "Central City",
+      "Star City"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Gotham City is Batman's hometown, full of tall skyscrapers and dark alleys."
+  },
+  {
+    "id": "batman-trivia-3",
+    "question": "Who is the kind butler who raised Bruce Wayne?",
+    "options": [
+      "Alfred Pennyworth",
+      "Lucius Fox",
+      "James Gordon",
+      "Jarvis"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Alfred Pennyworth is the Wayne family butler and Bruce's lifelong guardian and friend."
+  },
+  {
+    "id": "batman-trivia-4",
+    "question": "What is the name of Batman's secret headquarters under Wayne Manor?",
+    "options": [
+      "The Batcave",
+      "The Fortress",
+      "The Hall",
+      "The Watchtower"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "The Batcave sits beneath Wayne Manor and holds Batman's computers and vehicles."
+  },
+  {
+    "id": "batman-trivia-5",
+    "question": "What shape are Batman's throwing tools?",
+    "options": [
+      "Bats",
+      "Stars",
+      "Circles",
+      "Arrows"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Batarangs are shaped like bats and are kept on his Utility Belt."
+  },
+  {
+    "id": "batman-trivia-6",
+    "question": "What is Batman's main car called?",
+    "options": [
+      "The Batmobile",
+      "The Batwing",
+      "The Batboat",
+      "The Batcycle"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "The Batmobile is Batman's sleek, armored car for racing through Gotham."
+  },
+  {
+    "id": "batman-trivia-7",
+    "question": "What does the Bat-Signal do?",
+    "options": [
+      "Calls Batman for help",
+      "Opens the Batcave",
+      "Charges his belt",
+      "Finds the Joker"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Commissioner Gordon shines the Bat-Signal in the sky to call Batman when Gotham needs him."
+  },
+  {
+    "id": "batman-trivia-8",
+    "question": "Who is the police commissioner who works with Batman?",
+    "options": [
+      "James Gordon",
+      "Harvey Bullock",
+      "Renee Montoya",
+      "Joe Chill"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Commissioner James Gordon trusts Batman and uses the Bat-Signal to reach him."
+  },
+  {
+    "id": "batman-trivia-9",
+    "question": "What colors does the Joker usually wear?",
+    "options": [
+      "Purple suit with orange tie",
+      "Black suit with red tie",
+      "Green suit with yellow tie",
+      "Blue suit with white tie"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "The Joker wears a purple suit and orange tie, with bright green hair and a red smile."
+  },
+  {
+    "id": "batman-trivia-10",
+    "question": "What does Two-Face flip to make his choices?",
+    "options": [
+      "A silver coin",
+      "A pair of dice",
+      "A playing card",
+      "A small key"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Harvey Dent, Two-Face, flips a silver coin to decide what he will do next."
+  },
+  {
+    "id": "batman-trivia-11",
+    "question": "Who is Batman's first sidekick, Robin?",
+    "options": [
+      "Dick Grayson",
+      "Tim Drake",
+      "Jason Todd",
+      "Damian Wayne"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Dick Grayson was the original Robin and later grew up to become Nightwing."
+  },
+  {
+    "id": "batman-trivia-12",
+    "question": "Which villain loves leaving puzzles and question marks for Batman?",
+    "options": [
+      "The Riddler",
+      "The Penguin",
+      "Mr. Freeze",
+      "Bane"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Edward Nigma, the Riddler, loves tricky riddles and marks his clues with question marks."
+  },
+  {
+    "id": "batman-trivia-13",
+    "question": "What is the Penguin's real name?",
+    "options": [
+      "Oswald Cobblepot",
+      "Victor Fries",
+      "Jonathan Crane",
+      "Edward Nigma"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Oswald Cobblepot is the Penguin, a sneaky crook who runs the Iceberg Lounge."
+  },
+  {
+    "id": "batman-trivia-14",
+    "question": "Where do most of Batman's villains get locked up?",
+    "options": [
+      "Arkham Asylum",
+      "Stark Tower",
+      "Belle Reve",
+      "The Phantom Zone"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Arkham Asylum in Gotham holds the Joker, Riddler, Two-Face, and many others."
+  },
+  {
+    "id": "batman-trivia-15",
+    "question": "What does Batman use to swing between Gotham's tall buildings?",
+    "options": [
+      "A grappling gun",
+      "Web shooters",
+      "Magic boots",
+      "A jetpack"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "The grappling gun shoots a strong line so Batman can swing across rooftops."
+  },
+  {
+    "id": "batman-trivia-16",
+    "question": "What rule does Batman always follow with his enemies?",
+    "options": [
+      "No killing",
+      "Never speak",
+      "Always smile",
+      "Only fight at night"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Batman's strict no-kill rule means he stops villains but never takes a life."
+  },
+  {
+    "id": "batman-trivia-17",
+    "question": "What is Catwoman's real name?",
+    "options": [
+      "Selina Kyle",
+      "Barbara Gordon",
+      "Pamela Isley",
+      "Harleen Quinzel"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Selina Kyle is Catwoman, a clever thief who is sometimes Batman's friend."
+  },
+  {
+    "id": "batman-trivia-18",
+    "question": "Who is Mr. Freeze and what does he wear?",
+    "options": [
+      "Victor Fries in a freezing suit",
+      "A scientist in a fire suit",
+      "A wizard with an ice wand",
+      "A pilot in a snow plane"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Victor Fries became Mr. Freeze and wears a special suit that keeps him very cold."
+  },
+  {
+    "id": "batman-trivia-19",
+    "question": "Which strong villain is famous for breaking Batman's back?",
+    "options": [
+      "Bane",
+      "Killer Croc",
+      "Clayface",
+      "Scarecrow"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Bane is a huge, smart villain who once broke the bat in the Knightfall story."
+  },
+  {
+    "id": "batman-trivia-20",
+    "question": "What nickname does Batman earn for solving tough mysteries?",
+    "options": [
+      "The World's Greatest Detective",
+      "The Caped Crusader's Cousin",
+      "The Bat Whisperer",
+      "The Riddle King"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "batman",
+    "explanation": "Batman is called the World's Greatest Detective because he can solve any clue."
+  },
+  {
+    "id": "superman-trivia-1",
+    "question": "What is Superman's birth name on his home planet?",
+    "options": [
+      "Kal-El",
+      "Jor-El",
+      "Kar-Zod",
+      "Clark-El"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Superman was born Kal-El on the planet Krypton before being sent to Earth as a baby."
+  },
+  {
+    "id": "superman-trivia-2",
+    "question": "What is the name of Superman's home planet that exploded?",
+    "options": [
+      "Krypton",
+      "Oa",
+      "Thanagar",
+      "Rann"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Krypton was destroyed when Kal-El was just a baby, and his parents sent him to Earth in a rocket."
+  },
+  {
+    "id": "superman-trivia-3",
+    "question": "Who are Superman's adoptive parents on Earth?",
+    "options": [
+      "Jonathan and Martha Kent",
+      "Thomas and Martha Wayne",
+      "Ben and May Parker",
+      "Jor-El and Lara"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "The Kents found baby Kal-El's rocket on their farm and raised him as their own son, Clark."
+  },
+  {
+    "id": "superman-trivia-4",
+    "question": "In what small town did Clark Kent grow up?",
+    "options": [
+      "Smallville, Kansas",
+      "Central City, Missouri",
+      "Gotham, New Jersey",
+      "Star City, California"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Clark grew up on a quiet farm in Smallville, Kansas, before moving to the big city."
+  },
+  {
+    "id": "superman-trivia-5",
+    "question": "What big city does Superman protect?",
+    "options": [
+      "Metropolis",
+      "Gotham City",
+      "Coast City",
+      "Central City"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Superman watches over Metropolis, the bright city where he also works as Clark Kent."
+  },
+  {
+    "id": "superman-trivia-6",
+    "question": "Where does Clark Kent work as a reporter?",
+    "options": [
+      "The Daily Planet",
+      "The Daily Bugle",
+      "Gotham Gazette",
+      "Central City Citizen"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Clark Kent writes news stories at the Daily Planet, the big newspaper in Metropolis."
+  },
+  {
+    "id": "superman-trivia-7",
+    "question": "Who is the brave reporter Superman loves?",
+    "options": [
+      "Lois Lane",
+      "Mary Jane Watson",
+      "Vicki Vale",
+      "Iris West"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Lois Lane is the fearless Daily Planet reporter who later becomes Superman's wife."
+  },
+  {
+    "id": "superman-trivia-8",
+    "question": "Who is the young photographer at the Daily Planet?",
+    "options": [
+      "Jimmy Olsen",
+      "Peter Parker",
+      "Jimmy Hudson",
+      "Billy Batson"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Jimmy Olsen is the cub photographer and Superman's loyal pal at the newspaper."
+  },
+  {
+    "id": "superman-trivia-9",
+    "question": "Who is the loud, kind editor at the Daily Planet?",
+    "options": [
+      "Perry White",
+      "J. Jonah Jameson",
+      "Alfred Pennyworth",
+      "Commissioner Gordon"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Perry White is the gruff but caring editor-in-chief who runs the Daily Planet newsroom."
+  },
+  {
+    "id": "superman-trivia-10",
+    "question": "What gives Superman his amazing powers?",
+    "options": [
+      "Earth's yellow sun",
+      "A magic ring",
+      "A radioactive spider",
+      "A super-soldier serum"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Superman's Kryptonian body absorbs energy from our yellow sun, giving him his super powers."
+  },
+  {
+    "id": "superman-trivia-11",
+    "question": "What color of Kryptonite makes Superman weak and sick?",
+    "options": [
+      "Green",
+      "Blue",
+      "Purple",
+      "Silver"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Green Kryptonite, a piece of his old home planet, hurts Superman and takes away his strength."
+  },
+  {
+    "id": "superman-trivia-12",
+    "question": "What is the name of Superman's icy hideaway?",
+    "options": [
+      "The Fortress of Solitude",
+      "The Batcave",
+      "The Watchtower",
+      "The Hall of Justice"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "The Fortress of Solitude is Superman's secret crystal home hidden in the frozen Arctic."
+  },
+  {
+    "id": "superman-trivia-13",
+    "question": "What does the 'S' on Superman's chest stand for?",
+    "options": [
+      "Hope",
+      "Strength",
+      "Superman",
+      "Smallville"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "The symbol is the crest of the House of El, and on Krypton it means 'Hope'."
+  },
+  {
+    "id": "superman-trivia-14",
+    "question": "Who is Superman's bald billionaire enemy from Metropolis?",
+    "options": [
+      "Lex Luthor",
+      "The Penguin",
+      "Kingpin",
+      "Vandal Savage"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Lex Luthor is a smart, rich, bald businessman who keeps trying to outsmart Superman."
+  },
+  {
+    "id": "superman-trivia-15",
+    "question": "Which Kryptonian general wants to rule Earth?",
+    "options": [
+      "General Zod",
+      "Ra's al Ghul",
+      "Sinestro",
+      "Black Adam"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "General Zod was a Kryptonian soldier locked in the Phantom Zone who later attacks Earth."
+  },
+  {
+    "id": "superman-trivia-16",
+    "question": "Which villain shrinks whole cities and puts them in bottles?",
+    "options": [
+      "Brainiac",
+      "Lex Luthor",
+      "Mr. Mxyzptlk",
+      "Bizarro"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Brainiac is a super-smart alien collector who shrinks cities to keep in glass jars."
+  },
+  {
+    "id": "superman-trivia-17",
+    "question": "Which giant gray monster once defeated Superman in battle?",
+    "options": [
+      "Doomsday",
+      "Solomon Grundy",
+      "Parasite",
+      "Metallo"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Doomsday is a huge, spiky creature so strong that he once defeated Superman in Metropolis."
+  },
+  {
+    "id": "superman-trivia-18",
+    "question": "Who is Superman's cousin from Krypton?",
+    "options": [
+      "Kara Zor-El (Supergirl)",
+      "Lara Kent",
+      "Barbara Gordon",
+      "Donna Troy"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Kara Zor-El is Superman's cousin, and on Earth she becomes the hero Supergirl."
+  },
+  {
+    "id": "superman-trivia-19",
+    "question": "What is the name of Superman's superpowered dog?",
+    "options": [
+      "Krypto",
+      "Ace",
+      "Streaky",
+      "Rex"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Krypto the Superdog came from Krypton too, and has powers just like his best friend Superman."
+  },
+  {
+    "id": "superman-trivia-20",
+    "question": "Which power lets Superman shoot beams from his eyes?",
+    "options": [
+      "Heat vision",
+      "Freeze breath",
+      "X-ray vision",
+      "Super-hearing"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "superman",
+    "explanation": "Heat vision lets Superman shoot powerful beams of heat from his eyes to melt or weld things."
+  },
+  {
+    "id": "wonder-woman-trivia-1",
+    "question": "What is Wonder Woman's real name?",
+    "options": [
+      "Princess Diana of Themyscira",
+      "Queen Hippolyta",
+      "Barbara Minerva",
+      "Etta Candy"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Wonder Woman is Princess Diana of Themyscira, an Amazon warrior princess."
+  },
+  {
+    "id": "wonder-woman-trivia-2",
+    "question": "What is the name of Wonder Woman's hidden island home?",
+    "options": [
+      "Atlantis",
+      "Themyscira",
+      "Olympus",
+      "Krypton"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Themyscira, also called Paradise Island, is the hidden home of the Amazons."
+  },
+  {
+    "id": "wonder-woman-trivia-3",
+    "question": "Who is Diana's mother and queen of the Amazons?",
+    "options": [
+      "Antiope",
+      "Hippolyta",
+      "Athena",
+      "Circe"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Queen Hippolyta rules Themyscira and is Diana's loving mother."
+  },
+  {
+    "id": "wonder-woman-trivia-4",
+    "question": "What special power does the Lasso of Truth have?",
+    "options": [
+      "It shoots fire",
+      "It makes people invisible",
+      "It forces people to tell the truth",
+      "It freezes enemies"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "The Lasso of Hestia compels anyone wrapped in it to tell the truth."
+  },
+  {
+    "id": "wonder-woman-trivia-5",
+    "question": "What can Wonder Woman's bracelets do?",
+    "options": [
+      "Shoot lasers",
+      "Deflect bullets",
+      "Heal wounds",
+      "Open portals"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Her indestructible Bracelets of Submission can deflect bullets and block strong attacks."
+  },
+  {
+    "id": "wonder-woman-trivia-6",
+    "question": "Who is the pilot who crash-lands on Themyscira and meets Diana?",
+    "options": [
+      "Steve Trevor",
+      "Bruce Wayne",
+      "Clark Kent",
+      "Hal Jordan"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Pilot Steve Trevor crashes near the island and becomes Diana's dear friend."
+  },
+  {
+    "id": "wonder-woman-trivia-7",
+    "question": "Who trained Diana to be a warrior?",
+    "options": [
+      "Hippolyta",
+      "Athena",
+      "Antiope",
+      "Circe"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "General Antiope, Diana's aunt, trained her to become the finest Amazon warrior."
+  },
+  {
+    "id": "wonder-woman-trivia-8",
+    "question": "Who are the Amazons?",
+    "options": [
+      "A team of pirates",
+      "A nation of warrior women",
+      "A group of wizards",
+      "Sea creatures"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "The Amazons are a nation of warrior women blessed by the Greek gods."
+  },
+  {
+    "id": "wonder-woman-trivia-9",
+    "question": "In the classic story, what is baby Diana made from?",
+    "options": [
+      "Clay",
+      "Stardust",
+      "Gold",
+      "Snow"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Hippolyta sculpted Diana from clay, and the gods breathed life into her."
+  },
+  {
+    "id": "wonder-woman-trivia-10",
+    "question": "Which villain is the god of war and Diana's enemy?",
+    "options": [
+      "Lex Luthor",
+      "Ares",
+      "Joker",
+      "Riddler"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Ares, the Greek god of war, wants endless fighting and is Diana's great foe."
+  },
+  {
+    "id": "wonder-woman-trivia-11",
+    "question": "What is Cheetah's real name?",
+    "options": [
+      "Selina Kyle",
+      "Pamela Isley",
+      "Barbara Minerva",
+      "Harleen Quinzel"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Barbara Minerva is a scientist who transforms into the fierce villain Cheetah."
+  },
+  {
+    "id": "wonder-woman-trivia-12",
+    "question": "What classic vehicle does Wonder Woman fly?",
+    "options": [
+      "Batmobile",
+      "Invisible Jet",
+      "Bat-Glider",
+      "Speedster"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Wonder Woman's Invisible Jet lets her fly across the sky unseen."
+  },
+  {
+    "id": "wonder-woman-trivia-13",
+    "question": "What does Diana use her tiara for besides looking royal?",
+    "options": [
+      "A communicator",
+      "A throwing weapon",
+      "A flashlight",
+      "A key"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Her sharp golden tiara can be thrown like a returning projectile in battle."
+  },
+  {
+    "id": "wonder-woman-trivia-14",
+    "question": "What is Diana's civilian name in Man's World?",
+    "options": [
+      "Diana Prince",
+      "Diana Wayne",
+      "Diana Kent",
+      "Diana Lane"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "She goes by Diana Prince when living and working among regular people."
+  },
+  {
+    "id": "wonder-woman-trivia-15",
+    "question": "In the 2017 film, which war does Wonder Woman fight in?",
+    "options": [
+      "World War I",
+      "World War II",
+      "The Civil War",
+      "The Cold War"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "In her first solo film, Diana leaves Themyscira to help end World War I."
+  },
+  {
+    "id": "wonder-woman-trivia-16",
+    "question": "Which famous museum does Diana work at in the films?",
+    "options": [
+      "The British Museum",
+      "The Louvre",
+      "The Met",
+      "The Smithsonian"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Diana works at the Louvre in Paris, studying ancient artifacts and history."
+  },
+  {
+    "id": "wonder-woman-trivia-17",
+    "question": "Which sorceress can turn people into animals?",
+    "options": [
+      "Cheetah",
+      "Circe",
+      "Doctor Poison",
+      "Giganta"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Circe is a powerful Greek sorceress famous for turning people into animals."
+  },
+  {
+    "id": "wonder-woman-trivia-18",
+    "question": "Who are the other two heroes in Wonder Woman's Trinity?",
+    "options": [
+      "Batman and Superman",
+      "Flash and Aquaman",
+      "Cyborg and Robin",
+      "Green Lantern and Shazam"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Wonder Woman, Batman, and Superman form DC's legendary Trinity of heroes."
+  },
+  {
+    "id": "wonder-woman-trivia-19",
+    "question": "Which goddess's sword does Diana sometimes carry?",
+    "options": [
+      "Hera",
+      "Aphrodite",
+      "Athena",
+      "Artemis"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Diana wields the Sword of Athena, gift of the wise Greek goddess of war."
+  },
+  {
+    "id": "wonder-woman-trivia-20",
+    "question": "What promise guides Wonder Woman's heroic life?",
+    "options": [
+      "To rule the world",
+      "To collect treasures",
+      "To fight for those who cannot fight for themselves",
+      "To stay hidden forever"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "wonder-woman",
+    "explanation": "Diana vows to fight for those who cannot fight for themselves, with compassion."
+  },
+  {
+    "id": "the-flash-trivia-1",
+    "question": "What is Barry Allen's day job before he becomes the Flash?",
+    "options": [
+      "Forensic scientist for the police",
+      "Newspaper reporter",
+      "Doctor at S.T.A.R. Labs",
+      "Math teacher"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Barry works in the Central City Police Department's forensics lab, studying clues from crime scenes."
+  },
+  {
+    "id": "the-flash-trivia-2",
+    "question": "How did Barry Allen gain his super-speed powers?",
+    "options": [
+      "Bitten by a spider",
+      "Struck by lightning and splashed with chemicals",
+      "Born on Krypton",
+      "A magic ring"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "A bolt of lightning hit Barry while he stood near chemicals in his lab, giving him incredible speed."
+  },
+  {
+    "id": "the-flash-trivia-3",
+    "question": "What is the energy that powers the Flash called?",
+    "options": [
+      "The Power Cosmic",
+      "The Speed Force",
+      "The Phantom Zone",
+      "The Quantum Field"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "The Speed Force is a magical river of energy that every speedster taps into when they run."
+  },
+  {
+    "id": "the-flash-trivia-4",
+    "question": "What city does Barry Allen protect as the Flash?",
+    "options": [
+      "Gotham City",
+      "Metropolis",
+      "Central City",
+      "Star City"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Central City is Barry's hometown, where he works at the CCPD and zips through the streets as the Flash."
+  },
+  {
+    "id": "the-flash-trivia-5",
+    "question": "What symbol is on the chest of the Flash's suit?",
+    "options": [
+      "A star",
+      "A lightning bolt",
+      "A bird",
+      "A diamond"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "A bright yellow lightning bolt inside a white circle sits on the chest of Barry's red suit."
+  },
+  {
+    "id": "the-flash-trivia-6",
+    "question": "Who is Barry Allen's best friend and true love?",
+    "options": [
+      "Lois Lane",
+      "Iris West",
+      "Caitlin Snow",
+      "Diana Prince"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Iris West is a reporter who later becomes Barry's wife and his anchor to the normal world."
+  },
+  {
+    "id": "the-flash-trivia-7",
+    "question": "Who is the Flash's archenemy in the yellow suit?",
+    "options": [
+      "Captain Cold",
+      "Gorilla Grodd",
+      "Reverse-Flash (Eobard Thawne)",
+      "Zoom"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Eobard Thawne is the Reverse-Flash, a speedster from the future who wears yellow and hates Barry."
+  },
+  {
+    "id": "the-flash-trivia-8",
+    "question": "What weapon does Captain Cold use against the Flash?",
+    "options": [
+      "A fire sword",
+      "A cold gun that freezes things",
+      "A bow and arrow",
+      "A hammer"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Leonard Snart, Captain Cold, carries a cold gun that shoots freezing beams to slow speedsters down."
+  },
+  {
+    "id": "the-flash-trivia-9",
+    "question": "Who is the super-smart villain gorilla who fights the Flash?",
+    "options": [
+      "King Shark",
+      "Gorilla Grodd",
+      "Mister Mind",
+      "Solovar"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Gorilla Grodd is a giant ape with telepathy who tries to control minds and outsmart the Flash."
+  },
+  {
+    "id": "the-flash-trivia-10",
+    "question": "Who is Wally West to Barry Allen?",
+    "options": [
+      "His brother",
+      "Iris's nephew, who becomes Kid Flash",
+      "His teacher",
+      "His boss"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Wally West is Iris's young relative who gets his own speed powers and becomes Kid Flash, then the Flash."
+  },
+  {
+    "id": "the-flash-trivia-11",
+    "question": "What is the team of Flash villains together called?",
+    "options": [
+      "The Sinister Six",
+      "The Rogues",
+      "The Legion of Doom",
+      "The Brotherhood"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Captain Cold, Heat Wave, Mirror Master, and Trickster team up as the Rogues to challenge the Flash."
+  },
+  {
+    "id": "the-flash-trivia-12",
+    "question": "Where does Cisco Ramon help the Flash from in Central City?",
+    "options": [
+      "The Batcave",
+      "S.T.A.R. Labs",
+      "The Daily Planet",
+      "The Fortress of Solitude"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "S.T.A.R. Labs is where Cisco Ramon and Caitlin Snow build gadgets and watch the city for the Flash."
+  },
+  {
+    "id": "the-flash-trivia-13",
+    "question": "Iris West's father, Joe West, has what job?",
+    "options": [
+      "A baker",
+      "A police detective",
+      "A scientist",
+      "A pilot"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Joe West is a kind detective who helps raise Barry after Barry's father is taken away."
+  },
+  {
+    "id": "the-flash-trivia-14",
+    "question": "What can the Flash throw using the Speed Force?",
+    "options": [
+      "Snowballs",
+      "Lightning bolts",
+      "Fireballs",
+      "Boomerangs"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "By running super fast, Barry builds up lightning around his arms and can hurl it at enemies."
+  },
+  {
+    "id": "the-flash-trivia-15",
+    "question": "What cool trick lets the Flash pass through solid walls?",
+    "options": [
+      "Teleporting",
+      "Phasing",
+      "Shrinking",
+      "Turning invisible"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "By vibrating his body super fast, Barry can phase right through walls without breaking them."
+  },
+  {
+    "id": "the-flash-trivia-16",
+    "question": "Who was the very first Flash, who wore a golden helmet with wings?",
+    "options": [
+      "Jay Garrick",
+      "Hunter Zolomon",
+      "Max Mercury",
+      "Bart Allen"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Jay Garrick was the original Flash, easy to spot by his shiny silver helmet with tiny wings."
+  },
+  {
+    "id": "the-flash-trivia-17",
+    "question": "Which super-team did the Flash help start with Superman and Batman?",
+    "options": [
+      "The Avengers",
+      "The Justice League",
+      "The Teen Titans",
+      "The X-Men"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Barry is a founding member of the Justice League, often the friendliest hero on the team."
+  },
+  {
+    "id": "the-flash-trivia-18",
+    "question": "What is the name of the scary speedster villain called Zoom?",
+    "options": [
+      "Hunter Zolomon",
+      "Mick Rory",
+      "Leonard Snart",
+      "Sam Scudder"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Hunter Zolomon, known as Zoom, is a black-suited speedster who wants to make the Flash suffer."
+  },
+  {
+    "id": "the-flash-trivia-19",
+    "question": "What does Barry do to his father, Henry Allen, in the Flashpoint story?",
+    "options": [
+      "Forgets him",
+      "Runs back in time to try to save his family",
+      "Fights him",
+      "Hides from him"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "In Flashpoint, Barry runs back through time to save his mom, which accidentally changes the whole world."
+  },
+  {
+    "id": "the-flash-trivia-20",
+    "question": "What clever gadget does Barry use to hide his Flash suit?",
+    "options": [
+      "A backpack",
+      "A ring that shoots the suit out",
+      "A magic box",
+      "A wristwatch"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "the-flash",
+    "explanation": "Barry's Flash ring squeezes the whole suit inside, so he can change in a single blink."
+  },
+  {
+    "id": "aquaman-trivia-1",
+    "question": "What is Aquaman's human name?",
+    "options": [
+      "Arthur Curry",
+      "Bruce Wayne",
+      "Barry Allen",
+      "Clark Kent"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Aquaman was raised on land as Arthur Curry. In Atlantis he is also called Orin."
+  },
+  {
+    "id": "aquaman-trivia-2",
+    "question": "Who is Aquaman's father?",
+    "options": [
+      "Tom Curry, the lighthouse keeper",
+      "King Orm",
+      "Nuidis Vulko",
+      "David Hyde"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Tom Curry kept the lighthouse at Amnesty Bay and raised Arthur after finding Atlanna on the shore."
+  },
+  {
+    "id": "aquaman-trivia-3",
+    "question": "Who is Aquaman's mother?",
+    "options": [
+      "Queen Atlanna of Atlantis",
+      "Mera of Xebel",
+      "Tula",
+      "Hippolyta"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Queen Atlanna ruled Atlantis and came ashore at Amnesty Bay, where she met Tom Curry."
+  },
+  {
+    "id": "aquaman-trivia-4",
+    "question": "What is the name of Aquaman's hidden underwater kingdom?",
+    "options": [
+      "Atlantis",
+      "Xebel",
+      "Themyscira",
+      "Wakanda"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Atlantis is the ancient kingdom under the sea where Arthur is the rightful king."
+  },
+  {
+    "id": "aquaman-trivia-5",
+    "question": "What special golden weapon does Aquaman carry?",
+    "options": [
+      "The Trident of Atlan",
+      "Mjolnir",
+      "The Lasso of Truth",
+      "The Quindent"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "The Trident of Atlan is a golden five-pointed trident that proves Arthur is the true king."
+  },
+  {
+    "id": "aquaman-trivia-6",
+    "question": "What amazing power lets Aquaman talk to ocean creatures?",
+    "options": [
+      "Telepathy with sea life",
+      "Super hearing",
+      "X-ray vision",
+      "Magic whistles"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Arthur can speak mind-to-mind with fish, whales, sharks, and even tiny shrimp."
+  },
+  {
+    "id": "aquaman-trivia-7",
+    "question": "Who is Aquaman's main villain in the red helmet?",
+    "options": [
+      "Black Manta",
+      "Ocean Master",
+      "Joker",
+      "Lex Luthor"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Black Manta wears a giant red helmet with glowing eyes and carries harpoons."
+  },
+  {
+    "id": "aquaman-trivia-8",
+    "question": "Who is Ocean Master, Aquaman's other big rival?",
+    "options": [
+      "Orm, his half-brother",
+      "Vulko, his teacher",
+      "Tom Curry, his dad",
+      "Garth, his sidekick"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Orm is Arthur's half-brother who wants the throne of Atlantis for himself."
+  },
+  {
+    "id": "aquaman-trivia-9",
+    "question": "Who is the princess of Xebel who fights alongside Aquaman?",
+    "options": [
+      "Mera",
+      "Tula",
+      "Atlanna",
+      "Diana"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Mera is from the kingdom of Xebel and can shape water like a whip."
+  },
+  {
+    "id": "aquaman-trivia-10",
+    "question": "Who taught young Arthur about Atlantis and trained him?",
+    "options": [
+      "Nuidis Vulko",
+      "Black Manta",
+      "Tom Curry",
+      "King Orm"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Vulko is the wise royal advisor who secretly taught Arthur Atlantean history and combat."
+  },
+  {
+    "id": "aquaman-trivia-11",
+    "question": "What town is Tom Curry's lighthouse home in?",
+    "options": [
+      "Amnesty Bay",
+      "Gotham City",
+      "Metropolis",
+      "Central City"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Amnesty Bay is the seaside town where Arthur grew up at the lighthouse."
+  },
+  {
+    "id": "aquaman-trivia-12",
+    "question": "How many kingdoms are under the sea in Aquaman's world?",
+    "options": [
+      "Seven",
+      "Three",
+      "Five",
+      "Ten"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "There are seven kingdoms \u2014 Atlantis, Xebel, the Brine, the Fishermen, the Trench, the Deserters, and the Lost Kingdom."
+  },
+  {
+    "id": "aquaman-trivia-13",
+    "question": "What scary creatures pour out of the deepest ocean trench?",
+    "options": [
+      "The Trench creatures",
+      "Krakens",
+      "Dragons",
+      "Mermaids"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "The Trench are sharp-toothed monsters from one of the seven kingdoms, deep in the dark."
+  },
+  {
+    "id": "aquaman-trivia-14",
+    "question": "What is Aquaman called because he rules all the oceans?",
+    "options": [
+      "King of the Seven Seas",
+      "Lord of Lightning",
+      "Prince of Tides",
+      "Captain of Coral"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Arthur earned the title King of the Seven Seas when he claimed the Trident of Atlan."
+  },
+  {
+    "id": "aquaman-trivia-15",
+    "question": "What colors are Aquaman's classic royal armor?",
+    "options": [
+      "Orange and green",
+      "Red and blue",
+      "Purple and gold",
+      "Black and silver"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "His scale-mail shirt is bright orange and his pants and gloves are deep green."
+  },
+  {
+    "id": "aquaman-trivia-16",
+    "question": "What is Mera's four-pronged weapon called?",
+    "options": [
+      "The Quindent",
+      "The Trident of Atlan",
+      "The Lasso",
+      "The Harpoon"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Mera carries the Quindent, and she can also bend water into ropes, swords, and shields."
+  },
+  {
+    "id": "aquaman-trivia-17",
+    "question": "What giant sea beast guards the Trident of Atlan?",
+    "options": [
+      "The Karathen",
+      "The Kraken",
+      "Storm the seahorse",
+      "The Brine King"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "The Karathen is an enormous ancient sea creature that only lets the true king pass."
+  },
+  {
+    "id": "aquaman-trivia-18",
+    "question": "What big team did Aquaman help start with Batman and Superman?",
+    "options": [
+      "The Justice League",
+      "The Avengers",
+      "The X-Men",
+      "The Teen Titans"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Aquaman is a founding member of the Justice League and protects Earth's oceans for the team."
+  },
+  {
+    "id": "aquaman-trivia-19",
+    "question": "How does Aquaman move through the ocean so fast?",
+    "options": [
+      "He swims at supersonic speed",
+      "He rides a submarine",
+      "He uses jet boots",
+      "He teleports"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "Arthur can swim faster than the speed of sound, zipping across whole oceans in minutes."
+  },
+  {
+    "id": "aquaman-trivia-20",
+    "question": "What is the name of Aquaman's classic seahorse steed?",
+    "options": [
+      "Storm",
+      "Bolt",
+      "Shelly",
+      "Finn"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "aquaman",
+    "explanation": "In classic comics Aquaman rides a giant seahorse named Storm across the seas."
   }
 ]
