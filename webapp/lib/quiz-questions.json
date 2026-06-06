@@ -12943,5 +12943,1505 @@
     "universe": "thanos",
     "heroId": null,
     "explanation": "Tony Stark stole all six Infinity Stones from Thanos using nanotech, said 'I am\u2026 Iron Man,' and snapped his fingers. Thanos and his entire army crumbled to dust, but Tony died from the lethal energy released by the snap."
+  },
+  {
+    "id": "iron-man-trivia-1",
+    "question": "In which country was Tony Stark captured before becoming Iron Man?",
+    "options": [
+      "Afghanistan",
+      "Wakanda",
+      "Sokovia",
+      "Russia"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Tony's convoy was ambushed in a sun-scorched valley in Afghanistan by the Ten Rings."
+  },
+  {
+    "id": "iron-man-trivia-2",
+    "question": "Where is Tony Stark's famous oceanfront home located?",
+    "options": [
+      "Malibu",
+      "Brooklyn",
+      "Queens",
+      "Asgard"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Tony's cliffside mansion sits on the coast of Malibu, California."
+  },
+  {
+    "id": "iron-man-trivia-3",
+    "question": "On which planet did Tony first fight Thanos with Doctor Strange and Spider-Man?",
+    "options": [
+      "Titan",
+      "Sakaar",
+      "Vormir",
+      "Xandar"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Tony, Strange, and Peter battled Thanos on the ruined world of Titan."
+  },
+  {
+    "id": "iron-man-trivia-4",
+    "question": "What is the name of Tony's New York skyscraper headquarters?",
+    "options": [
+      "Stark Tower",
+      "Baxter Building",
+      "Daily Bugle",
+      "Sanctum Sanctorum"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Stark Tower in Manhattan later became Avengers Tower after the Battle of New York."
+  },
+  {
+    "id": "iron-man-trivia-5",
+    "question": "At which famous race did Whiplash first attack Tony?",
+    "options": [
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "Indy 500",
+      "Le Mans"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Ivan Vanko walked onto the Monaco Grand Prix track with his electric whips."
+  },
+  {
+    "id": "iron-man-trivia-6",
+    "question": "Who is Tony Stark's longtime assistant and later his wife?",
+    "options": [
+      "Pepper Potts",
+      "Maria Hill",
+      "Sharon Carter",
+      "Jane Foster"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Pepper Potts manages Tony's life and Stark Industries, and eventually marries him."
+  },
+  {
+    "id": "iron-man-trivia-7",
+    "question": "Who is Tony's best friend who wears the War Machine armor?",
+    "options": [
+      "James 'Rhodey' Rhodes",
+      "Happy Hogan",
+      "Sam Wilson",
+      "Bucky Barnes"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Colonel James Rhodes pilots the War Machine suit alongside Iron Man."
+  },
+  {
+    "id": "iron-man-trivia-8",
+    "question": "Who helped Tony build the very first Arc Reactor inside the cave?",
+    "options": [
+      "Ho Yinsen",
+      "Bruce Banner",
+      "Hank Pym",
+      "Howard Stark"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Physicist Ho Yinsen worked with Tony in the cave and gave his life so Tony could escape."
+  },
+  {
+    "id": "iron-man-trivia-9",
+    "question": "What is the name of Tony and Pepper's young daughter?",
+    "options": [
+      "Morgan",
+      "Lila",
+      "Cassie",
+      "May"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Morgan Stark lives with Tony and Pepper at the lakeside cabin after the Blip."
+  },
+  {
+    "id": "iron-man-trivia-10",
+    "question": "Who was Tony's father, a famous inventor and Stark Industries founder?",
+    "options": [
+      "Howard Stark",
+      "Hank Pym",
+      "Reed Richards",
+      "Erik Selvig"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Howard Stark co-founded Stark Industries and hid a new element inside his Stark Expo blueprint."
+  },
+  {
+    "id": "iron-man-trivia-11",
+    "question": "What is the name of Tony's original AI butler before FRIDAY?",
+    "options": [
+      "JARVIS",
+      "ULTRON",
+      "KAREN",
+      "EDITH"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "JARVIS ran Tony's suits and home before becoming part of the Vision."
+  },
+  {
+    "id": "iron-man-trivia-12",
+    "question": "What glowing device in Tony's chest powers his suit?",
+    "options": [
+      "Arc Reactor",
+      "Cosmic Cube",
+      "Time Stone",
+      "Power Gem"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "The palm-sized Arc Reactor powers the Iron Man armor and kept shrapnel from Tony's heart."
+  },
+  {
+    "id": "iron-man-trivia-13",
+    "question": "What are the energy blasts fired from Iron Man's palms called?",
+    "options": [
+      "Repulsors",
+      "Photon beams",
+      "Plasma bolts",
+      "Pym blasts"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Repulsor rays fire from Tony's palms for flight and combat; the chest blast is the Unibeam."
+  },
+  {
+    "id": "iron-man-trivia-14",
+    "question": "What was the very first Iron Man suit called?",
+    "options": [
+      "Mark I",
+      "Mark III",
+      "Mark XLII",
+      "Mark LXXXV"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "The Mark I was the crude scrap-metal suit Tony built in the cave to escape."
+  },
+  {
+    "id": "iron-man-trivia-15",
+    "question": "What kind of tiny machines build Tony's final suit around him?",
+    "options": [
+      "Nanotech",
+      "Vibranium plates",
+      "Mithril rings",
+      "Hologram parts"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Tony's later suits manifest from billions of nanotech particles stored in his Arc Reactor."
+  },
+  {
+    "id": "iron-man-trivia-16",
+    "question": "Which villain stole Tony's Arc Reactor and became the Iron Monger?",
+    "options": [
+      "Obadiah Stane",
+      "Justin Hammer",
+      "Aldrich Killian",
+      "Loki"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Tony's mentor-turned-traitor Obadiah Stane built the huge Iron Monger suit."
+  },
+  {
+    "id": "iron-man-trivia-17",
+    "question": "What fiery virus did Aldrich Killian use to power his soldiers?",
+    "options": [
+      "Extremis",
+      "Super-Soldier Serum",
+      "Goblin Formula",
+      "Terrigen Mist"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Extremis made Killian's soldiers glow with heat and regenerate from injuries."
+  },
+  {
+    "id": "iron-man-trivia-18",
+    "question": "Which rival weapons-maker hired Whiplash to build drones?",
+    "options": [
+      "Justin Hammer",
+      "Norman Osborn",
+      "Wilson Fisk",
+      "Adrian Toomes"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Justin Hammer recruited Ivan Vanko to build a drone army at the Stark Expo."
+  },
+  {
+    "id": "iron-man-trivia-19",
+    "question": "Which four famous words did Tony say at his first press conference?",
+    "options": [
+      "I am Iron Man",
+      "Avengers, assemble now",
+      "Genius, billionaire, playboy, philanthropist",
+      "Part of the journey"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Tony broke superhero tradition by publicly declaring 'I am Iron Man' after beating Iron Monger."
+  },
+  {
+    "id": "iron-man-trivia-20",
+    "question": "What did Tony do with the Infinity Stones in his final battle?",
+    "options": [
+      "Snapped to defeat Thanos's army",
+      "Sent them back in time",
+      "Gave them to Captain America",
+      "Locked them in his suit forever"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "iron-man",
+    "explanation": "Tony pulled the Stones into his nanotech gauntlet and snapped to dust Thanos and his army."
+  },
+  {
+    "id": "spider-man-trivia-1",
+    "question": "In what New York City borough does Peter Parker grow up?",
+    "options": [
+      "Queens",
+      "Brooklyn",
+      "Manhattan",
+      "The Bronx"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Peter Parker lives in Forest Hills, a neighborhood in the borough of Queens, New York."
+  },
+  {
+    "id": "spider-man-trivia-2",
+    "question": "Which neighborhood in Queens is Peter Parker's home?",
+    "options": [
+      "Forest Hills",
+      "Astoria",
+      "Flushing",
+      "Jamaica"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Peter lives with Aunt May and Uncle Ben in Forest Hills, Queens."
+  },
+  {
+    "id": "spider-man-trivia-3",
+    "question": "What is the name of Peter Parker's high school in the MCU?",
+    "options": [
+      "Midtown School of Science and Technology",
+      "Xavier's Institute",
+      "Empire State Prep",
+      "Brooklyn Visions Academy"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "In the MCU, Peter attends Midtown School of Science and Technology in Queens."
+  },
+  {
+    "id": "spider-man-trivia-4",
+    "question": "What newspaper does Peter Parker often sell his photos to?",
+    "options": [
+      "The Daily Bugle",
+      "The Daily Planet",
+      "The New York Sentinel",
+      "The Gotham Gazette"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Peter sells Spider-Man photos to J. Jonah Jameson at the Daily Bugle."
+  },
+  {
+    "id": "spider-man-trivia-5",
+    "question": "What is the name of Norman Osborn's company?",
+    "options": [
+      "Oscorp",
+      "Stark Industries",
+      "Roxxon",
+      "LexCorp"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Norman Osborn runs Oscorp, a powerful science company in New York City."
+  },
+  {
+    "id": "spider-man-trivia-6",
+    "question": "Who raised Peter Parker after his parents were gone?",
+    "options": [
+      "Aunt May and Uncle Ben",
+      "Tony Stark",
+      "Nick Fury",
+      "Aunt Anna and Uncle Jay"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Peter was raised by his Aunt May and Uncle Ben in Queens."
+  },
+  {
+    "id": "spider-man-trivia-7",
+    "question": "Who is Peter's best friend at school in the MCU?",
+    "options": [
+      "Ned Leeds",
+      "Harry Osborn",
+      "Flash Thompson",
+      "Eddie Brock"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "In the MCU, Peter's best friend is Ned Leeds, who helps him with his Spider-Man missions."
+  },
+  {
+    "id": "spider-man-trivia-8",
+    "question": "Who is the loud editor of the Daily Bugle?",
+    "options": [
+      "J. Jonah Jameson",
+      "Perry White",
+      "Robbie Robertson",
+      "Ben Urich"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "J. Jonah Jameson is the loud, mustached editor who thinks Spider-Man is a menace."
+  },
+  {
+    "id": "spider-man-trivia-9",
+    "question": "Who becomes Peter Parker's mentor in the MCU?",
+    "options": [
+      "Tony Stark",
+      "Steve Rogers",
+      "Doctor Strange",
+      "Nick Fury"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Tony Stark, also known as Iron Man, takes Peter under his wing as a mentor."
+  },
+  {
+    "id": "spider-man-trivia-10",
+    "question": "Who is Peter Parker's classic comic-book true love?",
+    "options": [
+      "Mary Jane Watson",
+      "Felicia Hardy",
+      "Betty Brant",
+      "Liz Allan"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Mary Jane Watson greets Peter with 'Face it, Tiger, you just hit the jackpot' and becomes his greatest love."
+  },
+  {
+    "id": "spider-man-trivia-11",
+    "question": "Who invented Spider-Man's web-shooters?",
+    "options": [
+      "Peter Parker himself",
+      "Tony Stark",
+      "Doctor Octopus",
+      "Reed Richards"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Peter is a science genius and built his own web-shooters that fire sticky webs from his wrists."
+  },
+  {
+    "id": "spider-man-trivia-12",
+    "question": "What special power warns Peter of danger before it happens?",
+    "options": [
+      "Spider-sense",
+      "X-ray vision",
+      "Telepathy",
+      "Super-hearing"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Peter's spider-sense tingles in the back of his skull whenever danger is near."
+  },
+  {
+    "id": "spider-man-trivia-13",
+    "question": "What cool red-and-gold suit did Tony Stark build for Peter?",
+    "options": [
+      "The Iron Spider suit",
+      "The Mark 50",
+      "The War Machine armor",
+      "The Rescue suit"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Tony Stark gave Peter the Iron Spider suit, with four extra mechanical spider-legs."
+  },
+  {
+    "id": "spider-man-trivia-14",
+    "question": "What can Spider-Man do that helps him stick to buildings?",
+    "options": [
+      "Wall-crawl with his hands and feet",
+      "Use magnetic boots",
+      "Float on air",
+      "Use rocket boosters"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Spider-Man's hands and feet can cling to almost any surface, just like a real spider."
+  },
+  {
+    "id": "spider-man-trivia-15",
+    "question": "What is the Green Goblin's real name?",
+    "options": [
+      "Norman Osborn",
+      "Otto Octavius",
+      "Adrian Toomes",
+      "Quentin Beck"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "The Green Goblin is Norman Osborn, the head of Oscorp and father of Peter's friend Harry."
+  },
+  {
+    "id": "spider-man-trivia-16",
+    "question": "How many metal arms does Doctor Octopus have?",
+    "options": [
+      "Four",
+      "Two",
+      "Six",
+      "Eight"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Otto Octavius wears a harness with four powerful mechanical arms he can control with his mind."
+  },
+  {
+    "id": "spider-man-trivia-17",
+    "question": "What does Mysterio wear on his head?",
+    "options": [
+      "A round fishbowl helmet",
+      "A pumpkin mask",
+      "A vulture beak",
+      "A sand crown"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Quentin Beck, the master of illusions, hides his face inside a giant fishbowl-shaped helmet."
+  },
+  {
+    "id": "spider-man-trivia-18",
+    "question": "Who wears the Venom symbiote in the classic comics?",
+    "options": [
+      "Eddie Brock",
+      "Cletus Kasady",
+      "Flash Thompson",
+      "Harry Osborn"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Eddie Brock first bonds with the black goo symbiote, becoming Venom with huge white eyes."
+  },
+  {
+    "id": "spider-man-trivia-19",
+    "question": "What kind of spider bit Peter on his school field trip?",
+    "options": [
+      "A radioactive spider",
+      "A genetically modified spider",
+      "A magical spider",
+      "A giant tarantula"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "A spider zapped by a particle beam fell onto Peter's hand and bit him, giving him his powers."
+  },
+  {
+    "id": "spider-man-trivia-20",
+    "question": "What famous lesson did Uncle Ben teach Peter?",
+    "options": [
+      "With great power comes great responsibility",
+      "Truth, justice, and the way",
+      "Always trust your friends",
+      "Be the hero you needed"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "spider-man",
+    "explanation": "Uncle Ben's words 'With great power comes great responsibility' guide Peter forever after."
+  },
+  {
+    "id": "thor-trivia-1",
+    "question": "What is the name of Thor's magical hammer?",
+    "options": [
+      "Mjolnir",
+      "Stormbreaker",
+      "Gungnir",
+      "Excalibur"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Mjolnir is Thor's enchanted hammer, made for him by the dwarves long ago."
+  },
+  {
+    "id": "thor-trivia-2",
+    "question": "Who forged Thor's axe Stormbreaker?",
+    "options": [
+      "Eitri the dwarf",
+      "Tony Stark",
+      "Heimdall",
+      "Odin"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Eitri, the giant dwarf king of Nidavellir, forged Stormbreaker in a dying neutron star."
+  },
+  {
+    "id": "thor-trivia-3",
+    "question": "On which realm was Stormbreaker forged?",
+    "options": [
+      "Nidavellir",
+      "Asgard",
+      "Jotunheim",
+      "Sakaar"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Nidavellir is the realm of the dwarves, where the greatest weapons in the Nine Realms are forged."
+  },
+  {
+    "id": "thor-trivia-4",
+    "question": "What is the rainbow bridge of Asgard called?",
+    "options": [
+      "The Bifrost",
+      "The Rainbow Road",
+      "Yggdrasil",
+      "The Sky Road"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "The Bifrost is the shimmering rainbow bridge that lets Asgardians travel between the Nine Realms."
+  },
+  {
+    "id": "thor-trivia-5",
+    "question": "Who is the watchful guardian of the Bifrost?",
+    "options": [
+      "Heimdall",
+      "Hogun",
+      "Volstagg",
+      "Fandral"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Heimdall guards the Bifrost and can see and hear across all Nine Realms."
+  },
+  {
+    "id": "thor-trivia-6",
+    "question": "Who is Thor's father?",
+    "options": [
+      "Odin",
+      "Heimdall",
+      "Bor",
+      "Tyr"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Odin is the All-Father, king of Asgard, and Thor's wise and powerful father."
+  },
+  {
+    "id": "thor-trivia-7",
+    "question": "Who is Thor's adopted brother?",
+    "options": [
+      "Loki",
+      "Balder",
+      "Tyr",
+      "Vidar"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Loki is the trickster prince Odin rescued as a baby and raised as Thor's brother."
+  },
+  {
+    "id": "thor-trivia-8",
+    "question": "What words are written on Mjolnir's worthiness enchantment?",
+    "options": [
+      "Whosoever, if he be worthy",
+      "Power of the storm",
+      "By Odin's beard",
+      "For Asgard forever"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "The inscription says, 'Whosoever, if he be worthy, shall possess the power of Thor.'"
+  },
+  {
+    "id": "thor-trivia-9",
+    "question": "What is Odin's mighty spear called?",
+    "options": [
+      "Gungnir",
+      "Mjolnir",
+      "Stormbreaker",
+      "Hofund"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Gungnir is Odin's golden spear and a symbol of the All-Father's power."
+  },
+  {
+    "id": "thor-trivia-10",
+    "question": "Which fire giant caused the Ragnarok that destroyed Asgard?",
+    "options": [
+      "Surtur",
+      "Laufey",
+      "Ymir",
+      "Hrym"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Surtur, the flaming giant, brought Ragnarok and destroyed the kingdom of Asgard."
+  },
+  {
+    "id": "thor-trivia-11",
+    "question": "Who is Thor's older sister, the goddess of death?",
+    "options": [
+      "Hela",
+      "Sif",
+      "Frigga",
+      "Angrboda"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Hela is the goddess of death and Thor's powerful, long-banished older sister."
+  },
+  {
+    "id": "thor-trivia-12",
+    "question": "Which eye did Thor lose during Ragnarok?",
+    "options": [
+      "His right eye",
+      "His left eye",
+      "Both eyes",
+      "Neither eye"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Thor lost his right eye fighting Hela, just like his father Odin once did."
+  },
+  {
+    "id": "thor-trivia-13",
+    "question": "What is the name of the icy home of the Frost Giants?",
+    "options": [
+      "Jotunheim",
+      "Niflheim",
+      "Muspelheim",
+      "Vanaheim"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Jotunheim is the cold, snowy realm where the Frost Giants live."
+  },
+  {
+    "id": "thor-trivia-14",
+    "question": "Who is the brave Valkyrie warrior who joins Thor?",
+    "options": [
+      "Brunnhilde",
+      "Sif",
+      "Angela",
+      "Freya"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Brunnhilde is the last Valkyrie and becomes a fierce ally and friend to Thor."
+  },
+  {
+    "id": "thor-trivia-15",
+    "question": "On what junk planet did Thor meet the Grandmaster?",
+    "options": [
+      "Sakaar",
+      "Xandar",
+      "Knowhere",
+      "Morag"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Sakaar is the trash-covered planet where Thor was forced to fight in the arena."
+  },
+  {
+    "id": "thor-trivia-16",
+    "question": "Which scientist on Earth first befriended Thor?",
+    "options": [
+      "Jane Foster",
+      "Pepper Potts",
+      "Helen Cho",
+      "Maya Hansen"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Jane Foster is the astrophysicist who met Thor when he first fell to Earth."
+  },
+  {
+    "id": "thor-trivia-17",
+    "question": "When Jane Foster lifts Mjolnir, what does she become?",
+    "options": [
+      "The Mighty Thor",
+      "Lady Sif",
+      "Valkyrie",
+      "Stormcaller"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Mjolnir finds Jane worthy and transforms her into the Mighty Thor."
+  },
+  {
+    "id": "thor-trivia-18",
+    "question": "Which Dark Elf villain hunted the Aether to darken the realms?",
+    "options": [
+      "Malekith",
+      "Kurse",
+      "Algrim",
+      "Surtur"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Malekith led the Dark Elves and tried to use the Aether to bring eternal darkness."
+  },
+  {
+    "id": "thor-trivia-19",
+    "question": "What is the new home Asgardians built on Earth called?",
+    "options": [
+      "New Asgard",
+      "Asgardia",
+      "T\u00f8nsberg",
+      "Midgard Hold"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "After Asgard fell, the survivors built a little fishing village in Norway called New Asgard."
+  },
+  {
+    "id": "thor-trivia-20",
+    "question": "What is the handle of Stormbreaker made from?",
+    "options": [
+      "Groot's arm",
+      "Yggdrasil bark",
+      "Uru metal",
+      "Asgardian oak"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "thor",
+    "explanation": "Groot bravely offered his own arm to become the handle of Thor's new axe, Stormbreaker."
+  },
+  {
+    "id": "captain-america-trivia-1",
+    "question": "What is Captain America's real name?",
+    "options": [
+      "Steve Rogers",
+      "Sam Wilson",
+      "Bucky Barnes",
+      "Tony Stark"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Steve Rogers was a skinny kid from Brooklyn before he became Captain America."
+  },
+  {
+    "id": "captain-america-trivia-2",
+    "question": "Which city did Steve Rogers grow up in?",
+    "options": [
+      "Brooklyn",
+      "Queens",
+      "Boston",
+      "Chicago"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Steve was a Brooklyn kid who never forgot his roots, even after becoming a super-soldier."
+  },
+  {
+    "id": "captain-america-trivia-3",
+    "question": "Which doctor gave Steve the Super-Soldier Serum?",
+    "options": [
+      "Dr. Abraham Erskine",
+      "Dr. Bruce Banner",
+      "Dr. Hank Pym",
+      "Dr. Strange"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Dr. Abraham Erskine chose Steve because he was a good man, not a strong one."
+  },
+  {
+    "id": "captain-america-trivia-4",
+    "question": "What rare metal is Captain America's shield made from?",
+    "options": [
+      "Vibranium",
+      "Adamantium",
+      "Uru",
+      "Titanium"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Vibranium absorbs energy and lets the shield bounce back when Cap throws it."
+  },
+  {
+    "id": "captain-america-trivia-5",
+    "question": "Where does Vibranium come from?",
+    "options": [
+      "Wakanda",
+      "Asgard",
+      "Sokovia",
+      "Latveria"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Wakanda is the only place on Earth where Vibranium is found."
+  },
+  {
+    "id": "captain-america-trivia-6",
+    "question": "Who is Steve's best friend since childhood?",
+    "options": [
+      "Bucky Barnes",
+      "Sam Wilson",
+      "Tony Stark",
+      "Clint Barton"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Bucky Barnes grew up with Steve in Brooklyn and later became the Winter Soldier."
+  },
+  {
+    "id": "captain-america-trivia-7",
+    "question": "What name did Bucky go by as a brainwashed HYDRA assassin?",
+    "options": [
+      "Winter Soldier",
+      "Crossbones",
+      "Red Skull",
+      "Falcon"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "HYDRA brainwashed Bucky and called him the Winter Soldier."
+  },
+  {
+    "id": "captain-america-trivia-8",
+    "question": "How long was Steve frozen in the Arctic ice?",
+    "options": [
+      "About 70 years",
+      "About 10 years",
+      "About 200 years",
+      "About 5 years"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Steve slept in the ice for nearly seventy years before waking up in the modern world."
+  },
+  {
+    "id": "captain-america-trivia-9",
+    "question": "Who is Cap's wartime sweetheart and SHIELD founder?",
+    "options": [
+      "Peggy Carter",
+      "Sharon Carter",
+      "Natasha Romanoff",
+      "Maria Hill"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Peggy Carter fought alongside Steve in World War II and later helped found SHIELD."
+  },
+  {
+    "id": "captain-america-trivia-10",
+    "question": "What is the real name of the Red Skull?",
+    "options": [
+      "Johann Schmidt",
+      "Helmut Zemo",
+      "Brock Rumlow",
+      "Arnim Zola"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Red Skull is Johann Schmidt, Cap's main enemy during World War II."
+  },
+  {
+    "id": "captain-america-trivia-11",
+    "question": "Which glowing blue cube did the Red Skull want?",
+    "options": [
+      "The Tesseract",
+      "The Eye of Agamotto",
+      "The Cosmic Cube key",
+      "The Time Stone"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Red Skull was obsessed with the Tesseract, which held the Space Stone inside."
+  },
+  {
+    "id": "captain-america-trivia-12",
+    "question": "What is Captain America's famous never-give-up line?",
+    "options": [
+      "I can do this all day",
+      "Hulk smash",
+      "I am Iron Man",
+      "Wakanda forever"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Steve has said \"I can do this all day\" since he was a skinny kid in Brooklyn."
+  },
+  {
+    "id": "captain-america-trivia-13",
+    "question": "What does Sam Wilson call out before flying past Cap?",
+    "options": [
+      "On your left",
+      "Look up",
+      "Heads up",
+      "Watch out"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "\"On your left\" became Sam and Steve's running joke and friendship signal."
+  },
+  {
+    "id": "captain-america-trivia-14",
+    "question": "Which Avengers hero takes up the shield after Steve retires?",
+    "options": [
+      "Sam Wilson",
+      "Bucky Barnes",
+      "Tony Stark",
+      "Clint Barton"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Steve passes his shield to Sam Wilson, who becomes the next Captain America."
+  },
+  {
+    "id": "captain-america-trivia-15",
+    "question": "Which mighty hammer does Cap lift in Avengers: Endgame?",
+    "options": [
+      "Mjolnir",
+      "Stormbreaker",
+      "Gungnir",
+      "Jarnbjorn"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Cap proved he was worthy by lifting Thor's hammer Mjolnir during the final battle."
+  },
+  {
+    "id": "captain-america-trivia-16",
+    "question": "Which scheming Baron leads the Masters of Evil against Cap?",
+    "options": [
+      "Baron Zemo",
+      "Baron Mordo",
+      "Baron Strucker",
+      "Baron Blood"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Baron Helmut Zemo is a tactical genius who blames Cap for his family's downfall."
+  },
+  {
+    "id": "captain-america-trivia-17",
+    "question": "What evil organization brainwashed the Winter Soldier?",
+    "options": [
+      "HYDRA",
+      "AIM",
+      "The Hand",
+      "The Ten Rings"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "HYDRA captured Bucky after his fall and turned him into their assassin for decades."
+  },
+  {
+    "id": "captain-america-trivia-18",
+    "question": "What war was Captain America first created to fight in?",
+    "options": [
+      "World War II",
+      "The Cold War",
+      "The Civil War",
+      "World War I"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "Steve was made a super-soldier to fight HYDRA and the Axis powers in World War II."
+  },
+  {
+    "id": "captain-america-trivia-19",
+    "question": "What special team did Cap lead during World War II?",
+    "options": [
+      "The Howling Commandos",
+      "The X-Men",
+      "The Defenders",
+      "The Invaders"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "The Howling Commandos were Cap's elite squad, and Bucky fought alongside them."
+  },
+  {
+    "id": "captain-america-trivia-20",
+    "question": "At the end of Endgame, who did Steve share a quiet life with?",
+    "options": [
+      "Peggy Carter",
+      "Sharon Carter",
+      "Natasha Romanoff",
+      "Wanda Maximoff"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "captain-america",
+    "explanation": "After returning the Infinity Stones, Steve went back in time to live a full life with Peggy."
+  },
+  {
+    "id": "hulk-trivia-1",
+    "question": "What is the Hulk's real name?",
+    "options": [
+      "Bruce Banner",
+      "Bruce Wayne",
+      "Brian Banner",
+      "Bobby Barnes"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "Robert Bruce Banner is the brilliant physicist who turns into the Hulk."
+  },
+  {
+    "id": "hulk-trivia-2",
+    "question": "What kind of radiation turned Bruce Banner into the Hulk?",
+    "options": [
+      "Gamma rays",
+      "X-rays",
+      "Cosmic rays",
+      "Solar rays"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "A gamma bomb test accident bathed Bruce in gamma radiation and changed him forever."
+  },
+  {
+    "id": "hulk-trivia-3",
+    "question": "What feeling usually makes Bruce Banner change into the Hulk?",
+    "options": [
+      "Anger",
+      "Sleepiness",
+      "Hunger",
+      "Boredom"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "When Bruce gets angry or scared, his heart races and the Hulk comes out."
+  },
+  {
+    "id": "hulk-trivia-4",
+    "question": "What color is the Hulk's skin?",
+    "options": [
+      "Green",
+      "Blue",
+      "Red",
+      "Gray"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "The Hulk is famously bright green, though early comics once showed him gray."
+  },
+  {
+    "id": "hulk-trivia-5",
+    "question": "What two-word phrase does the Hulk love to shout?",
+    "options": [
+      "Hulk smash!",
+      "Hulk jump!",
+      "Hulk run!",
+      "Hulk sleep!"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "\"Hulk smash!\" is his most famous battle cry in comics and movies."
+  },
+  {
+    "id": "hulk-trivia-6",
+    "question": "Who is Bruce Banner's scientist girlfriend?",
+    "options": [
+      "Betty Ross",
+      "Pepper Potts",
+      "Jane Foster",
+      "Mary Jane"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "Betty Ross is a fellow scientist and Bruce's longtime love."
+  },
+  {
+    "id": "hulk-trivia-7",
+    "question": "What is the name of Betty's army general father?",
+    "options": [
+      "Thunderbolt Ross",
+      "Nick Fury",
+      "Phil Coulson",
+      "Maria Hill"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "General Thaddeus \"Thunderbolt\" Ross spent years chasing the Hulk."
+  },
+  {
+    "id": "hulk-trivia-8",
+    "question": "Which big green-monster villain was once a soldier named Emil Blonsky?",
+    "options": [
+      "Abomination",
+      "Leader",
+      "Red Hulk",
+      "Maestro"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "Emil Blonsky took a serum that turned him into the spiky Abomination."
+  },
+  {
+    "id": "hulk-trivia-9",
+    "question": "Which villain has a huge gamma-powered brain and goes by \"the Leader\"?",
+    "options": [
+      "Samuel Sterns",
+      "Justin Hammer",
+      "Aldrich Killian",
+      "Obadiah Stane"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "Samuel Sterns was a lab worker whose gamma exposure made him super-smart."
+  },
+  {
+    "id": "hulk-trivia-10",
+    "question": "On what alien planet does the Hulk become a gladiator champion?",
+    "options": [
+      "Sakaar",
+      "Xandar",
+      "Asgard",
+      "Titan"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "On Sakaar, the Hulk fights in the Grandmaster's arena and meets Thor."
+  },
+  {
+    "id": "hulk-trivia-11",
+    "question": "Who runs the gladiator games on Sakaar?",
+    "options": [
+      "The Grandmaster",
+      "Ronan",
+      "Thanos",
+      "Ego"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "The Grandmaster is a playful, ancient being who loves watching fights."
+  },
+  {
+    "id": "hulk-trivia-12",
+    "question": "Who is Bruce Banner's cousin, also known as She-Hulk?",
+    "options": [
+      "Jen Walters",
+      "Wanda Maximoff",
+      "Carol Danvers",
+      "Natasha Romanoff"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "Jennifer Walters got a blood transfusion from Bruce and became She-Hulk."
+  },
+  {
+    "id": "hulk-trivia-13",
+    "question": "In Endgame, Bruce mixes his mind and Hulk's body into what version?",
+    "options": [
+      "Smart Hulk",
+      "Red Hulk",
+      "Gray Hulk",
+      "Maestro"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "Smart Hulk, also called Professor Hulk, has Banner's brain in the green body."
+  },
+  {
+    "id": "hulk-trivia-14",
+    "question": "Who uses the Stark gauntlet to snap everyone back in Endgame?",
+    "options": [
+      "Hulk",
+      "Iron Man",
+      "Captain America",
+      "Thor"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "Smart Hulk's body could survive the gamma-soaked Infinity Stones."
+  },
+  {
+    "id": "hulk-trivia-15",
+    "question": "What soft song does Black Widow use to calm the Hulk down?",
+    "options": [
+      "The Lullaby",
+      "The Whistle",
+      "The Hum",
+      "The Chime"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "Natasha's gentle \"Lullaby\" code helped turn Hulk back into Bruce."
+  },
+  {
+    "id": "hulk-trivia-16",
+    "question": "Which Avenger becomes the Hulk's best friend on Sakaar?",
+    "options": [
+      "Thor",
+      "Hawkeye",
+      "Falcon",
+      "Vision"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "Thor and Hulk team up after their arena fight in Thor: Ragnarok."
+  },
+  {
+    "id": "hulk-trivia-17",
+    "question": "Where did the very first Avengers fight, where Hulk smashed a Chitauri whale?",
+    "options": [
+      "New York City",
+      "Wakanda",
+      "Sokovia",
+      "London"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "During the Battle of New York, Hulk leaped onto a flying Chitauri leviathan."
+  },
+  {
+    "id": "hulk-trivia-18",
+    "question": "What amazing thing does Hulk's body do when he gets hurt?",
+    "options": [
+      "Heals very fast",
+      "Turns invisible",
+      "Shrinks down",
+      "Falls asleep"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "Hulk's gamma cells regenerate quickly, so cuts and bruises mend fast."
+  },
+  {
+    "id": "hulk-trivia-19",
+    "question": "What happens to Hulk's strength when he gets angrier?",
+    "options": [
+      "It grows bigger",
+      "It shrinks",
+      "It stays the same",
+      "It disappears"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "The madder Hulk gets, the stronger he gets, almost without a limit."
+  },
+  {
+    "id": "hulk-trivia-20",
+    "question": "Which big purple villain beat the Hulk badly on his ship?",
+    "options": [
+      "Thanos",
+      "Ultron",
+      "Loki",
+      "Kang"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "hulk",
+    "explanation": "In Infinity War, Thanos defeated Hulk on the Asgardian ship at the start."
   }
 ]
