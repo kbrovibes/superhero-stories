@@ -49,14 +49,11 @@ const DC_IDS = HERO_LIST.filter((h) => h.universe === "dc").map((h) => h.id);
 
 // ─── Config ───────────────────────────────────────────────────────────────────
 
-const MODES: { id: Difficulty; label: string; color: string }[] = [
-  { id: "trivia", label: "Trivia", color: "#a26bff" },
-  { id: "easy",   label: "Easy",   color: "#22c55e" },
-  { id: "medium", label: "Medium", color: "#f59e0b" },
-  { id: "hard",   label: "Hard",   color: "#ef4444" },
-];
-
 const COUNTS = [5, 10, 15, 20];
+
+// Only trivia mode is exposed in the UI right now; easy/medium/hard data
+// stays in quiz-questions.json so the picker can be re-enabled later.
+const MODE: Difficulty = "trivia";
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -99,7 +96,6 @@ function ConfigScreen({
   initialSelected: string[];
   onStart: (mode: Difficulty, selected: string[], scopeLabel: string, count: number, questions: QuizQuestion[]) => void;
 }) {
-  const [mode, setMode] = useState<Difficulty>("trivia");
   const [selected, setSelected] = useState<string[]>(initialSelected);
   const [count, setCount] = useState(10);
 
@@ -118,16 +114,16 @@ function ConfigScreen({
 
   const available = filterQuestionsByHeroes(
     allQuestions as QuizQuestion[],
-    mode,
+    MODE,
     selected,
   ).length;
 
   const scopeLabel = describeSelection(selected);
 
   function handleStart() {
-    const pool = filterQuestionsByHeroes(allQuestions as QuizQuestion[], mode, selected);
+    const pool = filterQuestionsByHeroes(allQuestions as QuizQuestion[], MODE, selected);
     const picked = pickRandom(pool, count);
-    onStart(mode, selected, scopeLabel, count, picked);
+    onStart(MODE, selected, scopeLabel, count, picked);
   }
 
   return (
@@ -139,36 +135,6 @@ function ConfigScreen({
         <p style={{ fontSize: 14, color: "var(--text-muted)", margin: 0 }}>
           Test your superhero knowledge.
         </p>
-      </div>
-
-      {/* Mode */}
-      <div style={{ marginBottom: 36 }}>
-        <label style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--text-muted)", display: "block", marginBottom: 12 }}>
-          Mode
-        </label>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 8 }}>
-          {MODES.map((d) => (
-            <button
-              key={d.id}
-              onClick={() => setMode(d.id)}
-              style={{
-                padding: "12px 0",
-                borderRadius: 12,
-                border: mode === d.id ? `2px solid ${d.color}` : "2px solid var(--border)",
-                background: mode === d.id ? `${d.color}22` : "var(--surface)",
-                color: mode === d.id ? d.color : "var(--text-muted)",
-                fontWeight: 700,
-                fontSize: 13,
-                letterSpacing: "0.06em",
-                textTransform: "uppercase",
-                cursor: "pointer",
-                transition: "all 0.15s",
-              }}
-            >
-              {d.label}
-            </button>
-          ))}
-        </div>
       </div>
 
       {/* Heroes */}
@@ -307,7 +273,7 @@ function ConfigScreen({
 
       {available > 0 && selected.length > 0 && (
         <p style={{ textAlign: "center", fontSize: 12, color: "var(--text-muted)", marginTop: 12 }}>
-          {available} {mode} questions available across {scopeLabel.toLowerCase()}
+          {available} trivia questions across {scopeLabel.toLowerCase()}
         </p>
       )}
     </div>
