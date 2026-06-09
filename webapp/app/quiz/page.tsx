@@ -39,6 +39,8 @@ const HERO_LIST: { id: string; name: string; universe: "marvel" | "dc" }[] = [
   { id: "falcon",          name: "Falcon",           universe: "marvel" },
   { id: "winter-soldier",  name: "Winter Soldier",   universe: "marvel" },
   { id: "star-lord",       name: "Star-Lord",        universe: "marvel" },
+  { id: "loki",            name: "Loki",             universe: "marvel" },
+  { id: "wasp",            name: "Wasp",             universe: "marvel" },
   { id: "batman",          name: "Batman",           universe: "dc" },
   { id: "superman",        name: "Superman",         universe: "dc" },
   { id: "wonder-woman",    name: "Wonder Woman",     universe: "dc" },
@@ -49,6 +51,7 @@ const HERO_LIST: { id: string; name: string; universe: "marvel" | "dc" }[] = [
   { id: "shazam",          name: "Shazam",           universe: "dc" },
   { id: "cyborg",          name: "Cyborg",           universe: "dc" },
   { id: "martian-manhunter", name: "Martian Manhunter", universe: "dc" },
+  { id: "robin",           name: "Robin",            universe: "dc" },
 ];
 
 const ALL_IDS = HERO_LIST.map((h) => h.id);

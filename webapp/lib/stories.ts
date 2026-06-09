@@ -10,6 +10,7 @@ export interface Hero {
   name: string;        // display name
   universe: Universe;
   emoji: string;
+  avatarFormat: "webp" | "svg";  // which file lives in /public/avatars/{universe}/
 }
 
 export interface Story {
@@ -32,7 +33,9 @@ export interface Candidate {
   href: string;            // pre-built link string for next/link
 }
 
-const HERO_META: Record<string, Pick<Hero, "name" | "emoji">> = {
+type HeroMeta = Pick<Hero, "name" | "emoji"> & { avatarFormat?: "webp" | "svg" };
+
+const HERO_META: Record<string, HeroMeta> = {
   "iron-man":           { name: "Iron Man",           emoji: "🤖" },
   "spider-man":         { name: "Spider-Man",          emoji: "🕷️" },
   thor:                 { name: "Thor",                emoji: "⚡" },
@@ -48,6 +51,8 @@ const HERO_META: Record<string, Pick<Hero, "name" | "emoji">> = {
   falcon:               { name: "Falcon",              emoji: "🦅" },
   "winter-soldier":     { name: "Winter Soldier",      emoji: "❄️" },
   "star-lord":          { name: "Star-Lord",           emoji: "🚀" },
+  loki:                 { name: "Loki",                emoji: "🐍", avatarFormat: "svg" },
+  wasp:                 { name: "Wasp",                emoji: "🐝", avatarFormat: "svg" },
   batman:               { name: "Batman",              emoji: "🦇" },
   superman:             { name: "Superman",            emoji: "🦸" },
   "wonder-woman":       { name: "Wonder Woman",        emoji: "⚔️" },
@@ -58,6 +63,7 @@ const HERO_META: Record<string, Pick<Hero, "name" | "emoji">> = {
   cyborg:               { name: "Cyborg",              emoji: "🔧" },
   batgirl:              { name: "Batgirl",             emoji: "🦇" },
   "martian-manhunter":  { name: "Martian Manhunter",   emoji: "👽" },
+  robin:                { name: "Robin",               emoji: "🐦", avatarFormat: "svg" },
 };
 
 function slugToTitle(slug: string): string {
@@ -78,6 +84,7 @@ export function getHeroes(universe: "marvel" | "dc"): Hero[] {
       universe,
       name: HERO_META[id]?.name ?? id,
       emoji: HERO_META[id]?.emoji ?? "⭐",
+      avatarFormat: HERO_META[id]?.avatarFormat ?? "webp",
     }));
 }
 

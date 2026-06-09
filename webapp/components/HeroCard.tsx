@@ -10,6 +10,7 @@ interface HeroCardProps {
     name: string;
     emoji: string;
     universe: "marvel" | "dc" | "avengers" | "thanos";
+    avatarFormat?: "webp" | "svg";
   };
 }
 
@@ -84,7 +85,7 @@ export default function HeroCard({ hero }: HeroCardProps) {
             <img
               src={hero.universe === "avengers"
                 ? `/avatars/avengers/avengers.svg`
-                : `/avatars/${hero.universe}/${hero.id}.webp`}
+                : `/avatars/${hero.universe}/${hero.id}.${hero.avatarFormat ?? "webp"}`}
               alt={hero.name}
               width={68}
               height={68}

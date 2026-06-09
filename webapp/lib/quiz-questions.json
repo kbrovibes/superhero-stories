@@ -27943,5 +27943,1805 @@
     "universe": "dc",
     "heroId": "wonder-woman",
     "explanation": "Diana learns to ride the wind and fly through the clouds."
+  },
+  {
+    "id": "loki-trivia-1",
+    "question": "What is Loki the god of?",
+    "options": [
+      "Thunder",
+      "Mischief and stories",
+      "War",
+      "The sea"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Loki is the God of Mischief, and at the end of his story, the God of Stories."
+  },
+  {
+    "id": "loki-trivia-2",
+    "question": "Who is Loki's adoptive father?",
+    "options": [
+      "Laufey",
+      "Heimdall",
+      "Odin",
+      "Surtur"
+    ],
+    "correctIndex": 2,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Odin, the Allfather of Asgard, took baby Loki home after the battle on Jotunheim."
+  },
+  {
+    "id": "loki-trivia-3",
+    "question": "Who taught Loki magic in her library?",
+    "options": [
+      "Sif",
+      "Frigga",
+      "Hela",
+      "Ravonna"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Loki's mother Frigga taught him illusions, shape-shifting, and other Asgardian magic."
+  },
+  {
+    "id": "loki-trivia-4",
+    "question": "Who is Loki's older brother?",
+    "options": [
+      "Thor",
+      "Balder",
+      "Tyr",
+      "Vidar"
+    ],
+    "correctIndex": 0,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Loki was raised alongside Thor, the eldest son of Odin and Frigga."
+  },
+  {
+    "id": "loki-trivia-5",
+    "question": "What is Loki's biological race?",
+    "options": [
+      "Asgardian",
+      "Frost Giant",
+      "Elf",
+      "Human"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Loki was born a Frost Giant on Jotunheim, the son of King Laufey."
+  },
+  {
+    "id": "loki-trivia-6",
+    "question": "Who is Loki's Frost Giant birth father?",
+    "options": [
+      "Surtur",
+      "Malekith",
+      "Laufey",
+      "Ymir"
+    ],
+    "correctIndex": 2,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Laufey, King of the Frost Giants on Jotunheim, was Loki's biological father."
+  },
+  {
+    "id": "loki-trivia-7",
+    "question": "What artifact reveals Loki's blue Frost Giant form?",
+    "options": [
+      "The Tesseract",
+      "Mjolnir",
+      "The Casket of Ancient Winters",
+      "The Bifrost"
+    ],
+    "correctIndex": 2,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "When Loki touches the Casket in Asgard's vault, his skin turns deep blue and eyes glow red."
+  },
+  {
+    "id": "loki-trivia-8",
+    "question": "What color are Loki's eyes in Frost Giant form?",
+    "options": [
+      "Green",
+      "Blue",
+      "Red",
+      "Yellow"
+    ],
+    "correctIndex": 2,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "In Frost Giant form, Loki's skin is blue and his eyes glow red."
+  },
+  {
+    "id": "loki-trivia-9",
+    "question": "Who gives Loki the Mind Stone scepter?",
+    "options": [
+      "Odin",
+      "Thanos",
+      "The Grandmaster",
+      "He Who Remains"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Thanos gives Loki the scepter and orders him to invade Earth and bring the Tesseract."
+  },
+  {
+    "id": "loki-trivia-10",
+    "question": "Which Infinity Stone is set in Loki's scepter?",
+    "options": [
+      "Power Stone",
+      "Mind Stone",
+      "Soul Stone",
+      "Reality Stone"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "The glowing blue stone in Loki's scepter is the Mind Stone."
+  },
+  {
+    "id": "loki-trivia-11",
+    "question": "Which Avenger does Loki turn into a temporary helper?",
+    "options": [
+      "Black Widow",
+      "Captain America",
+      "Hawkeye",
+      "Hulk"
+    ],
+    "correctIndex": 2,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Loki touches Hawkeye with the scepter, turning him into a temporary ally."
+  },
+  {
+    "id": "loki-trivia-12",
+    "question": "What does Hulk call Loki after smashing him into the floor?",
+    "options": [
+      "Tiny man",
+      "Puny god",
+      "Silly snake",
+      "Little prince"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Hulk mutters 'Puny god' after thrashing Loki in Stark Tower."
+  },
+  {
+    "id": "loki-trivia-13",
+    "question": "What alien army does Loki bring to New York?",
+    "options": [
+      "Skrulls",
+      "Chitauri",
+      "Kree",
+      "Dark Elves"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Thanos sends the Chitauri army through the Tesseract portal to help Loki invade Earth."
+  },
+  {
+    "id": "loki-trivia-14",
+    "question": "What city does Loki try to conquer with the Chitauri?",
+    "options": [
+      "London",
+      "Tokyo",
+      "New York",
+      "Berlin"
+    ],
+    "correctIndex": 2,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "The Battle of New York is fought over Manhattan when Loki opens the Tesseract portal."
+  },
+  {
+    "id": "loki-trivia-15",
+    "question": "Who does Loki disguise himself as to secretly rule Asgard?",
+    "options": [
+      "Thor",
+      "Frigga",
+      "Odin",
+      "Heimdall"
+    ],
+    "correctIndex": 2,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Loki fakes his death and impersonates Odin on the throne for years."
+  },
+  {
+    "id": "loki-trivia-16",
+    "question": "Who is the sister revealed in Thor: Ragnarok?",
+    "options": [
+      "Sif",
+      "Sylvie",
+      "Hela",
+      "Valkyrie"
+    ],
+    "correctIndex": 2,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Hela, the Goddess of Death, is revealed to be Odin's firstborn \u2014 Thor and Loki's older sister."
+  },
+  {
+    "id": "loki-trivia-17",
+    "question": "What junkyard planet do Thor and Loki crash on?",
+    "options": [
+      "Sakaar",
+      "Knowhere",
+      "Vormir",
+      "Xandar"
+    ],
+    "correctIndex": 0,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "The Bifrost spits them out on Sakaar, ruled by the eccentric Grandmaster."
+  },
+  {
+    "id": "loki-trivia-18",
+    "question": "Who rules Sakaar?",
+    "options": [
+      "The Collector",
+      "The Grandmaster",
+      "Ronan",
+      "Nebula"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "The Grandmaster, a glittery old eccentric, runs Sakaar's gladiator arena."
+  },
+  {
+    "id": "loki-trivia-19",
+    "question": "What is the 'Get Help' trick?",
+    "options": [
+      "A magic spell",
+      "Thor throws Loki at people",
+      "An illusion",
+      "A TVA gadget"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Thor pretends Loki is dying, then heaves Loki at the targets like a bowling ball."
+  },
+  {
+    "id": "loki-trivia-20",
+    "question": "What ship carries the Asgardian survivors after Ragnarok?",
+    "options": [
+      "Milano",
+      "Statesman",
+      "Benatar",
+      "Commodore"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "The Statesman is the refugee ship carrying Asgardians when Thanos attacks."
+  },
+  {
+    "id": "loki-trivia-21",
+    "question": "What does Loki call Thanos before falling?",
+    "options": [
+      "A coward",
+      "A monster",
+      "'You will never be a god'",
+      "'Puny titan'"
+    ],
+    "correctIndex": 2,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Loki's final words to Thanos are 'You will never be a god.'"
+  },
+  {
+    "id": "loki-trivia-22",
+    "question": "What does Loki try to use against Thanos?",
+    "options": [
+      "A spear",
+      "A hidden dagger",
+      "A magic spell",
+      "An illusion"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Loki hides a small dagger and tries to drive it into Thanos's throat."
+  },
+  {
+    "id": "loki-trivia-23",
+    "question": "What organization arrests Loki in the desert?",
+    "options": [
+      "SHIELD",
+      "TVA",
+      "SWORD",
+      "HYDRA"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "The Time Variance Authority arrests Loki for breaking the sacred timeline."
+  },
+  {
+    "id": "loki-trivia-24",
+    "question": "What does TVA stand for?",
+    "options": [
+      "Time Variance Authority",
+      "Total Variant Agency",
+      "Temporal Variance Army",
+      "Time Vault Archive"
+    ],
+    "correctIndex": 0,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "TVA stands for Time Variance Authority \u2014 the time-cop agency outside time."
+  },
+  {
+    "id": "loki-trivia-25",
+    "question": "Who is the TVA analyst who befriends Loki?",
+    "options": [
+      "Hunter B-15",
+      "Mobius",
+      "Casey",
+      "Ravonna"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Mobius M. Mobius is the soft-tied analyst who treats Loki like a person."
+  },
+  {
+    "id": "loki-trivia-26",
+    "question": "What word is written on Loki's TVA jumpsuit?",
+    "options": [
+      "PRISONER",
+      "VARIANT",
+      "LOKI",
+      "SUBJECT"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "His orange jumpsuit reads VARIANT across the back."
+  },
+  {
+    "id": "loki-trivia-27",
+    "question": "Who is the cheerful cartoon clock at the TVA?",
+    "options": [
+      "Miss Hours",
+      "Miss Minutes",
+      "Mister Tick",
+      "Lady Time"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Miss Minutes is the orange cartoon clock who explains TVA rules."
+  },
+  {
+    "id": "loki-trivia-28",
+    "question": "What does the TVA do to people who break the timeline?",
+    "options": [
+      "Imprison them",
+      "Prune them",
+      "Banish them",
+      "Exile them"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "The TVA prunes Variants \u2014 wiping them out with glowing batons."
+  },
+  {
+    "id": "loki-trivia-29",
+    "question": "What is the name of the dangerous Loki Variant?",
+    "options": [
+      "Lady Loki",
+      "Sylvie",
+      "Loki Prime",
+      "Kid Loki"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Sylvie is the Loki Variant Loki and Mobius are hunting across time."
+  },
+  {
+    "id": "loki-trivia-30",
+    "question": "What color are Sylvie's horns?",
+    "options": [
+      "Black",
+      "Silver",
+      "Gold",
+      "Green"
+    ],
+    "correctIndex": 2,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Sylvie wears two curved golden horns rising from her head."
+  },
+  {
+    "id": "loki-trivia-31",
+    "question": "What moon is about to be destroyed when Loki and Sylvie hide there?",
+    "options": [
+      "Lamentis-1",
+      "Titan",
+      "Knowhere",
+      "Hala"
+    ],
+    "correctIndex": 0,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Lamentis-1 is the doomed moon where Loki and Sylvie hide in a train car."
+  },
+  {
+    "id": "loki-trivia-32",
+    "question": "What is the TVA clerk Casey amazed to learn about?",
+    "options": [
+      "Birds",
+      "Fish",
+      "Computers",
+      "Cars"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Casey has never seen fish before and is fascinated when he learns what they are."
+  },
+  {
+    "id": "loki-trivia-33",
+    "question": "Where do Loki and Sylvie go to confront the boss of the TVA?",
+    "options": [
+      "The Citadel at the End of Time",
+      "The Loom Room",
+      "Sakaar",
+      "Asgard"
+    ],
+    "correctIndex": 0,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "The Citadel at the End of Time is the floating castle where He Who Remains lives."
+  },
+  {
+    "id": "loki-trivia-34",
+    "question": "What is the name of the cloud-monster in the Void?",
+    "options": [
+      "Surtur",
+      "Alioth",
+      "Galactus",
+      "Dormammu"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Alioth is the giant purple cloud-monster that eats pruned things in the Void."
+  },
+  {
+    "id": "loki-trivia-35",
+    "question": "Who is really running the TVA?",
+    "options": [
+      "Ravonna",
+      "He Who Remains",
+      "Mobius",
+      "Thanos"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "He Who Remains, alone in the Citadel, has been holding the multiverse together."
+  },
+  {
+    "id": "loki-trivia-36",
+    "question": "What is He Who Remains eating when Loki and Sylvie arrive?",
+    "options": [
+      "A grape",
+      "An apple",
+      "A pear",
+      "Cake"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "He Who Remains is calmly eating an apple at his table when they walk in."
+  },
+  {
+    "id": "loki-trivia-37",
+    "question": "What enormous machine holds the multiverse together?",
+    "options": [
+      "The Temporal Loom",
+      "The Bifrost",
+      "The Time Door",
+      "The Pruning Stick"
+    ],
+    "correctIndex": 0,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "The Temporal Loom weaves the branches of the multiverse into one safe thread."
+  },
+  {
+    "id": "loki-trivia-38",
+    "question": "Who is the old TVA inventor who shows Loki the Loom?",
+    "options": [
+      "Mobius",
+      "Ouroboros",
+      "Heimdall",
+      "Casey"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Ouroboros \u2014 O.B. \u2014 is the dusty old TVA inventor who built most of its machines."
+  },
+  {
+    "id": "loki-trivia-39",
+    "question": "What does Loki become at the end of his story?",
+    "options": [
+      "King of Asgard",
+      "God of Stories",
+      "Avenger",
+      "Frost Giant King"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Loki holds every branch of the multiverse himself, becoming the God of Stories."
+  },
+  {
+    "id": "loki-trivia-40",
+    "question": "What magical skill does Loki master without any machine?",
+    "options": [
+      "Telepathy",
+      "Time slipping",
+      "Flying",
+      "Healing"
+    ],
+    "correctIndex": 1,
+    "universe": "marvel",
+    "heroId": "loki",
+    "difficulty": "trivia",
+    "explanation": "Loki learns to time slip \u2014 blinking between moments by pure willpower."
+  },
+  {
+    "id": "wasp-trivia-1",
+    "question": "What is the name of the modern MCU Wasp?",
+    "options": [
+      "Hope van Dyne",
+      "Janet van Dyne",
+      "Pepper Potts",
+      "Cassie Lang"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Hope van Dyne is the daughter of Janet van Dyne and Hank Pym, and the second person to wear the Wasp suit."
+  },
+  {
+    "id": "wasp-trivia-2",
+    "question": "Who was the very first Wasp?",
+    "options": [
+      "Hope van Dyne",
+      "Janet van Dyne",
+      "Ava Starr",
+      "Maria Stark"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Janet van Dyne was the original Wasp and a founding Avenger alongside Iron Man, Thor, and Captain America."
+  },
+  {
+    "id": "wasp-trivia-3",
+    "question": "Who is Hope van Dyne's father?",
+    "options": [
+      "Hank Pym",
+      "Bill Foster",
+      "Howard Stark",
+      "Elihas Starr"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Dr. Hank Pym is Hope's father and the scientist who discovered the Pym Particle."
+  },
+  {
+    "id": "wasp-trivia-4",
+    "question": "What is the name of the subatomic substance that lets the Wasp shrink and grow?",
+    "options": [
+      "Vibranium",
+      "Pym Particles",
+      "Tesseract",
+      "Adamantium"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Pym Particles change the distance between atoms while keeping mass and density the same \u2014 so a shrunken Wasp still punches with full size strength."
+  },
+  {
+    "id": "wasp-trivia-5",
+    "question": "What color Pym Particle makes things shrink?",
+    "options": [
+      "Blue",
+      "Green",
+      "Red",
+      "Yellow"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Red Pym Particles shrink things; blue Pym Particles grow things."
+  },
+  {
+    "id": "wasp-trivia-6",
+    "question": "What color Pym Particle makes things grow?",
+    "options": [
+      "Red",
+      "Blue",
+      "Yellow",
+      "Purple"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Blue Pym Particles grow things; red Pym Particles shrink them."
+  },
+  {
+    "id": "wasp-trivia-7",
+    "question": "What strange dimension was Janet van Dyne lost in for thirty years?",
+    "options": [
+      "The Mirror Dimension",
+      "The Quantum Realm",
+      "The Negative Zone",
+      "The Dark Dimension"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Janet shrank past the subatomic barrier to disable a Soviet missile and was trapped in the Quantum Realm for thirty years."
+  },
+  {
+    "id": "wasp-trivia-8",
+    "question": "What does the Wasp suit have that the Ant-Man suit doesn't?",
+    "options": [
+      "A helmet",
+      "Wings and blasters",
+      "A belt",
+      "Boots"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "The Wasp suit has built-in wings and bio-electric stinger blasters. Scott Lang's Ant-Man suit has neither \u2014 he rides a flying ant for air support."
+  },
+  {
+    "id": "wasp-trivia-9",
+    "question": "What are the Wasp's wrist blasters called?",
+    "options": [
+      "Repulsors",
+      "Stingers",
+      "Web-shooters",
+      "Pulse cannons"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Hope's wrist blasters are called stingers \u2014 bio-electric weapons that fire focused yellow arcs of electricity."
+  },
+  {
+    "id": "wasp-trivia-10",
+    "question": "What color is the energy of Hope's stinger blasts?",
+    "options": [
+      "Bluish-white",
+      "Yellow-gold",
+      "Red",
+      "Green"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Hope's newer stingers glow bright yellow-gold. Her mother Janet's original stingers glowed bluish-white."
+  },
+  {
+    "id": "wasp-trivia-11",
+    "question": "How old was Hope when her mother Janet disappeared?",
+    "options": [
+      "Three",
+      "Five",
+      "Seven",
+      "Ten"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Hope was seven years old when Janet shrank past the subatomic barrier to stop a Soviet missile."
+  },
+  {
+    "id": "wasp-trivia-12",
+    "question": "Why did Janet shrink past the subatomic barrier?",
+    "options": [
+      "To find a magic stone",
+      "To disarm a Soviet missile",
+      "To escape a villain",
+      "For a science experiment"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Janet shrank inside a Soviet missile to disable it from the inside, saving millions of lives \u2014 but she could not return."
+  },
+  {
+    "id": "wasp-trivia-13",
+    "question": "Who is Ghost's real name?",
+    "options": [
+      "Ava Starr",
+      "Hope van Dyne",
+      "Janet van Dyne",
+      "Sharon Carter"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Ghost is Ava Starr, a young woman whose molecules flicker out of phase with reality because of a quantum lab accident."
+  },
+  {
+    "id": "wasp-trivia-14",
+    "question": "What can Ghost (Ava Starr) do?",
+    "options": [
+      "Fly",
+      "Phase through walls",
+      "Lift cars",
+      "Read minds"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Ava can phase through solid objects and become invisible, but her unstable molecules cause her constant pain."
+  },
+  {
+    "id": "wasp-trivia-15",
+    "question": "Who raised Ava Starr after the accident that killed her parents?",
+    "options": [
+      "Hank Pym",
+      "Bill Foster",
+      "Nick Fury",
+      "Howard Stark"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Dr. Bill Foster \u2014 Hank Pym's old research partner and the original Goliath \u2014 secretly raised Ava and built her a healing chamber."
+  },
+  {
+    "id": "wasp-trivia-16",
+    "question": "What was Bill Foster's superhero codename in his younger days?",
+    "options": [
+      "Goliath",
+      "Hulk",
+      "Giant-Man",
+      "Atlas"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Bill Foster wore the codename Goliath, growing to twenty-one feet alongside Hank Pym in their younger days."
+  },
+  {
+    "id": "wasp-trivia-17",
+    "question": "Who finally healed Ava Starr's pain?",
+    "options": [
+      "Hank Pym",
+      "Janet van Dyne",
+      "Doctor Strange",
+      "Tony Stark"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Janet, having spent thirty years absorbing Quantum Realm energy, transferred healing quantum energy to stabilize Ava's molecules."
+  },
+  {
+    "id": "wasp-trivia-18",
+    "question": "What is the name of the company Hope's father founded?",
+    "options": [
+      "Stark Industries",
+      "Pym Technologies",
+      "Roxxon",
+      "Damage Control"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Pym Technologies is the San Francisco company that holds all of Hank Pym's Pym Particle research."
+  },
+  {
+    "id": "wasp-trivia-19",
+    "question": "In what city does the Pym family live?",
+    "options": [
+      "New York",
+      "San Francisco",
+      "Chicago",
+      "Los Angeles"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "The Pym family lives in San Francisco, where Pym Technologies is headquartered."
+  },
+  {
+    "id": "wasp-trivia-20",
+    "question": "What year did Janet van Dyne disappear into the Quantum Realm (in the MCU)?",
+    "options": [
+      "1976",
+      "1987",
+      "1995",
+      "2001"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "In MCU canon, Janet disappeared in 1987 while disabling a Soviet missile."
+  },
+  {
+    "id": "wasp-trivia-21",
+    "question": "How many years did Janet spend in the Quantum Realm?",
+    "options": [
+      "Ten",
+      "Twenty",
+      "Thirty",
+      "Fifty"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Janet was trapped in the Quantum Realm for about thirty years before Hank and Hope rescued her."
+  },
+  {
+    "id": "wasp-trivia-22",
+    "question": "What device did the Pym family build to rescue Janet?",
+    "options": [
+      "The Bifrost",
+      "A Quantum Tunnel",
+      "The Tesseract",
+      "A time machine"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Hank and Hope built a Quantum Tunnel \u2014 a doorway that can send a person past the subatomic barrier and bring them back."
+  },
+  {
+    "id": "wasp-trivia-23",
+    "question": "Who carried Janet's message back from the Quantum Realm?",
+    "options": [
+      "Tony Stark",
+      "Scott Lang",
+      "Cassie Lang",
+      "Doctor Strange"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Scott Lang visited the Quantum Realm once before, and Janet planted a message in his mind that Hank and Hope decoded."
+  },
+  {
+    "id": "wasp-trivia-24",
+    "question": "Who is the thief that stole the portable Pym laboratory?",
+    "options": [
+      "Sonny Burch",
+      "Justin Hammer",
+      "Aldrich Killian",
+      "Mister Hyde"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Sonny Burch was a San Francisco crime boss who tried to sell Pym Particle technology on the black market."
+  },
+  {
+    "id": "wasp-trivia-25",
+    "question": "Who is the time-traveling warlord Janet met in the Quantum Realm?",
+    "options": [
+      "Thanos",
+      "Kang the Conqueror",
+      "Galactus",
+      "Doctor Doom"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Janet met Kang the Conqueror, a far-future warrior exiled to the Quantum Realm by his own variants."
+  },
+  {
+    "id": "wasp-trivia-26",
+    "question": "What did Janet do to Kang's ship to keep him trapped?",
+    "options": [
+      "Sank it",
+      "Burned it",
+      "Sabotaged the power core",
+      "Painted it"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Janet ripped out the central power core of Kang's ship and hid it, stranding him in the Quantum Realm."
+  },
+  {
+    "id": "wasp-trivia-27",
+    "question": "What pulled the whole Pym family into the Quantum Realm in Quantumania?",
+    "options": [
+      "A bad Pym disc",
+      "Cassie's homemade Quantum Communicator",
+      "A Stark missile",
+      "The Bifrost"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Cassie Lang built a Quantum Communicator that pinged into the Quantum Realm \u2014 and something answered, sucking the whole family in."
+  },
+  {
+    "id": "wasp-trivia-28",
+    "question": "Whose daughter is Cassie Lang?",
+    "options": [
+      "Hank Pym",
+      "Scott Lang",
+      "Tony Stark",
+      "Clint Barton"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Cassie is Scott Lang's daughter. Hope mentors her in Pym Particle science."
+  },
+  {
+    "id": "wasp-trivia-29",
+    "question": "How did Scott Lang escape the Quantum Realm after the Snap?",
+    "options": [
+      "A wizard freed him",
+      "A rat stepped on the Quantum Tunnel controls",
+      "He shouted",
+      "He used a Pym disc"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "A hungry rat in an abandoned warehouse stepped on the right buttons of the Quantum Tunnel and accidentally released Scott."
+  },
+  {
+    "id": "wasp-trivia-30",
+    "question": "For Scott, how long did it feel like he was in the Quantum Realm during the Snap?",
+    "options": [
+      "Five seconds",
+      "Five hours",
+      "Five days",
+      "Five years"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Five hours passed for Scott in the Quantum Realm \u2014 five years passed on Earth."
+  },
+  {
+    "id": "wasp-trivia-31",
+    "question": "What was the Avengers' mission to undo the Snap called?",
+    "options": [
+      "The Time Heist",
+      "Project Insight",
+      "The Quantum Plan",
+      "Operation Wasp"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "The Avengers built a giant Quantum Tunnel platform and ran the Time Heist to collect the six Infinity Stones from the past."
+  },
+  {
+    "id": "wasp-trivia-32",
+    "question": "What color are Hope's Wasp suit's main accents?",
+    "options": [
+      "Blue and silver",
+      "Red, gold, and black",
+      "Green and purple",
+      "White and orange"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Hope's Wasp suit is red, gold, and black with clear glassy wings."
+  },
+  {
+    "id": "wasp-trivia-33",
+    "question": "What color was Janet's original Wasp suit?",
+    "options": [
+      "Red and gold",
+      "Red and black",
+      "Blue and white",
+      "All black"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Janet's original Wasp suit was a sleek red-and-black uniform with thin glassy wings and a round retro helmet."
+  },
+  {
+    "id": "wasp-trivia-34",
+    "question": "Where on the Wasp suit do the wings unfold from?",
+    "options": [
+      "The boots",
+      "Housings on the back",
+      "The helmet",
+      "The wrists"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "The wings fold out of small housings on the back of the suit when Hope presses a button on her shoulder."
+  },
+  {
+    "id": "wasp-trivia-35",
+    "question": "Which scientist was Hank Pym's old research partner?",
+    "options": [
+      "Bruce Banner",
+      "Bill Foster",
+      "Reed Richards",
+      "Tony Stark"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Bill Foster (Goliath) was Hank Pym's old partner. They estranged for years but reconciled after Janet helped Ava Starr."
+  },
+  {
+    "id": "wasp-trivia-36",
+    "question": "What did Hope do for a living before becoming the Wasp?",
+    "options": [
+      "Pilot",
+      "CEO at Pym Technologies",
+      "Soldier",
+      "Doctor"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Hope ran the business and engineering at Pym Technologies and held degrees in physics and business."
+  },
+  {
+    "id": "wasp-trivia-37",
+    "question": "Who designed the bio-electric stingers on the new Wasp suit?",
+    "options": [
+      "Hank Pym",
+      "Tony Stark",
+      "Hope van Dyne",
+      "Bruce Banner"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Hope designed the bio-electric stingers herself in the Pym Tech engineering lab \u2014 they are her signature invention."
+  },
+  {
+    "id": "wasp-trivia-38",
+    "question": "In the final battle against Thanos, who fought beside Hope in the sky?",
+    "options": [
+      "Falcon",
+      "Janet van Dyne",
+      "Scarlet Witch",
+      "Captain Marvel"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "In Avengers Endgame's final battle, Hope and Janet \u2014 the new Wasp and the original Wasp \u2014 flew side by side in formation."
+  },
+  {
+    "id": "wasp-trivia-39",
+    "question": "In what comic year did Janet van Dyne first appear and help found the Avengers?",
+    "options": [
+      "1939",
+      "1963",
+      "1985",
+      "2008"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Janet van Dyne first appeared in 1963 and was a founding Avenger in The Avengers #1, alongside Iron Man, Thor, Hulk, and Ant-Man."
+  },
+  {
+    "id": "wasp-trivia-40",
+    "question": "What does Hope say is the only rule that matters about Pym Particles?",
+    "options": [
+      "Always wear gloves",
+      "They are physics, and physics keeps its promises",
+      "Only use them at night",
+      "Never tell anyone"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wasp",
+    "explanation": "Hope's father taught her: 'Pym Particles are not a toy. They are physics \u2014 and physics keeps its promises.'"
+  },
+  {
+    "id": "robin-trivia-1",
+    "question": "What is Robin's real name?",
+    "options": [
+      "Dick Grayson",
+      "Tim Drake",
+      "Damian Wayne",
+      "Jason Todd"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "The original Robin is Dick Grayson \u2014 though Jason, Tim, and Damian all wore the costume later."
+  },
+  {
+    "id": "robin-trivia-2",
+    "question": "What was the name of the circus Dick Grayson's family traveled with?",
+    "options": [
+      "Ringling Brothers",
+      "Haly's Circus",
+      "Cirque du Bat",
+      "Wayne Circus"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Haly's Circus traveled by train from city to city, and the Flying Graysons were its star act."
+  },
+  {
+    "id": "robin-trivia-3",
+    "question": "What act was Dick Grayson's family famous for?",
+    "options": [
+      "Lion taming",
+      "Clown comedy",
+      "Trapeze (the Flying Graysons)",
+      "Tightrope walking"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "The Flying Graysons were the most famous trapeze act in the world."
+  },
+  {
+    "id": "robin-trivia-4",
+    "question": "What were Dick Grayson's parents named?",
+    "options": [
+      "John and Mary",
+      "Bruce and Martha",
+      "Thomas and Selina",
+      "James and Barbara"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "John and Mary Grayson were the senior Flying Graysons \u2014 Dick's father and mother."
+  },
+  {
+    "id": "robin-trivia-5",
+    "question": "What Italian nickname did Dick's mother call him?",
+    "options": [
+      "Mio piccolo robin",
+      "Bambino acrobata",
+      "Piccolo principe",
+      "Mio caro uccello"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Mary Grayson called Dick 'mio piccolo robin' \u2014 'my little robin' \u2014 because robins come back first in spring."
+  },
+  {
+    "id": "robin-trivia-6",
+    "question": "Who became Dick Grayson's guardian after his parents died?",
+    "options": [
+      "Alfred Pennyworth",
+      "Bruce Wayne",
+      "Commissioner Gordon",
+      "Clark Kent"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Bruce Wayne was in the audience that night and recognized Dick's grief \u2014 he became Dick's legal guardian."
+  },
+  {
+    "id": "robin-trivia-7",
+    "question": "Who is the butler at Wayne Manor who cared for Dick?",
+    "options": [
+      "Alfred Pennyworth",
+      "Jarvis",
+      "Lucius Fox",
+      "Jeeves"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Alfred Pennyworth \u2014 the kindest butler in the world, famous for hot cocoa with extra marshmallows."
+  },
+  {
+    "id": "robin-trivia-8",
+    "question": "What hidden room does Bruce reveal to Dick on his first night at Wayne Manor?",
+    "options": [
+      "The Batcave",
+      "The library",
+      "The greenhouse",
+      "The garage"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Bruce leads Dick through the grandfather clock and down a long stone staircase into the Batcave."
+  },
+  {
+    "id": "robin-trivia-9",
+    "question": "What secret entrance leads from Wayne Manor down to the Batcave?",
+    "options": [
+      "A bookshelf",
+      "A grandfather clock",
+      "A fireplace",
+      "A trap door"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "The grandfather clock swings open like a door when the hands are set to a specific time."
+  },
+  {
+    "id": "robin-trivia-10",
+    "question": "What color is the letter R on Robin's costume?",
+    "options": [
+      "Red",
+      "Green",
+      "Yellow",
+      "Blue"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Robin's R is bright yellow, set inside a black circle on a red tunic."
+  },
+  {
+    "id": "robin-trivia-11",
+    "question": "What are the three main colors of Robin's costume?",
+    "options": [
+      "Red, yellow, green",
+      "Blue, black, white",
+      "Purple, gold, orange",
+      "Red, white, blue"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Robin wears a red tunic, green sleeves and leggings, and a yellow cape with a yellow R."
+  },
+  {
+    "id": "robin-trivia-12",
+    "question": "What mobster sabotaged the Flying Graysons' trapeze ropes?",
+    "options": [
+      "The Joker",
+      "Tony Zucco",
+      "The Penguin",
+      "Two-Face"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Tony Zucco was a mobster trying to extort money from the circus owner \u2014 he damaged the ropes."
+  },
+  {
+    "id": "robin-trivia-13",
+    "question": "What does Robin call his small throwing weapons?",
+    "options": [
+      "Batarangs",
+      "Bird-arangs",
+      "Sky discs",
+      "R-cards"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Robin's Bird-arangs are smaller and lighter than Batman's Batarangs \u2014 small enough to throw two at once."
+  },
+  {
+    "id": "robin-trivia-14",
+    "question": "What does Robin call his utility belt?",
+    "options": [
+      "The R-belt",
+      "The Bird-belt",
+      "The Robin-rig",
+      "The Boy belt"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "The R-belt is bright yellow with a black R-shaped buckle in the center."
+  },
+  {
+    "id": "robin-trivia-15",
+    "question": "What is Robin's famous catchphrase format?",
+    "options": [
+      "'Holy ___, Batman!'",
+      "'Robin to the rescue!'",
+      "'Up, up, and away!'",
+      "'By the bat!'"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Whenever Robin sees something surprising, he shouts 'Holy ___, Batman!' \u2014 'Holy mackerel, Batman!' for example."
+  },
+  {
+    "id": "robin-trivia-16",
+    "question": "What is Batman and Robin's team name?",
+    "options": [
+      "The Caped Crusaders",
+      "The Dynamic Duo",
+      "The Bat-Bros",
+      "The Gotham Pair"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Together they are the Dynamic Duo \u2014 the most famous crime-fighting team in Gotham."
+  },
+  {
+    "id": "robin-trivia-17",
+    "question": "What city does the Bat-Signal light up the sky over?",
+    "options": [
+      "Metropolis",
+      "Gotham City",
+      "Bl\u00fcdhaven",
+      "Jump City"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "The Bat-Signal is a yellow spotlight Commissioner Gordon shines onto the Gotham City clouds."
+  },
+  {
+    "id": "robin-trivia-18",
+    "question": "Who lights the Bat-Signal to call for Batman and Robin?",
+    "options": [
+      "The Mayor",
+      "Commissioner Gordon",
+      "Alfred",
+      "Lucius Fox"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Commissioner James Gordon of the GCPD has lit the Bat-Signal almost every night for twenty years."
+  },
+  {
+    "id": "robin-trivia-19",
+    "question": "What is Robin's grown-up superhero identity?",
+    "options": [
+      "Red Hood",
+      "Nightwing",
+      "Batman Beyond",
+      "Bird of Prey"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "As an adult, Dick Grayson hangs up the Robin colors and becomes Nightwing."
+  },
+  {
+    "id": "robin-trivia-20",
+    "question": "What two main colors is the Nightwing suit?",
+    "options": [
+      "Red and gold",
+      "Black and royal blue",
+      "Green and purple",
+      "Gray and silver"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "The Nightwing suit is sleek black armored mesh with a royal blue bird-shape spread across the chest."
+  },
+  {
+    "id": "robin-trivia-21",
+    "question": "Who told Dick about the Kryptonian legend of Nightwing?",
+    "options": [
+      "Batman",
+      "Wonder Woman",
+      "Superman",
+      "Aquaman"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Superman told Dick about the Kryptonian warrior Nightwing of the bottle city of Kandor."
+  },
+  {
+    "id": "robin-trivia-22",
+    "question": "What city did Nightwing make his own?",
+    "options": [
+      "Metropolis",
+      "Bl\u00fcdhaven",
+      "Star City",
+      "Central City"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Bl\u00fcdhaven \u2014 a rusty, foggy port city just down the coast from Gotham \u2014 became Nightwing's home."
+  },
+  {
+    "id": "robin-trivia-23",
+    "question": "What weapons does Nightwing carry?",
+    "options": [
+      "Two escrima sticks",
+      "A bow and arrow",
+      "Throwing knives",
+      "A lasso"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Nightwing carries two escrima sticks \u2014 short Filipino martial-arts batons \u2014 clipped to the small of his back."
+  },
+  {
+    "id": "robin-trivia-24",
+    "question": "What day job does Dick Grayson take in Bl\u00fcdhaven?",
+    "options": [
+      "Police officer",
+      "Reporter",
+      "Schoolteacher",
+      "Stockbroker"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Dick joins the Bl\u00fcdhaven Police Department as Officer Grayson, badge number 168."
+  },
+  {
+    "id": "robin-trivia-25",
+    "question": "Who is Dick Grayson's partner at the Bl\u00fcdhaven Police Department?",
+    "options": [
+      "Detective Bullock",
+      "Sergeant Amy Rohrbach",
+      "Officer Montoya",
+      "Commissioner Gordon"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Sergeant Amy Rohrbach is Dick's sharp-eyed training officer and partner."
+  },
+  {
+    "id": "robin-trivia-26",
+    "question": "Who is the giant crime boss Nightwing dismantles in Bl\u00fcdhaven?",
+    "options": [
+      "Bane",
+      "Roland Desmond / Blockbuster",
+      "Black Mask",
+      "Penguin"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Blockbuster \u2014 Roland Desmond \u2014 is the refrigerator-sized crime boss who runs half of Bl\u00fcdhaven."
+  },
+  {
+    "id": "robin-trivia-27",
+    "question": "What team did Robin lead as a teenager?",
+    "options": [
+      "The Justice League",
+      "The Teen Titans",
+      "The Bat-Family",
+      "The Outsiders"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Robin founded and led the Teen Titans from their headquarters in Jump City."
+  },
+  {
+    "id": "robin-trivia-28",
+    "question": "What is the name of the Teen Titans' headquarters?",
+    "options": [
+      "The Hall of Justice",
+      "T-Tower",
+      "The Watchtower",
+      "Titan Cave"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "T-Tower stands on a small island in Jump City Bay and is shaped exactly like the letter T."
+  },
+  {
+    "id": "robin-trivia-29",
+    "question": "Which Teen Titan is half man, half machine?",
+    "options": [
+      "Cyborg",
+      "Beast Boy",
+      "Aqualad",
+      "Static"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Cyborg has a shoulder-mounted sonic cannon and blue circuit-lights along his arms."
+  },
+  {
+    "id": "robin-trivia-30",
+    "question": "Which Teen Titan can turn into any animal?",
+    "options": [
+      "Raven",
+      "Starfire",
+      "Beast Boy",
+      "Kid Flash"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Beast Boy has bright green skin and can transform into any animal he has ever seen."
+  },
+  {
+    "id": "robin-trivia-31",
+    "question": "Which Teen Titan is a sorceress with a dark blue cloak?",
+    "options": [
+      "Raven",
+      "Zatanna",
+      "Starfire",
+      "Wonder Girl"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Raven is the quiet daughter of a powerful sorcerer \u2014 her magic word is 'Azarath Metrion Zinthos.'"
+  },
+  {
+    "id": "robin-trivia-32",
+    "question": "What is Starfire's real Tamaranean name?",
+    "options": [
+      "Komand'r",
+      "Koriand'r",
+      "Tamara",
+      "X'Hal"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Princess Koriand'r of Tamaran \u2014 most friends call her Kori \u2014 also known as Starfire."
+  },
+  {
+    "id": "robin-trivia-33",
+    "question": "What color energy does Starfire throw from her hands?",
+    "options": [
+      "Red",
+      "Yellow",
+      "Green",
+      "Blue"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Starfire fires green starbolts \u2014 glowing balls of Tamaranean energy."
+  },
+  {
+    "id": "robin-trivia-34",
+    "question": "What planet is Starfire from?",
+    "options": [
+      "Krypton",
+      "Tamaran",
+      "Thanagar",
+      "Apokolips"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Princess Koriand'r is from the warm-orange-sky planet of Tamaran."
+  },
+  {
+    "id": "robin-trivia-35",
+    "question": "Who is the calm masked villain that tried to make Robin his apprentice?",
+    "options": [
+      "Deathstroke / Slade",
+      "Ra's al Ghul",
+      "Bane",
+      "Captain Cold"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Slade \u2014 also known as Deathstroke \u2014 wears a half-orange, half-black mask and wanted Robin as his apprentice."
+  },
+  {
+    "id": "robin-trivia-36",
+    "question": "Who was the second Robin after Dick Grayson?",
+    "options": [
+      "Tim Drake",
+      "Damian Wayne",
+      "Jason Todd",
+      "Stephanie Brown"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Jason Todd \u2014 Bruce found him trying to steal the tires off the Batmobile in Crime Alley."
+  },
+  {
+    "id": "robin-trivia-37",
+    "question": "Who was the third Robin?",
+    "options": [
+      "Damian Wayne",
+      "Tim Drake",
+      "Carrie Kelley",
+      "Stephanie Brown"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Tim Drake figured out Batman's secret identity at age twelve, just by paying close attention."
+  },
+  {
+    "id": "robin-trivia-38",
+    "question": "Who is Damian Wayne's father?",
+    "options": [
+      "Ra's al Ghul",
+      "Bruce Wayne",
+      "Joe Chill",
+      "Slade Wilson"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Damian is Bruce Wayne's biological son \u2014 his mother is Talia al Ghul."
+  },
+  {
+    "id": "robin-trivia-39",
+    "question": "When Bruce was lost in time, who put on the Batman cowl?",
+    "options": [
+      "Dick Grayson",
+      "Jason Todd",
+      "Tim Drake",
+      "Damian Wayne"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Dick Grayson became Batman during Bruce's absence \u2014 and made Damian Wayne his Robin."
+  },
+  {
+    "id": "robin-trivia-40",
+    "question": "What did Dick Grayson say was the most important thing he ever did?",
+    "options": [
+      "Founded the Teen Titans",
+      "Became Nightwing",
+      "Wore the Batman cowl",
+      "Taught his little brothers how to fly"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "robin",
+    "explanation": "Years later Dick said: 'I taught my little brothers how to fly' \u2014 being the big brother to Jason, Tim, and Damian."
   }
 ]
