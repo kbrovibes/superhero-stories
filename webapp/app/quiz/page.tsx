@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, Suspense } from "react";
+import { useState, useMemo, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import NavBar from "@/components/NavBar";
@@ -10,8 +10,16 @@ import {
   type QuizQuestion,
   type QuizAnswer,
   filterQuestionsByHeroes,
-  pickRandom,
+  pickSmart,
+  shuffleOptions,
 } from "@/lib/quiz";
+import {
+  loadStats,
+  saveStats,
+  recordAsked,
+  recordSkipped,
+  type QuizStats,
+} from "@/lib/quiz-stats";
 
 // ─── Static hero list ─────────────────────────────────────────────────────────
 
@@ -91,9 +99,11 @@ function parseInitialSelection(scope: string | null): string[] {
 
 function ConfigScreen({
   initialSelected,
+  stats,
   onStart,
 }: {
   initialSelected: string[];
+  stats: QuizStats;
   onStart: (mode: Difficulty, selected: string[], scopeLabel: string, count: number, questions: QuizQuestion[]) => void;
 }) {
   const [selected, setSelected] = useState<string[]>(initialSelected);
@@ -122,7 +132,7 @@ function ConfigScreen({
 
   function handleStart() {
     const pool = filterQuestionsByHeroes(allQuestions as QuizQuestion[], MODE, selected);
-    const picked = pickRandom(pool, count);
+    const picked = pickSmart(pool, count, stats).map(shuffleOptions);
     onStart(MODE, selected, scopeLabel, count, picked);
   }
 
@@ -304,7 +314,9 @@ function QuestionScreen({
   index,
   total,
   existingPick,
+  existingSkipped,
   onAnswer,
+  onSkip,
   onNext,
   onBack,
 }: {
@@ -312,12 +324,15 @@ function QuestionScreen({
   index: number;
   total: number;
   existingPick?: number | null;
+  existingSkipped?: boolean;
   onAnswer: (picked: number) => void;
+  onSkip: () => void;
   onNext: () => void;
   onBack?: () => void;
 }) {
   const [picked, setPicked] = useState<number | null>(existingPick ?? null);
-  const answered = picked !== null;
+  const [skipped, setSkipped] = useState<boolean>(existingSkipped ?? false);
+  const answered = picked !== null || skipped;
 
   const diffColor = {
     easy: "#22c55e",
@@ -330,6 +345,12 @@ function QuestionScreen({
     if (answered) return;
     setPicked(i);
     onAnswer(i);
+  }
+
+  function handleSkip() {
+    if (answered) return;
+    setSkipped(true);
+    onSkip();
   }
 
   function optionStyle(i: number) {
@@ -349,7 +370,7 @@ function QuestionScreen({
     };
     if (!answered) return base;
     if (i === question.correctIndex) return { ...base, border: "2px solid #22c55e", background: "rgba(34,197,94,0.15)", color: "#22c55e" };
-    if (i === picked) return { ...base, border: "2px solid #ef4444", background: "rgba(239,68,68,0.15)", color: "#ef4444" };
+    if (picked !== null && i === picked) return { ...base, border: "2px solid #ef4444", background: "rgba(239,68,68,0.15)", color: "#ef4444" };
     return { ...base, opacity: 0.4 };
   }
 
@@ -388,23 +409,35 @@ function QuestionScreen({
       </div>
 
       {/* Explanation after answer */}
-      {answered && (
-        <div style={{
-          padding: "12px 16px",
-          borderRadius: 12,
-          background: picked === question.correctIndex ? "rgba(34,197,94,0.08)" : "rgba(239,68,68,0.08)",
-          border: `1px solid ${picked === question.correctIndex ? "#22c55e44" : "#ef444444"}`,
-          fontSize: 14,
-          color: "var(--text-secondary)",
-          lineHeight: 1.6,
-          marginBottom: 24,
-        }}>
-          <span style={{ fontWeight: 700, color: picked === question.correctIndex ? "#22c55e" : "#ef4444", marginRight: 6 }}>
-            {picked === question.correctIndex ? "✓ Correct!" : "✗ Not quite."}
-          </span>
-          {question.explanation}
-        </div>
-      )}
+      {answered && (() => {
+        const wasCorrect = picked === question.correctIndex;
+        const tint = skipped ? "rgba(245,158,11,0.08)" : wasCorrect ? "rgba(34,197,94,0.08)" : "rgba(239,68,68,0.08)";
+        const border = skipped ? "#f59e0b44" : wasCorrect ? "#22c55e44" : "#ef444444";
+        const labelColor = skipped ? "#f59e0b" : wasCorrect ? "#22c55e" : "#ef4444";
+        const label = skipped ? "↷ Skipped." : wasCorrect ? "✓ Correct!" : "✗ Not quite.";
+        return (
+          <div style={{
+            padding: "12px 16px",
+            borderRadius: 12,
+            background: tint,
+            border: `1px solid ${border}`,
+            fontSize: 14,
+            color: "var(--text-secondary)",
+            lineHeight: 1.6,
+            marginBottom: 24,
+          }}>
+            <span style={{ fontWeight: 700, color: labelColor, marginRight: 6 }}>
+              {label}
+            </span>
+            {skipped && (
+              <span style={{ marginRight: 6 }}>
+                Answer: <strong>{question.options[question.correctIndex]}</strong>.
+              </span>
+            )}
+            {question.explanation}
+          </div>
+        );
+      })()}
 
       {/* Navigation */}
       <div style={{ display: "flex", gap: 10 }}>
@@ -424,6 +457,26 @@ function QuestionScreen({
             }}
           >
             ← Back
+          </button>
+        )}
+        {!answered && (
+          <button
+            onClick={handleSkip}
+            style={{
+              flex: 1,
+              padding: "13px 0",
+              borderRadius: 14,
+              border: "2px dashed var(--border)",
+              background: "transparent",
+              color: "var(--text-muted)",
+              fontWeight: 700,
+              fontSize: 14,
+              letterSpacing: "0.06em",
+              textTransform: "uppercase",
+              cursor: "pointer",
+            }}
+          >
+            Skip · Show Answer
           </button>
         )}
         {answered && (
@@ -463,6 +516,7 @@ function ResultsScreen({
   onReconfigure: () => void;
 }) {
   const correct = answers.filter((a) => a.correct).length;
+  const skippedCount = answers.filter((a) => a.skipped).length;
   const total = answers.length;
   const emoji = scoreEmoji(correct, total);
 
@@ -482,34 +536,44 @@ function ResultsScreen({
         </p>
       </div>
 
+      {skippedCount > 0 && (
+        <p style={{ textAlign: "center", fontSize: 12, color: "var(--text-muted)", margin: "0 0 24px" }}>
+          {skippedCount} skipped · those will appear less often next time
+        </p>
+      )}
+
       {/* Per-question review */}
       <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 40 }}>
-        {answers.map((a, i) => (
-          <div
-            key={i}
-            style={{
-              padding: "12px 16px",
-              borderRadius: 12,
-              background: "var(--surface)",
-              border: `1px solid ${a.correct ? "#22c55e44" : "#ef444444"}`,
-              display: "flex",
-              gap: 12,
-              alignItems: "flex-start",
-            }}
-          >
-            <span style={{ fontSize: 16, flexShrink: 0 }}>{a.correct ? "✓" : "✗"}</span>
-            <div>
-              <p style={{ margin: 0, fontSize: 14, color: "var(--text-secondary)", lineHeight: 1.4 }}>
-                {a.question.question}
-              </p>
-              {!a.correct && (
-                <p style={{ margin: "4px 0 0", fontSize: 12, color: "#22c55e" }}>
-                  ✓ {a.question.options[a.question.correctIndex]}
+        {answers.map((a, i) => {
+          const borderColor = a.skipped ? "#f59e0b44" : a.correct ? "#22c55e44" : "#ef444444";
+          const icon = a.skipped ? "↷" : a.correct ? "✓" : "✗";
+          return (
+            <div
+              key={i}
+              style={{
+                padding: "12px 16px",
+                borderRadius: 12,
+                background: "var(--surface)",
+                border: `1px solid ${borderColor}`,
+                display: "flex",
+                gap: 12,
+                alignItems: "flex-start",
+              }}
+            >
+              <span style={{ fontSize: 16, flexShrink: 0 }}>{icon}</span>
+              <div>
+                <p style={{ margin: 0, fontSize: 14, color: "var(--text-secondary)", lineHeight: 1.4 }}>
+                  {a.question.question}
                 </p>
-              )}
+                {!a.correct && (
+                  <p style={{ margin: "4px 0 0", fontSize: 12, color: "#22c55e" }}>
+                    ✓ {a.question.options[a.question.correctIndex]}
+                  </p>
+                )}
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
 
       {/* Actions */}
@@ -589,6 +653,28 @@ function QuizController() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, QuizAnswer>>({});
   const [lastConfig, setLastConfig] = useState<{ mode: Difficulty; selected: string[]; scopeLabel: string; count: number } | null>(null);
+  const [stats, setStats] = useState<QuizStats>({});
+
+  // Hydrate stats from localStorage on mount (client-only).
+  useEffect(() => {
+    setStats(loadStats());
+  }, []);
+
+  function bumpAsked(id: string) {
+    setStats((prev) => {
+      const next = recordAsked(prev, id);
+      saveStats(next);
+      return next;
+    });
+  }
+
+  function bumpSkipped(id: string) {
+    setStats((prev) => {
+      const next = recordSkipped(recordAsked(prev, id), id);
+      saveStats(next);
+      return next;
+    });
+  }
 
   function handleStart(mode: Difficulty, selected: string[], scopeLabel: string, count: number, picked: QuizQuestion[]) {
     setLastConfig({ mode, selected, scopeLabel, count });
@@ -600,8 +686,18 @@ function QuizController() {
 
   function handleAnswer(picked: number) {
     const q = questions[currentIndex];
-    const newAnswer: QuizAnswer = { question: q, picked, correct: picked === q.correctIndex };
+    if (answers[currentIndex]) return; // already recorded
+    const newAnswer: QuizAnswer = { question: q, picked, correct: picked === q.correctIndex, skipped: false };
     setAnswers((prev) => ({ ...prev, [currentIndex]: newAnswer }));
+    bumpAsked(q.id);
+  }
+
+  function handleSkip() {
+    const q = questions[currentIndex];
+    if (answers[currentIndex]) return;
+    const newAnswer: QuizAnswer = { question: q, picked: null, correct: false, skipped: true };
+    setAnswers((prev) => ({ ...prev, [currentIndex]: newAnswer }));
+    bumpSkipped(q.id);
   }
 
   function handleNext() {
@@ -619,7 +715,7 @@ function QuizController() {
   function handleRetry() {
     if (!lastConfig) return;
     const pool = filterQuestionsByHeroes(allQuestions as QuizQuestion[], lastConfig.mode, lastConfig.selected);
-    const picked = pickRandom(pool, lastConfig.count);
+    const picked = pickSmart(pool, lastConfig.count, stats).map(shuffleOptions);
     setQuestions(picked);
     setCurrentIndex(0);
     setAnswers({});
@@ -631,7 +727,7 @@ function QuizController() {
   }
 
   if (phase === "config") {
-    return <ConfigScreen initialSelected={initialSelected} onStart={handleStart} />;
+    return <ConfigScreen initialSelected={initialSelected} stats={stats} onStart={handleStart} />;
   }
 
   if (phase === "playing") {
@@ -642,7 +738,9 @@ function QuizController() {
         index={currentIndex}
         total={questions.length}
         existingPick={answers[currentIndex]?.picked ?? null}
+        existingSkipped={answers[currentIndex]?.skipped ?? false}
         onAnswer={handleAnswer}
+        onSkip={handleSkip}
         onNext={handleNext}
         onBack={currentIndex > 0 ? handleBack : undefined}
       />
