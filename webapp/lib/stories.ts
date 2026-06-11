@@ -54,8 +54,8 @@ const HERO_META: Record<string, HeroMeta> = {
   falcon:               { name: "Falcon",              emoji: "🦅" },
   "winter-soldier":     { name: "Winter Soldier",      emoji: "❄️" },
   "star-lord":          { name: "Star-Lord",           emoji: "🚀" },
-  loki:                 { name: "Loki",                emoji: "🐍", avatarFormat: "svg" },
-  wasp:                 { name: "Wasp",                emoji: "🐝", avatarFormat: "svg" },
+  loki:                 { name: "Loki",                emoji: "🐍" },
+  wasp:                 { name: "Wasp",                emoji: "🐝" },
   batman:               { name: "Batman",              emoji: "🦇" },
   superman:             { name: "Superman",            emoji: "🦸" },
   "wonder-woman":       { name: "Wonder Woman",        emoji: "⚔️" },
@@ -66,7 +66,7 @@ const HERO_META: Record<string, HeroMeta> = {
   cyborg:               { name: "Cyborg",              emoji: "🔧" },
   batgirl:              { name: "Batgirl",             emoji: "🦇" },
   "martian-manhunter":  { name: "Martian Manhunter",   emoji: "👽" },
-  robin:                { name: "Robin",               emoji: "🐦", avatarFormat: "svg" },
+  robin:                { name: "Robin",               emoji: "🐦" },
 
   // ── Marvel heroes: X-Men (added 2026-06-10) ──
   wolverine:            { name: "Wolverine",           emoji: "🗡️", avatarFormat: "svg" },
