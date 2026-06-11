@@ -39,8 +39,8 @@ export default function HeroCard({ hero }: HeroCardProps) {
           className="liquid-card"
           style={{
             aspectRatio: "1 / 1",
-            borderRadius: "20px 6px 20px 6px",
-            padding: "10px 10px 14px",
+            borderRadius: "16px 5px 16px 5px",
+            padding: "8px 8px 11px",
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -72,8 +72,8 @@ export default function HeroCard({ hero }: HeroCardProps) {
           />
 
           <div style={{
-            width: 68,
-            height: 68,
+            width: 52,
+            height: 52,
             borderRadius: "50%",
             overflow: "hidden",
             border: `2px solid ${theme.accent}66`,
@@ -111,19 +111,19 @@ export default function HeroCard({ hero }: HeroCardProps) {
             zIndex: 2
           }}>
             <span style={{
-              fontSize: 11,
+              fontSize: 10,
               fontWeight: 500,
               color: "#fff",
               textTransform: "uppercase",
-              letterSpacing: "0.05em",
+              letterSpacing: "0.04em",
               lineHeight: 1.15,
               transition: "all 0.3s ease",
               textShadow: "0 1px 3px rgba(0,0,0,0.45)"
             }}>
               {hero.name}
             </span>
-            <span style={{ 
-              fontSize: 8.5, 
+            <span style={{
+              fontSize: 7.5,
               fontWeight: 700, 
               color: theme.accent, 
               textTransform: "uppercase",

@@ -1,6 +1,7 @@
 import { getHero, getHeroStories, getHeroes } from "@/lib/stories";
 import NavBar from "@/components/NavBar";
 import StoryRow from "@/components/StoryRow";
+import VisitRecorder from "@/components/VisitRecorder";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import allQuestions from "@/lib/quiz-questions.json";
@@ -43,6 +44,7 @@ export default async function HeroPage({ params }: { params: Params }) {
 
   return (
     <>
+      <VisitRecorder heroId={heroId} />
       <NavBar crumbs={[
         { label: universe.toUpperCase(), href: "/" },
         { label: hero.name },

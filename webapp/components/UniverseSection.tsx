@@ -46,8 +46,8 @@ export default function UniverseSection({ label, count, children }: { label: str
       </div>
       <div style={{
         display: "grid",
-        gridTemplateColumns: "repeat(3, 1fr)",
-        gap: 10
+        gridTemplateColumns: "repeat(4, 1fr)",
+        gap: 8
       }}>
         {children}
       </div>

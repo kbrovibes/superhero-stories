@@ -20,6 +20,7 @@ import {
   recordSkipped,
   type QuizStats,
 } from "@/lib/quiz-stats";
+import { recordSelects } from "@/lib/popularity";
 
 // ─── Static hero list ─────────────────────────────────────────────────────────
 
@@ -192,6 +193,7 @@ function ConfigScreen({
   function handleStart() {
     const pool = filterQuestionsByHeroes(allQuestions as QuizQuestion[], MODE, selected);
     const picked = pickSmart(pool, count, stats).map(shuffleOptions);
+    recordSelects(selected);
     onStart(MODE, selected, scopeLabel, count, picked);
   }
 

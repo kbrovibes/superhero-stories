@@ -1,8 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import HeroCard from "@/components/HeroCard";
 import UniverseSection from "@/components/UniverseSection";
+import { getPopular } from "@/lib/popularity";
 
 export type CardEntry = {
   id: string;
@@ -29,13 +30,35 @@ function matches(entry: CardEntry, q: string): boolean {
 
 export default function HeroBrowser({ sections }: { sections: Section[] }) {
   const [query, setQuery] = useState("");
+  const [popularIds, setPopularIds] = useState<string[]>([]);
+
+  useEffect(() => {
+    const refresh = () => setPopularIds(getPopular(6));
+    refresh();
+    window.addEventListener("hero-popularity-changed", refresh);
+    return () => window.removeEventListener("hero-popularity-changed", refresh);
+  }, []);
+
+  const allEntries = useMemo(
+    () => sections.flatMap((s) => s.entries),
+    [sections],
+  );
+
+  const popularSection: Section | null = useMemo(() => {
+    if (!popularIds.length) return null;
+    const byId = new Map(allEntries.map((e) => [e.id, e]));
+    const entries = popularIds.map((id) => byId.get(id)).filter(Boolean) as CardEntry[];
+    return entries.length ? { label: "POPULAR · YOUR FAVORITES", entries } : null;
+  }, [popularIds, allEntries]);
+
+  const visibleSections = popularSection && !query ? [popularSection, ...sections] : sections;
 
   const filtered = useMemo(
     () =>
-      sections
+      visibleSections
         .map((s) => ({ ...s, entries: s.entries.filter((e) => matches(e, query)) }))
         .filter((s) => s.entries.length > 0),
-    [sections, query],
+    [visibleSections, query],
   );
 
   const totalMatches = filtered.reduce((n, s) => n + s.entries.length, 0);
