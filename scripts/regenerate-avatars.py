@@ -152,9 +152,18 @@ def install_webp(src_png: Path, universe: str, hero_id: str) -> bool:
     if not src_png.exists() or src_png.stat().st_size == 0:
         print(f"     no png produced at {src_png}")
         return False
+    # Nano Banana sometimes writes an SVG placeholder when it bails; reject it.
+    head = src_png.read_bytes()[:8]
+    if not head.startswith(b"\x89PNG") and not head.startswith(b"\xff\xd8\xff"):
+        print(f"     produced output is not a real PNG/JPEG (placeholder)")
+        return False
+    try:
+        img = Image.open(src_png).convert("RGB").resize((512, 512), Image.LANCZOS)
+    except Exception as e:
+        print(f"     PIL failed to read {src_png}: {e}")
+        return False
     dst = AVATARS_DIR / universe / f"{hero_id}.webp"
     dst.parent.mkdir(parents=True, exist_ok=True)
-    img = Image.open(src_png).convert("RGB").resize((512, 512), Image.LANCZOS)
     img.save(dst, "WEBP", quality=88, method=6)
     print(f"     {dst.relative_to(REPO_ROOT)} ({dst.stat().st_size // 1024}KB)")
     return True

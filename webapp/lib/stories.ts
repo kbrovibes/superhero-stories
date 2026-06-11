@@ -70,20 +70,20 @@ const HERO_META: Record<string, HeroMeta> = {
 
   // ── Marvel heroes: X-Men (added 2026-06-10) ──
   wolverine:            { name: "Wolverine",           emoji: "🗡️" },
-  storm:                { name: "Storm",               emoji: "⛈️", avatarFormat: "svg" },
-  cyclops:              { name: "Cyclops",             emoji: "🥽", avatarFormat: "svg" },
-  "jean-grey":          { name: "Jean Grey",           emoji: "🔥", avatarFormat: "svg" },
-  beast:                { name: "Beast",               emoji: "🦍", avatarFormat: "svg" },
-  rogue:                { name: "Rogue",               emoji: "🧤", avatarFormat: "svg" },
+  storm:                { name: "Storm",               emoji: "⛈️" },
+  cyclops:              { name: "Cyclops",             emoji: "🥽" },
+  "jean-grey":          { name: "Jean Grey",           emoji: "🔥" },
+  beast:                { name: "Beast",               emoji: "🦍" },
+  rogue:                { name: "Rogue",               emoji: "🧤" },
   nightcrawler:         { name: "Nightcrawler",        emoji: "💨", avatarFormat: "svg" },
-  gambit:               { name: "Gambit",              emoji: "🃏", avatarFormat: "svg" },
-  "professor-x":        { name: "Professor X",         emoji: "🎓", avatarFormat: "svg" },
+  gambit:               { name: "Gambit",              emoji: "🃏" },
+  "professor-x":        { name: "Professor X",         emoji: "🎓" },
 
   // ── Marvel heroes: Guardians of the Galaxy backfill (added 2026-06-10) ──
-  gamora:               { name: "Gamora",              emoji: "🌿", avatarFormat: "svg" },
-  drax:                 { name: "Drax",                emoji: "🔪", avatarFormat: "svg" },
-  rocket:               { name: "Rocket",              emoji: "🦝", avatarFormat: "svg" },
-  groot:                { name: "Groot",               emoji: "🌳", avatarFormat: "svg" },
+  gamora:               { name: "Gamora",              emoji: "🌿" },
+  drax:                 { name: "Drax",                emoji: "🔪" },
+  rocket:               { name: "Rocket",              emoji: "🦝" },
+  groot:                { name: "Groot",               emoji: "🌳" },
   nebula:               { name: "Nebula",              emoji: "🌌", avatarFormat: "svg" },
 
   // ── DC heroes (added 2026-06-10) ──
