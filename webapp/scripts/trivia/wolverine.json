@@ -1,0 +1,602 @@
+[
+  {
+    "id": "wolverine-trivia-1",
+    "question": "What is Wolverine's real name?",
+    "options": [
+      "James Howlett",
+      "Victor Creed",
+      "Scott Summers",
+      "Erik Lehnsherr"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Wolverine was born James Howlett in Alberta, Canada, and later took the name Logan."
+  },
+  {
+    "id": "wolverine-trivia-2",
+    "question": "Which country did Logan grow up in as a child?",
+    "options": [
+      "United States",
+      "Japan",
+      "Canada",
+      "Scotland"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "James Howlett grew up on an estate in Alberta, Canada."
+  },
+  {
+    "id": "wolverine-trivia-3",
+    "question": "How many claws does Wolverine have on each hand?",
+    "options": [
+      "Two",
+      "Four",
+      "Five",
+      "Three"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Wolverine has three claws on each hand, extending from between his knuckles."
+  },
+  {
+    "id": "wolverine-trivia-4",
+    "question": "What is the name of the metal that coats Wolverine's skeleton?",
+    "options": [
+      "Vibranium",
+      "Titanium",
+      "Adamantium",
+      "Carbonadium"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "The Weapon X program bonded adamantium — a nearly indestructible metal — to every bone in Logan's skeleton."
+  },
+  {
+    "id": "wolverine-trivia-5",
+    "question": "What special power does Wolverine have that heals his wounds?",
+    "options": [
+      "Super strength",
+      "Healing factor",
+      "Telepathy",
+      "Force field"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Wolverine's healing factor allows his body to repair wounds at extraordinary speed."
+  },
+  {
+    "id": "wolverine-trivia-6",
+    "question": "What is the name of the secret program that coated Logan's bones in metal?",
+    "options": [
+      "Project Genesis",
+      "Gamma Base",
+      "Operation Shield",
+      "Weapon X"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "The Weapon X program captured Logan and bonded adamantium to his skeleton."
+  },
+  {
+    "id": "wolverine-trivia-7",
+    "question": "What sound do Wolverine's claws make when they extend?",
+    "options": [
+      "THWIP",
+      "SNIKT",
+      "BAMF",
+      "CLANG"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "The famous SNIKT sound is made when Wolverine extends his adamantium claws."
+  },
+  {
+    "id": "wolverine-trivia-8",
+    "question": "Who is the leader of the X-Men who wears a ruby-red visor?",
+    "options": [
+      "Beast",
+      "Cyclops",
+      "Gambit",
+      "Colossus"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Scott Summers — Cyclops — wears a ruby-red visor and leads the X-Men."
+  },
+  {
+    "id": "wolverine-trivia-9",
+    "question": "Which X-Man can control the weather?",
+    "options": [
+      "Jean Grey",
+      "Rogue",
+      "Psylocke",
+      "Storm"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Ororo Munroe — Storm — can control weather including lightning, wind, and rain."
+  },
+  {
+    "id": "wolverine-trivia-10",
+    "question": "What is the name of the school where the X-Men train?",
+    "options": [
+      "Avengers Academy",
+      "Xavier's School for Gifted Youngsters",
+      "Baxter Building",
+      "S.H.I.E.L.D. Academy"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Professor Charles Xavier runs Xavier's School for Gifted Youngsters in Westchester, New York."
+  },
+  {
+    "id": "wolverine-trivia-11",
+    "question": "What was the name of Logan's childhood friend on the Alberta estate?",
+    "options": [
+      "Jubilee",
+      "Rose",
+      "Jean",
+      "Ororo"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Rose was Logan's closest friend when he was growing up as James Howlett."
+  },
+  {
+    "id": "wolverine-trivia-12",
+    "question": "What is the name of Wolverine's arch-rival who also has claws and a healing factor?",
+    "options": [
+      "Magneto",
+      "Mister Sinister",
+      "Sabretooth",
+      "Apocalypse"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Victor Creed — Sabretooth — has similar powers to Wolverine and is his most personal enemy."
+  },
+  {
+    "id": "wolverine-trivia-13",
+    "question": "What is the real name of Sabretooth?",
+    "options": [
+      "Victor Creed",
+      "Otto Octavius",
+      "Norman Osborn",
+      "Johann Schmidt"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Sabretooth's real name is Victor Creed."
+  },
+  {
+    "id": "wolverine-trivia-14",
+    "question": "Which X-Man can read minds and move objects with her thoughts?",
+    "options": [
+      "Storm",
+      "Rogue",
+      "Jean Grey",
+      "Mystique"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Jean Grey is both a telepath (reads minds) and a telekinetic (moves objects with her mind)."
+  },
+  {
+    "id": "wolverine-trivia-15",
+    "question": "What state in the US is Xavier's school located?",
+    "options": [
+      "New York",
+      "California",
+      "Texas",
+      "Massachusetts"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Xavier's School for Gifted Youngsters is located in Westchester, New York."
+  },
+  {
+    "id": "wolverine-trivia-16",
+    "question": "What is the name of the training room hidden beneath Xavier's school?",
+    "options": [
+      "Battle Arena",
+      "Combat Zone",
+      "The War Room",
+      "Danger Room"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "The Danger Room is a high-tech training facility under Xavier's school that can simulate any environment."
+  },
+  {
+    "id": "wolverine-trivia-17",
+    "question": "Which villain can control metal with his mind?",
+    "options": [
+      "Doctor Doom",
+      "Magneto",
+      "Juggernaut",
+      "Sabretooth"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Erik Lehnsherr — Magneto — is a master of magnetism who can control and move metal objects."
+  },
+  {
+    "id": "wolverine-trivia-18",
+    "question": "What color is Magneto's famous helmet?",
+    "options": [
+      "Silver",
+      "Gold",
+      "Deep crimson/red",
+      "Purple"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Magneto's deep crimson helmet blocks all telepathy so no one can read his mind."
+  },
+  {
+    "id": "wolverine-trivia-19",
+    "question": "What is Hank McCoy's X-Men codename?",
+    "options": [
+      "Beast",
+      "Colossus",
+      "Iceman",
+      "Nightcrawler"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Hank McCoy is known as Beast — he is brilliant, covered in blue fur, and highly acrobatic."
+  },
+  {
+    "id": "wolverine-trivia-20",
+    "question": "Before they were metal, what material were Wolverine's claws made of?",
+    "options": [
+      "Diamond",
+      "Bone",
+      "Stone",
+      "Wood"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Logan's claws were originally natural bone mutations, which the Weapon X program later coated in adamantium."
+  },
+  {
+    "id": "wolverine-trivia-21",
+    "question": "Which Canadian province is Logan's childhood home in?",
+    "options": [
+      "Ontario",
+      "Quebec",
+      "British Columbia",
+      "Alberta"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "James Howlett grew up on an estate in Alberta, Canada."
+  },
+  {
+    "id": "wolverine-trivia-22",
+    "question": "Where did Logan work as a young man after leaving home?",
+    "options": [
+      "Lumber camps in British Columbia",
+      "Coal mines in Ontario",
+      "Fishing boats in Nova Scotia",
+      "Farms in Manitoba"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Logan worked in the lumber camps of British Columbia after fleeing the Alberta estate."
+  },
+  {
+    "id": "wolverine-trivia-23",
+    "question": "What is the Savage Land?",
+    "options": [
+      "A jungle in Africa",
+      "A prehistoric jungle hidden in Antarctica",
+      "A swamp in Florida",
+      "A forest in Canada"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "The Savage Land is a hidden prehistoric jungle deep in Antarctica, kept warm by volcanic vents."
+  },
+  {
+    "id": "wolverine-trivia-24",
+    "question": "What is the name of the jet that the X-Men use for missions?",
+    "options": [
+      "Quinjet",
+      "X-Wing",
+      "Blackbird",
+      "Helicarrier"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "The X-Men fly in the Blackbird, a high-speed jet that carries the team on missions."
+  },
+  {
+    "id": "wolverine-trivia-25",
+    "question": "Who founded Xavier's School for Gifted Youngsters?",
+    "options": [
+      "Jean Grey",
+      "Storm",
+      "Cyclops",
+      "Professor Charles Xavier"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Professor Charles Xavier founded the school to train and support young mutants."
+  },
+  {
+    "id": "wolverine-trivia-26",
+    "question": "What special sense does Logan have that helps him track enemies?",
+    "options": [
+      "Super vision",
+      "Echolocation",
+      "Heightened smell and hearing",
+      "Telepathy"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Logan's senses are greatly sharpened — he can track by scent and hear things from far away."
+  },
+  {
+    "id": "wolverine-trivia-27",
+    "question": "Which scientist was the X-Men helping on Muir Island, Scotland?",
+    "options": [
+      "Dr. Hank McCoy",
+      "Dr. Moira MacTaggert",
+      "Dr. Myron MacLain",
+      "Dr. Curt Connors"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Dr. Moira MacTaggert is a world-renowned geneticist and friend of Professor Xavier, based on Muir Island."
+  },
+  {
+    "id": "wolverine-trivia-28",
+    "question": "What color is the classic X-Men uniform that Logan wears?",
+    "options": [
+      "Red and gold",
+      "Black and white",
+      "Blue and yellow",
+      "Green and silver"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "The classic X-Men uniform is blue and yellow, which Logan wears as a member of the team."
+  },
+  {
+    "id": "wolverine-trivia-29",
+    "question": "Who helps design and build the Danger Room?",
+    "options": [
+      "Tony Stark and Nick Fury",
+      "Cyclops and Jean Grey",
+      "Storm and Wolverine",
+      "Professor Xavier and Beast"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Professor Xavier and Hank McCoy (Beast) designed and built the Danger Room beneath the school."
+  },
+  {
+    "id": "wolverine-trivia-30",
+    "question": "What does Jean Grey do during the Danger Room tunnel rescue to keep the team hidden?",
+    "options": [
+      "She maintains a psychic veil over the group",
+      "She creates a smoke screen",
+      "She turns everyone invisible",
+      "She erases everyone's memories"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Jean uses her telepathy to maintain a psychic veil — making the team harder to detect."
+  },
+  {
+    "id": "wolverine-trivia-31",
+    "question": "What does Logan say to Magneto after their fight on the Nova Scotia platform?",
+    "options": [
+      "\"I'll be back for you!\"",
+      "\"You'll never win!\"",
+      "\"It doesn't have to be this way, Erik\"",
+      "\"The X-Men always prevail\""
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Logan says \"It doesn't have to be this way, Erik\" — a quiet, honest appeal rather than a taunt."
+  },
+  {
+    "id": "wolverine-trivia-32",
+    "question": "What is the name of the student at Xavier's school who asks Logan about his claws?",
+    "options": [
+      "Rogue",
+      "Kitty Pryde",
+      "Jubilee",
+      "Dazzler"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Jubilee, a curious student at Xavier's school, asks Logan directly about his claws one afternoon."
+  },
+  {
+    "id": "wolverine-trivia-33",
+    "question": "What is the full real name of Magneto?",
+    "options": [
+      "Victor Von Doom",
+      "Erik Lehnsherr",
+      "Sebastian Shaw",
+      "Anton Vanko"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Magneto's full name is Erik Lehnsherr."
+  },
+  {
+    "id": "wolverine-trivia-34",
+    "question": "What does Professor Xavier call his annual end-of-year gathering at the school?",
+    "options": [
+      "The Assembly",
+      "The Gathering",
+      "The Summit",
+      "The Review"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Professor Xavier holds the Gathering at the end of every school year for reflection and sharing."
+  },
+  {
+    "id": "wolverine-trivia-35",
+    "question": "What does Storm do while Logan leads researchers out of the Savage Land canyon?",
+    "options": [
+      "She flies ahead to the Blackbird",
+      "She creates a weather distraction over the plateau",
+      "She holds up the canyon walls",
+      "She fights Garokk directly"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Storm creates a dramatic weather event over the plateau to draw guards' attention away from Logan's escape route."
+  },
+  {
+    "id": "wolverine-trivia-36",
+    "question": "What does Cyclops do during the fight with Magneto on the research platform?",
+    "options": [
+      "He evacuates the crew",
+      "He fires an optic blast to destroy the main antenna's control housing",
+      "He flies the Blackbird",
+      "He fights Magneto hand-to-hand"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Cyclops fires a precise optic blast to take out the platform's main antenna while Magneto is distracted."
+  },
+  {
+    "id": "wolverine-trivia-37",
+    "question": "What does Wolverine say is the most important lesson the X-Men taught him?",
+    "options": [
+      "How to use his claws more effectively",
+      "That healing factor makes him invincible",
+      "That toughness is only meaningful because of who it protects",
+      "How to fly the Blackbird"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Logan tells the students that enduring damage is only worth something because of the people it protects."
+  },
+  {
+    "id": "wolverine-trivia-38",
+    "question": "What part of Sabretooth's abilities is NOT similar to Wolverine's?",
+    "options": [
+      "Healing factor",
+      "Sharp claws",
+      "Heightened senses",
+      "Adamantium skeleton"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Sabretooth has natural claws, a healing factor, and sharp senses like Wolverine — but does NOT have an adamantium skeleton."
+  },
+  {
+    "id": "wolverine-trivia-39",
+    "question": "When Logan's claws first came out as a boy, what were they made of?",
+    "options": [
+      "Adamantium from birth",
+      "Bone",
+      "Stone",
+      "Iron"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Logan's claws were natural bone mutations when they first appeared on that stormy night in Alberta."
+  },
+  {
+    "id": "wolverine-trivia-40",
+    "question": "What is the name of the ancient ruler who controls the central plateau of the Savage Land?",
+    "options": [
+      "Sauron",
+      "Garokk",
+      "Ka-Zar",
+      "Zaladane"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "wolverine",
+    "explanation": "Garokk is an ancient being whose domain extends across the central plateau of the Savage Land."
+  }
+]

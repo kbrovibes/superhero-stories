@@ -52,6 +52,43 @@ const HERO_LIST: { id: string; name: string; universe: "marvel" | "dc" }[] = [
   { id: "cyborg",          name: "Cyborg",           universe: "dc" },
   { id: "martian-manhunter", name: "Martian Manhunter", universe: "dc" },
   { id: "robin",           name: "Robin",            universe: "dc" },
+  // X-Men (Marvel heroes)
+  { id: "wolverine",       name: "Wolverine",        universe: "marvel" },
+  { id: "storm",           name: "Storm",            universe: "marvel" },
+  { id: "cyclops",         name: "Cyclops",          universe: "marvel" },
+  { id: "jean-grey",       name: "Jean Grey",        universe: "marvel" },
+  { id: "beast",           name: "Beast",            universe: "marvel" },
+  { id: "rogue",           name: "Rogue",            universe: "marvel" },
+  { id: "nightcrawler",    name: "Nightcrawler",     universe: "marvel" },
+  { id: "gambit",          name: "Gambit",           universe: "marvel" },
+  // DC heroes
+  { id: "starfire",        name: "Starfire",         universe: "dc" },
+  { id: "raven",           name: "Raven",            universe: "dc" },
+  { id: "beast-boy",       name: "Beast Boy",        universe: "dc" },
+  { id: "supergirl",       name: "Supergirl",        universe: "dc" },
+  { id: "green-arrow",     name: "Green Arrow",      universe: "dc" },
+  { id: "nightwing",       name: "Nightwing",        universe: "dc" },
+  // Marvel villains
+  { id: "green-goblin",    name: "Green Goblin",     universe: "marvel" },
+  { id: "doctor-octopus",  name: "Doctor Octopus",   universe: "marvel" },
+  { id: "venom",           name: "Venom",            universe: "marvel" },
+  { id: "magneto",         name: "Magneto",          universe: "marvel" },
+  { id: "ultron",          name: "Ultron",           universe: "marvel" },
+  { id: "red-skull",       name: "Red Skull",        universe: "marvel" },
+  { id: "abomination",     name: "Abomination",      universe: "marvel" },
+  { id: "killmonger",      name: "Killmonger",       universe: "marvel" },
+  { id: "mysterio",        name: "Mysterio",         universe: "marvel" },
+  // DC villains
+  { id: "joker",           name: "The Joker",        universe: "dc" },
+  { id: "harley-quinn",    name: "Harley Quinn",     universe: "dc" },
+  { id: "lex-luthor",      name: "Lex Luthor",       universe: "dc" },
+  { id: "riddler",         name: "The Riddler",      universe: "dc" },
+  { id: "two-face",        name: "Two-Face",         universe: "dc" },
+  { id: "catwoman",        name: "Catwoman",         universe: "dc" },
+  { id: "bane",            name: "Bane",             universe: "dc" },
+  { id: "sinestro",        name: "Sinestro",         universe: "dc" },
+  { id: "black-manta",     name: "Black Manta",      universe: "dc" },
+  { id: "darkseid",        name: "Darkseid",         universe: "dc" },
 ];
 
 const ALL_IDS = HERO_LIST.map((h) => h.id);
