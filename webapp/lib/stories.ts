@@ -69,7 +69,7 @@ const HERO_META: Record<string, HeroMeta> = {
   robin:                { name: "Robin",               emoji: "🐦" },
 
   // ── Marvel heroes: X-Men (added 2026-06-10) ──
-  wolverine:            { name: "Wolverine",           emoji: "🗡️", avatarFormat: "svg" },
+  wolverine:            { name: "Wolverine",           emoji: "🗡️" },
   storm:                { name: "Storm",               emoji: "⛈️", avatarFormat: "svg" },
   cyclops:              { name: "Cyclops",             emoji: "🥽", avatarFormat: "svg" },
   "jean-grey":          { name: "Jean Grey",           emoji: "🔥", avatarFormat: "svg" },
