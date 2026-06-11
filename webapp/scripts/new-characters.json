@@ -9,6 +9,13 @@
     { "id": "rogue",           "name": "Rogue",          "universe": "marvel", "kind": "hero",    "emoji": "🧤" },
     { "id": "nightcrawler",    "name": "Nightcrawler",   "universe": "marvel", "kind": "hero",    "emoji": "💨" },
     { "id": "gambit",          "name": "Gambit",         "universe": "marvel", "kind": "hero",    "emoji": "🃏" },
+    { "id": "professor-x",     "name": "Professor X",    "universe": "marvel", "kind": "hero",    "emoji": "🎓" },
+
+    { "id": "gamora",          "name": "Gamora",         "universe": "marvel", "kind": "hero",    "emoji": "🌿" },
+    { "id": "drax",            "name": "Drax",           "universe": "marvel", "kind": "hero",    "emoji": "🔪" },
+    { "id": "rocket",          "name": "Rocket",         "universe": "marvel", "kind": "hero",    "emoji": "🦝" },
+    { "id": "groot",           "name": "Groot",          "universe": "marvel", "kind": "hero",    "emoji": "🌳" },
+    { "id": "nebula",          "name": "Nebula",         "universe": "marvel", "kind": "hero",    "emoji": "🌌" },
 
     { "id": "starfire",        "name": "Starfire",       "universe": "dc",     "kind": "hero",    "emoji": "🧡" },
     { "id": "raven",           "name": "Raven",          "universe": "dc",     "kind": "hero",    "emoji": "🐦‍⬛" },

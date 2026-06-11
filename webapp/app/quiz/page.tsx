@@ -61,6 +61,13 @@ const HERO_LIST: { id: string; name: string; universe: "marvel" | "dc" }[] = [
   { id: "rogue",           name: "Rogue",            universe: "marvel" },
   { id: "nightcrawler",    name: "Nightcrawler",     universe: "marvel" },
   { id: "gambit",          name: "Gambit",           universe: "marvel" },
+  { id: "professor-x",     name: "Professor X",      universe: "marvel" },
+  // Guardians of the Galaxy (Marvel heroes)
+  { id: "gamora",          name: "Gamora",           universe: "marvel" },
+  { id: "drax",            name: "Drax",             universe: "marvel" },
+  { id: "rocket",          name: "Rocket",           universe: "marvel" },
+  { id: "groot",           name: "Groot",            universe: "marvel" },
+  { id: "nebula",          name: "Nebula",           universe: "marvel" },
   // DC heroes
   { id: "starfire",        name: "Starfire",         universe: "dc" },
   { id: "raven",           name: "Raven",            universe: "dc" },

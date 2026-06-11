@@ -77,6 +77,14 @@ const HERO_META: Record<string, HeroMeta> = {
   rogue:                { name: "Rogue",               emoji: "🧤", avatarFormat: "svg" },
   nightcrawler:         { name: "Nightcrawler",        emoji: "💨", avatarFormat: "svg" },
   gambit:               { name: "Gambit",              emoji: "🃏", avatarFormat: "svg" },
+  "professor-x":        { name: "Professor X",         emoji: "🎓", avatarFormat: "svg" },
+
+  // ── Marvel heroes: Guardians of the Galaxy backfill (added 2026-06-10) ──
+  gamora:               { name: "Gamora",              emoji: "🌿", avatarFormat: "svg" },
+  drax:                 { name: "Drax",                emoji: "🔪", avatarFormat: "svg" },
+  rocket:               { name: "Rocket",              emoji: "🦝", avatarFormat: "svg" },
+  groot:                { name: "Groot",               emoji: "🌳", avatarFormat: "svg" },
+  nebula:               { name: "Nebula",              emoji: "🌌", avatarFormat: "svg" },
 
   // ── DC heroes (added 2026-06-10) ──
   starfire:             { name: "Starfire",            emoji: "🧡", avatarFormat: "svg" },
