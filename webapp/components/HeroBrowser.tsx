@@ -42,66 +42,54 @@ export default function HeroBrowser({ sections }: { sections: Section[] }) {
 
   return (
     <>
-      <div style={{ marginBottom: 32, position: "relative" }}>
+      <div style={{ marginBottom: 36, position: "relative" }}>
         <input
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search heroes & villains…"
+          placeholder="Type a name…"
           aria-label="Search heroes and villains"
           autoComplete="off"
           spellCheck={false}
+          className="hero-search-input"
           style={{
             width: "100%",
-            padding: "12px 16px 12px 42px",
-            borderRadius: 14,
-            border: "1px solid var(--border)",
-            background: "var(--surface)",
+            padding: "10px 36px 10px 0",
+            border: "none",
+            borderBottom: "2px solid var(--border)",
+            borderRadius: 0,
+            background: "transparent",
             color: "var(--text-primary)",
-            fontSize: 15,
+            fontSize: query ? 32 : 22,
             fontFamily: "inherit",
-            fontWeight: 500,
+            fontWeight: query ? 700 : 500,
+            letterSpacing: query ? "-0.01em" : "0",
+            lineHeight: 1.3,
             outline: "none",
-            transition: "border-color 0.2s, background 0.2s",
+            transition: "font-size 0.18s ease, font-weight 0.18s ease, border-color 0.2s",
           }}
           onFocus={(e) => {
-            e.currentTarget.style.borderColor = "var(--border-hover)";
-            e.currentTarget.style.background = "var(--surface-raised)";
+            e.currentTarget.style.borderBottomColor = "var(--thanos-accent)";
           }}
           onBlur={(e) => {
-            e.currentTarget.style.borderColor = "var(--border)";
-            e.currentTarget.style.background = "var(--surface)";
+            e.currentTarget.style.borderBottomColor = "var(--border)";
           }}
         />
-        <span
-          aria-hidden
-          style={{
-            position: "absolute",
-            left: 16,
-            top: "50%",
-            transform: "translateY(-50%)",
-            fontSize: 16,
-            color: "var(--text-muted)",
-            pointerEvents: "none",
-          }}
-        >
-          ⌕
-        </span>
         {query && (
           <button
             onClick={() => setQuery("")}
             aria-label="Clear search"
             style={{
               position: "absolute",
-              right: 8,
+              right: 0,
               top: "50%",
               transform: "translateY(-50%)",
               background: "transparent",
               border: "none",
               color: "var(--text-muted)",
-              fontSize: 18,
+              fontSize: 22,
               cursor: "pointer",
-              padding: "6px 10px",
+              padding: "8px 12px",
               lineHeight: 1,
             }}
           >

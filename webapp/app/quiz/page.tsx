@@ -24,35 +24,35 @@ import {
 // ─── Static hero list ─────────────────────────────────────────────────────────
 
 const HERO_LIST: { id: string; name: string; universe: "marvel" | "dc" }[] = [
-  { id: "iron-man",        name: "Iron Man",         universe: "marvel" },
-  { id: "spider-man",      name: "Spider-Man",       universe: "marvel" },
-  { id: "thor",            name: "Thor",             universe: "marvel" },
-  { id: "captain-america", name: "Captain America",  universe: "marvel" },
-  { id: "hulk",            name: "Hulk",             universe: "marvel" },
-  { id: "black-widow",     name: "Black Widow",      universe: "marvel" },
-  { id: "hawkeye",         name: "Hawkeye",          universe: "marvel" },
-  { id: "doctor-strange",  name: "Doctor Strange",   universe: "marvel" },
-  { id: "black-panther",   name: "Black Panther",    universe: "marvel" },
   { id: "ant-man",         name: "Ant-Man",          universe: "marvel" },
-  { id: "scarlet-witch",   name: "Scarlet Witch",    universe: "marvel" },
-  { id: "vision",          name: "Vision",           universe: "marvel" },
+  { id: "black-panther",   name: "Black Panther",    universe: "marvel" },
+  { id: "black-widow",     name: "Black Widow",      universe: "marvel" },
+  { id: "captain-america", name: "Captain America",  universe: "marvel" },
+  { id: "doctor-strange",  name: "Doctor Strange",   universe: "marvel" },
   { id: "falcon",          name: "Falcon",           universe: "marvel" },
-  { id: "winter-soldier",  name: "Winter Soldier",   universe: "marvel" },
-  { id: "star-lord",       name: "Star-Lord",        universe: "marvel" },
+  { id: "hawkeye",         name: "Hawkeye",          universe: "marvel" },
+  { id: "hulk",            name: "Hulk",             universe: "marvel" },
+  { id: "iron-man",        name: "Iron Man",         universe: "marvel" },
   { id: "loki",            name: "Loki",             universe: "marvel" },
+  { id: "scarlet-witch",   name: "Scarlet Witch",    universe: "marvel" },
+  { id: "spider-man",      name: "Spider-Man",       universe: "marvel" },
+  { id: "star-lord",       name: "Star-Lord",        universe: "marvel" },
+  { id: "thor",            name: "Thor",             universe: "marvel" },
+  { id: "vision",          name: "Vision",           universe: "marvel" },
   { id: "wasp",            name: "Wasp",             universe: "marvel" },
-  { id: "batman",          name: "Batman",           universe: "dc" },
-  { id: "superman",        name: "Superman",         universe: "dc" },
-  { id: "wonder-woman",    name: "Wonder Woman",     universe: "dc" },
-  { id: "the-flash",       name: "The Flash",        universe: "dc" },
+  { id: "winter-soldier",  name: "Winter Soldier",   universe: "marvel" },
   { id: "aquaman",         name: "Aquaman",          universe: "dc" },
-  { id: "green-lantern",   name: "Green Lantern",    universe: "dc" },
   { id: "batgirl",         name: "Batgirl",          universe: "dc" },
-  { id: "shazam",          name: "Shazam",           universe: "dc" },
+  { id: "batman",          name: "Batman",           universe: "dc" },
   { id: "cyborg",          name: "Cyborg",           universe: "dc" },
+  { id: "green-lantern",   name: "Green Lantern",    universe: "dc" },
   { id: "martian-manhunter", name: "Martian Manhunter", universe: "dc" },
   { id: "robin",           name: "Robin",            universe: "dc" },
-  // X-Men (Marvel heroes)
+  { id: "shazam",          name: "Shazam",           universe: "dc" },
+  { id: "superman",        name: "Superman",         universe: "dc" },
+  { id: "the-flash",       name: "The Flash",        universe: "dc" },
+  { id: "wonder-woman",    name: "Wonder Woman",     universe: "dc" },
+  // ── X-Men (Marvel) ──
   { id: "wolverine",       name: "Wolverine",        universe: "marvel" },
   { id: "storm",           name: "Storm",            universe: "marvel" },
   { id: "cyclops",         name: "Cyclops",          universe: "marvel" },
@@ -62,20 +62,20 @@ const HERO_LIST: { id: string; name: string; universe: "marvel" | "dc" }[] = [
   { id: "nightcrawler",    name: "Nightcrawler",     universe: "marvel" },
   { id: "gambit",          name: "Gambit",           universe: "marvel" },
   { id: "professor-x",     name: "Professor X",      universe: "marvel" },
-  // Guardians of the Galaxy (Marvel heroes)
+  // ── Guardians of the Galaxy (Marvel) ──
   { id: "gamora",          name: "Gamora",           universe: "marvel" },
   { id: "drax",            name: "Drax",             universe: "marvel" },
   { id: "rocket",          name: "Rocket",           universe: "marvel" },
   { id: "groot",           name: "Groot",            universe: "marvel" },
   { id: "nebula",          name: "Nebula",           universe: "marvel" },
-  // DC heroes
+  // ── DC heroes ──
   { id: "starfire",        name: "Starfire",         universe: "dc" },
   { id: "raven",           name: "Raven",            universe: "dc" },
   { id: "beast-boy",       name: "Beast Boy",        universe: "dc" },
   { id: "supergirl",       name: "Supergirl",        universe: "dc" },
   { id: "green-arrow",     name: "Green Arrow",      universe: "dc" },
   { id: "nightwing",       name: "Nightwing",        universe: "dc" },
-  // Marvel villains
+  // ── Marvel villains ──
   { id: "green-goblin",    name: "Green Goblin",     universe: "marvel" },
   { id: "doctor-octopus",  name: "Doctor Octopus",   universe: "marvel" },
   { id: "venom",           name: "Venom",            universe: "marvel" },
@@ -85,7 +85,7 @@ const HERO_LIST: { id: string; name: string; universe: "marvel" | "dc" }[] = [
   { id: "abomination",     name: "Abomination",      universe: "marvel" },
   { id: "killmonger",      name: "Killmonger",       universe: "marvel" },
   { id: "mysterio",        name: "Mysterio",         universe: "marvel" },
-  // DC villains
+  // ── DC villains ──
   { id: "joker",           name: "The Joker",        universe: "dc" },
   { id: "harley-quinn",    name: "Harley Quinn",     universe: "dc" },
   { id: "lex-luthor",      name: "Lex Luthor",       universe: "dc" },
@@ -96,16 +96,22 @@ const HERO_LIST: { id: string; name: string; universe: "marvel" | "dc" }[] = [
   { id: "sinestro",        name: "Sinestro",         universe: "dc" },
   { id: "black-manta",     name: "Black Manta",      universe: "dc" },
   { id: "darkseid",        name: "Darkseid",         universe: "dc" },
-  // Ensembles
-  { id: "x-men",           name: "The X-Men",        universe: "marvel" },
-  { id: "guardians",       name: "Guardians of the Galaxy", universe: "marvel" },
-  { id: "justice-league",  name: "Justice League",   universe: "dc" },
-  { id: "teen-titans",     name: "Teen Titans",      universe: "dc" },
 ];
 
+// Strip leading "The " for sort comparisons so "The Flash" lands with the F's.
+function sortKey(name: string): string {
+  return name.replace(/^The\s+/i, "").toLowerCase();
+}
+
 const ALL_IDS = HERO_LIST.map((h) => h.id);
-const MARVEL_IDS = HERO_LIST.filter((h) => h.universe === "marvel").map((h) => h.id);
-const DC_IDS = HERO_LIST.filter((h) => h.universe === "dc").map((h) => h.id);
+const MARVEL_HEROES = HERO_LIST.filter((h) => h.universe === "marvel")
+  .slice()
+  .sort((a, b) => sortKey(a.name).localeCompare(sortKey(b.name)));
+const DC_HEROES = HERO_LIST.filter((h) => h.universe === "dc")
+  .slice()
+  .sort((a, b) => sortKey(a.name).localeCompare(sortKey(b.name)));
+const MARVEL_IDS = MARVEL_HEROES.map((h) => h.id);
+const DC_IDS = DC_HEROES.map((h) => h.id);
 
 // ─── Config ───────────────────────────────────────────────────────────────────
 
@@ -247,34 +253,63 @@ function ConfigScreen({
           </button>
         </div>
 
-        {/* Hero chips — multi-select */}
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
-          {HERO_LIST.map((h) => {
-            const on = selectedSet.has(h.id);
-            const accent = h.universe === "marvel" ? "var(--marvel-accent)" : "var(--dc-accent)";
-            const tint = h.universe === "marvel" ? "rgba(229,9,20,0.18)" : "rgba(0,153,255,0.18)";
-            return (
-              <button
-                key={h.id}
-                onClick={() => toggleHero(h.id)}
-                style={{
-                  padding: "6px 12px",
-                  borderRadius: 999,
-                  border: on ? `2px solid ${accent}` : "1px solid var(--border)",
-                  background: on ? tint : "transparent",
-                  color: on ? accent : "var(--text-muted)",
-                  fontWeight: on ? 700 : 500,
-                  fontSize: 12,
-                  cursor: "pointer",
-                  transition: "all 0.15s",
-                  whiteSpace: "nowrap",
-                }}
-              >
-                {on ? "✓ " : ""}{h.name}
-              </button>
-            );
-          })}
-        </div>
+        {/* Hero chips — multi-select, grouped by universe, sorted A-Z */}
+        {([
+          { label: "Marvel", heroes: MARVEL_HEROES, accent: "var(--marvel-accent)", tint: "rgba(229,9,20,0.18)" },
+          { label: "DC",     heroes: DC_HEROES,     accent: "var(--dc-accent)",     tint: "rgba(0,153,255,0.18)" },
+        ] as const).map((group) => (
+          <div key={group.label} style={{ marginBottom: 16 }}>
+            <div style={{ fontSize: 10, fontWeight: 800, letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--text-muted)", marginBottom: 8 }}>
+              {group.label}
+            </div>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+              {group.heroes.map((h) => {
+                const on = selectedSet.has(h.id);
+                return (
+                  <button
+                    key={h.id}
+                    onClick={() => toggleHero(h.id)}
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: 8,
+                      padding: "4px 12px 4px 4px",
+                      borderRadius: 999,
+                      border: on ? `2px solid ${group.accent}` : "1px solid var(--border)",
+                      background: on ? group.tint : "transparent",
+                      color: on ? group.accent : "var(--text-secondary)",
+                      fontWeight: on ? 700 : 500,
+                      fontSize: 13,
+                      cursor: "pointer",
+                      transition: "all 0.15s",
+                      whiteSpace: "nowrap",
+                    }}
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={`/avatars/${h.universe}/${h.id}.webp`}
+                      alt=""
+                      aria-hidden
+                      width={24}
+                      height={24}
+                      loading="lazy"
+                      style={{
+                        width: 24,
+                        height: 24,
+                        borderRadius: "50%",
+                        objectFit: "cover",
+                        background: "var(--surface)",
+                        filter: on ? "none" : "saturate(0.7)",
+                        opacity: on ? 1 : 0.85,
+                      }}
+                    />
+                    {h.name}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        ))}
       </div>
 
       {/* Question count */}

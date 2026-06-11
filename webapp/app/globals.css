@@ -113,6 +113,10 @@ body {
   transform: translateY(-4px);
 }
 
+.hero-search-input::placeholder { color: var(--text-muted); opacity: 0.7; font-weight: 400; }
+.hero-search-input::-webkit-search-cancel-button { display: none; }
+.hero-search-input::-webkit-search-decoration { display: none; }
+
 ::-webkit-scrollbar       { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--text-muted); border-radius: 10px; }

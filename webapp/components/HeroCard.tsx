@@ -88,7 +88,7 @@ export default function HeroCard({ hero }: HeroCardProps) {
           }}>
             <img
               src={hero.avatarSrc ?? (hero.universe === "avengers"
-                ? `/avatars/avengers/avengers.svg`
+                ? `/avatars/avengers/avengers.${hero.avatarFormat ?? "webp"}`
                 : `/avatars/${hero.universe}/${hero.id}.${hero.avatarFormat ?? "webp"}`)}
               alt={hero.name}
               width={68}

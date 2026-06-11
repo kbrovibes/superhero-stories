@@ -10,3 +10,4 @@ parts/
 
 # hero reference photos + generation scripts (not shipped)
 hero-images/
+.vercel

@@ -27,7 +27,7 @@ export default function Home() {
     emoji: e.emoji,
     universe: "avengers" as const,
     href: e.route,
-    avatarSrc: e.id === "avengers" ? "/avatars/avengers/avengers.svg" : `/avatars/teams/${e.id}.svg`,
+    avatarSrc: e.id === "avengers" ? "/avatars/avengers/avengers.webp" : `/avatars/teams/${e.id}.svg`,
     kicker: "ENSEMBLE",
   }));
 
@@ -48,7 +48,7 @@ export default function Home() {
       <NavBar crumbs={[]} />
       <main style={{ maxWidth: 600, margin: "0 auto", padding: "28px 20px" }}>
         <div style={{ marginBottom: 28, textAlign: "center" }}>
-          <h1 className="liquid-text" style={{ margin: 0, lineHeight: 0.88, display: "flex", flexDirection: "column", alignItems: "flex-start" }}>
+          <h1 className="liquid-text" style={{ margin: 0, lineHeight: 0.88, display: "flex", flexDirection: "column", alignItems: "center" }}>
             <span style={{ fontSize: 52, fontWeight: 900, textTransform: "uppercase", letterSpacing: "-0.01em", display: "block" }}>Superhero</span>
             <span style={{ fontSize: 74, fontWeight: 900, textTransform: "uppercase", letterSpacing: "-0.02em", display: "block" }}>Stories</span>
           </h1>
