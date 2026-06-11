@@ -40,25 +40,50 @@ export default function ThemeSwitcher() {
         aria-expanded={open}
         title={`Theme: ${currentMeta.label}`}
         style={{
-          width: 36,
-          height: 36,
+          width: 28,
+          height: 28,
           borderRadius: 999,
           border: "1px solid var(--border)",
-          background: currentMeta.swatch,
+          background: "transparent",
+          color: "var(--text-muted)",
           cursor: "pointer",
           padding: 0,
-          boxShadow: "0 0 0 2px rgba(10,10,15,0.6) inset",
-          transition: "transform 0.15s, border-color 0.2s",
+          display: "inline-flex",
+          alignItems: "center",
+          justifyContent: "center",
+          position: "relative",
+          transition: "color 0.18s, border-color 0.18s, background 0.18s",
         }}
         onMouseEnter={(e) => {
-          e.currentTarget.style.transform = "scale(1.06)";
+          e.currentTarget.style.color = "var(--text-primary)";
           e.currentTarget.style.borderColor = "var(--border-hover)";
         }}
         onMouseLeave={(e) => {
-          e.currentTarget.style.transform = "scale(1)";
+          e.currentTarget.style.color = "var(--text-muted)";
           e.currentTarget.style.borderColor = "var(--border)";
         }}
-      />
+      >
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+          <path d="M8 14.5A6.5 6.5 0 1 1 8 1.5c3.59 0 6.5 2.46 6.5 5.5 0 1.93-1.57 3.5-3.5 3.5h-1.25a1.25 1.25 0 0 0-1.04 1.94l.16.24a1.5 1.5 0 0 1-1.32 2.32H8z"/>
+          <circle cx="4.5" cy="7" r="0.85" fill="currentColor" stroke="none"/>
+          <circle cx="7" cy="4" r="0.85" fill="currentColor" stroke="none"/>
+          <circle cx="10.5" cy="4.5" r="0.85" fill="currentColor" stroke="none"/>
+          <circle cx="12.5" cy="8" r="0.85" fill="currentColor" stroke="none"/>
+        </svg>
+        <span
+          aria-hidden
+          style={{
+            position: "absolute",
+            bottom: -1,
+            right: -1,
+            width: 8,
+            height: 8,
+            borderRadius: "50%",
+            background: currentMeta.swatch,
+            boxShadow: "0 0 0 1.5px rgba(10,10,15,0.95)",
+          }}
+        />
+      </button>
       {open && (
         <div
           role="menu"

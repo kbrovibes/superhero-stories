@@ -67,8 +67,8 @@ function DarkGradientCard({ hero }: HeroCardProps) {
           className="liquid-card"
           style={{
             aspectRatio: "1 / 1",
-            borderRadius: "16px 5px 16px 5px",
-            padding: "8px 8px 11px",
+            borderRadius: "20px 6px 20px 6px",
+            padding: "10px 10px 14px",
             display: "flex", flexDirection: "column",
             alignItems: "center", justifyContent: "center",
             gap: 2, cursor: "pointer", position: "relative", overflow: "hidden",
@@ -81,7 +81,7 @@ function DarkGradientCard({ hero }: HeroCardProps) {
             style={{ position: "absolute", width: "150%", height: "150%", background: `radial-gradient(circle, ${theme.accent} 0%, transparent 70%)`, filter: "blur(40px)", zIndex: 1, pointerEvents: "none" }}
           />
           <div style={{
-            width: 52, height: 52, borderRadius: "50%", overflow: "hidden",
+            width: 68, height: 68, borderRadius: "50%", overflow: "hidden",
             border: `2px solid ${theme.accent}66`,
             boxShadow: hovered ? `0 0 0 3px ${theme.accent}33, 0 8px 24px ${theme.accent}55` : `0 0 0 1px ${theme.accent}22, 0 3px 10px rgba(0,0,0,0.5)`,
             transform: hovered ? "scale(1.08)" : "scale(1)",
@@ -92,8 +92,8 @@ function DarkGradientCard({ hero }: HeroCardProps) {
             <div style={{ position: "absolute", inset: 0, borderRadius: "50%", background: "radial-gradient(circle, transparent 55%, rgba(5,5,8,0.55) 100%)", pointerEvents: "none" }} />
           </div>
           <div style={{ textAlign: "center", display: "flex", flexDirection: "column", gap: 2, zIndex: 2 }}>
-            <span style={{ fontSize: 10, fontWeight: 500, color: "#fff", textTransform: "uppercase", letterSpacing: "0.04em", lineHeight: 1.15, transition: "all 0.3s ease", textShadow: "0 1px 3px rgba(0,0,0,0.45)" }}>{hero.name}</span>
-            <span style={{ fontSize: 7.5, fontWeight: 700, color: theme.accent, textTransform: "uppercase", letterSpacing: "0.15em", opacity: hovered ? 1 : 0.9, transition: "opacity 0.3s ease", textShadow: `0 0 10px ${theme.accent}44` }}>
+            <span style={{ fontSize: 11, fontWeight: 500, color: "#fff", textTransform: "uppercase", letterSpacing: "0.05em", lineHeight: 1.15, transition: "all 0.3s ease", textShadow: "0 1px 3px rgba(0,0,0,0.45)" }}>{hero.name}</span>
+            <span style={{ fontSize: 8.5, fontWeight: 700, color: theme.accent, textTransform: "uppercase", letterSpacing: "0.15em", opacity: hovered ? 1 : 0.9, transition: "opacity 0.3s ease", textShadow: `0 0 10px ${theme.accent}44` }}>
               {hero.kicker ?? hero.universe}
             </span>
           </div>
