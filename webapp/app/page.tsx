@@ -1,7 +1,6 @@
 import Link from "next/link";
 import NavBar from "@/components/NavBar";
-import HeroCard from "@/components/HeroCard";
-import UniverseSection from "@/components/UniverseSection";
+import HeroBrowser, { type CardEntry, type Section } from "@/components/HeroBrowser";
 import { getAllCandidates, getHeroes } from "@/lib/stories";
 import React from "react";
 
@@ -26,28 +25,17 @@ export default function Home() {
     universe: "thanos" as const,
   };
 
-  type CardEntry = {
-    id: string;
-    name: string;
-    emoji: string;
-    universe: "marvel" | "dc" | "avengers" | "thanos";
-    avatarFormat?: "webp" | "svg";
-  };
-
-  const renderCards = (list: CardEntry[]) =>
-    list.map((hero, index) => (
-      <div
-        key={hero.id}
-        style={{
-          animationDelay: `${index * 40}ms`,
-          animationName: "fadeIn",
-          animationDuration: "0.4s",
-          animationFillMode: "both",
-        }}
-      >
-        <HeroCard hero={hero} />
-      </div>
-    ));
+  const sections: Section[] = [
+    { label: "ENSEMBLE", entries: [avengersEntry] },
+    { label: "MARVEL · HEROES", entries: marvelHeroes },
+    ...(marvelVillains.length > 0
+      ? [{ label: "MARVEL · VILLAINS", entries: [...marvelVillains, thanosEntry] as CardEntry[] }]
+      : []),
+    { label: "DC · HEROES", entries: dcHeroes },
+    ...(dcVillains.length > 0
+      ? [{ label: "DC · VILLAINS", entries: dcVillains as CardEntry[] }]
+      : []),
+  ];
 
   return (
     <>
@@ -133,29 +121,7 @@ export default function Home() {
           </div>
         </div>
 
-        <UniverseSection label="ENSEMBLE" count={1}>
-          {renderCards([avengersEntry])}
-        </UniverseSection>
-
-        <UniverseSection label="MARVEL · HEROES" count={marvelHeroes.length}>
-          {renderCards(marvelHeroes)}
-        </UniverseSection>
-
-        {(marvelVillains.length > 0) && (
-          <UniverseSection label="MARVEL · VILLAINS" count={marvelVillains.length + 1}>
-            {renderCards([...marvelVillains, thanosEntry])}
-          </UniverseSection>
-        )}
-
-        <UniverseSection label="DC · HEROES" count={dcHeroes.length}>
-          {renderCards(dcHeroes)}
-        </UniverseSection>
-
-        {(dcVillains.length > 0) && (
-          <UniverseSection label="DC · VILLAINS" count={dcVillains.length}>
-            {renderCards(dcVillains)}
-          </UniverseSection>
-        )}
+        <HeroBrowser sections={sections} />
       </main>
     </>
   );

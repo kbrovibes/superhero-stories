@@ -91,11 +91,12 @@ function describeSelection(selected: string[]): string {
 //   "<heroId>"               → single hero
 //   "id1,id2,id3"            → multi
 function parseInitialSelection(scope: string | null): string[] {
-  if (!scope || scope === "all") return [...ALL_IDS];
+  if (!scope) return [];
+  if (scope === "all") return [...ALL_IDS];
   if (scope === "marvel") return [...MARVEL_IDS];
   if (scope === "dc") return [...DC_IDS];
   const ids = scope.split(",").map((s) => s.trim()).filter((id) => ALL_IDS.includes(id));
-  return ids.length > 0 ? ids : [...ALL_IDS];
+  return ids;
 }
 
 // ─── Config Screen ────────────────────────────────────────────────────────────

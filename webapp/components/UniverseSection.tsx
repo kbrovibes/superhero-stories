@@ -35,14 +35,13 @@ export default function UniverseSection({ label, count, children }: { label: str
             }}
           />
         </div>
-        <span style={{ 
-          fontSize: 9, 
-          color: "var(--text-muted)", 
+        <span style={{
+          fontSize: 11,
+          color: "var(--text-muted)",
           fontWeight: 700,
-          textTransform: "uppercase",
-          letterSpacing: "0.1em"
+          fontVariantNumeric: "tabular-nums"
         }}>
-          {count} Units
+          {count}
         </span>
       </div>
       <div style={{
