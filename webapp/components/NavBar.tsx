@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import ThemeSwitcher from "@/components/ThemeSwitcher";
 
 interface Crumb { label: string; href?: string; }
 interface NavBarProps { crumbs: Crumb[]; }
@@ -88,6 +89,7 @@ export default function NavBar({ crumbs }: NavBarProps) {
           </span>
         ))}
       </div>
+      <ThemeSwitcher />
     </motion.nav>
   );
 }

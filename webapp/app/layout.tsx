@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { PREHYDRATE_SCRIPT } from "@/lib/tile-theme";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,6 +42,9 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: PREHYDRATE_SCRIPT }} />
+      </head>
       <body className="min-h-full flex flex-col">
         <div className="liquid-bg">
           <div className="blob" />

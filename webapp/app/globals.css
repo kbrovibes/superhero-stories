@@ -42,6 +42,43 @@ body {
   overflow-x: hidden;
   min-height: 100vh;
   position: relative;
+  transition: background-color 0.35s ease;
+}
+
+/* ─── Tile Theme: page backdrops + variable overrides ───────────────── */
+html[data-tile-theme="minimal-glass"] body {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  background-attachment: fixed;
+}
+html[data-tile-theme="polaroid"] body      { background: #f0ebe1; }
+html[data-tile-theme="comic-panel"] body   { background: #fff8e7; }
+html[data-tile-theme="sticker"] body       { background: #e8efff; }
+
+html[data-tile-theme="polaroid"],
+html[data-tile-theme="comic-panel"],
+html[data-tile-theme="sticker"] {
+  --text-primary:   #1d1d1f;
+  --text-secondary: #4a4a4f;
+  --text-muted:     #8e8e93;
+  --surface:        rgba(255,255,255,0.7);
+  --surface-raised: rgba(255,255,255,0.95);
+  --border:         rgba(0,0,0,0.12);
+  --border-hover:   rgba(0,0,0,0.25);
+}
+html[data-tile-theme="polaroid"] .liquid-bg,
+html[data-tile-theme="comic-panel"] .liquid-bg,
+html[data-tile-theme="sticker"] .liquid-bg {
+  display: none;
+}
+/* In light themes the .liquid-text masked gradient becomes hard to read; flatten it */
+html[data-tile-theme="polaroid"] .liquid-text,
+html[data-tile-theme="comic-panel"] .liquid-text,
+html[data-tile-theme="sticker"] .liquid-text {
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  background-clip: initial !important;
+  -webkit-text-fill-color: initial !important;
+  color: var(--text-primary) !important;
 }
 
 /* Liquid Morph Background Blobs - Aggressively Faded */
