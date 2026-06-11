@@ -1,0 +1,402 @@
+[
+  {
+    "id": "drax-trivia-1",
+    "question": "What was Drax's human name before he became the Destroyer?",
+    "options": ["Peter Quill", "Arthur Douglas", "Richard Rider", "James Douglas"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Drax was originally Arthur Douglas, an ordinary man whose spirit was placed in a new powerful body."
+  },
+  {
+    "id": "drax-trivia-2",
+    "question": "Which cosmic being rescued Arthur Douglas's spirit and gave him a new powerful body?",
+    "options": ["Mentor", "Thanos", "Ronan", "Ego"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Mentor, an elder of Titan, rescued Arthur's spirit and built him the powerful body of Drax the Destroyer."
+  },
+  {
+    "id": "drax-trivia-3",
+    "question": "What planet did Drax wake up on after his body was created?",
+    "options": ["Xandar", "Earth", "Knowhere", "Titan"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Drax woke up on the moon Titan, where he trained and prepared for his mission against Thanos."
+  },
+  {
+    "id": "drax-trivia-4",
+    "question": "What is the name of Drax's daughter?",
+    "options": ["Gamora", "Heather", "Nebula", "Moonstone"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Drax's daughter is named Heather Douglas, who grew up to become the hero called Moondragon."
+  },
+  {
+    "id": "drax-trivia-5",
+    "question": "What hero did Heather Douglas become when she grew up?",
+    "options": ["Quasar", "Nova", "Moondragon", "Firestar"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Heather Douglas trained on Titan and became the hero Moondragon, with powerful telepathic and telekinetic abilities."
+  },
+  {
+    "id": "drax-trivia-6",
+    "question": "Which weapons does Drax prefer to use in battle?",
+    "options": ["A giant hammer", "Twin daggers", "Energy blasters", "A sword called Godslayer"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Drax fights with two daggers — simple, precise blades he trained with for years on Titan."
+  },
+  {
+    "id": "drax-trivia-7",
+    "question": "Which villain attacked Arthur Douglas's family in the Nevada desert?",
+    "options": ["Ronan the Accuser", "The Collector", "Dormammu", "Thanos"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Thanos attacked the Douglas family while passing over the Nevada desert, which is what set Drax on his path."
+  },
+  {
+    "id": "drax-trivia-8",
+    "question": "What team does Drax belong to?",
+    "options": ["The Avengers", "The Eternals", "The X-Men", "The Guardians of the Galaxy"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Drax is a core member of the Guardians of the Galaxy alongside Star-Lord, Gamora, Rocket, and Groot."
+  },
+  {
+    "id": "drax-trivia-9",
+    "question": "What is unusual about the way Drax understands language?",
+    "options": ["He only speaks in rhymes", "He speaks only ancient Titan dialects", "He communicates only by roaring", "He takes everything completely literally"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Drax takes every word literally and cannot understand metaphors or figures of speech, which is often gently funny."
+  },
+  {
+    "id": "drax-trivia-10",
+    "question": "What tradition do Drax's ritual body markings come from?",
+    "options": ["Celestial branding", "Kylosian warrior tattoos", "Titan inscriptions", "Destroyer runes"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Drax's tattoos come from the Kylosian warrior tradition, where marks represent oaths taken and losses honored."
+  },
+  {
+    "id": "drax-trivia-11",
+    "question": "What is the name of Ronan's massive warship?",
+    "options": ["The Sanctuary", "The Statesman", "The Dark Aster", "The Sovereign"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Ronan commanded the Dark Aster, the warship he flew toward Xandar with the Power Stone."
+  },
+  {
+    "id": "drax-trivia-12",
+    "question": "Where did Drax fight Ronan for the first time and end up sinking into yellow liquid pools?",
+    "options": ["Xandar", "Knowhere", "Titan", "The Kyln"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Drax challenged Ronan at Knowhere, a mining station inside an ancient Celestial's skull, and lost the first fight."
+  },
+  {
+    "id": "drax-trivia-13",
+    "question": "What did Drax say after losing his first fight with Ronan on Knowhere?",
+    "options": ["'I will return stronger!'", "'I was mistaken. I thought I was ready.'", "'I do not feel pain.'", "'This is not over, Ronan!'"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Drax honestly admitted, 'I was mistaken. I thought I was ready,' showing his character even in defeat."
+  },
+  {
+    "id": "drax-trivia-14",
+    "question": "What is Knowhere described as being?",
+    "options": ["The skull of an ancient Celestial", "A moon of Xandar", "A Kree space station", "A Titan outpost"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Knowhere is a mining settlement built inside the severed skull of an ancient Celestial being."
+  },
+  {
+    "id": "drax-trivia-15",
+    "question": "The Power Stone is one of how many Infinity Stones in total?",
+    "options": ["Four", "Five", "Eight", "Six"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "There are six Infinity Stones in total — the Power Stone is one of them, each with a different color and power."
+  },
+  {
+    "id": "drax-trivia-16",
+    "question": "What weapon does Ronan the Accuser carry?",
+    "options": ["The Universal Weapon", "A vibranium axe", "A cosmic lance", "Twin swords"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Ronan carries the Universal Weapon, a massive stone war hammer that crackles with blue energy."
+  },
+  {
+    "id": "drax-trivia-17",
+    "question": "Which planet was Drax standing on when he faced Thanos with Iron Man and Spider-Man?",
+    "options": ["Xandar", "Titan", "Knowhere", "Vormir"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "The heroes ambushed Thanos on Titan, the ruins of what had once been the Mad Titan's home world."
+  },
+  {
+    "id": "drax-trivia-18",
+    "question": "What did Drax say to keep Star-Lord from worrying before the battle on Titan?",
+    "options": ["'Fear nothing — I am here.'", "'I am calm.'", "'This ends now.'", "'I am ready to die today.'"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Drax announced 'I am calm' in a voice that sounded the complete opposite, much to everyone's amusement."
+  },
+  {
+    "id": "drax-trivia-19",
+    "question": "What are the names Drax privately gives to his two daggers?",
+    "options": ["Rage and Justice", "Sorrow and Purpose", "Fire and Stone", "Loss and Hope"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Drax secretly names his daggers Sorrow and Purpose — one for what he lost, one for what he chose to do about it."
+  },
+  {
+    "id": "drax-trivia-20",
+    "question": "Who was the Titan metalsmith that forged Drax's daggers?",
+    "options": ["Isaac", "Kotath", "Eitri", "Peliali"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "A Titan metalsmith named Peliali forged Drax's daggers from a special metal alloy built to Drax's exact specifications."
+  },
+  {
+    "id": "drax-trivia-21",
+    "question": "What is the first set of tattoo marks on Drax's shoulders called?",
+    "options": ["Oaths of Battle", "Rings of Titan", "Marks of Becoming", "Seals of the Destroyer"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "The Marks of Becoming acknowledge the ordinary human life of Arthur Douglas as the foundation of everything Drax is."
+  },
+  {
+    "id": "drax-trivia-22",
+    "question": "Where on his body did Drax ask for the marks honoring Yvette and Heather?",
+    "options": ["Above his heart", "On his arms", "On his back", "On his neck"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Drax chose to have the marks for his wife and daughter placed directly above his heart."
+  },
+  {
+    "id": "drax-trivia-23",
+    "question": "The Guardians of the Galaxy first met in which location?",
+    "options": ["Xandar", "Knowhere", "The Kyln prison", "The Milano"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "The Guardians all ended up in the floating prison called the Kyln, which is where their unlikely team began."
+  },
+  {
+    "id": "drax-trivia-24",
+    "question": "What are the only three words that Groot ever says?",
+    "options": ["'We are Groot.'", "'I am Groot.'", "'Groot is here.'", "'Groot protects you.'"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Groot's only words are 'I am Groot,' though careful listeners can hear different meanings in how he says them."
+  },
+  {
+    "id": "drax-trivia-25",
+    "question": "How did Groot protect the Guardians when their ship crashed over Xandar?",
+    "options": ["He formed a giant shield above the ship", "He grew a parachute of leaves", "He caught the ship with his roots", "He wrapped his branches around the whole group like a cocoon"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Groot spread his branches around the entire group to protect them from the crash, sacrificing himself to do it."
+  },
+  {
+    "id": "drax-trivia-26",
+    "question": "After the crash on Xandar, what was left of Groot that Rocket found?",
+    "options": ["A pile of bark", "A single leaf", "A large trunk section", "A single small twig"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Rocket found a single small twig with a tiny bud — still alive — from which Groot slowly grew back."
+  },
+  {
+    "id": "drax-trivia-27",
+    "question": "What was the name of the elder who raised Heather Douglas on Titan?",
+    "options": ["Eros", "Isaac", "Mentor", "Thane"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "A Titan elder named Isaac found Heather Douglas as a child and raised her, training her extraordinary mental abilities."
+  },
+  {
+    "id": "drax-trivia-28",
+    "question": "What monastery did Heather Douglas train at to develop her mental powers?",
+    "options": ["The Temple of the Celestials", "The House of Stars", "The Monastery of the Moon", "The Monastery of the Dragon of the Moon"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Heather trained at the Monastery of the Dragon of the Moon on Titan, mastering telepathy and telekinesis."
+  },
+  {
+    "id": "drax-trivia-29",
+    "question": "What does Drax always call Heather, even though she has a hero name?",
+    "options": ["Heather", "Moondragon", "Hero", "Destroyer"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Drax always calls his daughter 'Heather' rather than her hero name Moondragon — she pretends this is annoying."
+  },
+  {
+    "id": "drax-trivia-30",
+    "question": "What is the name of the Guardians' spaceship?",
+    "options": ["The Ravager", "The Milano", "The Dark Aster", "The Benatar"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "The Guardians fly in a ship called the Milano, which Star-Lord named after actress Alyssa Milano."
+  },
+  {
+    "id": "drax-trivia-31",
+    "question": "What was Ego's plan that the Guardians had to stop?",
+    "options": ["To steal all the Infinity Stones", "To destroy Xandar with the Power Stone", "To spread his own living matter across every planet in the galaxy", "To capture all the Guardians for Thanos"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Ego planned to spread his living matter across every world in the galaxy, absorbing all other life."
+  },
+  {
+    "id": "drax-trivia-32",
+    "question": "What relationship does Ego have to Star-Lord?",
+    "options": ["His uncle", "His clone creator", "His grandfather", "His father"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Ego is Peter Quill's biological father — a Celestial being who gave Star-Lord his half-Celestial powers."
+  },
+  {
+    "id": "drax-trivia-33",
+    "question": "What did Drax call Ego before the truth was revealed?",
+    "options": ["A Celestial of great power", "A being of grace and honor", "An unusual but honest man", "A magnificent liar"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Drax told Gamora that Ego was 'a being of grace and honor' — something he found embarrassing after learning the truth."
+  },
+  {
+    "id": "drax-trivia-34",
+    "question": "Who carried the bomb through Ego's living core to destroy his power source?",
+    "options": ["Drax", "Gamora", "Baby Groot", "Rocket"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Baby Groot — small, determined, and brave — carried the bomb through Ego's core while the others fought."
+  },
+  {
+    "id": "drax-trivia-35",
+    "question": "What did Drax do when Peter Quill was sad after the battle with Ego?",
+    "options": ["He told a joke to cheer him up", "He gave a speech about loss", "He challenged Peter to a sparring match", "He put one hand on Peter's shoulder and said nothing"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Drax simply put his hand on Peter's shoulder and stayed quiet — understanding some feelings don't need words."
+  },
+  {
+    "id": "drax-trivia-36",
+    "question": "What crime syndicate threatened the miners of Vesper Station?",
+    "options": ["The Sovereignty", "The Kree Empire", "The Ravagers", "The Chitauri"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "A crime syndicate called the Sovereignty tried to take over Vesper Station, prompting the Guardians to answer the distress call."
+  },
+  {
+    "id": "drax-trivia-37",
+    "question": "What is the name of the young girl Drax comforted on Vesper Station?",
+    "options": ["Zuri", "Heather", "Mirava", "Lena"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Mirava was the six-year-old girl Drax sat beside on the floor and calmly reassured during the Vesper Station crisis."
+  },
+  {
+    "id": "drax-trivia-38",
+    "question": "What did Mirava name her first deep-core drill when she grew up?",
+    "options": ["The Milano", "The Avenger", "The Guardian", "The Destroyer"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Mirava named her drill the Destroyer in honor of Drax, who helped her not be afraid on the day they met."
+  },
+  {
+    "id": "drax-trivia-39",
+    "question": "What is Mentor's relationship to Thanos?",
+    "options": ["His brother", "His teacher", "His rival", "His father"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Mentor is Thanos's father — he created Drax partly out of sorrow over the terrible things his own son had done."
+  },
+  {
+    "id": "drax-trivia-40",
+    "question": "When Star-Lord said their plan was 'a piece of cake,' what did Drax do?",
+    "options": ["He agreed enthusiastically", "He laughed loudly", "He looked around for the cake", "He asked what flavor"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "drax",
+    "explanation": "Because Drax takes everything literally, he looked around for an actual cake — a perfect example of his literal-mindedness."
+  }
+]

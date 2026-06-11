@@ -1,0 +1,402 @@
+[
+  {
+    "id": "groot-trivia-1",
+    "question": "What are the only three words Groot can say?",
+    "options": ["We are Groot", "I love you", "I am Groot", "I need help"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "No matter what Groot wants to express, he can only say the three words 'I am Groot.'"
+  },
+  {
+    "id": "groot-trivia-2",
+    "question": "What planet is Groot originally from?",
+    "options": ["Xandar", "Planet X", "Titan", "Asgard"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Groot comes from Planet X, home world of the ancient Flora Colossi species."
+  },
+  {
+    "id": "groot-trivia-3",
+    "question": "What is the name of Groot's species?",
+    "options": ["Celestials", "Kree", "Asgardians", "Flora Colossi"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Groot belongs to an ancient species called the Flora Colossi who live on Planet X."
+  },
+  {
+    "id": "groot-trivia-4",
+    "question": "Who is Groot's best friend among the Guardians?",
+    "options": ["Rocket", "Star-Lord", "Gamora", "Drax"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Rocket and Groot are inseparable best friends — Rocket is the only one who understands everything Groot says."
+  },
+  {
+    "id": "groot-trivia-5",
+    "question": "What team does Groot belong to?",
+    "options": ["The Avengers", "The X-Men", "The Guardians of the Galaxy", "The Nova Corps"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Groot is a proud member of the Guardians of the Galaxy alongside Star-Lord, Gamora, Drax, and Rocket."
+  },
+  {
+    "id": "groot-trivia-6",
+    "question": "What color do Groot's eyes glow?",
+    "options": ["Red", "Gold", "Blue", "Violet"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Groot's eyes glow with a soft violet light, like lanterns in the dark."
+  },
+  {
+    "id": "groot-trivia-7",
+    "question": "What is the name of Star-Lord's spaceship that is the Guardians' home?",
+    "options": ["The Dark Aster", "The Milano", "The Sanctuary", "The Nova Ship"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "The Guardians call the Milano home — it's Star-Lord's ship, named after actress Alyssa Milano."
+  },
+  {
+    "id": "groot-trivia-8",
+    "question": "What is the name of the Mad Titan who wants all six Infinity Stones?",
+    "options": ["Ronan", "Corvus Glaive", "Ebony Maw", "Thanos"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Thanos is the Mad Titan who commands the Black Order and seeks all six Infinity Stones."
+  },
+  {
+    "id": "groot-trivia-9",
+    "question": "What is Groot's most extraordinary biological ability?",
+    "options": ["Invisibility", "Regeneration from a single twig", "Mind control", "Breathing in space"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Groot can regrow his entire body from a single twig — he cannot be permanently stopped."
+  },
+  {
+    "id": "groot-trivia-10",
+    "question": "Why was Groot exiled from Planet X?",
+    "options": ["He stole from the elders", "He refused to fight in battle", "He sheltered a lost human child in the sacred groves", "He destroyed the forest"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Groot was exiled for sheltering a small human child in Planet X's sacred groves, breaking the old laws."
+  },
+  {
+    "id": "groot-trivia-11",
+    "question": "What is Knowhere built inside?",
+    "options": ["A hollow moon", "A Kree battle station", "The skull of a dead Celestial", "An ancient asteroid"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Knowhere is an ancient space station and mining colony carved from inside the skull of a long-dead Celestial."
+  },
+  {
+    "id": "groot-trivia-12",
+    "question": "What is Ronan the Accuser's weapon called?",
+    "options": ["The Cosmi-Rod", "The Power Hammer", "The Dark Blade", "The Infinity Lance"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Ronan carries the Cosmi-Rod, a great stone hammer that he uses to enforce his terrible will."
+  },
+  {
+    "id": "groot-trivia-13",
+    "question": "Which Infinity Stone did Ronan use against Xandar?",
+    "options": ["The Mind Stone", "The Space Stone", "The Time Stone", "The Power Stone"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Ronan set the Power Stone — which glows purple — into his Cosmi-Rod and aimed it at the planet Xandar."
+  },
+  {
+    "id": "groot-trivia-14",
+    "question": "What is Ronan the Accuser's warship called?",
+    "options": ["The Sanctuary", "The Black Ship", "The Dark Aster", "The Celestial Blade"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Ronan's enormous warship is called the Dark Aster — a black, blade-shaped fortress of a ship."
+  },
+  {
+    "id": "groot-trivia-15",
+    "question": "Which space police force protects the planet Xandar?",
+    "options": ["The Nova Corps", "The Kree Empire", "The Sovereign Guard", "The Black Order"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "The Nova Corps is Xandar's space police force; they secured the Power Stone after the Guardians defeated Ronan."
+  },
+  {
+    "id": "groot-trivia-16",
+    "question": "What does Groot grow around his friends when the Dark Aster is crashing?",
+    "options": ["A giant leaf", "A metal cage", "A root ball", "A protective bark cocoon"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Groot grows a dense cocoon of interlocked living bark branches around all his friends to protect them from the crash."
+  },
+  {
+    "id": "groot-trivia-17",
+    "question": "Who collects Groot's broken pieces after the crash on Xandar and plants them?",
+    "options": ["Star-Lord", "Gamora", "Rocket", "Drax"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Rocket carefully gathers every twig and bark fragment after the crash and plants them in a small pot of soil."
+  },
+  {
+    "id": "groot-trivia-18",
+    "question": "What is the full name of the villain who runs a museum at Knowhere?",
+    "options": ["Thanos the Collector", "Taneleer Tivan the Collector", "Ebony Maw", "Ronan the Accuser"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Taneleer Tivan, known as the Collector, fills his museum with rare specimens and wanted to add Groot to his collection."
+  },
+  {
+    "id": "groot-trivia-19",
+    "question": "What does Groot do when he sees a small bird trapped in the Collector's cage?",
+    "options": ["He asks the Collector to release it", "He breaks the cage open", "He walks past it", "He trades for it"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Without hesitation, Groot snaps the cage latch off and frees the imprisoned bird."
+  },
+  {
+    "id": "groot-trivia-20",
+    "question": "Where in Groot's body is his consciousness located?",
+    "options": ["Only in his head", "Spread through his whole body from root to crown", "Only in his heart", "Only in his roots"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Groot's consciousness is distributed throughout his entire body, which is why a blow to the head barely affects him."
+  },
+  {
+    "id": "groot-trivia-21",
+    "question": "On which ruined moon do the Guardians meet Tony Stark and Doctor Strange?",
+    "options": ["Xandar", "Knowhere", "Asgard", "Titan"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Titan is the ruined dead moon — originally Thanos's home world — where the Guardians team up with Stark and Strange."
+  },
+  {
+    "id": "groot-trivia-22",
+    "question": "What is Doctor Strange's Infinity Stone called?",
+    "options": ["The Power Stone", "The Time Stone", "The Soul Stone", "The Mind Stone"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Doctor Strange wears the Time Stone around his neck on a chain — it is the Stone Thanos wants."
+  },
+  {
+    "id": "groot-trivia-23",
+    "question": "What is Star-Lord's real first name?",
+    "options": ["Tony", "James", "Peter", "Steve"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Star-Lord's real name is Peter Quill — he grew up on Earth before leaving for the stars."
+  },
+  {
+    "id": "groot-trivia-24",
+    "question": "What kind of animal does Rocket look like?",
+    "options": ["A fox", "A cat", "A raccoon", "A small bear"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Rocket looks like a raccoon, though a very clever one with mechanical augmentations and strong opinions."
+  },
+  {
+    "id": "groot-trivia-25",
+    "question": "What is the name of Thanos's group of generals?",
+    "options": ["The Nova Corps", "The Sakaaran Army", "The Black Order", "The Sovereign Guard"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Thanos commands the Black Order — generals including Proxima Midnight, Corvus Glaive, and Ebony Maw."
+  },
+  {
+    "id": "groot-trivia-26",
+    "question": "What does Groot build around an injured bird on the Milano's deck?",
+    "options": ["A tiny bark shelter with air holes", "A nest of leaves", "A water container", "A vine hammock"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Groot carefully grows a curved bark shelter with air holes around the injured bird to keep it warm and still."
+  },
+  {
+    "id": "groot-trivia-27",
+    "question": "What happens to Groot on soil-rich worlds like the moons of the Pama system?",
+    "options": ["He falls asleep for days", "He loses his bark and turns green", "He grows noticeably taller and stronger within hours", "He cannot speak"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "On soil-rich worlds like the Pama moons, Groot grows noticeably bigger within hours and his chest glows brighter."
+  },
+  {
+    "id": "groot-trivia-28",
+    "question": "What planet is Tony Stark — Iron Man — from?",
+    "options": ["Asgard", "Earth", "Planet X", "Titan"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Tony Stark — Iron Man — is from Earth, the same small blue planet as Star-Lord."
+  },
+  {
+    "id": "groot-trivia-29",
+    "question": "What color is the Power Stone?",
+    "options": ["Blue", "Gold", "Green", "Purple"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "The Power Stone glows with a deep, furious purple — it is pure, raw, destructive energy."
+  },
+  {
+    "id": "groot-trivia-30",
+    "question": "How many Infinity Stones are there in total?",
+    "options": ["Four", "Six", "Five", "Eight"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "There are six Infinity Stones in total — each one a different color, each one with a different impossible power."
+  },
+  {
+    "id": "groot-trivia-31",
+    "question": "What did Rocket do every single day while Groot was just a twig in a pot?",
+    "options": ["He watered the pot three times a day", "He kept the pot under special lights", "He guarded the pot from enemies", "He talked to the pot every day"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Rocket talked to the pot every single day — describing what was happening, arguing, and once even apologizing."
+  },
+  {
+    "id": "groot-trivia-32",
+    "question": "How can three words express so many different feelings for Groot?",
+    "options": ["He uses sign language alongside them", "He puts his whole heart into each syllable so the meaning changes", "He changes the order of the words", "Only Rocket understands a secret code"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Groot puts his whole heart into every syllable, so 'I am Groot' can mean hello, I love you, danger, or anything else."
+  },
+  {
+    "id": "groot-trivia-33",
+    "question": "What surprising thing did Groot's nightly rooting do to the Milano?",
+    "options": ["It cracked the hull", "It caused the engine fault", "It reinforced and strengthened the hull in his sleeping corner", "It powered the ship's lights"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Groot roots lightly into the metal floor at night and his biology makes that part of the hull stronger and more corrosion-resistant."
+  },
+  {
+    "id": "groot-trivia-34",
+    "question": "Why is the cargo bay Groot's favorite room on the Milano?",
+    "options": ["It has the best view", "It is the warmest room", "It has a tall enough ceiling for him to stand upright", "It has a garden inside"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "The cargo bay has a tall enough ceiling for Groot to stand upright — the only room on the ship where he can fully breathe."
+  },
+  {
+    "id": "groot-trivia-35",
+    "question": "What did Ronan plan to do with Xandar using the Power Stone?",
+    "options": ["Take over its government", "Destroy it entirely", "Trap it in time", "Steal its resources"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Ronan aimed his Power-Stone-enhanced Cosmi-Rod at Xandar with the intention of destroying the planet completely."
+  },
+  {
+    "id": "groot-trivia-36",
+    "question": "What did Groot quietly grow in his palm while standing in the dust of Titan?",
+    "options": ["A sharp thorn", "A shield of bark", "A vine whip", "A pale gold flower"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Groot grew a single small pale gold flower in his palm after the hard battle on Titan and held it close."
+  },
+  {
+    "id": "groot-trivia-37",
+    "question": "What does Groot do in team battles to protect and support his teammates?",
+    "options": ["He fires energy blasts", "He grows barriers, vine restraints, and branch bridges", "He teleports enemies away", "He shrinks enemies with roots"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Groot grows walls of bark to block attacks, vine restraints to slow enemies, and branch bridges to help teammates cross gaps."
+  },
+  {
+    "id": "groot-trivia-38",
+    "question": "After the Guardians defeated Ronan, what did the Nova Corps officially do?",
+    "options": ["They named the Guardians official allies of Xandar", "They arrested the Guardians", "They confiscated the Milano", "They gave Star-Lord a medal"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "After the battle, the Nova Corps officially declared the Guardians of the Galaxy allies of the planet Xandar."
+  },
+  {
+    "id": "groot-trivia-39",
+    "question": "When the new Groot first said 'I am Groot' after regrowing, who did he say it to?",
+    "options": ["Star-Lord", "Gamora", "Drax", "Rocket"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "The new Groot said his three words to Rocket first — and Rocket heard them with his whole chest."
+  },
+  {
+    "id": "groot-trivia-40",
+    "question": "What is the Guardians of the Galaxy really, deeper than just a team?",
+    "options": ["A family", "A corporation", "A military unit", "A Nova Corps squad"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "groot",
+    "explanation": "Though they call themselves a team, the Guardians are really a family — assembled by chance and held together by choice."
+  }
+]

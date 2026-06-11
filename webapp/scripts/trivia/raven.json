@@ -1,0 +1,602 @@
+[
+  {
+    "id": "raven-trivia-1",
+    "question": "What is the name of the peaceful dimension where Raven grew up?",
+    "options": [
+      "Azarath",
+      "Tamaran",
+      "Apokolips",
+      "Themyscira"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven was raised in Azarath, a peaceful dimension of white towers and still silver water where monks practiced meditation."
+  },
+  {
+    "id": "raven-trivia-2",
+    "question": "What color is Raven's cloak?",
+    "options": [
+      "Black",
+      "Purple",
+      "Dark blue",
+      "Grey"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven wears a dark blue cloak woven in Azarath from fabric that helps her focus her power."
+  },
+  {
+    "id": "raven-trivia-3",
+    "question": "What is the name of Raven's demon father?",
+    "options": [
+      "Trigon",
+      "Darkseid",
+      "Brother Blood",
+      "Slade"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven's father is Trigon, a powerful demon from a dark dimension, but Raven chooses goodness every day."
+  },
+  {
+    "id": "raven-trivia-4",
+    "question": "What is Raven's mother's name?",
+    "options": [
+      "Lyra",
+      "Diana",
+      "Koriand'r",
+      "Arella"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven's mother is Arella, who sought refuge in Azarath and raised Raven with the monks' guidance."
+  },
+  {
+    "id": "raven-trivia-5",
+    "question": "What team does Raven belong to?",
+    "options": [
+      "Justice League",
+      "Young Justice",
+      "Legion of Super-Heroes",
+      "Teen Titans"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven is a founding member of the Teen Titans, who operate out of Titans Tower in Jump City."
+  },
+  {
+    "id": "raven-trivia-6",
+    "question": "What shape does Raven's soul-self take?",
+    "options": [
+      "A raven",
+      "A wolf",
+      "A dragon",
+      "A bat"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven's soul-self takes the shape of an enormous raven made of dark violet energy \u2014 her own name made visible."
+  },
+  {
+    "id": "raven-trivia-7",
+    "question": "What city do the Teen Titans protect?",
+    "options": [
+      "Gotham City",
+      "Metropolis",
+      "Star City",
+      "Jump City"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "The Teen Titans protect Jump City from their base in Titans Tower, a T-shaped building by the water."
+  },
+  {
+    "id": "raven-trivia-8",
+    "question": "What is Raven's special ability to feel other people's emotions called?",
+    "options": [
+      "Empathy",
+      "Telepathy",
+      "Clairvoyance",
+      "Precognition"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven is an empath \u2014 she feels the emotions of everyone around her as clearly and automatically as hearing a sound."
+  },
+  {
+    "id": "raven-trivia-9",
+    "question": "What power does Raven use to move objects without touching them?",
+    "options": [
+      "Super-strength",
+      "Wind control",
+      "Magnetism",
+      "Telekinesis"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven uses telekinesis to move objects with her mind, often deflecting attacks or rescuing people from danger."
+  },
+  {
+    "id": "raven-trivia-10",
+    "question": "What hot drink does Raven love?",
+    "options": [
+      "Hot cocoa",
+      "Coffee",
+      "Tea",
+      "Warm apple juice"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven is known for her love of tea \u2014 especially chamomile \u2014 which she often drinks while reading in the library."
+  },
+  {
+    "id": "raven-trivia-11",
+    "question": "What villain attacked Jump City using blinding beams of light and light constructs?",
+    "options": [
+      "Doctor Light",
+      "Plasmus",
+      "Mumbo",
+      "Cinderblock"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Doctor Light \u2014 real name Arthur Light \u2014 attacked Jump City harbor using a suit that shaped light into solid constructs."
+  },
+  {
+    "id": "raven-trivia-12",
+    "question": "How did Raven defeat Doctor Light's energy suit?",
+    "options": [
+      "She reflected his beams back at him",
+      "She froze the suit with ice",
+      "She wrapped her shadow around his power node and switched it off",
+      "She shattered it with a sonic blast"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven wrapped her dark soul-self around the power coupling at the center of Doctor Light's suit and turned it off."
+  },
+  {
+    "id": "raven-trivia-13",
+    "question": "What special skill did the monks of Azarath teach Raven to manage her empathy?",
+    "options": [
+      "Witnessing",
+      "Shielding",
+      "Projecting",
+      "Blocking"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "The monks of Azarath taught Raven 'witnessing' \u2014 being fully present to a feeling without being captured or overwhelmed by it."
+  },
+  {
+    "id": "raven-trivia-14",
+    "question": "What shape is Titans Tower?",
+    "options": [
+      "A circle",
+      "A star",
+      "A pyramid",
+      "The letter T"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Titans Tower is shaped like the letter T and sits at the water's edge in Jump City."
+  },
+  {
+    "id": "raven-trivia-15",
+    "question": "What color are Raven's eyes?",
+    "options": [
+      "Blue",
+      "Green",
+      "Brown",
+      "Violet"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven has distinctive violet eyes that seem to see a little more than most eyes do."
+  },
+  {
+    "id": "raven-trivia-16",
+    "question": "Which villain ran the H.I.V.E. Academy and could control people's minds?",
+    "options": [
+      "Slade",
+      "Control Freak",
+      "Trigon",
+      "Brother Blood"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Brother Blood called himself the High Commander of the H.I.V.E. Academy and could flip a person's loyalty like a switch."
+  },
+  {
+    "id": "raven-trivia-17",
+    "question": "Why didn't Brother Blood's mind control work on Raven?",
+    "options": [
+      "Her cloak protected her",
+      "She was immune to all magic",
+      "Her years of Azarath meditation left no wobble for his power to grip",
+      "She was too far away from him"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Brother Blood's power grips unsteady emotions, but Raven's meditation practice from Azarath gave his influence nothing to hold onto."
+  },
+  {
+    "id": "raven-trivia-18",
+    "question": "Which Teen Titan comes from the planet Tamaran?",
+    "options": [
+      "Starfire",
+      "Raven",
+      "Terra",
+      "Speedy"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Starfire is from the planet Tamaran, and her starbolts are green energy blasts powered by her positive emotions."
+  },
+  {
+    "id": "raven-trivia-19",
+    "question": "What does Raven keep on her nightstand in Titans Tower?",
+    "options": [
+      "A photo of Azarath",
+      "A small book of Azarathian meditations",
+      "A communication crystal",
+      "A spell book"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven keeps a small book of Azarathian meditations on her nightstand and reads from it most evenings."
+  },
+  {
+    "id": "raven-trivia-20",
+    "question": "What happened when Starfire picked up Raven's meditation book?",
+    "options": [
+      "It glowed brightly",
+      "It floated into the air",
+      "It became very cold",
+      "The text appeared in Tamaranian for a moment"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven's meditation book shows text in whatever language the reader needs \u2014 so Starfire briefly saw Tamaranian script."
+  },
+  {
+    "id": "raven-trivia-21",
+    "question": "Which hero asked Raven to team up to stop a being called the Dreamwarden?",
+    "options": [
+      "Batman",
+      "Zatanna",
+      "Green Lantern",
+      "Wonder Woman"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Wonder Woman of Themyscira sent a letter to Titans Tower asking specifically for Raven's help against the Dreamwarden."
+  },
+  {
+    "id": "raven-trivia-22",
+    "question": "What weapon does Wonder Woman always carry at her hip?",
+    "options": [
+      "A golden shield",
+      "A spear of Athena",
+      "The Lasso of Truth",
+      "A sword of Themyscira"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Wonder Woman carries the Lasso of Truth \u2014 a golden rope that compels anyone it binds to speak only the truth."
+  },
+  {
+    "id": "raven-trivia-23",
+    "question": "The Dreamwarden trapped cities in what kind of threat?",
+    "options": [
+      "An endless battle simulation",
+      "A looping fog of confused dreams",
+      "A frozen block of ice",
+      "An underground labyrinth"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "The Dreamwarden pulled cities into endless looping dream-fog where people walked the same streets over and over."
+  },
+  {
+    "id": "raven-trivia-24",
+    "question": "What did Raven find that was holding the Dreamwarden's fog together?",
+    "options": [
+      "A magic mirror",
+      "A carved anchor stone in a plaza",
+      "A glowing portal in a building",
+      "A crystal in the power grid"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven followed the Dreamwarden's emotional signature and found a carved anchor stone vibrating with dream energy in a city plaza."
+  },
+  {
+    "id": "raven-trivia-25",
+    "question": "Which two things did Raven bring with her when she left Azarath?",
+    "options": [
+      "A sword and a crystal",
+      "Her cloak and a meditation book",
+      "A map and a spell scroll",
+      "A lantern and a crystal"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven brought her dark blue Azarathian cloak and a small book of Azarathian meditations when she left home."
+  },
+  {
+    "id": "raven-trivia-26",
+    "question": "What is the name of Raven's teammate who is half-machine and half-human?",
+    "options": [
+      "Red Tornado",
+      "Steel",
+      "Cyborg",
+      "Metal Man"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Cyborg is half-human and half-machine, providing the Teen Titans with powerful technology and a very warm heart."
+  },
+  {
+    "id": "raven-trivia-27",
+    "question": "Which Teen Titan can transform into any animal?",
+    "options": [
+      "Aqualad",
+      "Beast Boy",
+      "Kid Flash",
+      "Speedy"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Beast Boy can transform into any animal \u2014 from a tiny hamster to a massive dinosaur \u2014 always turning bright green."
+  },
+  {
+    "id": "raven-trivia-28",
+    "question": "Which Teen Titan was a partner to Batman before joining the team?",
+    "options": [
+      "Cyborg",
+      "Speedy",
+      "Robin",
+      "Kid Flash"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Robin was Batman's partner before becoming the leader of the Teen Titans in Jump City."
+  },
+  {
+    "id": "raven-trivia-29",
+    "question": "What tea does Raven most often drink?",
+    "options": [
+      "Peppermint",
+      "Green tea",
+      "Earl Grey",
+      "Chamomile"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven's favorite tea is chamomile, which she drinks from a thermos she sometimes carries in her cloak pocket."
+  },
+  {
+    "id": "raven-trivia-30",
+    "question": "An entity called the Dissonance was made of what?",
+    "options": [
+      "Dark matter",
+      "Lightning energy",
+      "Pure hostile emotion",
+      "Broken machinery"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "The Dissonance was an entity built from centuries of accumulated bitterness and hostile feeling that had gained a kind of life."
+  },
+  {
+    "id": "raven-trivia-31",
+    "question": "How did the Teen Titans defeat the Dissonance?",
+    "options": [
+      "They blasted it with combined energy beams",
+      "Robin used a special gadget to absorb it",
+      "Raven channeled each Titan's genuine feelings into the entity",
+      "They trapped it in a dimensional portal"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven gathered each Titan's real, specific feelings and sent them into the Dissonance \u2014 genuine emotion dissolved the noise-entity."
+  },
+  {
+    "id": "raven-trivia-32",
+    "question": "What did Robin think about to help defeat the Dissonance?",
+    "options": [
+      "His first mission with Batman",
+      "A night in Gotham when he decided what kind of hero he wanted to be",
+      "His favorite gadget",
+      "His room in Titans Tower"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Robin thought about Gotham City and the night he decided what kind of hero he wanted to be \u2014 a specific, genuine feeling."
+  },
+  {
+    "id": "raven-trivia-33",
+    "question": "What hobby does Raven love most?",
+    "options": [
+      "Painting",
+      "Sparring",
+      "Reading",
+      "Cooking"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven loves books and spends much of her free time reading in the library of Titans Tower."
+  },
+  {
+    "id": "raven-trivia-34",
+    "question": "Where is Azarath located relative to Earth?",
+    "options": [
+      "On another planet in the same galaxy",
+      "In a parallel dimension",
+      "Deep underground",
+      "In a pocket of space beyond the solar system"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Azarath exists in a dimension parallel to Earth, separated from it by barriers that ordinary physics cannot explain."
+  },
+  {
+    "id": "raven-trivia-35",
+    "question": "What color is the water in Azarath?",
+    "options": [
+      "Crystal clear",
+      "Deep blue",
+      "Deep silver",
+      "Pale gold"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Azarath's water is described as deep silver, perfectly still, with a soft sound against the tower bases at night."
+  },
+  {
+    "id": "raven-trivia-36",
+    "question": "What is the name of the young hero Raven helped learn to control her powers?",
+    "options": [
+      "Terra",
+      "Jinx",
+      "Maya",
+      "Bumblebee"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Maya was a twelve-year-old who could move objects with her mind but couldn't control it \u2014 Raven patiently taught her the witnessing practice."
+  },
+  {
+    "id": "raven-trivia-37",
+    "question": "What did Maya accidentally do to a juice box at Titans Tower?",
+    "options": [
+      "She turned it into ice",
+      "She made it float to the ceiling",
+      "She made it explode",
+      "She crushed it flat"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Maya's uncontrolled telekinesis caused a juice box to explode during lunch at Titans Tower."
+  },
+  {
+    "id": "raven-trivia-38",
+    "question": "What did Raven say when Maya thanked her for the lessons?",
+    "options": [
+      "You are welcome, always",
+      "The people who helped me were patient \u2014 I am returning that",
+      "That is what the Titans are here for",
+      "You did most of the work yourself"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven told Maya: 'The people who helped me were patient. I'm returning that.' \u2014 passing on the kindness she had received."
+  },
+  {
+    "id": "raven-trivia-39",
+    "question": "What is Doctor Light's real name?",
+    "options": [
+      "Arthur Light",
+      "Samuel Light",
+      "Victor Light",
+      "Edwin Light"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Doctor Light's real name is Arthur Light, though he prefers his dramatic villain title."
+  },
+  {
+    "id": "raven-trivia-40",
+    "question": "What did Raven notice about all of Doctor Light's attacks that helped her defeat him?",
+    "options": [
+      "They were all slow",
+      "They all traveled in straight lines",
+      "They all needed him to stand still",
+      "They all ran out of power quickly"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "raven",
+    "explanation": "Raven observed that all of Doctor Light's attacks traveled in straight lines \u2014 and darkness, unlike light, has no such rule."
+  }
+]

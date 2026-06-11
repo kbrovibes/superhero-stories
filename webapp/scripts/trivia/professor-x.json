@@ -1,0 +1,602 @@
+[
+  {
+    "id": "professor-x-trivia-1",
+    "question": "What is Professor X's real name?",
+    "options": [
+      "Charles Xavier",
+      "Erik Lehnsherr",
+      "Scott Summers",
+      "Hank McCoy"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Professor X's real name is Charles Xavier, founder of the Xavier School for Gifted Youngsters."
+  },
+  {
+    "id": "professor-x-trivia-2",
+    "question": "What is Professor X's superpower?",
+    "options": [
+      "Super strength",
+      "Telepathy",
+      "Magnetism control",
+      "Teleportation"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Professor X is the world's most powerful telepath, able to read and communicate with any mind on Earth."
+  },
+  {
+    "id": "professor-x-trivia-3",
+    "question": "What special machine does Professor X use to find mutants all over the world?",
+    "options": [
+      "The Danger Room",
+      "The Arc Reactor",
+      "Cerebro",
+      "The Tesseract"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Cerebro is a powerful helmet-machine that amplifies Professor X's telepathy to reach every mutant mind on Earth."
+  },
+  {
+    "id": "professor-x-trivia-4",
+    "question": "Where is the Xavier School for Gifted Youngsters located?",
+    "options": [
+      "Stark Tower, Manhattan",
+      "A countryside farm in England",
+      "Wakanda, Africa",
+      "Westchester County, New York"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "The Xavier School sits in a large mansion in Westchester County, New York, on the Hudson River."
+  },
+  {
+    "id": "professor-x-trivia-5",
+    "question": "Who is Professor X's oldest friend and gentle rival?",
+    "options": [
+      "Magneto",
+      "Tony Stark",
+      "Captain America",
+      "Thor"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Magneto, born Erik Lehnsherr, was Charles Xavier's closest friend before their different beliefs pulled them apart."
+  },
+  {
+    "id": "professor-x-trivia-6",
+    "question": "Why does Professor X use a wheelchair?",
+    "options": [
+      "He chose one to save his energy for telepathy",
+      "An injury took away the use of his legs",
+      "His telepathy is too strong to walk",
+      "He was born without the use of his legs"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "An accident left Professor X unable to walk, but he continued his work and built the X-Men from his wheelchair."
+  },
+  {
+    "id": "professor-x-trivia-7",
+    "question": "What is the team of heroes Professor X trained called?",
+    "options": [
+      "The Avengers",
+      "The Fantastic Four",
+      "The Guardians",
+      "The X-Men"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Professor X founded the X-Men, a team of mutant heroes who protect both humans and mutants alike."
+  },
+  {
+    "id": "professor-x-trivia-8",
+    "question": "What is Magneto's real name?",
+    "options": [
+      "Victor Von Doom",
+      "Max Eisenhardt",
+      "Erik Lehnsherr",
+      "Cain Marko"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Magneto's name is Erik Lehnsherr, Charles Xavier's old friend who disagrees about how mutants should live with humans."
+  },
+  {
+    "id": "professor-x-trivia-9",
+    "question": "What university did Charles Xavier attend in England?",
+    "options": [
+      "Cambridge University",
+      "Oxford University",
+      "Edinburgh University",
+      "Columbia University"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Charles studied genetics and biophysics at Oxford University in England before later attending Columbia University."
+  },
+  {
+    "id": "professor-x-trivia-10",
+    "question": "What does Magneto believe that Professor X disagrees with?",
+    "options": [
+      "That mutants should stay hidden forever",
+      "That mutants are always smarter than humans",
+      "That Cerebro should be destroyed",
+      "That mutants and humans can never live in peace"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Magneto believes mutants must fight to survive, while Professor X believes humans and mutants can learn to live in peace together."
+  },
+  {
+    "id": "professor-x-trivia-11",
+    "question": "Who helped Professor X build Cerebro?",
+    "options": [
+      "Tony Stark",
+      "Forge",
+      "Beast",
+      "Cyclops"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Professor X and the mutant inventor Forge built Cerebro together over eighteen months."
+  },
+  {
+    "id": "professor-x-trivia-12",
+    "question": "Who is Professor X's stepbrother and one of his toughest opponents?",
+    "options": [
+      "Magneto",
+      "Apocalypse",
+      "Mister Sinister",
+      "The Juggernaut"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Cain Marko, the Juggernaut, is Professor X's stepbrother — he found the Crimson Gem of Cyttorak that gave him his unstoppable power."
+  },
+  {
+    "id": "professor-x-trivia-13",
+    "question": "What object gives the Juggernaut his unstoppable power?",
+    "options": [
+      "The Infinity Gauntlet",
+      "Mjolnir",
+      "The Crimson Gem of Cyttorak",
+      "The Tesseract"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Cain Marko found the Crimson Gem of Cyttorak, which transformed him into the unstoppable Juggernaut."
+  },
+  {
+    "id": "professor-x-trivia-14",
+    "question": "What special room in the Xavier School is used for training?",
+    "options": [
+      "The Danger Room",
+      "The War Room",
+      "The Cerebro Chamber",
+      "The Battle Dome"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "The Danger Room is a programmable combat simulator beneath the school where the X-Men train and practice their powers."
+  },
+  {
+    "id": "professor-x-trivia-15",
+    "question": "Which X-Man can fire powerful laser beams from his eyes?",
+    "options": [
+      "Beast",
+      "Iceman",
+      "Cyclops",
+      "Angel"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Cyclops, also known as Scott Summers, fires powerful optic blasts from his eyes and was one of Professor X's first students."
+  },
+  {
+    "id": "professor-x-trivia-16",
+    "question": "Which of Professor X's early students can move objects with her mind?",
+    "options": [
+      "Storm",
+      "Jean Grey",
+      "Rogue",
+      "Mystique"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Jean Grey is a powerful telekinetic and telepath who was one of Professor X's first and most gifted students."
+  },
+  {
+    "id": "professor-x-trivia-17",
+    "question": "How long can Professor X safely use Cerebro in one session?",
+    "options": [
+      "All day",
+      "2 hours",
+      "10 minutes",
+      "About 40 minutes"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Cerebro sessions are limited to about 40 minutes because the strain of sensing every mind on Earth is exhausting."
+  },
+  {
+    "id": "professor-x-trivia-18",
+    "question": "What evil group tried to block Cerebro's signal to stop Professor X from finding trapped mutants?",
+    "options": [
+      "The Hellfire Club",
+      "HYDRA",
+      "The Brotherhood",
+      "The Sentinels"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "The Hellfire Club used a telepathic disruptor to scramble Cerebro's signal, but Professor X pushed through and found the trapped mutants anyway."
+  },
+  {
+    "id": "professor-x-trivia-19",
+    "question": "What are Sentinels?",
+    "options": [
+      "Friendly robot helpers at the Xavier School",
+      "Giant robots built to hunt and capture mutants",
+      "Professor X's personal bodyguards",
+      "Magneto's metal armor"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Sentinels are giant robots designed to hunt down mutants — one of the biggest dangers the X-Men have ever faced."
+  },
+  {
+    "id": "professor-x-trivia-20",
+    "question": "What is Professor X's one big dream?",
+    "options": [
+      "To defeat Magneto once and for all",
+      "To build a robot army to protect mutants",
+      "To become the most powerful telepath in the galaxy",
+      "A world where mutants and humans live together in peace"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Professor X's greatest dream is a peaceful world where mutants and humans live side by side without fear."
+  },
+  {
+    "id": "professor-x-trivia-21",
+    "question": "Which X-Man can control ice and cold?",
+    "options": [
+      "Iceman",
+      "Beast",
+      "Angel",
+      "Cyclops"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Iceman, also called Bobby Drake, can create ice and freeze anything — he was one of Professor X's original five students."
+  },
+  {
+    "id": "professor-x-trivia-22",
+    "question": "What is the full name of the school Professor X runs?",
+    "options": [
+      "The Mutant Institute of New York",
+      "The Xavier School for Gifted Youngsters",
+      "The Xavier Academy for Superheroes",
+      "The School of Tomorrow"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Professor X's school is called the Xavier School for Gifted Youngsters, where young mutants learn to understand and use their powers."
+  },
+  {
+    "id": "professor-x-trivia-23",
+    "question": "What does Magneto's power let him do?",
+    "options": [
+      "Read minds",
+      "Fly at super speed",
+      "Shoot energy blasts",
+      "Control metal and magnetic fields"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Magneto can control metal and magnetic fields, bending iron, lifting cars, and even moving huge objects with his mind."
+  },
+  {
+    "id": "professor-x-trivia-24",
+    "question": "Why couldn't Professor X's telepathy stop the Juggernaut directly?",
+    "options": [
+      "The Juggernaut is not a mutant",
+      "Telepathy never works on family members",
+      "The Juggernaut's helmet blocks psychic attacks",
+      "Professor X was too tired that day"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "The Juggernaut's special helmet is sealed against psychic attack, so Professor X could not reach his mind directly."
+  },
+  {
+    "id": "professor-x-trivia-25",
+    "question": "What subject did Charles Xavier study at Oxford?",
+    "options": [
+      "History and politics",
+      "Philosophy and literature",
+      "Astronomy and physics",
+      "Genetics and biophysics"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Charles earned degrees in genetics and biophysics at Oxford, helping him understand mutation scientifically as natural evolution."
+  },
+  {
+    "id": "professor-x-trivia-26",
+    "question": "Which young X-Man can walk through walls like a ghost?",
+    "options": [
+      "Kitty Pryde",
+      "Rogue",
+      "Jubilee",
+      "Psylocke"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Kitty Pryde has the power to phase through solid objects — she arrived at the Xavier School at age 13 after phasing through walls at school."
+  },
+  {
+    "id": "professor-x-trivia-27",
+    "question": "What does Professor X use his telepathy to do in a dangerous crowd?",
+    "options": [
+      "Make everyone fall asleep",
+      "Erase everyone's memory",
+      "Project calm into panicked people",
+      "Control people like puppets"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Professor X can project feelings of calm into a panicked crowd, helping defuse a dangerous situation without violence."
+  },
+  {
+    "id": "professor-x-trivia-28",
+    "question": "Which Avenger helped Professor X deal with the psychic entity called the Shadow Mind?",
+    "options": [
+      "Black Widow",
+      "Hawkeye",
+      "Tony Stark",
+      "Doctor Strange"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Tony Stark designed a sonic counter-frequency device to jam the Shadow Mind's painful signal, giving Professor X a chance to communicate with it."
+  },
+  {
+    "id": "professor-x-trivia-29",
+    "question": "How did Professor X realize the Shadow Mind was not evil?",
+    "options": [
+      "Magneto told him the truth",
+      "It introduced itself politely",
+      "He discovered it was broadcasting pain, not an attack",
+      "Cerebro showed it had no weapons"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Professor X discovered through telepathic contact that the Shadow Mind was in pain and broadcasting distress, not trying to harm anyone."
+  },
+  {
+    "id": "professor-x-trivia-30",
+    "question": "What is a 'telepathic bridge' as Professor X uses it?",
+    "options": [
+      "A physical walkway Professor X uses to cross rivers",
+      "A psychic shield that blocks all outside thoughts",
+      "A machine that connects two computers together",
+      "A private mind-link letting two people share thoughts clearly"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "A telepathic bridge is a private mental channel Professor X can open between two people so they can share ideas and memories with perfect clarity."
+  },
+  {
+    "id": "professor-x-trivia-31",
+    "question": "What does Professor X think about using telepathy to enter someone's mind without their permission?",
+    "options": [
+      "It is a serious violation he avoids except in emergencies",
+      "It is fine in any situation",
+      "It is the best way to make friends",
+      "He never thinks about it because he does it all the time"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Professor X treats entering a mind without permission as a serious violation and refuses to do it except in true life-or-death emergencies."
+  },
+  {
+    "id": "professor-x-trivia-32",
+    "question": "What did Professor X say to Forge when offered extra shielding that would narrow Cerebro's range?",
+    "options": [
+      "Yes, safety first!",
+      "Only if it also makes Cerebro faster",
+      "He agreed but asked Cyclops first",
+      "He declined — he won't miss one child who needs to be found"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Professor X turned down extra shielding because narrowing Cerebro's range might mean missing a child who needed the school — that risk was not worth it."
+  },
+  {
+    "id": "professor-x-trivia-33",
+    "question": "Which X-Man has a blue, furry appearance and is also a brilliant scientist?",
+    "options": [
+      "Cyclops",
+      "Beast",
+      "Colossus",
+      "Nightcrawler"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Beast, also called Hank McCoy, is one of Professor X's original students — a brilliant scientist with great strength and a blue furry appearance."
+  },
+  {
+    "id": "professor-x-trivia-34",
+    "question": "What makes Magneto's Brotherhood of Mutants different from Professor X's X-Men?",
+    "options": [
+      "There is no difference — they want the same thing",
+      "The Brotherhood only protects mutant children",
+      "The Brotherhood uses no powers at all",
+      "Magneto's team believes they must take control by force"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Magneto and the Brotherhood believe mutants must seize power and fight for dominance, while the X-Men work toward peaceful coexistence."
+  },
+  {
+    "id": "professor-x-trivia-35",
+    "question": "Which mutant from Genosha slowly built an honest relationship with Professor X?",
+    "options": [
+      "Polaris",
+      "Storm",
+      "Rogue",
+      "Mystique"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Polaris, also known as Lorna Dane, is a magnetic mutant and Genosha survivor who slowly built an honest, trusting relationship with Professor X."
+  },
+  {
+    "id": "professor-x-trivia-36",
+    "question": "Where did Professor X grow up as a child?",
+    "options": [
+      "A small apartment in Queens, New York",
+      "A lab complex in Nevada",
+      "A large mansion in Westchester County",
+      "A countryside farm in England"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Charles Xavier grew up in a large mansion on the Hudson River in Westchester County, New York."
+  },
+  {
+    "id": "professor-x-trivia-37",
+    "question": "What does the phrase 'X-Men' refer to?",
+    "options": [
+      "Secret government agents",
+      "Mutant heroes who use their powers for good",
+      "The ten most powerful mutants",
+      "Robots designed by Professor X"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "The X-Men are Professor X's team of mutant heroes who protect both humans and mutants and work toward a world of peaceful coexistence."
+  },
+  {
+    "id": "professor-x-trivia-38",
+    "question": "What lesson does Professor X teach Kitty Pryde about her phasing power?",
+    "options": [
+      "Use it as often as possible to stay in practice",
+      "Only use it for transportation",
+      "Never use it in front of humans",
+      "Ask not just what it can do, but when to use it and when not to"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Professor X teaches Kitty Pryde that the best question about any power is not just what it can do, but when you should use it — and when you shouldn't."
+  },
+  {
+    "id": "professor-x-trivia-39",
+    "question": "What is Professor X's most important life lesson, as he shares with Kitty Pryde?",
+    "options": [
+      "Keep your powers secret from everyone",
+      "Never trust anyone who is not a mutant",
+      "Helping others costs you something and is worth it, especially when it is hard",
+      "Always fight back when someone is mean"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "Professor X tells Kitty that choosing to help others always costs something and is always worth it — especially when it is difficult."
+  },
+  {
+    "id": "professor-x-trivia-40",
+    "question": "What does Professor X write in his journal after the mission to Genosha?",
+    "options": [
+      "Mutants must never trust humans",
+      "Victory is the only goal worth having",
+      "The X-Men are ready to face anything",
+      "Progress is not a moment. It is a direction."
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "professor-x",
+    "explanation": "After the Genosha mission, Professor X writes in his journal: 'Progress is not a moment. It is a direction.' — a reminder that the dream is ongoing."
+  }
+]

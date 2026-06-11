@@ -1,0 +1,402 @@
+[
+  {
+    "id": "gambit-trivia-1",
+    "question": "What is Gambit's real name?",
+    "options": ["Remy LeBeau", "Victor Creed", "Nathan Essex", "Scott Summers"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Gambit's real name is Remy LeBeau, a Cajun from New Orleans."
+  },
+  {
+    "id": "gambit-trivia-2",
+    "question": "What city did Gambit grow up in?",
+    "options": ["Chicago", "Atlanta", "Houston", "New Orleans"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Remy LeBeau grew up in New Orleans, Louisiana, raised by the Thieves Guild."
+  },
+  {
+    "id": "gambit-trivia-3",
+    "question": "What is Gambit's mutant power?",
+    "options": ["Flight and super strength", "Charging objects with kinetic energy", "Creating ice from moisture", "Controlling metal objects"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Gambit can charge objects with kinetic energy, causing them to explode in a pink-purple flash."
+  },
+  {
+    "id": "gambit-trivia-4",
+    "question": "What object does Gambit most famously use as a weapon?",
+    "options": ["Boomerangs", "Throwing stars", "Coins", "Playing cards"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Gambit charges playing cards with kinetic energy and throws them as precise explosive weapons."
+  },
+  {
+    "id": "gambit-trivia-5",
+    "question": "What color does Gambit's kinetic energy glow?",
+    "options": ["Blue and white", "Green and yellow", "Pink and purple", "Red and orange"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Gambit's kinetic energy always glows a distinctive pink-purple color."
+  },
+  {
+    "id": "gambit-trivia-6",
+    "question": "What are Gambit's eyes like?",
+    "options": ["Solid white with no color", "Bright blue with no pupils", "Purple with yellow pupils", "Glowing red irises and black sclera"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Gambit has glowing red irises and black sclera, a distinctive sign of his mutant nature."
+  },
+  {
+    "id": "gambit-trivia-7",
+    "question": "What group raised Remy LeBeau as a child?",
+    "options": ["The Assassins Guild", "The Thieves Guild", "SHIELD", "The Weapon X program"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Remy was raised by the Thieves Guild, a secret brotherhood of skilled thieves in Louisiana."
+  },
+  {
+    "id": "gambit-trivia-8",
+    "question": "What melee weapon does Gambit use besides charged cards?",
+    "options": ["Two daggers", "A whip", "A sword", "A bo staff"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Gambit wields a bo staff — a smooth six-foot hardwood pole he trained with since childhood."
+  },
+  {
+    "id": "gambit-trivia-9",
+    "question": "Who invited Gambit to join the X-Men?",
+    "options": ["Charles Xavier", "Cyclops", "Tony Stark", "Nick Fury"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Charles Xavier found Remy in the French Quarter of New Orleans and invited him to join the X-Men."
+  },
+  {
+    "id": "gambit-trivia-10",
+    "question": "Where is Xavier's school located?",
+    "options": ["Boston, Massachusetts", "Albany, New York", "Westchester, New York", "Hartford, Connecticut"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Xavier's School for Gifted Youngsters is located in Westchester, New York."
+  },
+  {
+    "id": "gambit-trivia-11",
+    "question": "What does the word 'gambit' mean in chess?",
+    "options": ["A defensive retreat", "A bold opening move", "A swap of equal pieces", "The final checkmate move"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "A gambit in chess is a bold opening move that changes the character of the game."
+  },
+  {
+    "id": "gambit-trivia-12",
+    "question": "What is the name of Gambit's love interest among the X-Men?",
+    "options": ["Jean Grey", "Storm", "Psylocke", "Rogue"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Rogue, whose real name is Anna Marie, is Gambit's love interest and close companion among the X-Men."
+  },
+  {
+    "id": "gambit-trivia-13",
+    "question": "What is Rogue's mutant power?",
+    "options": ["Creating force fields", "Absorbing others' memories and abilities through touch", "Super speed and agility", "Controlling weather"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Rogue absorbs the memories and mutant abilities of anyone she touches with her bare skin."
+  },
+  {
+    "id": "gambit-trivia-14",
+    "question": "Why does Rogue always wear gloves?",
+    "options": ["She is always cold", "She cannot control her absorption power and doesn't want to hurt anyone", "To look fashionable as a hero", "Her power only activates with gloves on"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Rogue wears gloves to prevent accidentally absorbing people's memories and abilities through skin contact."
+  },
+  {
+    "id": "gambit-trivia-15",
+    "question": "Which villain hid captive mutants in a Louisiana bayou facility?",
+    "options": ["Magneto", "Doctor Doom", "The Shadow King", "Mister Sinister"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Mister Sinister — Nathaniel Essex — kept captured mutants in a hidden bayou research facility."
+  },
+  {
+    "id": "gambit-trivia-16",
+    "question": "What is Mister Sinister's real name?",
+    "options": ["Otto Octavius", "Norman Osborn", "Nathaniel Essex", "Victor Von Doom"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Mister Sinister's real name is Nathaniel Essex, a villain who has lived since the Victorian age."
+  },
+  {
+    "id": "gambit-trivia-17",
+    "question": "What symbol appears on Mister Sinister's forehead?",
+    "options": ["A blue star", "A red diamond", "A silver crescent", "A black X"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Mister Sinister has a distinctive red diamond in the center of his forehead."
+  },
+  {
+    "id": "gambit-trivia-18",
+    "question": "What is the real name of the feral villain Sabretooth?",
+    "options": ["Victor Creed", "James Howlett", "Logan Creed", "Wade Wilson"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Sabretooth's real name is Victor Creed — a brutal, clawed villain Gambit outsmarts in Audubon Park."
+  },
+  {
+    "id": "gambit-trivia-19",
+    "question": "Sabretooth's most notable physical ability is that he can do what?",
+    "options": ["Fly at high speed", "Shoot energy blasts from his hands", "Turn invisible at will", "Heal very quickly from injuries"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Sabretooth has a rapid healing factor — he recovers from injuries almost instantly."
+  },
+  {
+    "id": "gambit-trivia-20",
+    "question": "In what New Orleans park did Gambit fight Sabretooth?",
+    "options": ["City Park", "Audubon Park", "Louis Armstrong Park", "Crescent Park"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "The fight with Sabretooth took place in Audubon Park, with its ancient oak trees and Spanish moss."
+  },
+  {
+    "id": "gambit-trivia-21",
+    "question": "What famous New Orleans fried pastry is covered in powdered sugar?",
+    "options": ["Churros", "Sopapillas", "Beignets", "Funnel cake"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Beignets are a famous New Orleans treat — fried pastries dusted in powdered sugar."
+  },
+  {
+    "id": "gambit-trivia-22",
+    "question": "Which X-Man has the ability to control weather?",
+    "options": ["Jean Grey", "Storm", "Cyclops", "Beast"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Storm — Ororo Munroe — has the power to control the weather, calling lightning and directing the wind."
+  },
+  {
+    "id": "gambit-trivia-23",
+    "question": "Which X-Man shoots a powerful blast from their eyes?",
+    "options": ["Wolverine", "Beast", "Gambit", "Cyclops"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Cyclops — Scott Summers — shoots powerful optic blasts from his eyes, controlled by his red visor."
+  },
+  {
+    "id": "gambit-trivia-24",
+    "question": "What is the Shadow King's real name?",
+    "options": ["Amahl Farouk", "Sebastian Shaw", "Donald Pierce", "Nathaniel Essex"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "The Shadow King's real name is Amahl Farouk — a psychic villain who exists in the realm of thoughts and minds."
+  },
+  {
+    "id": "gambit-trivia-25",
+    "question": "How did Gambit fight the Shadow King, who has no physical body?",
+    "options": ["Using Jean Grey's telepathy as a weapon", "By concentrating on powerful emotions to disrupt the psychic plane", "By charging the air itself with kinetic energy", "By using a device Professor Xavier built"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Gambit focused intensely on his deepest feelings, creating emotional turbulence that drove the Shadow King out."
+  },
+  {
+    "id": "gambit-trivia-26",
+    "question": "What is the X-Men's training facility called?",
+    "options": ["The Battle Chamber", "The Training Dome", "The Simulation Lab", "The Danger Room"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "The Danger Room at Xavier's mansion is a training space that can simulate any obstacle or opponent."
+  },
+  {
+    "id": "gambit-trivia-27",
+    "question": "What is Gambit's favorite playing card to throw?",
+    "options": ["The ace of diamonds", "The king of hearts", "The joker", "The queen of spades"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Gambit says the ace of diamonds flies truest — he has never quite figured out the physics of why."
+  },
+  {
+    "id": "gambit-trivia-28",
+    "question": "Besides exploding charged objects, what defensive skill does Gambit have with his power?",
+    "options": ["Creating an energy shield from cards", "Draining the charge back out of an object to defuse it", "Reflecting energy blasts off his staff", "Charging the air to push enemies away"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Gambit can drain the kinetic charge back out of an object, defusing it — a skill that has saved many lives."
+  },
+  {
+    "id": "gambit-trivia-29",
+    "question": "Who made Gambit's bo staff in New Orleans?",
+    "options": ["Marcel, his trainer", "Etienne Marceaux, the Guild Master", "His father before he disappeared", "Celestine Arceneaux, a Guild artisan"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Gambit's bo staff was crafted by Celestine Arceneaux, a Guild artisan who worked on Magazine Street."
+  },
+  {
+    "id": "gambit-trivia-30",
+    "question": "What symbol was burned into the base of Gambit's bo staff?",
+    "options": ["A playing card suit", "A fleur-de-lis", "The Thieves Guild seal", "A rose"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Celestine burned a fleur-de-lis — the symbol of New Orleans — near the base of the staff."
+  },
+  {
+    "id": "gambit-trivia-31",
+    "question": "In the New Orleans heist, who did Gambit bring the stolen compound to for analysis?",
+    "options": ["Jean Grey", "Professor Xavier", "Tony Stark", "Beast (Henry McCoy)"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Gambit brought the compound to Beast — Professor Henry McCoy — who analyzed and neutralized it safely."
+  },
+  {
+    "id": "gambit-trivia-32",
+    "question": "What was the rogue Thieves Guild faction called in the New Orleans story?",
+    "options": ["The Black Lotus", "The Crimson Tide", "The Iron Guild", "The Shadow Hand"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "The Crimson Tide was a rogue faction within the Thieves Guild that stole a dangerous compound."
+  },
+  {
+    "id": "gambit-trivia-33",
+    "question": "What is the X-Men's supersonic jet called?",
+    "options": ["The X-Wing", "The Falcon Jet", "The Xavier Express", "The Blackbird"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "The X-Men fly in the Blackbird, their long black supersonic jet."
+  },
+  {
+    "id": "gambit-trivia-34",
+    "question": "The Reavers are enhanced with what type of technology?",
+    "options": ["Magical armor from another dimension", "Gamma radiation treatments", "Cybernetic implants and metal limbs", "Alien technology from the Kree"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "The Reavers are human fighters enhanced with cybernetic implants — metal limbs, targeting systems, and armor."
+  },
+  {
+    "id": "gambit-trivia-35",
+    "question": "How many languages does Gambit speak?",
+    "options": ["One", "Two", "Three", "Five"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "The Thieves Guild trained Remy to speak three languages: English, French, and Cajun."
+  },
+  {
+    "id": "gambit-trivia-36",
+    "question": "What is the name of the Thieves Guild Master who called Gambit about the Crimson Tide?",
+    "options": ["Marcel Dupont", "Beau Mireaux", "Jean-Paul Arceneaux", "Etienne Marceaux"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Etienne Marceaux is the Thieves Guild Master in New Orleans who contacted Gambit about the stolen compound."
+  },
+  {
+    "id": "gambit-trivia-37",
+    "question": "What is Wolverine's most famous physical feature?",
+    "options": ["Retractable bone claws from his knuckles", "Wings that fold under his coat", "A tail that helps him balance", "Glowing eyes that project laser beams"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Wolverine has retractable claws that extend from his knuckles, coated with the super-hard metal adamantium."
+  },
+  {
+    "id": "gambit-trivia-38",
+    "question": "In the teamwork story, what was the name of the boy Gambit taught to control his heat power?",
+    "options": ["Marcus", "Beau", "Louisa", "Alex"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Marcus, a fifteen-year-old from Atlanta, came to Xavier's school after his heat-generating power emerged."
+  },
+  {
+    "id": "gambit-trivia-39",
+    "question": "What Gambit signature move knocks enemies off their feet by catching their ankles?",
+    "options": ["The overhead slam", "The spinning sweep", "The staff throw", "The low ankle sweep"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Gambit's signature bo staff move is the low ankle sweep — timed perfectly when the opponent's weight pushes forward."
+  },
+  {
+    "id": "gambit-trivia-40",
+    "question": "What is the name of Gambit's bo staff trainer from the Thieves Guild?",
+    "options": ["Etienne", "Marcel", "Celestine", "Beau"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gambit",
+    "explanation": "Marcel was Remy's trainer in the Thieves Guild, who said 'a bo staff requires thought.'"
+  }
+]

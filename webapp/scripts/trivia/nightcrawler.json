@@ -1,0 +1,402 @@
+[
+  {
+    "id": "nightcrawler-trivia-1",
+    "question": "What is Nightcrawler's real name?",
+    "options": ["Kurt Wagner", "Erik Lehnsherr", "Sean Cassidy", "Piotr Rasputin"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Kurt Wagner is Nightcrawler's real name; he grew up in Bavaria, Germany."
+  },
+  {
+    "id": "nightcrawler-trivia-2",
+    "question": "What sound does Nightcrawler make when he teleports?",
+    "options": ["CRASH", "BAMF", "WHOMP", "ZAPP"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Nightcrawler teleports with a loud BAMF sound, which is also the smell of brimstone smoke."
+  },
+  {
+    "id": "nightcrawler-trivia-3",
+    "question": "What color is Nightcrawler's skin?",
+    "options": ["Green", "Red", "Silver", "Indigo blue"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Kurt Wagner has deep indigo-blue skin — a distinctive twilight blue color."
+  },
+  {
+    "id": "nightcrawler-trivia-4",
+    "question": "How many fingers does Nightcrawler have on each hand?",
+    "options": ["Three", "Four", "Five", "Two"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Nightcrawler has three fingers on each hand and two toes on each foot."
+  },
+  {
+    "id": "nightcrawler-trivia-5",
+    "question": "Which mutant is Nightcrawler's biological mother?",
+    "options": ["Storm", "Jean Grey", "Mystique", "Scarlet Witch"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Mystique — whose real name is Raven Darkhölme — is Nightcrawler's biological mother."
+  },
+  {
+    "id": "nightcrawler-trivia-6",
+    "question": "What is the name of the kind circus woman who raised Kurt Wagner?",
+    "options": ["Moira MacTaggert", "Margali Szardos", "Amanda Sefton", "Irene Adler"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Margali Szardos found baby Kurt and raised him with her traveling circus family."
+  },
+  {
+    "id": "nightcrawler-trivia-7",
+    "question": "What team does Nightcrawler belong to?",
+    "options": ["The Avengers", "The Fantastic Four", "S.H.I.E.L.D.", "The X-Men"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Nightcrawler is a member of the X-Men, Professor Xavier's team of mutant heroes."
+  },
+  {
+    "id": "nightcrawler-trivia-8",
+    "question": "Where is Nightcrawler's school for mutant heroes located?",
+    "options": ["Westchester, New York", "San Francisco", "Chicago", "London"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Xavier's School for Gifted Youngsters is located in Salem Center, Westchester, New York."
+  },
+  {
+    "id": "nightcrawler-trivia-9",
+    "question": "What is the name of the other dimension Nightcrawler passes through when he teleports?",
+    "options": ["The Shadow Dimension", "The Dark Zone", "The Brimstone Dimension", "The Mirror World"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Kurt travels through the Brimstone Dimension — a dark, warm corridor between places — when he teleports."
+  },
+  {
+    "id": "nightcrawler-trivia-10",
+    "question": "What elegant weapon does Nightcrawler carry as part of his swashbuckler style?",
+    "options": ["A dagger", "A rapier", "A broadsword", "A katana"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Nightcrawler carries a rapier — a slender fencing sword — given to him by Margali Szardos."
+  },
+  {
+    "id": "nightcrawler-trivia-11",
+    "question": "What country was Nightcrawler born in?",
+    "options": ["France", "Austria", "Germany", "Switzerland"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Kurt Wagner was born in the Bavarian mountains of Germany."
+  },
+  {
+    "id": "nightcrawler-trivia-12",
+    "question": "What color are Nightcrawler's eyes?",
+    "options": ["Blue", "Red", "Green", "Yellow"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Nightcrawler has glowing yellow eyes, like candles behind amber glass."
+  },
+  {
+    "id": "nightcrawler-trivia-13",
+    "question": "Nightcrawler was billed as what at the Munich circus?",
+    "options": ["The Amazing Acrobat", "The Incredible Nightcrawler", "The Blue Devil", "The Great Escape"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Kurt was billed as 'the Incredible Nightcrawler' when he performed at the Munich circus."
+  },
+  {
+    "id": "nightcrawler-trivia-14",
+    "question": "Which of these is NOT something Nightcrawler's tail can do?",
+    "options": ["Grip a trapeze bar", "Wrap around objects for leverage", "Fire energy blasts", "Curl when he is happy"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Nightcrawler's prehensile tail can grip and hold things, but it cannot fire energy blasts."
+  },
+  {
+    "id": "nightcrawler-trivia-15",
+    "question": "What giant mutant-hunting robots were built by Bolivar Trask?",
+    "options": ["Destroyers", "Sentinels", "Reapers", "Wardens"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Bolivar Trask designed the Sentinels — enormous purple-and-pink robots programmed to hunt mutants."
+  },
+  {
+    "id": "nightcrawler-trivia-16",
+    "question": "Approximately how far can Nightcrawler jump in a single comfortable teleport?",
+    "options": ["100 meters", "1 kilometer", "3 kilometers", "10 kilometers"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Nightcrawler can comfortably teleport about three kilometers in a single hop."
+  },
+  {
+    "id": "nightcrawler-trivia-17",
+    "question": "What does the brimstone smoke around Nightcrawler's teleports actually represent?",
+    "options": ["A special mutant energy", "Residue from the Brimstone Dimension", "A chemical from his suit", "Camouflage spray"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "The purple-grey smoke is residue from the Brimstone Dimension bleeding through into this world."
+  },
+  {
+    "id": "nightcrawler-trivia-18",
+    "question": "What is Juggernaut's real first name?",
+    "options": ["Victor", "Cain", "John", "Rex"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "The Juggernaut's real name is Cain Marko — he is Professor Xavier's stepbrother."
+  },
+  {
+    "id": "nightcrawler-trivia-19",
+    "question": "What mystical gem powers the Juggernaut?",
+    "options": ["The Ruby of Life", "The Heart of Asgard", "The Infinity Stone", "The Crimson Gem of Cyttorak"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "The Crimson Gem of Cyttorak gives Cain Marko unstoppable power as the Juggernaut."
+  },
+  {
+    "id": "nightcrawler-trivia-20",
+    "question": "When Kurt defeated the Juggernaut, what did he remove to allow Professor Xavier's telepathy to work?",
+    "options": ["His gauntlets", "His helmet", "His breastplate", "His boots"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Kurt used rapid BAMF-and-pull moves to remove the Juggernaut's sealed helmet, exposing him to Xavier's telepathy."
+  },
+  {
+    "id": "nightcrawler-trivia-21",
+    "question": "What famous river runs through Germany near where Kurt's circus was camped when Margali gave him his rapier?",
+    "options": ["The Danube", "The Elbe", "The Rhine", "The Oder"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Margali gave Kurt his rapier on a morning when the circus was camped beside the Rhine river."
+  },
+  {
+    "id": "nightcrawler-trivia-22",
+    "question": "Which X-Man can control the weather?",
+    "options": ["Storm", "Rogue", "Psylocke", "Jubilee"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Storm can call lightning, create fog, and control the weather — she is one of Kurt's teammates."
+  },
+  {
+    "id": "nightcrawler-trivia-23",
+    "question": "Which X-Man turns his body into bright steel?",
+    "options": ["Wolverine", "Cyclops", "Beast", "Colossus"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Colossus — Piotr Rasputin — can transform his whole body into living metal."
+  },
+  {
+    "id": "nightcrawler-trivia-24",
+    "question": "What is the name of the training room at the Xavier Institute?",
+    "options": ["The War Room", "The Simulation Chamber", "The Danger Room", "The Combat Hall"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "The X-Men train in the Danger Room — a space with moving walls and high-tech obstacles."
+  },
+  {
+    "id": "nightcrawler-trivia-25",
+    "question": "What city is the Prado Museum in?",
+    "options": ["Barcelona", "Madrid", "Lisbon", "Seville"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "The Prado Museum is in Madrid, Spain — one of the world's most famous art museums."
+  },
+  {
+    "id": "nightcrawler-trivia-26",
+    "question": "What small activity does Kurt do every morning before the rest of the school wakes up?",
+    "options": ["Fencing practice", "Cooking breakfast", "Swimming in the lake", "Praying in the chapel"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Kurt prays quietly in the small chapel he installed in the Xavier Institute's east wing every morning."
+  },
+  {
+    "id": "nightcrawler-trivia-27",
+    "question": "What chess piece does Kurt argue is superior in his friendly debates with Storm?",
+    "options": ["The queen", "The bishop", "The knight", "The rook"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Kurt passionately defends the knight as the superior chess piece because of its surprising L-shaped move."
+  },
+  {
+    "id": "nightcrawler-trivia-28",
+    "question": "What is the name of the supersonic jet the X-Men fly?",
+    "options": ["The Falcon", "The Blackbird", "The Condor", "The Eagle"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "The X-Men travel in the Blackbird — Professor Xavier's supersonic jet."
+  },
+  {
+    "id": "nightcrawler-trivia-29",
+    "question": "What is Apocalypse's real, ancient name?",
+    "options": ["En Sabah Nur", "Nathaniel Essex", "Amahl Farouk", "Selene Gallio"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Apocalypse's real name is En Sabah Nur — he is the oldest known mutant, thousands of years old."
+  },
+  {
+    "id": "nightcrawler-trivia-30",
+    "question": "In what country did the X-Men fight Apocalypse to stop his broadcast signal?",
+    "options": ["Morocco", "Tunisia", "Egypt", "Libya"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Apocalypse seized a communications tower in Cairo, Egypt, and the X-Men flew there to stop him."
+  },
+  {
+    "id": "nightcrawler-trivia-31",
+    "question": "What did Tony Stark call the device hidden in the New Jersey reactor core?",
+    "options": ["The Pulse Generator", "The Oscillation Engine", "The Disruptor Core", "The Arc Bomb"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "The Oscillation Engine was a device planted in a sealed reactor core that the Avengers needed Kurt to retrieve."
+  },
+  {
+    "id": "nightcrawler-trivia-32",
+    "question": "How many seconds did Kurt have inside the containment field before the failsafe would activate?",
+    "options": ["Ten seconds", "Eight seconds", "Six seconds", "Four seconds"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Kurt had approximately four seconds inside the magnetic containment field before the emergency failsafe activated."
+  },
+  {
+    "id": "nightcrawler-trivia-33",
+    "question": "What does Nightcrawler use his tail for during the Oscillation Engine retrieval?",
+    "options": ["To signal the Avengers", "To wrap around the bracket for extra leverage", "To block a security camera", "To hold a flashlight"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Kurt wrapped his prehensile tail around the housing bracket for leverage to pull out the tightly bolted device."
+  },
+  {
+    "id": "nightcrawler-trivia-34",
+    "question": "Who is the new student from Montana that Kurt helps settle into the Xavier Institute?",
+    "options": ["Jubilee", "Petra", "Cessily", "Laura"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Petra is an eleven-year-old girl from Montana whose mutation lets her walk through solid walls."
+  },
+  {
+    "id": "nightcrawler-trivia-35",
+    "question": "What is Petra's mutant ability?",
+    "options": ["She can fly", "She can shoot fire", "She can walk through solid objects", "She can turn invisible"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Petra can move through solid walls and objects as if they were made of mist."
+  },
+  {
+    "id": "nightcrawler-trivia-36",
+    "question": "What does Kurt tell Petra is the hardest part of having a mutant power?",
+    "options": ["Learning to control it", "Keeping it secret", "Finding the right costume", "Learning you deserve to be in the room"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Kurt tells Petra: the hardest thing isn't mastering the power — it's learning you deserve to be in the room."
+  },
+  {
+    "id": "nightcrawler-trivia-37",
+    "question": "What phrase does Mystique use to describe herself when she reveals the truth to Kurt?",
+    "options": ["Your guardian", "Your ancestor", "Your mother", "Your creator"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Mystique tells Kurt plainly: 'I am your mother' — revealing she is his biological parent."
+  },
+  {
+    "id": "nightcrawler-trivia-38",
+    "question": "What is the name of the island where Kurt rescues three hostages from a collapsing building?",
+    "options": ["Krakoa", "Genosha", "Madripoor", "Muir Island"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "The operation takes place on Genosha, a large island with a long and complicated history in mutant affairs."
+  },
+  {
+    "id": "nightcrawler-trivia-39",
+    "question": "Which Avenger leads the mission that calls in Nightcrawler for his teleportation skills?",
+    "options": ["Captain America", "Thor", "Tony Stark", "Black Widow"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Tony Stark personally calls Kurt to Avengers Tower and briefs him on the Oscillation Engine mission."
+  },
+  {
+    "id": "nightcrawler-trivia-40",
+    "question": "What does Kurt say is the one thing that can make a teleport go wrong?",
+    "options": ["Going too fast", "Carrying too much weight", "Doubt in the middle of the jump", "Teleporting in the dark"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nightcrawler",
+    "explanation": "Kurt explains that doubt — pulling back at the last moment rather than committing fully — is what makes a jump go wrong."
+  }
+]

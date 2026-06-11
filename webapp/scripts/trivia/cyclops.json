@@ -1,0 +1,602 @@
+[
+  {
+    "id": "cyclops-trivia-1",
+    "question": "What is Cyclops's real name?",
+    "options": [
+      "Scott Summers",
+      "James Howlett",
+      "Alex Summers",
+      "Warren Worthington"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Cyclops was born Scott Summers in Anchorage, Alaska."
+  },
+  {
+    "id": "cyclops-trivia-2",
+    "question": "What special material is Cyclops's visor made of?",
+    "options": [
+      "Vibranium",
+      "Adamantium",
+      "Ruby quartz",
+      "Carbonadium"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Ruby quartz absorbs concussive energy, which is why it can hold back Cyclops's optic blasts."
+  },
+  {
+    "id": "cyclops-trivia-3",
+    "question": "What kind of energy does Cyclops fire from his eyes?",
+    "options": [
+      "Heat rays",
+      "Laser beams",
+      "Lightning bolts",
+      "Concussive force blasts"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Cyclops fires optic blasts of pure concussive force — not heat or lasers — that can push or break objects."
+  },
+  {
+    "id": "cyclops-trivia-4",
+    "question": "Who is Cyclops's younger brother?",
+    "options": [
+      "Bobby Drake",
+      "Alex Summers",
+      "Hank McCoy",
+      "Warren Worthington"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Alex Summers, also known as Havok, is Scott's younger brother."
+  },
+  {
+    "id": "cyclops-trivia-5",
+    "question": "What is Alex Summers's superhero name?",
+    "options": [
+      "Cyclops",
+      "Iceman",
+      "Havok",
+      "Beast"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Alex Summers uses the name Havok and projects concussive energy rings outward from his body."
+  },
+  {
+    "id": "cyclops-trivia-6",
+    "question": "What is the name of the school where Cyclops trained?",
+    "options": [
+      "Midtown High School",
+      "Essex County Academy",
+      "Avengers Training Institute",
+      "Xavier School for Gifted Youngsters"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Professor Xavier founded the Xavier School for Gifted Youngsters in Westchester, New York for young mutants."
+  },
+  {
+    "id": "cyclops-trivia-7",
+    "question": "What is the name of Cyclops's mentor who founded the X-Men?",
+    "options": [
+      "Professor Charles Xavier",
+      "Nick Fury",
+      "Tony Stark",
+      "Hank Pym"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Professor Charles Xavier, a powerful telepath, founded the Xavier School and the X-Men."
+  },
+  {
+    "id": "cyclops-trivia-8",
+    "question": "What is the name of the villain who secretly watched Scott at the orphanage?",
+    "options": [
+      "Magneto",
+      "Apocalypse",
+      "Mister Sinister",
+      "Mystique"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Mister Sinister disguised himself as a counselor named Dr. Milbury to observe young Scott Summers."
+  },
+  {
+    "id": "cyclops-trivia-9",
+    "question": "What is Mister Sinister's real name?",
+    "options": [
+      "Victor Creed",
+      "Erik Lehnsherr",
+      "Sebastian Shaw",
+      "Nathaniel Essex"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Mister Sinister was born Nathaniel Essex and became obsessed with mutant genetics."
+  },
+  {
+    "id": "cyclops-trivia-10",
+    "question": "What ancient villain calls himself 'En Sabah Nur' and believes only the strongest should survive?",
+    "options": [
+      "Apocalypse",
+      "Galactus",
+      "Thanos",
+      "Mister Sinister"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Apocalypse is the ancient mutant En Sabah Nur, who has lived for thousands of years and fights the X-Men."
+  },
+  {
+    "id": "cyclops-trivia-11",
+    "question": "What does the slider control on Cyclops's visor do when pushed all the way down?",
+    "options": [
+      "Narrows the beam to a pencil-thin focused line",
+      "Widens the beam into a broad spread",
+      "Turns the visor off completely",
+      "Changes the color of the lenses"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "The slider at its lowest setting narrows the aperture to a pencil-thin beam for precise, targeted shots."
+  },
+  {
+    "id": "cyclops-trivia-12",
+    "question": "What color are Cyclops's optic blasts?",
+    "options": [
+      "Blue",
+      "Green",
+      "Red",
+      "Yellow"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Cyclops fires brilliant red optic blasts from his eyes, contained by his ruby-quartz visor."
+  },
+  {
+    "id": "cyclops-trivia-13",
+    "question": "What is the name of the X-Men's underground training facility?",
+    "options": [
+      "The War Room",
+      "The Danger Room",
+      "The Battle Chamber",
+      "The Simulation Deck"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "The Danger Room is the Xavier School's underground simulation facility where X-Men train their powers."
+  },
+  {
+    "id": "cyclops-trivia-14",
+    "question": "What US state did Scott Summers grow up in?",
+    "options": [
+      "Montana",
+      "California",
+      "Nebraska",
+      "Alaska"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Scott grew up in Anchorage, Alaska before a plane crash changed his life."
+  },
+  {
+    "id": "cyclops-trivia-15",
+    "question": "What state did Scott end up in after the plane crash separated him from his brother?",
+    "options": [
+      "Montana",
+      "California",
+      "New York",
+      "Nebraska"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Scott ended up at the Essex County Home for Unwanted Children in Omaha, Nebraska."
+  },
+  {
+    "id": "cyclops-trivia-16",
+    "question": "What did Cyclops's father do as a career?",
+    "options": [
+      "He was a scientist",
+      "He was a pilot who flew jets",
+      "He was a soldier",
+      "He was a teacher"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Christopher Summers was a jet pilot, which gave young Scott his love of aircraft and flight."
+  },
+  {
+    "id": "cyclops-trivia-17",
+    "question": "What is the name of the X-Man who can control the weather?",
+    "options": [
+      "Ororo Munroe",
+      "Jean Grey",
+      "Rogue",
+      "Jubilee"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Ororo Munroe, known as Storm, can command weather and is a key member of the X-Men."
+  },
+  {
+    "id": "cyclops-trivia-18",
+    "question": "Which X-Man can create ice and leave ice sculptures in the hallway?",
+    "options": [
+      "Hank McCoy",
+      "Warren Worthington",
+      "Bobby Drake",
+      "Scott Summers"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Bobby Drake — Iceman — can generate ice and once filled the Xavier School corridors with ice sculptures."
+  },
+  {
+    "id": "cyclops-trivia-19",
+    "question": "Jean Grey has two powers: telepathy and what else?",
+    "options": [
+      "Super speed",
+      "Invisibility",
+      "Flight",
+      "Telekinesis"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Jean Grey is both a telepath, who can sense thoughts, and a telekinetic, who can move objects with her mind."
+  },
+  {
+    "id": "cyclops-trivia-20",
+    "question": "What is Wolverine's real first name?",
+    "options": [
+      "Victor",
+      "James",
+      "Logan",
+      "Erik"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Wolverine was born James Howlett, though he is most commonly called Logan."
+  },
+  {
+    "id": "cyclops-trivia-21",
+    "question": "What is the name Magneto uses in real life?",
+    "options": [
+      "Erik Lehnsherr",
+      "Sebastian Shaw",
+      "Victor Creed",
+      "Nathaniel Essex"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Magneto's real name is Erik Lehnsherr, and he can control all forms of metal."
+  },
+  {
+    "id": "cyclops-trivia-22",
+    "question": "What island did Magneto seal inside a steel dome?",
+    "options": [
+      "Madripoor",
+      "Krakoa",
+      "Genosha",
+      "Muir Island"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Magneto sealed the mutant island of Genosha inside a solid steel dome as an act of protection."
+  },
+  {
+    "id": "cyclops-trivia-23",
+    "question": "How did Scott convince Magneto to lower the dome over Genosha?",
+    "options": [
+      "He blasted the dome open with his optic beams",
+      "He called in the Avengers for backup",
+      "He came alone, listened to Magneto's story, and told him Xavier never stopped believing in him",
+      "He threatened to use the Danger Room against him"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Scott came alone, listened to Magneto's history, and told him that Professor Xavier still believed he could come back."
+  },
+  {
+    "id": "cyclops-trivia-24",
+    "question": "What are the Four Horsemen?",
+    "options": [
+      "Four X-Men who guard the Xavier School",
+      "Four enhanced mutants serving Apocalypse",
+      "Four robots built by Mister Sinister",
+      "Four members of Magneto's Brotherhood"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Apocalypse enhanced four mutants and called them his Four Horsemen to serve as his champions."
+  },
+  {
+    "id": "cyclops-trivia-25",
+    "question": "What was the name of the fake persona Mister Sinister used at Scott's orphanage?",
+    "options": [
+      "Dr. Nathan Milbury",
+      "Dr. Victor Essex",
+      "Dr. Henry Larner",
+      "Dr. Charles Xavier"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Sinister disguised himself as Dr. Nathan Milbury, a counselor at the Essex County Home."
+  },
+  {
+    "id": "cyclops-trivia-26",
+    "question": "What did Apocalypse plan to do with the Celestial Station?",
+    "options": [
+      "Use it as a headquarters for his Horsemen",
+      "Fire an energy wave to knock out every power grid on Earth",
+      "Drop it onto the Xavier School",
+      "Use it to block out the sun"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "explanation": "Apocalypse planned to fire an energy wave from Celestial Station that would knock out every power grid on Earth.",
+    "universe": "marvel",
+    "heroId": "cyclops"
+  },
+  {
+    "id": "cyclops-trivia-27",
+    "question": "Where is the Xavier School located?",
+    "options": [
+      "Manhattan, New York",
+      "Omaha, Nebraska",
+      "Westchester County, New York",
+      "Pasadena, California"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "The Xavier School for Gifted Youngsters is set on a grand estate in Westchester County, New York."
+  },
+  {
+    "id": "cyclops-trivia-28",
+    "question": "What did Scott do first thing every morning without fail?",
+    "options": [
+      "Read the day's mission briefing",
+      "Put on his ruby-quartz visor",
+      "Train in the Danger Room",
+      "Check in with Professor Xavier"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Scott reached for his visor first every single morning — it was the most essential part of his daily routine."
+  },
+  {
+    "id": "cyclops-trivia-29",
+    "question": "What color does everything look through a ruby-quartz visor?",
+    "options": [
+      "Blue",
+      "Green",
+      "White",
+      "Red and amber"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Ruby quartz tints the world in warm red and amber tones — Scott has never seen the color blue clearly."
+  },
+  {
+    "id": "cyclops-trivia-30",
+    "question": "Where did Scott find his brother Alex living when they finally reunited?",
+    "options": [
+      "Omaha, Nebraska",
+      "Pasadena, California",
+      "Anchorage, Alaska",
+      "Westchester, New York"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Alex Summers was living with a family in Pasadena, California when Scott finally tracked him down."
+  },
+  {
+    "id": "cyclops-trivia-31",
+    "question": "What does Alex Summers's power do, compared to Scott's?",
+    "options": [
+      "He fires a focused beam just like Scott's",
+      "He controls metal like Magneto",
+      "He projects concussive energy rings that spread outward in wide waves",
+      "He reads minds like Professor Xavier"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Havok projects energy in broad concentric rings — the opposite of Scott's tight, focused optic beam."
+  },
+  {
+    "id": "cyclops-trivia-32",
+    "question": "What famous lesson did Scott learn from a failed Danger Room exercise?",
+    "options": [
+      "Never fight alone",
+      "A good leader is honest about their mistakes",
+      "Always use maximum power",
+      "Plans are more important than people"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "After running a distracted session, Scott apologized to his team and learned that honesty makes a leader more trustworthy."
+  },
+  {
+    "id": "cyclops-trivia-33",
+    "question": "What did Wolverine say to Cyclops after the Weapon X rescue mission in Alberta?",
+    "options": [
+      "Nice plan, Summers",
+      "Good shot",
+      "I was wrong about you",
+      "You're almost as fast as me"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "After Scott hit a tiny target at 60 meters to save them, Wolverine said simply 'Good shot' — high praise from him."
+  },
+  {
+    "id": "cyclops-trivia-34",
+    "question": "Who accidentally photographed Scott laughing near the Xavier School lake?",
+    "options": [
+      "Ororo Munroe",
+      "Hank McCoy",
+      "Bobby Drake",
+      "Warren Worthington"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Bobby Drake accidentally pressed the shutter at the perfect moment and captured Scott genuinely laughing with Jean."
+  },
+  {
+    "id": "cyclops-trivia-35",
+    "question": "What mountain range did Professor Xavier source the ruby quartz from?",
+    "options": [
+      "The Himalayas",
+      "The Alps",
+      "The Rocky Mountains",
+      "The mountains of Madripoor"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Xavier found a ruby-quartz deposit in the mountains of Madripoor and brought it to craftsman Henry Larner."
+  },
+  {
+    "id": "cyclops-trivia-36",
+    "question": "What is Xavier's own mutant power?",
+    "options": [
+      "Super strength",
+      "Time travel",
+      "Energy blasts",
+      "Telepathy"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Professor Xavier is a telepath of extraordinary range, able to sense and project thoughts across great distances."
+  },
+  {
+    "id": "cyclops-trivia-37",
+    "question": "What leadership principle did Professor Xavier teach Scott after the failed exercise?",
+    "options": [
+      "Always train harder than necessary",
+      "Avoid difficult conversations",
+      "Leading well is about being honest about mistakes",
+      "The leader must never show weakness"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Xavier told Scott that leading well is not about never making mistakes, but about being honest about them."
+  },
+  {
+    "id": "cyclops-trivia-38",
+    "question": "What shape glows on Mister Sinister's forehead?",
+    "options": [
+      "A circle",
+      "A triangle",
+      "A star",
+      "A red diamond"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "A glowing red diamond on his forehead is one of Mister Sinister's most recognizable features."
+  },
+  {
+    "id": "cyclops-trivia-39",
+    "question": "Which of these is NOT one of the original Xavier School students alongside Scott?",
+    "options": [
+      "Jean Grey",
+      "Bobby Drake",
+      "Wolverine",
+      "Warren Worthington"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Wolverine arrived at the school later; the original students were Scott, Jean Grey, Bobby Drake, Hank McCoy, and Warren Worthington."
+  },
+  {
+    "id": "cyclops-trivia-40",
+    "question": "What is the first thing Professor Xavier offered Scott when he came to find him at the orphanage?",
+    "options": [
+      "A chance to fight Magneto",
+      "A ruby-quartz visor and training to control his power",
+      "The identity of his parents",
+      "A ticket back to Alaska"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "cyclops",
+    "explanation": "Xavier built Scott a ruby-quartz visor and offered him training at the Xavier School so he could learn to control his optic blasts."
+  }
+]

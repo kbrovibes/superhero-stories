@@ -1,0 +1,402 @@
+[
+  {
+    "id": "starfire-trivia-1",
+    "question": "What is Starfire's real Tamaranean name?",
+    "options": ["Koriand'r", "Komand'r", "Kalanor", "Koriath"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Starfire's real name is Koriand'r, a princess of the planet Tamaran."
+  },
+  {
+    "id": "starfire-trivia-2",
+    "question": "What planet is Starfire originally from?",
+    "options": ["Krypton", "Apokolips", "Tamaran", "Okaara"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Starfire comes from the planet Tamaran, a warm world with two suns in the Vega system."
+  },
+  {
+    "id": "starfire-trivia-3",
+    "question": "What color are Starfire's energy blasts called starbolts?",
+    "options": ["Blue", "Red", "Yellow", "Green"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Starfire's starbolts are brilliant emerald green, powered by the solar energy she absorbs."
+  },
+  {
+    "id": "starfire-trivia-4",
+    "question": "What is Starfire's older sister named?",
+    "options": ["Raven", "Blackfire", "Firestar", "Darkstar"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Starfire's older sister Komand'r is known as Blackfire, and she was jealous of Koriand'r's powers."
+  },
+  {
+    "id": "starfire-trivia-5",
+    "question": "Which hero did Starfire first meet when she crash-landed on Earth?",
+    "options": ["Batman", "Superman", "Robin", "Cyborg"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "The first hero Starfire met on Earth was Robin (Dick Grayson), who reached out his hand to help her."
+  },
+  {
+    "id": "starfire-trivia-6",
+    "question": "How does Starfire absorb a new language?",
+    "options": ["By reading a book", "By watching television", "Through a single honest touch", "By listening for one hour"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Starfire can absorb any language through a single sincere physical touch — she learned English from Robin this way."
+  },
+  {
+    "id": "starfire-trivia-7",
+    "question": "What empire captured Starfire and held her prisoner before she escaped to Earth?",
+    "options": ["The Gordanian Empire", "The Citadel", "The Reach", "The Thanagarian Empire"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "The Citadel was the ruthless empire that held Koriand'r prisoner after Blackfire betrayed her."
+  },
+  {
+    "id": "starfire-trivia-8",
+    "question": "What team did Starfire help found in Jump City?",
+    "options": ["The Justice League", "The Teen Titans", "The Outsiders", "Young Justice"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Starfire is a founding member of the Teen Titans, the hero team based in Jump City's Titans Tower."
+  },
+  {
+    "id": "starfire-trivia-9",
+    "question": "How many suns does the planet Tamaran have?",
+    "options": ["One", "Three", "Four", "Two"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Tamaran orbits two suns, and Tamaraneans use the constant sunlight to power their starbolt abilities."
+  },
+  {
+    "id": "starfire-trivia-10",
+    "question": "What does Starfire's solar absorption allow her to do without a spacesuit?",
+    "options": ["Turn invisible", "Travel through time", "Survive in outer space", "Breathe underwater"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Starfire can survive the vacuum of outer space without a suit — space is as natural to her as air."
+  },
+  {
+    "id": "starfire-trivia-11",
+    "question": "What is Starfire's older sister's real Tamaranean name?",
+    "options": ["Komand'r", "Koriath'r", "Kor'el", "Koriand'a"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Blackfire's real name is Komand'r — she is Koriand'r's older sister who betrayed her to the Citadel."
+  },
+  {
+    "id": "starfire-trivia-12",
+    "question": "What makes Starfire's starbolts become more powerful?",
+    "options": ["Cold temperatures", "Anger and fear", "Joy and love", "Complete darkness"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Starfire's powers are linked to her emotions — when she feels joy and love, her starbolts can double in strength."
+  },
+  {
+    "id": "starfire-trivia-13",
+    "question": "What city in California did Starfire first land in?",
+    "options": ["Los Angeles", "San Francisco", "Jump City", "Star City"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Starfire crash-landed in Jump City, California, scorching a crater in a parking lot."
+  },
+  {
+    "id": "starfire-trivia-14",
+    "question": "Which villain tried to capture Starfire during the Titans' first months together?",
+    "options": ["The Joker", "Blackfire working with a Gordanian warlord", "Slade", "The Brotherhood of Evil"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Blackfire arranged to hand Starfire over to a Gordanian warlord in exchange for a Centauri Moon Diamond."
+  },
+  {
+    "id": "starfire-trivia-15",
+    "question": "What is the name of the reptilian warrior race that once served the Citadel and came after Starfire?",
+    "options": ["Thanagarians", "Gordanians", "Khunds", "Okaarans"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "The Gordanians are a reptilian warrior race that served the Citadel and hunted escaped prisoners like Starfire."
+  },
+  {
+    "id": "starfire-trivia-16",
+    "question": "What hero team has a base called the Watchtower in orbit?",
+    "options": ["The Teen Titans", "The Outsiders", "The Justice League", "Young Justice"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "The Justice League operates from the Watchtower, a space station in Earth's orbit."
+  },
+  {
+    "id": "starfire-trivia-17",
+    "question": "What villain wears an orange-and-black mask and uses extremely careful long-term plans against the Titans?",
+    "options": ["Deathstroke", "Slade", "The Brain", "Monsieur Mallah"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Slade wears a distinctive orange-and-black mask and is the Titans' most calculating and patient enemy."
+  },
+  {
+    "id": "starfire-trivia-18",
+    "question": "Which Titan can transform into any animal?",
+    "options": ["Cyborg", "Raven", "Robin", "Beast Boy"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Beast Boy can transform into any animal he has encountered, and is one of Starfire's closest friends on the team."
+  },
+  {
+    "id": "starfire-trivia-19",
+    "question": "What is the galactic trade language that Starfire has absorbed?",
+    "options": ["Gordanian", "Khund", "Interlac", "Okaaran"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Interlac is the galactic trade language used by dozens of civilizations, and Starfire absorbed it through her language gift."
+  },
+  {
+    "id": "starfire-trivia-20",
+    "question": "What English word is Starfire's favorite, which in Tamaranean means 'the place where you are warmed'?",
+    "options": ["Friend", "Home", "Light", "Safe"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Starfire's favorite English word is 'home,' which corresponds to a Tamaranean word meaning the place where you are warmed."
+  },
+  {
+    "id": "starfire-trivia-21",
+    "question": "What is the name of the energy source Starfire uses to power her abilities?",
+    "options": ["Kryptonite energy", "Nth metal", "Solar energy from stars", "Dark matter"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Starfire absorbs solar energy from stars — any star, not just Tamaran's twin suns — which powers all her abilities."
+  },
+  {
+    "id": "starfire-trivia-22",
+    "question": "What real name does Robin go by?",
+    "options": ["Jason Todd", "Tim Drake", "Dick Grayson", "Damian Wayne"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "The Robin who co-founded the Teen Titans with Starfire is Dick Grayson, the original Robin and Batman's protégé."
+  },
+  {
+    "id": "starfire-trivia-23",
+    "question": "What famous hero trained Robin before he formed the Teen Titans?",
+    "options": ["Superman", "Green Lantern", "Batman", "The Flash"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Robin (Dick Grayson) was trained by Batman, the world's greatest detective, before becoming a Titan."
+  },
+  {
+    "id": "starfire-trivia-24",
+    "question": "What role does Cyborg play on the Teen Titans?",
+    "options": ["Magician", "Tech expert and communications", "Shapeshifter", "Telepath"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Cyborg is the Titans' technology and communications expert, and can hack enemy systems."
+  },
+  {
+    "id": "starfire-trivia-25",
+    "question": "Which Titan uses dark magical energy and is known for being quiet and mysterious?",
+    "options": ["Raven", "Starfire", "Beast Boy", "Aqualad"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Raven is the Titan who uses dark mystical energy and telekinesis, and is known for her quiet, serious nature."
+  },
+  {
+    "id": "starfire-trivia-26",
+    "question": "What criminal organization did the Brain lead in an all-at-once attack on every Titan team?",
+    "options": ["HIVE Academy", "The Legion of Doom", "The Brotherhood of Evil", "Intergang"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "The Brain leads the Brotherhood of Evil, which launched simultaneous attacks on every Titan team around the world."
+  },
+  {
+    "id": "starfire-trivia-27",
+    "question": "In which star system is Tamaran located?",
+    "options": ["The Krypton System", "The Vega System", "The Andromeda System", "The Cygnus System"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Tamaran is located in the Vega system, which also contains Okaara and other inhabited worlds."
+  },
+  {
+    "id": "starfire-trivia-28",
+    "question": "What Green Lantern tried to negotiate with the Gordanian fleet that threatened Earth?",
+    "options": ["John Stewart", "Kyle Rayner", "Guy Gardner", "Hal Jordan"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Hal Jordan, one of Earth's Green Lanterns, attempted to negotiate with the Gordanian fleet while Starfire boarded their flagship."
+  },
+  {
+    "id": "starfire-trivia-29",
+    "question": "What did Blackfire's Citadel deal require her to hand over?",
+    "options": ["The Tamaranean throne", "Her sister Koriand'r", "The palace energy conduits", "The Gordanian fleet"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Blackfire betrayed her sister Koriand'r to the Citadel in exchange for a false promise of power."
+  },
+  {
+    "id": "starfire-trivia-30",
+    "question": "What Tamaranean word for 'fighting' has the same meaning as their word for what else?",
+    "options": ["Singing", "Sleeping", "Dancing", "Flying"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "In Tamaranean, 'fighting' and 'dancing' are the same verb — both are motion with a purpose."
+  },
+  {
+    "id": "starfire-trivia-31",
+    "question": "What is the shape of the building where the Teen Titans live?",
+    "options": ["A dome", "A pyramid", "The letter T", "A rocket ship"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Titans Tower is shaped like the letter T and stands in Jump City harbor."
+  },
+  {
+    "id": "starfire-trivia-32",
+    "question": "What Gordanian warrior came after Starfire with a fleet and was confronted directly by her?",
+    "options": ["General Rek-Var", "Commander Yal-Zor", "Admiral Blackfire", "General Yal-Zor"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "General Yal-Zor led the Gordanian warship that came to Jump City demanding Starfire be surrendered."
+  },
+  {
+    "id": "starfire-trivia-33",
+    "question": "What does the Martian Manhunter say was the most important moment in stopping the Gordanian fleet?",
+    "options": ["Cyborg hacking their systems", "Green Lantern's ring attack", "Starfire's direct conversation with their admiral", "Robin's strategy"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Martian Manhunter told Robin that Starfire's direct conversation with Admiral Rek-Var was the decisive moment."
+  },
+  {
+    "id": "starfire-trivia-34",
+    "question": "What did the Citadel experiments intend to do to Starfire's powers?",
+    "options": ["Double them", "Remove them", "Transfer them to Blackfire", "Turn them red"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "The Citadel ran experiments meant to remove Starfire's powers — instead the energy backfired and amplified them enormously."
+  },
+  {
+    "id": "starfire-trivia-35",
+    "question": "What did Starfire use to reactivate the broken energy conduits on Tamaran?",
+    "options": ["A special Tamaranean crystal", "Precise starbolts fired into the nodes", "Cyborg's technology", "The power of two suns"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Starfire flew into the conduit shafts herself and used precise, carefully measured starbolts to reactivate the cracked nodes."
+  },
+  {
+    "id": "starfire-trivia-36",
+    "question": "What does Starfire teach the newer Titan trainees that she calls 'navigation'?",
+    "options": ["Flying in formation", "Reading star charts", "Knowing where you are in yourself", "Speaking alien languages"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Starfire teaches 'navigation' as the practice of knowing where your heart is — feeling oriented inside yourself."
+  },
+  {
+    "id": "starfire-trivia-37",
+    "question": "When Slade built a robot to fight Starfire, what was the robot's special shield designed to do?",
+    "options": ["Block her flight", "Absorb and scatter her starbolts", "Copy her powers", "Make her fall asleep"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Slade's robot had light-dampening shields meant to disperse and neutralize Starfire's starbolts on contact."
+  },
+  {
+    "id": "starfire-trivia-38",
+    "question": "How did Starfire defeat Slade's robot when her starbolts were not working?",
+    "options": ["She called Raven for help", "She used her Tamaranean physical strength instead", "She flew to space to recharge", "She used the robot's own blasts against it"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Starfire switched from starbolts to pure physical force, using her Tamaranean strength to drive the robot into a pillar."
+  },
+  {
+    "id": "starfire-trivia-39",
+    "question": "What is the name of the young trainee who told Starfire she didn't think she was brave enough to be a Titan?",
+    "options": ["Kole", "Jericho", "Ari", "Herald"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Ari was the young trainee who could make force fields but feared open spaces, who told Starfire she didn't feel brave enough."
+  },
+  {
+    "id": "starfire-trivia-40",
+    "question": "What gem did Blackfire try to get from a Gordanian warlord in exchange for handing over Starfire?",
+    "options": ["An Emerald of Tamaran", "A Sapphire Star Stone", "A Centauri Moon Diamond", "A Vega Crystal"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "starfire",
+    "explanation": "Blackfire made a deal to receive a Centauri Moon Diamond — a jewel worth control of a small star system — in exchange for Starfire."
+  }
+]

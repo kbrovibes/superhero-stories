@@ -1,0 +1,402 @@
+[
+  {
+    "id": "beast-boy-trivia-1",
+    "question": "What is Beast Boy's real name?",
+    "options": ["Victor Stone", "Garfield Logan", "Dick Grayson", "Terry McGinnis"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Beast Boy's real name is Garfield Logan, a boy who grew up at his parents' research station in Africa."
+  },
+  {
+    "id": "beast-boy-trivia-2",
+    "question": "What color is Beast Boy's skin?",
+    "options": ["Blue", "Purple", "Green", "Orange"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Beast Boy has vivid green skin, hair, and eyes — a permanent result of the serum his parents used to save his life."
+  },
+  {
+    "id": "beast-boy-trivia-3",
+    "question": "What rare disease did Garfield catch as a young child?",
+    "options": ["Raven's Fever", "Chlorocebus Syndrome", "Zeta Pox", "Sakutia"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Garfield caught Sakutia, a dangerous disease that his parents cured using an experimental green-monkey serum."
+  },
+  {
+    "id": "beast-boy-trivia-4",
+    "question": "What kind of animal's DNA was used to make the serum that gave Beast Boy his powers?",
+    "options": ["Green frog", "Green parrot", "Green monkey", "Green iguana"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "The serum was made from the DNA of the green monkey (Chlorocebus sabaeus), which can survive Sakutia without harm."
+  },
+  {
+    "id": "beast-boy-trivia-5",
+    "question": "Where did Garfield Logan grow up with his scientist parents?",
+    "options": ["Gotham City", "Metropolis", "The Amazon rainforest", "A research station in the Congo"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Garfield grew up at his parents' wildlife research station deep in the Congo jungle in Africa."
+  },
+  {
+    "id": "beast-boy-trivia-6",
+    "question": "Which team did Beast Boy join BEFORE the Teen Titans?",
+    "options": ["The Justice League", "The Birds of Prey", "The Doom Patrol", "The Outsiders"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Before joining the Teen Titans, Garfield was a member of the Doom Patrol, led by Niles Caulder (the Chief)."
+  },
+  {
+    "id": "beast-boy-trivia-7",
+    "question": "What was the name of the Doom Patrol's leader?",
+    "options": ["General Immortus", "The Brain", "Cliff Steele", "Niles Caulder"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Niles Caulder, called 'the Chief,' led the Doom Patrol from his motorized wheelchair with his brilliant mind."
+  },
+  {
+    "id": "beast-boy-trivia-8",
+    "question": "What was Elasti-Girl's real name in the Doom Patrol?",
+    "options": ["Marie Logan", "Rita Farr", "Priya Nair", "Karen Beecher"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Rita Farr was a famous film actor before a chemical compound gave her the ability to stretch and shrink her body."
+  },
+  {
+    "id": "beast-boy-trivia-9",
+    "question": "What is the name of the Doom Patrol member with a human brain in a robot body?",
+    "options": ["Cyborg", "Metal Man", "Robotman", "Iron Will"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Cliff Steele became Robotman after his human brain was transplanted into an indestructible metal body following a racing accident."
+  },
+  {
+    "id": "beast-boy-trivia-10",
+    "question": "Which city is Titans Tower located near?",
+    "options": ["Jump City", "Gotham City", "Metropolis", "Star City"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Titans Tower stands on a rocky island in Jump City Bay, visible from the waterfront like a T-shaped lighthouse."
+  },
+  {
+    "id": "beast-boy-trivia-11",
+    "question": "Which shape is Titans Tower built to look like?",
+    "options": ["The letter B", "The letter T", "The letter A", "The letter J"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Titans Tower is a gleaming T-shaped structure on a rocky island — the T stands for Teen Titans."
+  },
+  {
+    "id": "beast-boy-trivia-12",
+    "question": "Who is the leader of the Teen Titans?",
+    "options": ["Cyborg", "Starfire", "Robin", "Beast Boy"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Robin is the leader of the Teen Titans, coordinating the team's missions from Titans Tower."
+  },
+  {
+    "id": "beast-boy-trivia-13",
+    "question": "What color are ALL of Beast Boy's animal forms?",
+    "options": ["Blue", "Purple", "The same color as the real animal", "Green"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Every single animal form Beast Boy takes comes out the same vivid green — it is always, unmistakably, still him."
+  },
+  {
+    "id": "beast-boy-trivia-14",
+    "question": "Which villain uses a giant remote control to pull monsters out of movie screens?",
+    "options": ["Slade", "General Immortus", "The Brain", "Control Freak"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Control Freak uses a special oversized remote that can pull creatures and villains directly out of film and TV screens."
+  },
+  {
+    "id": "beast-boy-trivia-15",
+    "question": "How did Beast Boy defeat Control Freak's remote control?",
+    "options": ["He flew away with it as a hawk", "Raven destroyed it with dark energy", "He smashed it with a rhino charge", "He turned into a mouse and bit the battery compartment off"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Beast Boy shrank to a mouse, sneaked up Control Freak's jumpsuit, and bit the battery compartment clean off the remote."
+  },
+  {
+    "id": "beast-boy-trivia-16",
+    "question": "What criminal organization sent Monsieur Mallah to attack Titans Tower?",
+    "options": ["The Joker's gang", "The Brotherhood of Evil", "H.I.V.E.", "The League of Shadows"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "The Brotherhood of Evil, directed by the Brain, dispatched Monsieur Mallah to capture young heroes worldwide."
+  },
+  {
+    "id": "beast-boy-trivia-17",
+    "question": "What is the Brain?",
+    "options": ["A giant robot villain", "A supercomputer that plans crimes", "A criminal genius whose mind floats in a glass dome", "A villain with mind-control powers"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "The Brain is a disembodied criminal genius whose mind floats in a glass dome — he directs the Brotherhood of Evil."
+  },
+  {
+    "id": "beast-boy-trivia-18",
+    "question": "What kind of animal is Monsieur Mallah?",
+    "options": ["A lion", "A bear", "A gorilla", "A wolf"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Monsieur Mallah is a super-intelligent, super-strong gorilla who works as the Brain's main enforcer."
+  },
+  {
+    "id": "beast-boy-trivia-19",
+    "question": "When Beast Boy was alone against Mallah's soldiers, which clever trick did he use to escape?",
+    "options": ["He became a T-rex and smashed through the wall", "He turned into a starling and triggered the fire suppression system", "He called Cyborg for help immediately", "He transformed into an elephant and charged"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Beast Boy became a tiny starling, flew to the ceiling, and triggered the fire suppression system, using the foam chaos to lock Mallah behind the blast doors."
+  },
+  {
+    "id": "beast-boy-trivia-20",
+    "question": "What superpower does Beast Boy have?",
+    "options": ["Telepathy", "The power to control animals with his mind", "Super speed", "Ability to transform into any animal he has studied"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Beast Boy can transform his entire body into any animal he has ever studied, taking on their full biology and senses."
+  },
+  {
+    "id": "beast-boy-trivia-21",
+    "question": "Can Beast Boy transform into extinct animals like dinosaurs?",
+    "options": ["Yes, if he has studied them", "No, only living animals", "Only with Cyborg's help", "Yes, but only for ten seconds"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "As long as Garfield has studied the creature — even from fossils and records — he can transform into it, including T-rexes and pterodactyls."
+  },
+  {
+    "id": "beast-boy-trivia-22",
+    "question": "What is the name of the villain who wears a half-orange, half-black mask and is the Titans' most patient enemy?",
+    "options": ["Control Freak", "General Immortus", "Slade", "The Brain"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Slade Wilson wears a half-orange, half-black mask and is the most patient and dangerous enemy the Teen Titans have ever faced."
+  },
+  {
+    "id": "beast-boy-trivia-23",
+    "question": "What small, fast-punching ocean creature does Beast Boy consider one of his secret weapons?",
+    "options": ["A crab", "A pufferfish", "A mantis shrimp", "A pistol shrimp"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "The mantis shrimp punches so fast it creates a shockwave strong enough to stun creatures much larger than itself."
+  },
+  {
+    "id": "beast-boy-trivia-24",
+    "question": "What does Raven say to Beast Boy when he is feeling lost on the Tower roof?",
+    "options": ["Everything will be fine", "You know what you are", "Go back inside", "The team needs you"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "After sitting with Garfield in silence for twenty minutes, Raven simply says 'You know what you are' — and he says 'Green.'"
+  },
+  {
+    "id": "beast-boy-trivia-25",
+    "question": "What does Beast Boy eat an enormous amount of at Titans Tower?",
+    "options": ["Cereal", "Pizza", "Tacos", "Sandwiches"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Beast Boy's favorite food is cereal — especially the kind with little marshmallows — and he eats it at all hours of the day."
+  },
+  {
+    "id": "beast-boy-trivia-26",
+    "question": "Which Titan maintains Titans Tower's computer system?",
+    "options": ["Robin", "Raven", "Starfire", "Cyborg"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Cyborg maintains the Tower's advanced computer system, which tracks all threats in and around Jump City."
+  },
+  {
+    "id": "beast-boy-trivia-27",
+    "question": "Where does Beast Boy keep his mother's field guides in his room?",
+    "options": ["In the common room bookshelf", "In a box under his bed", "On the floor in a pile", "On a special high shelf organized by continent"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Garfield keeps his mother's animal field guides on a high shelf organized by continent — the one tidy spot in his otherwise chaotic room."
+  },
+  {
+    "id": "beast-boy-trivia-28",
+    "question": "What animal did Beast Boy become to track Raven across rooftops by scent?",
+    "options": ["A wolf", "A green snake", "A bloodhound", "A hawk"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Beast Boy became a bloodhound and tracked Raven across three rooftops purely by scent — something she found deeply unnecessary."
+  },
+  {
+    "id": "beast-boy-trivia-29",
+    "question": "What is the name of the wildlife center where Beast Boy volunteers?",
+    "options": ["Jump City Zoo", "Redwood Animal Sanctuary", "Caulder Wildlife Reserve", "Bay Animal Center"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Garfield volunteers every Thursday and Saturday at the Redwood Animal Sanctuary on the outskirts of Jump City."
+  },
+  {
+    "id": "beast-boy-trivia-30",
+    "question": "What kind of bird was Rosalind, the animal Garfield worked with at the sanctuary?",
+    "options": ["A great horned owl", "A golden eagle", "A peregrine falcon", "A California condor"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Rosalind was a juvenile California condor with a wing injury who watched Garfield for three weeks before allowing him near."
+  },
+  {
+    "id": "beast-boy-trivia-31",
+    "question": "What animal did Beast Boy become to block Slade's escape boat in the bay?",
+    "options": ["A great white shark", "A green orca", "A giant squid", "A sea turtle"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Beast Boy dove off the dock, transformed mid-fall, and surfaced as a green orca between Slade's boat and the open sea."
+  },
+  {
+    "id": "beast-boy-trivia-32",
+    "question": "What animal form did Beast Boy use to spy on Slade's warehouse for three hours?",
+    "options": ["A crow", "A green pigeon", "A butterfly", "A moth"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Garfield became a green pigeon and sat on Slade's warehouse roof for three hours — patient surveillance, not at all his natural style."
+  },
+  {
+    "id": "beast-boy-trivia-33",
+    "question": "During the big storm emergency, what animal did Beast Boy become to rescue a family from a flooded apartment building?",
+    "options": ["A Saint Bernard", "A bloodhound", "A draft horse", "A dolphin"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Beast Boy became a green Saint Bernard — a breed bred for mountain rescue — and barked the family through the back stairwell to safety."
+  },
+  {
+    "id": "beast-boy-trivia-34",
+    "question": "What animal did Beast Boy become to help move sandbags during a flood?",
+    "options": ["An elephant", "A rhinoceros", "A draft horse", "A bull"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Beast Boy became a draft horse to help the sandbag crew on Harbor Boulevard, moving two tons of material in forty minutes."
+  },
+  {
+    "id": "beast-boy-trivia-35",
+    "question": "Which Teen Titan comes from another planet?",
+    "options": ["Starfire", "Raven", "Robin", "Cyborg"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Starfire came down from the stars — she is an alien princess who crossed whole galaxies to reach Earth and join the Teen Titans."
+  },
+  {
+    "id": "beast-boy-trivia-36",
+    "question": "Which part of Cyborg's body is robotic?",
+    "options": ["Only his arms", "Half his body", "His entire body", "Just his legs"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Cyborg is half machine — his body is part human and part advanced technology, making him one of the Titans' most powerful members."
+  },
+  {
+    "id": "beast-boy-trivia-37",
+    "question": "What did Garfield's mother Marie Logan study as a scientist?",
+    "options": ["Extinct dinosaurs", "Stars and planets", "How animals communicate with each other", "Ocean fish"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Marie Logan studied how animals communicated with one another — watching their behavior carefully from the tall grass of Africa."
+  },
+  {
+    "id": "beast-boy-trivia-38",
+    "question": "What does Beast Boy say is the most important lesson about using his powers?",
+    "options": ["Always become the biggest animal possible", "The right shape for every job", "Never use the same animal twice", "Dinosaurs are always the best choice"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "Beast Boy's hard-won lesson is 'the right shape for every job' — knowing when to be a mouse and when to be a T-rex matters more than raw power."
+  },
+  {
+    "id": "beast-boy-trivia-39",
+    "question": "When Beast Boy transforms into any animal, what always stays the same?",
+    "options": ["His voice", "His green color", "His height", "His human hands"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "No matter what animal Beast Boy becomes, he always comes out the same vivid green — it's the constant that marks every form as still him."
+  },
+  {
+    "id": "beast-boy-trivia-40",
+    "question": "What kind of animal could Beast Boy become to navigate entirely by sonar in dark water?",
+    "options": ["A great white shark", "A sea turtle", "A whale", "A manta ray"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "beast-boy",
+    "explanation": "When Beast Boy becomes a whale, he navigates by sonar — clicking sounds bounce off objects and paint a picture of everything around him."
+  }
+]

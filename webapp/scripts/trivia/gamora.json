@@ -1,0 +1,402 @@
+[
+  {
+    "id": "gamora-trivia-1",
+    "question": "What is the name of Gamora's home planet?",
+    "options": ["Xandar", "Zen-Whoberi", "Titan", "Morag"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Gamora is the last of the Zen-Whoberi, a gentle people from the planet Zen-Whoberi."
+  },
+  {
+    "id": "gamora-trivia-2",
+    "question": "What color is Gamora's skin?",
+    "options": ["Blue", "Purple", "Green", "Gold"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Gamora has distinctive green skin, one of the most recognizable features of this Guardian."
+  },
+  {
+    "id": "gamora-trivia-3",
+    "question": "Who is Gamora's adopted father?",
+    "options": ["Thanos", "Ronan", "Drax", "Yondu"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Thanos adopted Gamora and raised her aboard his ship, the Sanctuary."
+  },
+  {
+    "id": "gamora-trivia-4",
+    "question": "What is the name of Gamora's famous sword?",
+    "options": ["Stormbreaker", "Ebony Blade", "Darkforce", "Godslayer"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Gamora's most famous weapon is the long, single-edged sword called Godslayer."
+  },
+  {
+    "id": "gamora-trivia-5",
+    "question": "What is Gamora's adopted sister's name?",
+    "options": ["Mantis", "Nebula", "Proxima", "Corvus"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Nebula is Gamora's adopted sister; both were raised by Thanos aboard the Sanctuary."
+  },
+  {
+    "id": "gamora-trivia-6",
+    "question": "What is Gamora often called across the galaxy?",
+    "options": ["The Green Guardian", "The Star Blade", "The Deadliest Woman in the Galaxy", "The Emerald Warrior"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Warriors across the galaxy whisper Gamora's title: the deadliest woman in the galaxy."
+  },
+  {
+    "id": "gamora-trivia-7",
+    "question": "What is the name of the spaceship the Guardians of the Galaxy travel in?",
+    "options": ["The Dark Aster", "The Sanctuary", "The Ravager", "The Milano"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "The Guardians travel on a ship called the Milano, named by Peter Quill (Star-Lord)."
+  },
+  {
+    "id": "gamora-trivia-8",
+    "question": "What is Star-Lord's real name?",
+    "options": ["Tony Stark", "Peter Quill", "Peter Parker", "James Rhodes"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Star-Lord's real name is Peter Quill, who grew up in Missouri before being taken to the stars."
+  },
+  {
+    "id": "gamora-trivia-9",
+    "question": "Which Infinity Stone did Ronan the Accuser embed in his war-hammer?",
+    "options": ["Mind Stone", "Time Stone", "Space Stone", "Power Stone"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Ronan embedded the Power Stone in his Universal Weapon, making it powerful enough to destroy planets."
+  },
+  {
+    "id": "gamora-trivia-10",
+    "question": "On which planet did the Guardians defeat Ronan the Accuser?",
+    "options": ["Xandar", "Titan", "Knowhere", "Morag"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "The Guardians defeated Ronan above Xandar, saving the home of the Nova Corps."
+  },
+  {
+    "id": "gamora-trivia-11",
+    "question": "What is the name of the prison where the Guardians first met?",
+    "options": ["The Kyln", "The Raft", "The Vault", "The Cage"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "The Guardians of the Galaxy first met inside a space prison called the Kyln."
+  },
+  {
+    "id": "gamora-trivia-12",
+    "question": "Which team does Gamora belong to?",
+    "options": ["The Avengers", "The X-Men", "The Guardians of the Galaxy", "The Fantastic Four"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Gamora is a founding member of the Guardians of the Galaxy."
+  },
+  {
+    "id": "gamora-trivia-13",
+    "question": "What is the name of the huge ship Ronan the Accuser commanded?",
+    "options": ["The Dark Aster", "The Sanctuary", "The Ravager", "The Kree Hammer"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Ronan sailed toward Xandar on his enormous warship called the Dark Aster."
+  },
+  {
+    "id": "gamora-trivia-14",
+    "question": "What happened to Nebula each time she lost a sparring match against Gamora?",
+    "options": ["She was sent to train harder", "Thanos replaced part of her body with machinery", "She was locked in her room", "She had to do extra chores"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Every time Nebula lost to Gamora, Thanos replaced a part of Nebula with a machine component."
+  },
+  {
+    "id": "gamora-trivia-15",
+    "question": "On which world was Godslayer forged?",
+    "options": ["Xandar", "Titan", "Zen-Whoberi", "Godthab Omega"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Godslayer was forged on a world called Godthab Omega in an ancient tradition of sword-making."
+  },
+  {
+    "id": "gamora-trivia-16",
+    "question": "What is the name of Thanos's ship where Gamora grew up?",
+    "options": ["The Sanctuary", "The Milano", "The Dark Aster", "The Ravager"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Gamora trained and grew up on Thanos's ship, the Sanctuary."
+  },
+  {
+    "id": "gamora-trivia-17",
+    "question": "Which Infinity Stone does Doctor Strange carry in his Eye of Agamotto?",
+    "options": ["The Power Stone", "The Reality Stone", "The Time Stone", "The Soul Stone"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "The Eye of Agamotto houses the Time Stone, one of the six Infinity Stones."
+  },
+  {
+    "id": "gamora-trivia-18",
+    "question": "What is Ronan the Accuser's species?",
+    "options": ["Skrull", "Kree", "Xandarian", "Celestial"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Ronan is a Kree warrior, part of a powerful militaristic species in the Marvel universe."
+  },
+  {
+    "id": "gamora-trivia-19",
+    "question": "What three words does Groot always say?",
+    "options": ["I am Groot", "I love you", "We are Groot", "Help me please"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Groot communicates entirely through the phrase 'I am Groot,' which somehow says everything he needs."
+  },
+  {
+    "id": "gamora-trivia-20",
+    "question": "Where did Star-Lord (Peter Quill) grow up on Earth?",
+    "options": ["New York", "California", "Missouri", "Texas"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Peter Quill grew up in Missouri before being taken up to the stars by the Yondu Ravagers."
+  },
+  {
+    "id": "gamora-trivia-21",
+    "question": "What type of creature is Rocket?",
+    "options": ["A fox", "A small bear", "A cat", "A raccoon-like creature"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Rocket looks like a raccoon and is an extraordinarily clever tactician and engineer."
+  },
+  {
+    "id": "gamora-trivia-22",
+    "question": "Which ancient ruined world did Gamora visit after the big battles were over?",
+    "options": ["Morag", "Knowhere", "Zen-Whoberi", "Titan"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Gamora returns to the coordinates of her lost homeworld, Zen-Whoberi, to remember and honor her people."
+  },
+  {
+    "id": "gamora-trivia-23",
+    "question": "What is the name of the crew of nomadic traders who took Peter Quill to the stars?",
+    "options": ["The Ravager Syndicate", "The Yondu Ravagers", "The Space Buccaneers", "The Kree Raiders"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Peter Quill was taken into space by a crew of nomadic traders and pirates called the Yondu Ravagers."
+  },
+  {
+    "id": "gamora-trivia-24",
+    "question": "What golden object does Thanos use to hold all six Infinity Stones?",
+    "options": ["The Tesseract", "The Power Gem", "The Universal Weapon", "The Infinity Gauntlet"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Thanos wants to collect all six Infinity Stones and place them in the golden Infinity Gauntlet."
+  },
+  {
+    "id": "gamora-trivia-25",
+    "question": "How many moons did Zen-Whoberi have that rose in a row at nightfall?",
+    "options": ["One", "Four", "Two", "Three"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Zen-Whoberi had three moons that rose together in a row each evening, like lanterns on a string."
+  },
+  {
+    "id": "gamora-trivia-26",
+    "question": "What is the name of the space police force that protects Xandar?",
+    "options": ["The Nova Corps", "The Kree Guard", "The Star Guard", "The Xandarian Police"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "The Nova Corps is the brave space police force based on Xandar that patrols and protects many worlds."
+  },
+  {
+    "id": "gamora-trivia-27",
+    "question": "What is the name of Ronan's enormous war-hammer?",
+    "options": ["Mjolnir", "Stormbreaker", "The Kree Mace", "The Universal Weapon"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Ronan's enormous war-hammer is called the Universal Weapon, which he embedded the Power Stone into."
+  },
+  {
+    "id": "gamora-trivia-28",
+    "question": "Where did Gamora secretly discover a map to one of the Infinity Stones?",
+    "options": ["On the Milano", "In an old archive", "On Xandar", "In Thanos's library"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Gamora found star coordinates leading to the Soul Stone hidden in an old archive."
+  },
+  {
+    "id": "gamora-trivia-29",
+    "question": "At which ruined location did Thanos confront the Guardians to demand the Soul Stone map?",
+    "options": ["Morag", "Titan", "Praxius IX", "Knowhere"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Thanos confronted the Guardians at Knowhere, a city built inside the skull of a celestial being."
+  },
+  {
+    "id": "gamora-trivia-30",
+    "question": "Which Avenger wears a red-and-gold armored suit?",
+    "options": ["Iron Man", "Captain America", "Thor", "Doctor Strange"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Tony Stark, the Iron Man, wears a powerful red-and-gold armor suit."
+  },
+  {
+    "id": "gamora-trivia-31",
+    "question": "How many Infinity Stones exist in total?",
+    "options": ["Four", "Five", "Six", "Seven"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "There are six Infinity Stones, each holding a different fundamental power over the universe."
+  },
+  {
+    "id": "gamora-trivia-32",
+    "question": "What does Gamora practice every morning to keep her skills sharp?",
+    "options": ["Runs laps around the ship", "Practices sword forms", "Lifts weights", "Studies star charts"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Gamora practices her sword forms every morning, the way a musician practices scales."
+  },
+  {
+    "id": "gamora-trivia-33",
+    "question": "What question does Gamora always ask before the Guardians take a mission?",
+    "options": ["Who does this help?", "How much does it pay?", "Is it dangerous?", "How far do we travel?"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Gamora's guiding question before every mission is: who does this help? — not who pays best."
+  },
+  {
+    "id": "gamora-trivia-34",
+    "question": "What is the ruined ancient homeworld of Thanos?",
+    "options": ["Xandar", "Morag", "Knowhere", "Titan"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Titan is Thanos's homeworld, now a ruin of crumbling towers under orange skies."
+  },
+  {
+    "id": "gamora-trivia-35",
+    "question": "What did Groot do to protect his friends when the ships collided in the battle against Ronan?",
+    "options": ["He fought the soldiers", "He flew the ship", "He fired a weapon", "He wrapped his arms around them to keep them safe"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Groot wrapped his long arms around his teammates to shield them when the ships collided."
+  },
+  {
+    "id": "gamora-trivia-36",
+    "question": "Which hero wore a red-and-blue suit and asked Gamora seventeen questions when they first met?",
+    "options": ["Star-Lord", "Captain America", "Spider-Man", "Iron Man"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Spider-Man (Peter Parker) immediately bombarded Gamora with seventeen questions when they first met."
+  },
+  {
+    "id": "gamora-trivia-37",
+    "question": "What is the title given to Doctor Strange?",
+    "options": ["Sorcerer Supreme", "Master of Time", "Grand Wizard", "Keeper of Stones"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Doctor Strange holds the title of Sorcerer Supreme and is Earth's master of the mystic arts."
+  },
+  {
+    "id": "gamora-trivia-38",
+    "question": "On what world did Gamora and the Guardians free colonists trapped by a mining operation?",
+    "options": ["Contraxia", "Titan", "Praxius IX", "Morag"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "On the ice world of Praxius IX, the Guardians freed colonists who were trapped by an unfair mining company."
+  },
+  {
+    "id": "gamora-trivia-39",
+    "question": "Which two Guardians grabbed Star-Lord's hand to share the weight of the Power Stone?",
+    "options": ["Groot and Nebula", "Gamora and Groot", "Gamora and Drax", "Rocket and Groot"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "Gamora and Drax both grabbed Star-Lord's hand, and then Rocket joined, sharing the Stone's power together."
+  },
+  {
+    "id": "gamora-trivia-40",
+    "question": "What is the main lesson Gamora learned from her people, the Zen-Whoberi?",
+    "options": ["That speed wins every fight", "That the universe is connected and gentleness is wisdom", "That only the strongest survive", "That you must always fight alone"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "gamora",
+    "explanation": "The Zen-Whoberi understood that the universe is interconnected and that gentleness is a form of wisdom, not weakness."
+  }
+]

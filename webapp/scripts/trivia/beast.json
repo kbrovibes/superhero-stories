@@ -1,0 +1,602 @@
+[
+  {
+    "id": "beast-trivia-1",
+    "question": "What is Beast's real name?",
+    "options": [
+      "Henry Philip McCoy",
+      "Robert Drake",
+      "Warren Worthington",
+      "Scott Summers"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Beast's full name is Henry Philip McCoy, though his friends and teammates always call him Hank."
+  },
+  {
+    "id": "beast-trivia-2",
+    "question": "In which small town was Hank McCoy born and raised?",
+    "options": [
+      "Westchester, New York",
+      "Dunfermline, Illinois",
+      "Forest Hills, Queens",
+      "Salem Center, New York"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Hank McCoy grew up in Dunfermline, Illinois, where he broke every athletic record and won the state science fair."
+  },
+  {
+    "id": "beast-trivia-3",
+    "question": "What color is Beast's fur?",
+    "options": [
+      "Grey",
+      "Brown",
+      "Blue",
+      "Black"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "After an experiment with a mutation-amplifying serum went permanent, Hank McCoy's fur turned blue-black."
+  },
+  {
+    "id": "beast-trivia-4",
+    "question": "Which professor invited Hank McCoy to join the X-Men?",
+    "options": [
+      "Professor Xavier",
+      "Professor Hank Pym",
+      "Professor Erik Lehnsherr",
+      "Professor Reed Richards"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Professor Charles Xavier founded the Xavier Institute and personally invited Hank to be one of the original X-Men."
+  },
+  {
+    "id": "beast-trivia-5",
+    "question": "Which of these heroes was NOT one of the original five X-Men alongside Beast?",
+    "options": [
+      "Cyclops",
+      "Jean Grey",
+      "Wolverine",
+      "Iceman"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "The original five X-Men were Beast, Cyclops, Jean Grey, Iceman, and Angel — Wolverine joined the team later."
+  },
+  {
+    "id": "beast-trivia-6",
+    "question": "What special athletic achievement did Hank accomplish in the same year he won the state science fair?",
+    "options": [
+      "He swam the English Channel",
+      "He broke every athletic record at his high school",
+      "He competed in the Olympics",
+      "He scored a professional football contract"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "At Waukegan High School, Hank broke every athletic record and won the state science fair in the exact same year."
+  },
+  {
+    "id": "beast-trivia-7",
+    "question": "What two doctoral degrees does Hank McCoy hold?",
+    "options": [
+      "Astrophysics and chemistry",
+      "Biophysics and biochemistry",
+      "Medicine and philosophy",
+      "Engineering and biology"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Hank earned doctorates in both biophysics and biochemistry before the age of twenty-three."
+  },
+  {
+    "id": "beast-trivia-8",
+    "question": "Who built the giant robots called Sentinels to hunt mutants?",
+    "options": [
+      "The Kingpin",
+      "Mister Sinister",
+      "Bolivar Trask",
+      "Doctor Doom"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Bolivar Trask built the Sentinels at his New Mexico research complex, believing mutants were a danger to humanity."
+  },
+  {
+    "id": "beast-trivia-9",
+    "question": "How tall are the Sentinel robots that Beast faces?",
+    "options": [
+      "Ten feet",
+      "Twenty feet",
+      "Thirty feet",
+      "Fifty feet"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "The Sentinels stand thirty feet tall, clad in purple-and-pink armor, and are programmed to find and capture mutants."
+  },
+  {
+    "id": "beast-trivia-10",
+    "question": "When Beast leaped onto the Sentinel's shoulder, what did he tear off to help stop it?",
+    "options": [
+      "Its rocket launcher",
+      "Its sensor array",
+      "Its power core",
+      "Its chest armor"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Beast wedged his fingers into the neck joint and tore the sensor array free, scrambling the Sentinel's targeting system."
+  },
+  {
+    "id": "beast-trivia-11",
+    "question": "Who leads the Brotherhood of Evil Mutants?",
+    "options": [
+      "Mystique",
+      "Sabretooth",
+      "Magneto",
+      "The Blob"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Magneto formed and leads the Brotherhood of Evil Mutants, believing mutants should rule over humanity."
+  },
+  {
+    "id": "beast-trivia-12",
+    "question": "Which Brotherhood member wraps a long tongue around Beast's ankle during their fight at the United Nations?",
+    "options": [
+      "Mystique",
+      "Toad",
+      "Blob",
+      "Sabretooth"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Toad fires his adhesive tongue and wraps it around Hank's ankle — but Hank rolls with the pull and turns it into momentum."
+  },
+  {
+    "id": "beast-trivia-13",
+    "question": "What company did Hank McCoy work for as a biochemist after leaving the X-Men?",
+    "options": [
+      "Stark Industries",
+      "Oscorp",
+      "Brand Corporation",
+      "Roxxon Energy"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Hank worked as a biochemist at the Brand Corporation in New York until he discovered they were secretly developing a dangerous serum."
+  },
+  {
+    "id": "beast-trivia-14",
+    "question": "What happened to Hank's fur color when the mutation-amplifying serum first took hold?",
+    "options": [
+      "It turned blue immediately",
+      "It turned grey first, then deepened to blue-black",
+      "It turned black first, then faded to blue",
+      "It turned white before turning blue"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "When the serum became permanent, grey fur appeared first, and within days it deepened to blue-black."
+  },
+  {
+    "id": "beast-trivia-15",
+    "question": "What Shakespeare quote did Hank pin above his laboratory bench after his mutation became permanent?",
+    "options": [
+      "\"To thine own self be true\"",
+      "\"We know what we are, but know not what we may be\"",
+      "\"All the world's a stage\"",
+      "\"What a piece of work is a man\""
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Hank chose this line from Hamlet as a reminder that change is not the end — it is simply the beginning of something new."
+  },
+  {
+    "id": "beast-trivia-16",
+    "question": "Which original X-Man can freeze the air into solid shapes?",
+    "options": [
+      "Cyclops",
+      "Angel",
+      "Jean Grey",
+      "Iceman"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Bobby Drake — known as Iceman — can generate and control ice, and was one of Beast's original teammates."
+  },
+  {
+    "id": "beast-trivia-17",
+    "question": "What superteam did Hank McCoy join after the X-Men, working alongside Thor and Captain America?",
+    "options": [
+      "The Fantastic Four",
+      "The Defenders",
+      "The Avengers",
+      "S.H.I.E.L.D."
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Tony Stark recruited Hank for the Avengers, needing a scientist who could also punch things."
+  },
+  {
+    "id": "beast-trivia-18",
+    "question": "What was the name of the criminal who could absorb the properties of anything he touched?",
+    "options": [
+      "The Sandman",
+      "The Absorbing Man",
+      "Juggernaut",
+      "Graviton"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Carl Creel — the Absorbing Man — could transform his body into the material of whatever he touched, making physical strikes useless."
+  },
+  {
+    "id": "beast-trivia-19",
+    "question": "What did Thor use to help Hank defeat the Absorbing Man?",
+    "options": [
+      "A lightning bolt",
+      "Mjolnir to scatter a chemical inhibitor",
+      "His cape as a net",
+      "Bifrost energy"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "explanation": "Thor swung Mjolnir into the chemical inhibitor Hank lobbed, dispersing it perfectly across the Absorbing Man's surface.",
+    "universe": "marvel",
+    "heroId": "beast"
+  },
+  {
+    "id": "beast-trivia-20",
+    "question": "What did Thor say to Beast after they defeated the Absorbing Man?",
+    "options": [
+      "\"You are worthy of Asgard!\"",
+      "\"You are a very unusual warrior\"",
+      "\"Even Odin would be proud\"",
+      "\"You fight like a berserker\""
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Thor told Hank, \"You are a very unusual warrior\" — which Hank considered possibly the nicest compliment he'd ever received."
+  },
+  {
+    "id": "beast-trivia-21",
+    "question": "Where is the Xavier Institute located?",
+    "options": [
+      "Queens, New York",
+      "Manhattan, New York",
+      "Westchester, New York",
+      "Salem, Massachusetts"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Professor Xavier's school for gifted youngsters is located in Westchester, New York."
+  },
+  {
+    "id": "beast-trivia-22",
+    "question": "What government act did Hank argue against before a Senate subcommittee?",
+    "options": [
+      "The Superhero Registration Act",
+      "The Mutant Registration Act",
+      "The Gifted Persons Act",
+      "The Enhanced Persons Act"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Hank delivered a twelve-minute argument against the Mutant Registration Act, and three senators changed their votes — the act failed to pass."
+  },
+  {
+    "id": "beast-trivia-23",
+    "question": "What is Mister Sinister's real name?",
+    "options": [
+      "Victor Creed",
+      "Nathaniel Essex",
+      "Sebastian Shaw",
+      "Donald Pierce"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Mister Sinister's real name is Nathaniel Essex — a pale, calculating villain with red diamond markings on his forehead."
+  },
+  {
+    "id": "beast-trivia-24",
+    "question": "What did Mister Sinister build that threatened to permanently rewrite mutant DNA?",
+    "options": [
+      "The Mutagen Cannon",
+      "The Genetic Sequencer",
+      "The DNA Rewriter",
+      "The Mutation Engine"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Mister Sinister built the Genetic Sequencer in his underground lab beneath Manhattan to create an army of controlled mutants."
+  },
+  {
+    "id": "beast-trivia-25",
+    "question": "Which villain did Beast fight in Mister Sinister's underground laboratory?",
+    "options": [
+      "Toad",
+      "Mystique",
+      "Sabretooth",
+      "Pyro"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Beast faced Sabretooth — enormous and feral — in a narrow corridor while his teammates pushed deeper into Sinister's lab."
+  },
+  {
+    "id": "beast-trivia-26",
+    "question": "What ancient mutant warlord released a dangerous virus across six cities?",
+    "options": [
+      "Apocalypse",
+      "Magneto",
+      "Mister Sinister",
+      "Exodus"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "En Sabah Nur — called Apocalypse — had lived for thousands of years and believed only the strongest deserved to survive."
+  },
+  {
+    "id": "beast-trivia-27",
+    "question": "How many hours did Beast and Tony Stark work without sleeping to create the cure for Apocalypse's virus?",
+    "options": [
+      "Twenty-four hours",
+      "Forty-eight hours",
+      "Sixty hours",
+      "Seventy-two hours"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Hank and Tony Stark worked side by side at Avengers Tower for seventy-two hours straight — three full days without sleep."
+  },
+  {
+    "id": "beast-trivia-28",
+    "question": "What did Thor use to spread the cure across all six infected cities at once?",
+    "options": [
+      "The Bifrost rainbow bridge",
+      "An enormous controlled storm built with Mjolnir",
+      "An Asgardian wind spell",
+      "A network of S.H.I.E.L.D. aircraft"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Thor swung Mjolnir to generate a vast electromagnetic storm that carried the aerosol cure on its currents to all six cities."
+  },
+  {
+    "id": "beast-trivia-29",
+    "question": "What unusual habit does Beast have while reading in his laboratory?",
+    "options": [
+      "He reads underwater",
+      "He reads standing on one foot",
+      "He reads hanging upside down from the ceiling",
+      "He reads while running laps"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Hank discovered early on that hanging upside down by his feet while reading helped him concentrate — and he never found a scientific explanation for it."
+  },
+  {
+    "id": "beast-trivia-30",
+    "question": "What dish did Beast cook that reduced Bobby Drake (Iceman) to silence for almost ten minutes?",
+    "options": [
+      "French onion soup",
+      "Italian risotto",
+      "Moroccan lamb",
+      "Thai curry"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Hank made a Moroccan lamb dish for the Xavier Institute dining room that left Bobby Drake completely speechless — a significant achievement."
+  },
+  {
+    "id": "beast-trivia-31",
+    "question": "What special annual lesson does Beast teach at the Xavier Institute on the last day before summer break?",
+    "options": [
+      "Advanced genetics",
+      "He asks students to share the hardest thing about being a mutant",
+      "Combat strategy",
+      "The history of the X-Men"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Every year, Hank sits on the desk — not behind it — and asks each student to share the hardest thing about being a mutant, then really listens."
+  },
+  {
+    "id": "beast-trivia-32",
+    "question": "What are Beast's two most famous physical abilities?",
+    "options": [
+      "Flying and laser vision",
+      "Telepathy and force fields",
+      "Superhuman strength and acrobatic agility",
+      "Super speed and invisibility"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Beast is famous for combining tremendous physical strength with breathtaking acrobatic agility — he can somersault, cartwheel, and spring off surfaces mid-battle."
+  },
+  {
+    "id": "beast-trivia-33",
+    "question": "What was the first sign of Beast's mutation when he was born?",
+    "options": [
+      "He was covered in blue fur",
+      "He had unusually large hands and feet",
+      "He could already speak at birth",
+      "He had fangs instead of teeth"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Hank arrived in the world with hands and feet far larger than any baby's should be — a sign of his extraordinary mutant nature."
+  },
+  {
+    "id": "beast-trivia-34",
+    "question": "What criminal group kidnapped Beast's parents at his high school football game?",
+    "options": [
+      "Hydra",
+      "The Hand",
+      "The Conquistador",
+      "AIM"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "The Conquistador arrived at the football field, kidnapped Hank's parents, and tried to force Hank into their service — which was a serious mistake."
+  },
+  {
+    "id": "beast-trivia-35",
+    "question": "What does Beast always tell his students at the end of his annual summer lesson?",
+    "options": [
+      "\"Stay safe out there\"",
+      "\"Train every day\"",
+      "\"Go read something\"",
+      "\"Remember your teammates\""
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Every year without fail, Hank sends his students into summer with the words \"Go read something\" — and they always groan, and he is always smiling."
+  },
+  {
+    "id": "beast-trivia-36",
+    "question": "What color armor does Magneto wear?",
+    "options": [
+      "Black and silver",
+      "Red and purple",
+      "Blue and gold",
+      "Grey and white"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Magneto's distinctive armor is red and purple, making him instantly recognizable as he commands magnetic fields in battle."
+  },
+  {
+    "id": "beast-trivia-37",
+    "question": "What type of music was the compromise between Beast and Tony Stark while they worked on the Apocalypse cure?",
+    "options": [
+      "Jazz",
+      "Heavy metal",
+      "Moderate classical",
+      "Pop"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Tony wanted rock music; Hank preferred silence. They settled on moderate classical — and neither of them loved it."
+  },
+  {
+    "id": "beast-trivia-38",
+    "question": "What does Beast write in his journal after the Mister Sinister mission?",
+    "options": [
+      "\"The strongest mind will always prevail\"",
+      "\"The cost of this work is vigilance, always\"",
+      "\"The enemy of today will return tomorrow\"",
+      "\"Science is the greatest weapon\""
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "After destroying Sinister's lab and erasing his stolen data, Hank wrote in his journal: \"The cost of this work is vigilance, always.\""
+  },
+  {
+    "id": "beast-trivia-39",
+    "question": "What was the location of Beast's first big fight against the Sentinels?",
+    "options": [
+      "Central Park, New York",
+      "The Savage Land",
+      "The New Mexico desert",
+      "The Canadian Rockies"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "The X-Men first faced three Sentinels in the desert near Bolivar Trask's research complex in New Mexico."
+  },
+  {
+    "id": "beast-trivia-40",
+    "question": "What does Beast believe about a person's mutant gifts?",
+    "options": [
+      "They should be hidden until the world is ready",
+      "They are a burden that must be managed",
+      "They are worth celebrating, however strange they look at first",
+      "They are only useful in combat"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "beast",
+    "explanation": "Hank deeply believes that every person's gifts are worth celebrating — he learned this the long way, and it shows in how he welcomes every new student."
+  }
+]

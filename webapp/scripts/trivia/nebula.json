@@ -1,0 +1,402 @@
+[
+  {
+    "id": "nebula-trivia-1",
+    "question": "What color is Nebula's skin?",
+    "options": ["Blue", "Green", "Purple", "Red"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Nebula has bright blue skin, one of her most recognizable features."
+  },
+  {
+    "id": "nebula-trivia-2",
+    "question": "Who raised Nebula as his adopted daughter?",
+    "options": ["Ronan the Accuser", "Ego the Living Planet", "Thanos", "Star-Lord"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Thanos took Nebula from her home world of Luphom and raised her as an adopted daughter."
+  },
+  {
+    "id": "nebula-trivia-3",
+    "question": "What is the name of Nebula's adopted sister?",
+    "options": ["Mantis", "Gamora", "Valkyrie", "Scarlet Witch"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Gamora is Nebula's adopted sister; they were both raised by Thanos aboard the warship Sanctuary."
+  },
+  {
+    "id": "nebula-trivia-4",
+    "question": "What planet was Nebula originally taken from by Thanos?",
+    "options": ["Xandar", "Ego", "Zen-Whoberi", "Luphom"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Nebula was taken from her home world called Luphom by Thanos when she was young."
+  },
+  {
+    "id": "nebula-trivia-5",
+    "question": "What did Thanos do each time Nebula lost a sparring match to Gamora?",
+    "options": ["Replaced part of her body with cybernetic technology", "Sent her to train harder", "Made her clean the ship", "Took away her weapons"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Every time Nebula lost to Gamora in training, Thanos replaced a part of her body with mechanical cybernetic parts."
+  },
+  {
+    "id": "nebula-trivia-6",
+    "question": "Which team does Nebula eventually join as a hero?",
+    "options": ["The Avengers", "S.H.I.E.L.D.", "The Guardians of the Galaxy", "The Nova Corps"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Nebula eventually joins the Guardians of the Galaxy alongside her sister Gamora."
+  },
+  {
+    "id": "nebula-trivia-7",
+    "question": "What is the name of Thanos's giant warship?",
+    "options": ["The Milano", "The Dark Aster", "The Sanctuary", "The Eclector"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Thanos raised Nebula and Gamora aboard his warship called the Sanctuary."
+  },
+  {
+    "id": "nebula-trivia-8",
+    "question": "What is the name of Ronan the Accuser's warship?",
+    "options": ["The Dark Aster", "The Sanctuary", "The Milano", "The Eclector"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Ronan the Accuser commanded a warship called the Dark Aster."
+  },
+  {
+    "id": "nebula-trivia-9",
+    "question": "What weapon did Ronan the Accuser carry?",
+    "options": ["A golden gauntlet", "The Universal Weapon — a huge war hammer", "Pumpkin bombs", "A vibranium sword"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Ronan the Accuser carried an enormous war hammer called the Universal Weapon."
+  },
+  {
+    "id": "nebula-trivia-10",
+    "question": "What world did Ronan want to destroy using the Power Stone?",
+    "options": ["Titan", "Morag", "Xandar", "Knowhere"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Ronan planned to use the Power Stone to destroy Xandar, home of the Nova Corps."
+  },
+  {
+    "id": "nebula-trivia-11",
+    "question": "What is the name of the Guardians' spaceship?",
+    "options": ["The Sanctuary", "The Dark Aster", "The Eclector", "The Milano"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "The Guardians of the Galaxy fly aboard a battered but beloved ship called the Milano."
+  },
+  {
+    "id": "nebula-trivia-12",
+    "question": "What strange outpost is built inside the head of an ancient Celestial being?",
+    "options": ["Xandar", "Titan", "Knowhere", "Morag"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Knowhere is a space station carved from the skull of an ancient Celestial, drifting at the edge of the galaxy."
+  },
+  {
+    "id": "nebula-trivia-13",
+    "question": "What Earth music does Star-Lord love to play on the Milano?",
+    "options": ["Opera", "Classical", "Songs from his Awesome Mix tapes", "Jazz"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Peter Quill (Star-Lord) loves music from the 1980s stored on his Awesome Mix tapes."
+  },
+  {
+    "id": "nebula-trivia-14",
+    "question": "What three words does Groot always say?",
+    "options": ["I love you", "I am Groot", "We are family", "I will fight"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Groot only ever says the three words 'I am Groot,' though he says them with many different meanings."
+  },
+  {
+    "id": "nebula-trivia-15",
+    "question": "What special ability does Mantis have?",
+    "options": ["She can fly", "She is an empath who can feel and influence others' emotions", "She controls fire", "She can turn invisible"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Mantis is an empath with antennae who can sense and influence the emotions and consciousness of others."
+  },
+  {
+    "id": "nebula-trivia-16",
+    "question": "What is the golden object Thanos uses to hold all six Infinity Stones?",
+    "options": ["The Universal Weapon", "The Power Stone", "The Infinity Gauntlet", "The Eye of Agamotto"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "The Infinity Gauntlet is a golden glove that holds all six Infinity Stones and gives its wearer incredible power."
+  },
+  {
+    "id": "nebula-trivia-17",
+    "question": "On which ruined moon did the Avengers and Guardians fight Thanos together?",
+    "options": ["Titan", "Morag", "Knowhere", "Ego"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "The battle against Thanos took place on the ruined moon of Titan, which was once a thriving civilization."
+  },
+  {
+    "id": "nebula-trivia-18",
+    "question": "How many possible futures did Doctor Strange look at using the Time Stone?",
+    "options": ["One million", "Fourteen million, six hundred and five", "One thousand", "One hundred"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Doctor Strange used the Eye of Agamotto to view fourteen million, six hundred and five possible futures."
+  },
+  {
+    "id": "nebula-trivia-19",
+    "question": "Which Infinity Stone was hidden inside a silver orb on the planet Morag?",
+    "options": ["The Mind Stone", "The Time Stone", "The Power Stone", "The Space Stone"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "The Power Stone was sealed inside an ornamental silver orb on the barren planet Morag."
+  },
+  {
+    "id": "nebula-trivia-20",
+    "question": "What is the name of the Avengers' plan to travel back in time and collect the Infinity Stones?",
+    "options": ["Operation Snap Back", "The Time Heist", "Project Quantum", "The Gauntlet Run"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "The Avengers called their time-travel mission the Time Heist."
+  },
+  {
+    "id": "nebula-trivia-21",
+    "question": "What type of technology does Nebula have in her left arm?",
+    "options": ["It shoots webs", "It holds an Infinity Stone", "It is made of Vibranium", "It is fully cybernetic — it can fire energy blasts and extend cables"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Nebula's left arm is fully mechanical, capable of firing energy blasts, extending cables, and gripping with great force."
+  },
+  {
+    "id": "nebula-trivia-22",
+    "question": "What can Nebula's cybernetic right eye do?",
+    "options": ["Fire laser beams that destroy walls", "Track movement and see in total darkness like a sensor array", "Travel through time", "Control other machines"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Nebula's right eye is a sensor array that can track multiple targets and see clearly in complete darkness."
+  },
+  {
+    "id": "nebula-trivia-23",
+    "question": "What world did Gamora originally come from before Thanos took her?",
+    "options": ["Luphom", "Xandar", "Zen-Whoberi", "Titan"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Gamora came from a planet called Zen-Whoberi before Thanos took her and raised her as his adopted daughter."
+  },
+  {
+    "id": "nebula-trivia-24",
+    "question": "What was Ego the Living Planet's dangerous plan called?",
+    "options": ["The Decimation", "The Snap", "The Expansion", "The Conquest"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Ego called his plan to spread his consciousness across the universe the Expansion."
+  },
+  {
+    "id": "nebula-trivia-25",
+    "question": "What is Peter Quill's superhero name?",
+    "options": ["Star-Lord", "Rocket", "Drax", "Nova"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Peter Quill calls himself Star-Lord, though not everyone finds the name as impressive as he does."
+  },
+  {
+    "id": "nebula-trivia-26",
+    "question": "What planet is Peter Quill originally from?",
+    "options": ["Xandar", "Titan", "Earth (Missouri)", "Knowhere"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Peter Quill is from a town in Missouri on Earth, which makes him half-human and deeply attached to 1980s music."
+  },
+  {
+    "id": "nebula-trivia-27",
+    "question": "What kind of creature is Rocket?",
+    "options": ["A fox", "A raccoon", "A squirrel", "A cat"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Rocket looks like a raccoon and is a brilliant mechanical engineer and fierce fighter."
+  },
+  {
+    "id": "nebula-trivia-28",
+    "question": "What does Groot sometimes do that surprises and delights the other Guardians?",
+    "options": ["Sings Earth songs", "Grows tiny flowers and leaves them for others to find", "Tells long stories about the forest", "Paints pictures on the ship wall"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Groot grows small flowers from his fingers and leaves them in unexpected places as quiet, kind gestures."
+  },
+  {
+    "id": "nebula-trivia-29",
+    "question": "What glowing pendant does Doctor Strange wear that holds the Time Stone?",
+    "options": ["The Infinity Ring", "The Eye of Agamotto", "The Orb of Fate", "The Amulet of Right"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Doctor Strange wears the Eye of Agamotto, a pendant that contains the green Time Stone."
+  },
+  {
+    "id": "nebula-trivia-30",
+    "question": "Who is James Rhodes's superhero name?",
+    "options": ["Iron Man", "War Machine", "Falcon", "Vision"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "James Rhodes is known as War Machine and was Nebula's partner on the Morag mission during the Time Heist."
+  },
+  {
+    "id": "nebula-trivia-31",
+    "question": "What part of the Quantum Realm do the Avengers use to travel through time?",
+    "options": ["A magic spell from Doctor Strange", "Quantum tunnels using special suits and Tony's math", "A wormhole cannon", "The Space Stone's portal"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Tony Stark worked out the mathematics to navigate the Quantum Realm and use it as a time travel mechanism."
+  },
+  {
+    "id": "nebula-trivia-32",
+    "question": "What problem with Nebula's body nearly ruined the Time Heist?",
+    "options": ["Her arm ran out of battery power", "She forgot the coordinates for Morag", "Her time-travel suit malfunctioned", "Her cybernetic network was still connected to Thanos's systems, letting him see the plan"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Nebula's neural network had a dormant link to Thanos's systems, which allowed the 2014 Thanos to access her memories."
+  },
+  {
+    "id": "nebula-trivia-33",
+    "question": "What is the name of the Ravager ship that once held Nebula as a prisoner?",
+    "options": ["The Dark Aster", "The Sanctuary II", "The Eclector", "The Nova Fleet"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Nebula was held prisoner on the Ravager vessel called the Eclector."
+  },
+  {
+    "id": "nebula-trivia-34",
+    "question": "What is special about Ego's planet surface when Nebula arrives during the battle?",
+    "options": ["It explodes with lava", "The golden hills ripple and enormous tendrils push up from the ground", "It is frozen solid", "It has no gravity"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "When Ego's true nature is revealed, his planet surface ripples and tendrils push through the soil as his consciousness expands."
+  },
+  {
+    "id": "nebula-trivia-35",
+    "question": "How many Infinity Stones are there in total?",
+    "options": ["Four", "Five", "Seven", "Six"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "There are six Infinity Stones, each a different color and each controlling a different aspect of reality."
+  },
+  {
+    "id": "nebula-trivia-36",
+    "question": "What does Nebula say about change when the younger Guardians ask how she turned her life around?",
+    "options": ["Change happens all at once in one big moment", "Change is a direction you keep choosing, not a door you walk through once", "Change only works if someone helps you", "Change is impossible once you start on the wrong path"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Nebula tells the younger Guardians that change is a direction you keep choosing every day, not a single event."
+  },
+  {
+    "id": "nebula-trivia-37",
+    "question": "What material reinforces Nebula's spine?",
+    "options": ["Vibranium", "Adamantium", "Titanium lattice", "Carbon fiber"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Thanos had a titanium lattice threaded through Nebula's spine to reinforce it during her cybernetic upgrades."
+  },
+  {
+    "id": "nebula-trivia-38",
+    "question": "Who used the new Gauntlet to restore everyone who had vanished after Thanos's snap?",
+    "options": ["Hulk", "Thor", "Iron Man", "Captain America"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Bruce Banner (Hulk) wore the new Infinity Gauntlet and snapped his fingers to restore the vanished."
+  },
+  {
+    "id": "nebula-trivia-39",
+    "question": "What is the most important lesson Nebula learns about where your story begins?",
+    "options": ["A good start is everything — you must start right", "The quality of your beginning does not determine the quality of your story", "You can only change once in your life", "Only people who never made mistakes can be heroes"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Nebula learns that the quality of your beginning does not determine the quality of your story — choices matter more than origins."
+  },
+  {
+    "id": "nebula-trivia-40",
+    "question": "What color flower does Groot grow and leave for Nebula on the Milano windowsill?",
+    "options": ["Gold", "Red", "White", "Blue"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "nebula",
+    "explanation": "Groot grows a small blue flower — the color of Nebula's own skin — and leaves it for her on the Milano's windowsill."
+  }
+]

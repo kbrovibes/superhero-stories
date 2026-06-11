@@ -1,0 +1,402 @@
+[
+  {
+    "id": "supergirl-trivia-1",
+    "question": "What is Supergirl's Kryptonian name?",
+    "options": ["Kara Zor-El", "Kara Kent", "Kara Danvers-El", "Kara Argo"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Her full Kryptonian name is Kara Zor-El — Zor-El is her father's name, following Kryptonian naming tradition."
+  },
+  {
+    "id": "supergirl-trivia-2",
+    "question": "What city on Krypton did Kara grow up in?",
+    "options": ["Kandor", "Metropolis", "Argo City", "Kryptonopolis"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Kara grew up in Argo City, a shining settlement on Krypton where her scientist father Zor-El lived."
+  },
+  {
+    "id": "supergirl-trivia-3",
+    "question": "What is Superman's relationship to Supergirl?",
+    "options": ["Brother", "Uncle", "Cousin", "Father"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Superman (Kal-El) is Kara's cousin — their fathers Jor-El and Zor-El were brothers on Krypton."
+  },
+  {
+    "id": "supergirl-trivia-4",
+    "question": "What color is Supergirl's cape?",
+    "options": ["Blue", "Gold", "Red", "Yellow"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Supergirl wears a red cape with her blue suit, matching the classic Kryptonian color scheme she shares with Superman."
+  },
+  {
+    "id": "supergirl-trivia-5",
+    "question": "Which villain collects shrunken cities in glass bottles?",
+    "options": ["Reactron", "Silver Banshee", "Metallo", "Brainiac"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Brainiac is a machine intelligence who travels the galaxy shrinking cities and sealing them in bottles as trophies."
+  },
+  {
+    "id": "supergirl-trivia-6",
+    "question": "What Kryptonian city did Brainiac steal and put in a bottle?",
+    "options": ["Argo City", "Kryptonopolis", "Kandor", "Midvale"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Brainiac stole the great Kryptonian city of Kandor, shrinking it and sealing it inside a glass bottle before Krypton's destruction."
+  },
+  {
+    "id": "supergirl-trivia-7",
+    "question": "What is Supergirl's main weakness?",
+    "options": ["Fire", "Kryptonite", "Water", "Darkness"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Kryptonite — radioactive remnants of the planet Krypton — drains the sun-energy from Kryptonian cells, robbing Supergirl of her powers."
+  },
+  {
+    "id": "supergirl-trivia-8",
+    "question": "What does the S-shield symbol mean on Krypton?",
+    "options": ["Strength", "Speed", "Hope", "Star"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "On Krypton the S-shape is the ancient crest of the House of El — a glyph that means 'hope.'"
+  },
+  {
+    "id": "supergirl-trivia-9",
+    "question": "What town on Earth does Supergirl call home?",
+    "options": ["Metropolis", "Gotham City", "Midvale", "Smallville"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Kara settles in Midvale, a small Earth town where she attends school and learns Earth's customs."
+  },
+  {
+    "id": "supergirl-trivia-10",
+    "question": "What gives Supergirl her powers on Earth?",
+    "options": ["A magic ring", "Earth's yellow sun", "The ocean", "A red sun"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Earth's yellow sun charges Kryptonian cells like a battery, giving Supergirl flight, strength, heat vision, and more."
+  },
+  {
+    "id": "supergirl-trivia-11",
+    "question": "What is Supergirl's father's name?",
+    "options": ["Jor-El", "Kal-El", "Zor-El", "Seg-El"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Kara's father is Zor-El, a Kryptonian scientist who built the rocket that carried Kara to safety when Krypton was destroyed."
+  },
+  {
+    "id": "supergirl-trivia-12",
+    "question": "What is Supergirl's mother's name?",
+    "options": ["Lara", "Martha", "Alura", "Diana"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Kara's mother is Alura, who told Kara 'Be brave. Be kind. Be who you are' as the rocket launched from Krypton."
+  },
+  {
+    "id": "supergirl-trivia-13",
+    "question": "Silver Banshee got her powers from what object?",
+    "options": ["A magic wand", "A lightning bolt", "The Caoránach Crest", "A Kryptonian crystal"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Siobhan McDougal found the ancient Irish artifact called the Caoránach Crest, which bonded an ancient spirit to her and transformed her into Silver Banshee."
+  },
+  {
+    "id": "supergirl-trivia-14",
+    "question": "What material completely blocks kryptonite radiation?",
+    "options": ["Steel", "Gold", "Lead", "Glass"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Lead blocks kryptonite radiation completely — a lead-lined case can seal kryptonite safely so it cannot harm a Kryptonian."
+  },
+  {
+    "id": "supergirl-trivia-15",
+    "question": "Which power does Supergirl use to freeze things?",
+    "options": ["Ice beam", "Freeze breath", "Cold vision", "Frost touch"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Supergirl uses freeze breath — a focused super-cold exhalation that drops temperature rapidly in a precise area."
+  },
+  {
+    "id": "supergirl-trivia-16",
+    "question": "What shape is Brainiac's spaceship?",
+    "options": ["A star", "A skull", "A spider", "A planet"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Brainiac's massive spacecraft is shaped like a skull, with cold blue light glowing behind its eye-sockets."
+  },
+  {
+    "id": "supergirl-trivia-17",
+    "question": "What is Reactron's armor powered by?",
+    "options": ["Solar energy", "Magic crystals", "Nuclear power", "Kryptonite"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Ben Krull's Reactron armor has a nuclear-powered core built into his chest after a near-fatal accident."
+  },
+  {
+    "id": "supergirl-trivia-18",
+    "question": "Where is the Justice League's space station located?",
+    "options": ["On the Moon", "On Mars", "22,000 miles above Earth", "In another galaxy"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "The Watchtower orbits Earth at 22,000 miles altitude — high enough to see the entire curved face of the planet."
+  },
+  {
+    "id": "supergirl-trivia-19",
+    "question": "What is the Justice League's space station called?",
+    "options": ["The Fortress", "The Watchtower", "The Citadel", "The Observatory"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "The Watchtower is the Justice League's orbital space station, where members meet and coordinate missions."
+  },
+  {
+    "id": "supergirl-trivia-20",
+    "question": "What does Supergirl use heat vision to do besides fighting?",
+    "options": ["Cook food only", "Weld and cut precisely", "Fly faster", "Communicate"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Kara uses heat vision for precise welding and cutting — including sealing boulders in a dam breach and repairing structures."
+  },
+  {
+    "id": "supergirl-trivia-21",
+    "question": "What organization took Reactron into custody after Kara defeated him?",
+    "options": ["S.T.A.R. Labs", "The Justice League", "The Department of Extranormal Operations", "Metropolis Police"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "The DEO — Department of Extranormal Operations — handles cases involving super-powered threats and took Reactron into custody."
+  },
+  {
+    "id": "supergirl-trivia-22",
+    "question": "What was the first accidental heat vision incident Kara had?",
+    "options": ["She melted a lamppost", "She melted the toaster", "She burned a book", "She cracked the floor"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Kara's heat vision fired unexpectedly while she was looking at the kitchen toaster thinking about breakfast, melting it."
+  },
+  {
+    "id": "supergirl-trivia-23",
+    "question": "Where did Kara practice controlling her powers?",
+    "options": ["The Fortress of Solitude", "The Kent farm", "The Midvale salvage yard", "S.T.A.R. Labs"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "The Danvers family arranged access to the Midvale salvage yard, where Kara practiced heat vision and freeze breath safely."
+  },
+  {
+    "id": "supergirl-trivia-24",
+    "question": "Which Justice League member recommended Kara for provisional membership?",
+    "options": ["Superman", "Wonder Woman", "The Flash", "Batman"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Batman filed the recommendation for Supergirl's provisional membership after she decisively closed the Tokyo dimensional breach."
+  },
+  {
+    "id": "supergirl-trivia-25",
+    "question": "Which city was Kara, the Flash, and Green Lantern assigned to protect?",
+    "options": ["Paris", "Metropolis", "London", "Tokyo"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Kara, the Flash, and Green Lantern John Stewart were sent to Tokyo — the largest of the three dimensional breach sites."
+  },
+  {
+    "id": "supergirl-trivia-26",
+    "question": "What kind of powers did Silver Banshee have?",
+    "options": ["Flight and super-strength", "A destructive sonic scream", "X-ray vision", "Mind control"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Silver Banshee could produce a devastating sonic scream powerful enough to shatter windows and knock people off their feet."
+  },
+  {
+    "id": "supergirl-trivia-27",
+    "question": "What was the last thing Kara's mother said to her before the rocket launched?",
+    "options": ["'I love you, always.'", "'Use your powers wisely.'", "'Be brave. Be kind. Be who you are.'", "'Remember Krypton.'"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Alura's final words to Kara were 'Be brave. Be kind. Be who you are.' — a phrase Kara carries with her always."
+  },
+  {
+    "id": "supergirl-trivia-28",
+    "question": "What did Kara do to stop the Silver Banshee's destructive energy?",
+    "options": ["Punched her", "Used heat vision", "Used freeze breath to cool the energy", "Called the police"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Kara used freeze breath to coat the swirling white energy around Silver Banshee, containing it and calming the situation enough to talk."
+  },
+  {
+    "id": "supergirl-trivia-29",
+    "question": "What type of science project did Maya enter in the district science fair?",
+    "options": ["Robotics", "Chemical reactions", "Stellar formation", "Weather patterns"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Maya Vasquez's science fair project was about stellar formation — how clouds of gas and dust collapse under gravity to form stars."
+  },
+  {
+    "id": "supergirl-trivia-30",
+    "question": "What place did Maya's science fair project win?",
+    "options": ["First place", "Second place", "Third place", "Honorable mention"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Maya won second place at the district science fair, and a S.T.A.R. Labs judge offered her a summer volunteer position."
+  },
+  {
+    "id": "supergirl-trivia-31",
+    "question": "What is Superman's Earth name as a journalist?",
+    "options": ["Bruce Wayne", "Clark Kent", "Barry Allen", "Hal Jordan"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Superman is Clark Kent in his civilian identity — a reporter for the Daily Planet newspaper in Metropolis."
+  },
+  {
+    "id": "supergirl-trivia-32",
+    "question": "Where did Superman take Kara for a day of training?",
+    "options": ["The Watchtower", "The Fortress of Solitude", "The Kent farm in Kansas", "Metropolis"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Superman took Kara to the Kent farm in Kansas, where he grew up, for a full day of flying, sparring, and power training."
+  },
+  {
+    "id": "supergirl-trivia-33",
+    "question": "Which power is described as being connected to concentration and emotion?",
+    "options": ["Super-strength", "Flight", "Heat vision", "X-ray vision"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Superman told Kara that heat vision is tied to concentration and emotion — the stronger the feeling, the more powerful the beam."
+  },
+  {
+    "id": "supergirl-trivia-34",
+    "question": "What did Kara write on a steel panel during heat vision practice?",
+    "options": ["Her address", "Her name in Kryptonian script", "The S-shield symbol", "A map of Krypton"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Using precision heat vision, Kara engraved her name in Kryptonian script on a steel panel — then wrote it in English below."
+  },
+  {
+    "id": "supergirl-trivia-35",
+    "question": "Where was the dam that Kara saved from failing?",
+    "options": ["Metropolis", "Harker's Mill", "Gotham", "Midvale"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Kara saved the dam upstream from Harker's Mill, a town of 4,000 people, spending over an hour welding boulders and redirecting water."
+  },
+  {
+    "id": "supergirl-trivia-36",
+    "question": "What type of ship does Brainiac travel in?",
+    "options": ["A comet-shaped ship", "A skull-shaped ship", "A pyramid-shaped ship", "A sphere-shaped ship"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Brainiac's enormous spacecraft is shaped like a skull, with glowing eye-sockets, making it immediately recognizable and frightening."
+  },
+  {
+    "id": "supergirl-trivia-37",
+    "question": "What organization secured the Caoránach Crest after Silver Banshee's encounter with Kara?",
+    "options": ["The Justice League", "S.T.A.R. Labs", "The DEO", "The Kryptonian Archives"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "S.T.A.R. Labs sent specialists to study the Caoránach Crest and help Siobhan McDougal manage the ancient spirit bound to it."
+  },
+  {
+    "id": "supergirl-trivia-38",
+    "question": "What was Kara fighting above Tokyo when the Justice League called on her?",
+    "options": ["Giant robots", "Battle drones sent by Maxima", "Brainiac's skull-drones", "Meteorites"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Maxima from the planet Almerac sent automated battle drones through dimensional breach points over Tokyo and other cities."
+  },
+  {
+    "id": "supergirl-trivia-39",
+    "question": "Which Green Lantern worked alongside Kara on the Tokyo mission?",
+    "options": ["Hal Jordan", "Kyle Rayner", "Guy Gardner", "John Stewart"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Green Lantern John Stewart was part of the three-person team with Kara and the Flash that handled the Tokyo dimensional breach."
+  },
+  {
+    "id": "supergirl-trivia-40",
+    "question": "How many loops did Kara fly over Midvale when she heard about her Justice League invitation?",
+    "options": ["Two", "Three", "Four", "Five"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "supergirl",
+    "explanation": "Superman mentioned she should fly three loops in celebration, but Kara was so excited she flew four."
+  }
+]

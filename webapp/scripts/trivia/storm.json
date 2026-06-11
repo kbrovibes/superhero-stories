@@ -1,0 +1,602 @@
+[
+  {
+    "id": "storm-trivia-1",
+    "question": "What is Storm's real name?",
+    "options": [
+      "Ororo Xavier",
+      "Ororo Wakanda",
+      "Ororo Cheney",
+      "Ororo Munroe"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Storm's full real name is Ororo Munroe, born to a Kenyan princess mother and an American photographer father."
+  },
+  {
+    "id": "storm-trivia-2",
+    "question": "In which city did Ororo live as a child and learn to survive on her own?",
+    "options": [
+      "Nairobi",
+      "Cairo",
+      "Wakanda",
+      "Johannesburg"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "After losing her parents, young Ororo lived on the streets of Cairo, Egypt, where she learned to pick pockets to survive."
+  },
+  {
+    "id": "storm-trivia-3",
+    "question": "What did the people of the Serengeti call Storm when her weather powers appeared?",
+    "options": [
+      "Goddess",
+      "Queen",
+      "Warrior",
+      "Thunder-child"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "The villagers near the Serengeti plain called Ororo 'Goddess' when they witnessed her ability to bring rain and ride the wind."
+  },
+  {
+    "id": "storm-trivia-4",
+    "question": "Who taught Ororo how to survive as a child in Cairo?",
+    "options": [
+      "Professor Xavier",
+      "Achmed el-Gibar",
+      "T'Challa",
+      "Callisto"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "A street thief named Achmed el-Gibar took Ororo in and taught her the skills she needed to survive in Cairo's markets."
+  },
+  {
+    "id": "storm-trivia-5",
+    "question": "Which team does Storm belong to at the Xavier Institute?",
+    "options": [
+      "The X-Men",
+      "The Avengers",
+      "The Fantastic Four",
+      "S.H.I.E.L.D."
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Storm is a member and sometimes leader of the X-Men, the team of mutant heroes organized by Professor Charles Xavier."
+  },
+  {
+    "id": "storm-trivia-6",
+    "question": "What is Storm's greatest personal fear?",
+    "options": [
+      "Heights",
+      "Claustrophobia",
+      "Thunder",
+      "Water"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Storm has claustrophobia \u2014 a fear of tight, enclosed spaces \u2014 born from being trapped under rubble as a child in Cairo."
+  },
+  {
+    "id": "storm-trivia-7",
+    "question": "What country is Wakanda located in?",
+    "options": [
+      "South America",
+      "Asia",
+      "Antarctica",
+      "Africa"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Wakanda is a hidden, advanced nation located in the mountains of East Africa, home of the Black Panther T'Challa."
+  },
+  {
+    "id": "storm-trivia-8",
+    "question": "What is the name of the villain who attacked Storm through her dreams?",
+    "options": [
+      "Shadow King",
+      "Magneto",
+      "Mister Sinister",
+      "Sabretooth"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "The Shadow King, formerly the Cairo crimelord Amahl Farouk, is a psychic entity who attacked Storm by invading her dreams."
+  },
+  {
+    "id": "storm-trivia-9",
+    "question": "What color is Storm's signature costume?",
+    "options": [
+      "Black",
+      "White",
+      "Blue",
+      "Silver"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Storm wears white in honor of the clouds she controls, a choice she made when she first joined the X-Men."
+  },
+  {
+    "id": "storm-trivia-10",
+    "question": "Which African plain did young Ororo reach when her weather powers fully awakened?",
+    "options": [
+      "The Serengeti",
+      "The Kalahari",
+      "The Congo Basin",
+      "The Sahara"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Ororo walked south from Cairo all the way to the Serengeti plain of East Africa, where her powers first fully appeared."
+  },
+  {
+    "id": "storm-trivia-11",
+    "question": "What is the name of the warrior-king of Wakanda who Storm married?",
+    "options": [
+      "T'Challa",
+      "Iron Fist",
+      "Nick Fury",
+      "War Machine"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Storm married T'Challa, the Black Panther and king of Wakanda, becoming Queen Consort of the most advanced nation on Earth."
+  },
+  {
+    "id": "storm-trivia-12",
+    "question": "What is the name of the professor who invited Storm to join the X-Men?",
+    "options": [
+      "Professor Banner",
+      "Professor Doom",
+      "Professor Xavier",
+      "Professor Magneto"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Professor Charles Xavier tracked Ororo down on the Serengeti, explained her mutant gift, and invited her to his institute."
+  },
+  {
+    "id": "storm-trivia-13",
+    "question": "What are the large robots called that hunt mutants and are Storm's frequent enemies?",
+    "options": [
+      "Doombots",
+      "Sentinels",
+      "Iron Drones",
+      "Hydra-Mechs"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Sentinels are giant robots built by the Sentinel Program to track and capture mutants, and they are one of Storm's most dangerous foes."
+  },
+  {
+    "id": "storm-trivia-14",
+    "question": "What is the miracle mineral that makes Wakanda so advanced?",
+    "options": [
+      "Adamantium",
+      "Vibranium",
+      "Kryptonite",
+      "Uru metal"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Wakanda is built on deposits of Vibranium, a unique mineral found nowhere else on Earth that powers its extraordinary technology."
+  },
+  {
+    "id": "storm-trivia-15",
+    "question": "Which X-Man has Adamantium claws and is one of Storm's closest friends?",
+    "options": [
+      "Cyclops",
+      "Wolverine",
+      "Beast",
+      "Gambit"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Wolverine has retractable Adamantium claws and heightened senses, and is one of Storm's closest friends and teammates."
+  },
+  {
+    "id": "storm-trivia-16",
+    "question": "What is the name of Wakanda's beautiful capital city?",
+    "options": [
+      "Kingsport",
+      "New Wakanda",
+      "Port Xavier",
+      "Birnin Zana"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Birnin Zana is the Golden City, Wakanda's capital, where Storm and T'Challa's famous wedding was held."
+  },
+  {
+    "id": "storm-trivia-17",
+    "question": "What X-Man fires optic energy blasts from his eyes?",
+    "options": [
+      "Cyclops",
+      "Wolverine",
+      "Iceman",
+      "Gambit"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Cyclops fires powerful optic blasts from his eyes and wears a special visor to control them; he is one of Storm's core X-Men teammates."
+  },
+  {
+    "id": "storm-trivia-18",
+    "question": "Which X-Man can move objects with her mind and is one of Storm's closest allies?",
+    "options": [
+      "Rogue",
+      "Mystique",
+      "Jean Grey",
+      "Storm"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Jean Grey is a powerful telepath and telekinetic who is one of Storm's closest allies on the X-Men."
+  },
+  {
+    "id": "storm-trivia-19",
+    "question": "How does Storm travel through the air?",
+    "options": [
+      "She has wings",
+      "She rides a column of air she generates herself",
+      "She grabs lightning bolts",
+      "She uses a jetpack"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Storm generates a column of air beneath her feet and rides it, constantly adjusting \u2014 more like surfing a wave than true flight."
+  },
+  {
+    "id": "storm-trivia-20",
+    "question": "What is the name of the underground community of mutants who live in New York's tunnels?",
+    "options": [
+      "The Morlocks",
+      "The Underground X",
+      "The Subway Saints",
+      "The Tunnel Mutants"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "The Morlocks are a community of mutants who live in tunnels beneath New York City, led by a fierce woman named Callisto."
+  },
+  {
+    "id": "storm-trivia-21",
+    "question": "What is the name of the Morlocks' fierce leader?",
+    "options": [
+      "Callisto",
+      "Lila",
+      "Petra",
+      "Suri"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Callisto is the fierce and capable leader of the Morlocks, the underground mutant community in New York City."
+  },
+  {
+    "id": "storm-trivia-22",
+    "question": "What is the name of the hidden prehistoric wilderness in Antarctica?",
+    "options": [
+      "The Forbidden Zone",
+      "The Savage Land",
+      "The Dead Lands",
+      "The Wild Continent"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "The Savage Land is a hidden prehistoric wilderness in Antarctica, full of ancient creatures and with no reliable communications."
+  },
+  {
+    "id": "storm-trivia-23",
+    "question": "What was the Shadow King's real name before he became a psychic villain?",
+    "options": [
+      "Amahl Farouk",
+      "Otto Farouk",
+      "Hassan Farouk",
+      "Karim Farouk"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "The Shadow King was once Amahl Farouk, a Cairo crimelord whom Professor Xavier defeated, but whose mind survived in the astral plane."
+  },
+  {
+    "id": "storm-trivia-24",
+    "question": "Where is the Xavier Institute located?",
+    "options": [
+      "Manhattan, New York",
+      "Queens, New York",
+      "Brooklyn, New York",
+      "Westchester, New York"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "The Xavier Institute for Gifted Youngsters is located in Westchester, New York, on grounds that overlook the Hudson River."
+  },
+  {
+    "id": "storm-trivia-25",
+    "question": "What is Storm's power connected to, making control especially important?",
+    "options": [
+      "The moon's phases",
+      "The temperature outside",
+      "Her emotional state",
+      "The amount she has slept"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Storm's weather powers are connected to her emotions \u2014 anger or fear can cause unintended storms, which is why Xavier trained her in meditation."
+  },
+  {
+    "id": "storm-trivia-26",
+    "question": "What were Ororo Munroe's parents?",
+    "options": [
+      "Two American scientists",
+      "A Wakandan king and a British explorer",
+      "Two Egyptian doctors",
+      "A Kenyan princess mother and an American photographer father"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Ororo's mother N'Dare was a Kenyan princess, and her father David Munroe was an American photographer \u2014 they lived together in Cairo, Egypt."
+  },
+  {
+    "id": "storm-trivia-27",
+    "question": "What kind of storm did Storm build during the huge Sentinel attack to protect the Xavier Institute?",
+    "options": [
+      "A nor'easter",
+      "A tornado",
+      "A typhoon",
+      "A dust storm"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Storm built a massive nor'easter \u2014 the great winter storm of the northeast coast \u2014 directing it with intention to ground and disable thirty Sentinels."
+  },
+  {
+    "id": "storm-trivia-28",
+    "question": "What does Storm do to push back against the Shadow King inside her mind?",
+    "options": [
+      "She calls lightning",
+      "She wakes herself up",
+      "She imagines open sky and Serengeti wind",
+      "She asks Xavier for help"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Storm defeats the Shadow King's dream attacks by filling her mind with the image of open sky and free wind \u2014 the feeling he cannot fake or replicate."
+  },
+  {
+    "id": "storm-trivia-29",
+    "question": "Where did T'Challa propose to Storm?",
+    "options": [
+      "At the Xavier Institute",
+      "On the Serengeti plain",
+      "In Birnin Zana's palace",
+      "At the Great Mound in Wakanda"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "T'Challa proposed at the Great Mound, the sacred Vibranium deposit at the heart of Wakanda, surrounded by red earth and green hills."
+  },
+  {
+    "id": "storm-trivia-30",
+    "question": "How fast can Storm fly on a clear day?",
+    "options": [
+      "Ten miles per hour",
+      "Thirty miles per hour",
+      "Sixty miles per hour",
+      "Two hundred miles per hour"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Storm can fly at sixty miles per hour on a clear day, and up to ninety miles per hour when riding a powerful tailwind."
+  },
+  {
+    "id": "storm-trivia-31",
+    "question": "How did Storm help her team cross a raging river in the Savage Land?",
+    "options": [
+      "She called a helicopter",
+      "She swam across and tied a rope",
+      "She flew everyone over one at a time",
+      "She built a wind-bridge with Jean Grey's help"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Storm created a sustained column of high-pressure air while Jean Grey anchored it telekinetically, bridging the flood in ninety seconds."
+  },
+  {
+    "id": "storm-trivia-32",
+    "question": "What blocked Storm's powers inside the Genoshan complex?",
+    "options": [
+      "A psychic field",
+      "Power-dampening technology",
+      "Cold temperature",
+      "Kryptonite radiation"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "The Genoshan facility used power-dampening technology that severed Storm's connection to the atmosphere, leaving her nearly powerless."
+  },
+  {
+    "id": "storm-trivia-33",
+    "question": "Who did Storm and Wolverine rescue from Genosha?",
+    "options": [
+      "Cyclops",
+      "Callisto",
+      "Lila Cheney",
+      "Petra"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Storm and Wolverine successfully rescued a young mutant named Lila Cheney from the fortified Genoshan complex."
+  },
+  {
+    "id": "storm-trivia-34",
+    "question": "What is the first thing Storm does when she starts teaching new students?",
+    "options": [
+      "Sends them on a solo mission",
+      "Gives them a written exam",
+      "Tests their powers in combat",
+      "Takes them outside and tells them her own story"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Storm begins by taking students outside to the lawn and sharing her own story \u2014 so they know being frightened, powerful, and still learning can all be true at once."
+  },
+  {
+    "id": "storm-trivia-35",
+    "question": "Who did Professor Xavier choose as the X-Men's field leader instead of Cyclops?",
+    "options": [
+      "Wolverine",
+      "Storm",
+      "Jean Grey",
+      "Beast"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Xavier surprised everyone by choosing Ororo \u2014 Storm \u2014 as the X-Men's field leader, rather than the widely expected Cyclops."
+  },
+  {
+    "id": "storm-trivia-36",
+    "question": "What invisible world does the Shadow King hide in?",
+    "options": [
+      "The dark dimension",
+      "The spirit world",
+      "The astral plane",
+      "The psychic ocean"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "The astral plane is the invisible world of minds and thoughts where the Shadow King lurks after his physical defeat by Professor Xavier."
+  },
+  {
+    "id": "storm-trivia-37",
+    "question": "What does Wolverine say to Storm after she opens the blast door in Genosha without her full powers?",
+    "options": [
+      "Amazing work, Storm",
+      "I knew you could do it",
+      "Let's never do that again",
+      "You're not totally useless down here"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Wolverine's review of Storm's achievement was 'You're not totally useless down here' \u2014 which from him is the highest possible praise."
+  },
+  {
+    "id": "storm-trivia-38",
+    "question": "What is the name of the new student Storm helped who could sense electrical fields everywhere?",
+    "options": [
+      "Suri",
+      "Emile",
+      "Lila",
+      "Petra"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Petra was the twelve-year-old student who could sense electrical fields everywhere and was so overwhelmed she stopped touching things."
+  },
+  {
+    "id": "storm-trivia-39",
+    "question": "What lesson does Storm teach Emile about controlling wind?",
+    "options": [
+      "Wind is pressure \u2014 equalize it to slow it, don't fight it",
+      "Push harder against the wind",
+      "Close your eyes and count to ten",
+      "Wind only listens to your heartbeat"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Storm teaches Emile that wind is air moving from high pressure to low pressure, and the way to calm it is to equalize the pressure rather than resist it."
+  },
+  {
+    "id": "storm-trivia-40",
+    "question": "What does Storm say when Petra asks how she knew the students could succeed?",
+    "options": [
+      "I read your files",
+      "I had a feeling about you",
+      "Because I was you",
+      "Professor Xavier told me"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "storm",
+    "explanation": "Storm tells Petra 'Because I was you' \u2014 meaning she was once a frightened young person uncertain of her own gift, just like them."
+  }
+]

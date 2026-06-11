@@ -1,0 +1,602 @@
+[
+  {
+    "id": "rocket-trivia-1",
+    "question": "Where was Rocket created through scientific experiments?",
+    "options": [
+      "Halfworld",
+      "Xandar",
+      "Planet X",
+      "Nidavellir"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Rocket was created on a planet called Halfworld, where scientists experimented on animals to give them human-level intelligence."
+  },
+  {
+    "id": "rocket-trivia-2",
+    "question": "What are the only three words Groot ever says?",
+    "options": [
+      "I love you",
+      "We are Groot",
+      "I need Rocket",
+      "I am Groot"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Groot's vocabulary consists entirely of the phrase 'I am Groot,' though Rocket understands every meaning perfectly."
+  },
+  {
+    "id": "rocket-trivia-3",
+    "question": "What is the name of the spaceship the Guardians of the Galaxy fly?",
+    "options": [
+      "The Dark Aster",
+      "The Kyln",
+      "The Milano",
+      "The Sovereign"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "The Guardians fly a ship called the Milano, which Peter Quill found and Rocket has significantly improved over the years."
+  },
+  {
+    "id": "rocket-trivia-4",
+    "question": "What color is the Power Stone that Ronan the Accuser used as a weapon?",
+    "options": [
+      "Blue",
+      "Green",
+      "Violet",
+      "Red"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "The Power Stone is a small violet gem containing enormous energy, which Ronan intended to use to destroy Xandar."
+  },
+  {
+    "id": "rocket-trivia-5",
+    "question": "What organization protects the planet Xandar?",
+    "options": [
+      "The Ravagers",
+      "The Kree Empire",
+      "The Nova Corps",
+      "The Avengers"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "The Nova Corps is the galaxy's peacekeeping force, headquartered on the beautiful planet Xandar."
+  },
+  {
+    "id": "rocket-trivia-6",
+    "question": "What is Rocket's most important skill besides piloting?",
+    "options": [
+      "Cooking",
+      "Singing",
+      "Telepathy",
+      "Building weapons and gadgets from scrap"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Rocket is a master engineer who can build extraordinary weapons and devices from whatever spare parts happen to be nearby."
+  },
+  {
+    "id": "rocket-trivia-7",
+    "question": "What did Groot say just before sacrificing himself to protect the Guardians?",
+    "options": [
+      "I love you all",
+      "Protect them",
+      "We are Groot",
+      "Goodbye friends"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Groot said 'We are Groot' as he wrapped himself around his friends \u2014 using 'we' instead of 'I' to mean all five Guardians together."
+  },
+  {
+    "id": "rocket-trivia-8",
+    "question": "What is Ronan the Accuser's weapon called?",
+    "options": [
+      "Stormbreaker",
+      "Mjolnir",
+      "The Universal Weapon",
+      "The Power Hammer"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Ronan the Accuser carries an enormous stone hammer called the Universal Weapon."
+  },
+  {
+    "id": "rocket-trivia-9",
+    "question": "What group is Rocket a member of?",
+    "options": [
+      "The Avengers",
+      "The X-Men",
+      "The Guardians of the Galaxy",
+      "The Nova Corps"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Rocket is a founding member of the Guardians of the Galaxy, alongside Groot, Star-Lord, Gamora, and Drax."
+  },
+  {
+    "id": "rocket-trivia-10",
+    "question": "What is the name of the villain who created Rocket through experiments?",
+    "options": [
+      "The High Evolutionary",
+      "Thanos",
+      "Ronan the Accuser",
+      "Ego"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "The High Evolutionary was the scientist who performed experiments on Halfworld, transforming Rocket and other animals."
+  },
+  {
+    "id": "rocket-trivia-11",
+    "question": "What is the name of the living planet villain who turns out to be Star-Lord's father?",
+    "options": [
+      "Thanos",
+      "Ronan",
+      "Ego",
+      "Eitri"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Ego is a Celestial being who constructed a beautiful living planet and revealed himself to be Peter Quill's father."
+  },
+  {
+    "id": "rocket-trivia-12",
+    "question": "What explosive material did Rocket use to build the bomb that destroyed Ego?",
+    "options": [
+      "Pym Particles",
+      "Vibranium",
+      "Uru metal",
+      "Anulax batteries"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Rocket used Anulax batteries \u2014 the most explosive material in the known galaxy \u2014 to build the bomb that destroyed Ego from the inside."
+  },
+  {
+    "id": "rocket-trivia-13",
+    "question": "Who planted the bomb inside Ego's brain?",
+    "options": [
+      "Baby Groot",
+      "Rocket",
+      "Yondu",
+      "Star-Lord"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Baby Groot bravely planted the bomb at Ego's core, pressing it into place with careful determination."
+  },
+  {
+    "id": "rocket-trivia-14",
+    "question": "What is the name of the forge built around a dying star where Stormbreaker was made?",
+    "options": [
+      "Halfworld",
+      "Nidavellir",
+      "Asgard",
+      "Planet X"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Nidavellir is the ancient forge built in rings around a dying star, where master craftsman Eitri shaped weapons from Uru metal."
+  },
+  {
+    "id": "rocket-trivia-15",
+    "question": "Who is the giant craftsman at Nidavellir who forged both Mjolnir and Stormbreaker?",
+    "options": [
+      "Thor",
+      "Odin",
+      "Yondu",
+      "Eitri"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "explanation": "Eitri is the giant dwarf craftsman of Nidavellir who forged Thor's original hammer Mjolnir and later the battle-axe Stormbreaker.",
+    "universe": "marvel",
+    "heroId": "rocket"
+  },
+  {
+    "id": "rocket-trivia-16",
+    "question": "What part of Stormbreaker did Groot contribute?",
+    "options": [
+      "The handle",
+      "The blade",
+      "The enchantment",
+      "The power cell"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Groot grew his own arm into the handle of Stormbreaker, completing the weapon just as it finished cooling."
+  },
+  {
+    "id": "rocket-trivia-17",
+    "question": "What is the name of the plan Thanos used to remove half of all life in the universe?",
+    "options": [
+      "The Expansion",
+      "The Infinity Plan",
+      "The Blip",
+      "The Snap"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Thanos used the fully assembled Infinity Gauntlet to snap his fingers and remove half of all life in the universe."
+  },
+  {
+    "id": "rocket-trivia-18",
+    "question": "Where was the largest final battle in the Avengers story fought?",
+    "options": [
+      "Xandar",
+      "New York",
+      "Asgard",
+      "Wakanda"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "The final battle against Thanos and his army took place in and around Wakanda, the last location of the Mind Stone."
+  },
+  {
+    "id": "rocket-trivia-19",
+    "question": "What device did Tony Stark build to hold all six Infinity Stones so the Hulk could reverse the snap?",
+    "options": [
+      "The Infinity Gauntlet",
+      "The Quantum Gauntlet",
+      "The Iron Gauntlet",
+      "The Nano Gauntlet"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Tony Stark built the Nano Gauntlet from his Iron Man technology to safely house all six Infinity Stones."
+  },
+  {
+    "id": "rocket-trivia-20",
+    "question": "What is the name of the space prison where Rocket and Groot first met the other Guardians?",
+    "options": [
+      "The Kyln",
+      "Halfworld",
+      "The Dark Aster",
+      "Nidavellir"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "The Kyln is the high-security space prison where Rocket, Groot, Star-Lord, Gamora, and Drax first met and formed the Guardians."
+  },
+  {
+    "id": "rocket-trivia-21",
+    "question": "What color is Yondu, the Ravager captain who mentored Star-Lord?",
+    "options": [
+      "Green",
+      "Blue",
+      "Purple",
+      "Red"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Yondu is a blue-skinned Ravager captain who raised Peter Quill and later helped Rocket in the mission inside Ego."
+  },
+  {
+    "id": "rocket-trivia-22",
+    "question": "What special technology did Rocket build to enable the Avengers' time travel plan?",
+    "options": [
+      "An Infinity Gauntlet",
+      "Quantum tunnel emitters and Pym Particle dispensers",
+      "A time machine car",
+      "An arc reactor"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Rocket built the quantum tunnel emitters, Pym Particle dispensers, and synchronization relay that made the Time Heist physically possible."
+  },
+  {
+    "id": "rocket-trivia-23",
+    "question": "What year did Rocket and Thor travel back to in order to retrieve the Reality Stone?",
+    "options": [
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Rocket and Thor traveled to Asgard in 2013, during the Dark Elf attack, to retrieve the Reality Stone."
+  },
+  {
+    "id": "rocket-trivia-24",
+    "question": "What is Groot's home world called?",
+    "options": [
+      "Planet X",
+      "Halfworld",
+      "Xandar",
+      "Knowhere"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Groot comes from a world called Planet X, home to the tree-like beings called Flora colossi."
+  },
+  {
+    "id": "rocket-trivia-25",
+    "question": "How did Rocket keep Groot alive after Groot sacrificed himself on Xandar?",
+    "options": [
+      "He planted a seed",
+      "He saved a small cutting and grew it in a pot",
+      "He found a spare Groot",
+      "He asked Eitri to forge a new one"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Rocket saved a tiny cutting from the remains of Groot and carefully grew it in a pot, carrying it everywhere until Groot was restored."
+  },
+  {
+    "id": "rocket-trivia-26",
+    "question": "Who is the main pilot of the Milano most of the time?",
+    "options": [
+      "Star-Lord",
+      "Gamora",
+      "Drax",
+      "Rocket"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Rocket is widely considered the best pilot among the Guardians and handles most of the flying aboard the Milano."
+  },
+  {
+    "id": "rocket-trivia-27",
+    "question": "What is the name of Thanos's enormous warship?",
+    "options": [
+      "The Milano",
+      "The Dark Aster",
+      "The Sanctuary",
+      "The Ar\u00eate"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "The Dark Aster is Ronan's massive warship that Rocket helped destroy by building a weapon and firing it at the ship above Xandar."
+  },
+  {
+    "id": "rocket-trivia-28",
+    "question": "What was the name of the space station where the High Evolutionary conducted his experiments?",
+    "options": [
+      "The Ar\u00eate",
+      "Halfworld",
+      "The Kyln",
+      "Nidavellir"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "The High Evolutionary worked on a space station called the Ar\u00eate, where he created and experimented on living beings."
+  },
+  {
+    "id": "rocket-trivia-29",
+    "question": "What does Rocket always do when he encounters a new machine or problem?",
+    "options": [
+      "Asks for help",
+      "Gives up",
+      "Immediately starts building or improving it",
+      "Waits for Star-Lord to decide"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Rocket's defining quality is that he immediately starts building or improving when he encounters any mechanical problem."
+  },
+  {
+    "id": "rocket-trivia-30",
+    "question": "By how much did Rocket improve the Milano's sublight speed when he rebuilt the engine coils?",
+    "options": [
+      "Thirty percent",
+      "Ten percent",
+      "Twenty percent",
+      "Fifty percent"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Rocket improved the Milano's sublight speed by approximately thirty percent when he rebuilt and upgraded the engine coils."
+  },
+  {
+    "id": "rocket-trivia-31",
+    "question": "What human Avenger arrived with the theory about time travel using the Quantum Realm?",
+    "options": [
+      "Tony Stark",
+      "Scott Lang",
+      "Steve Rogers",
+      "Bruce Banner"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Scott Lang, also known as Ant-Man, arrived at the Avengers compound with the initial theory about using the Quantum Realm for time travel."
+  },
+  {
+    "id": "rocket-trivia-32",
+    "question": "What is Ego's plan to spread himself across the galaxy called?",
+    "options": [
+      "The Expansion",
+      "The Snap",
+      "The Colonization",
+      "The Bloom"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Ego's plan to activate his hidden tendrils on thousands of worlds and absorb them into himself is called the Expansion."
+  },
+  {
+    "id": "rocket-trivia-33",
+    "question": "How many Infinity Stones are there in total?",
+    "options": [
+      "Four",
+      "Five",
+      "Seven",
+      "Six"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "There are six Infinity Stones \u2014 Space, Reality, Power, Mind, Soul, and Time \u2014 and Thanos hunted all six to complete the Infinity Gauntlet."
+  },
+  {
+    "id": "rocket-trivia-34",
+    "question": "What animal does Rocket most resemble in appearance?",
+    "options": [
+      "A raccoon",
+      "A fox",
+      "A cat",
+      "A ferret"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Rocket resembles an Earth raccoon, with dark stripes on his face, bright amber eyes, and a ringed tail."
+  },
+  {
+    "id": "rocket-trivia-35",
+    "question": "What is Thor's original legendary hammer called?",
+    "options": [
+      "Stormbreaker",
+      "Mjolnir",
+      "Gungnir",
+      "The Universal Weapon"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Thor's original hammer is called Mjolnir, which was forged by Eitri at Nidavellir."
+  },
+  {
+    "id": "rocket-trivia-36",
+    "question": "What is Star-Lord's real name?",
+    "options": [
+      "James Rogers",
+      "Peter Quill",
+      "Scott Quill",
+      "Peter Stark"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Star-Lord's real name is Peter Quill, a human from Earth who was raised by the Ravager captain Yondu."
+  },
+  {
+    "id": "rocket-trivia-37",
+    "question": "What does Groot do to help the Guardians survive the Dark Aster crash on Xandar?",
+    "options": [
+      "He flies the ship to safety",
+      "He wraps his body around all four Guardians to absorb the impact",
+      "He fires a weapon at the ground",
+      "He jumps out first"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Groot wrapped his entire body around all four Guardians, growing into a protective sphere of living wood that absorbed the full force of the crash."
+  },
+  {
+    "id": "rocket-trivia-38",
+    "question": "What is the name of the Guardians' opponent in their very first big mission to save Xandar?",
+    "options": [
+      "Thanos",
+      "The High Evolutionary",
+      "Ronan the Accuser",
+      "Ego"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Ronan the Accuser is the Kree warlord who threatened to destroy Xandar using the Power Stone in the Guardians' first major mission."
+  },
+  {
+    "id": "rocket-trivia-39",
+    "question": "What does Rocket call himself most of the time \u2014 does he choose one specific title?",
+    "options": [
+      "A fox",
+      "A raccoon",
+      "An engineer",
+      "A Guardian of the Galaxy"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Rocket's most meaningful title is Guardian of the Galaxy \u2014 the team he found and the family that accepted him exactly as he was."
+  },
+  {
+    "id": "rocket-trivia-40",
+    "question": "What lesson does Rocket learn about family by the end of his story?",
+    "options": [
+      "Family is not the people who made you \u2014 it is the people who stayed",
+      "Family is whoever has the best spaceship",
+      "Family is only people who look like you",
+      "Family must live on the same planet"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "rocket",
+    "explanation": "Rocket comes to understand that true family is not the people who created him, but the people who chose to stay with him."
+  }
+]
