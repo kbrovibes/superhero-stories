@@ -5,12 +5,15 @@ const REPO_ROOT = path.join(process.cwd(), "superhero-repo");
 
 export type Universe = "marvel" | "dc" | "avengers" | "thanos";
 
+export type HeroKind = "hero" | "villain";
+
 export interface Hero {
   id: string;          // kebab-case folder name
   name: string;        // display name
   universe: Universe;
   emoji: string;
   avatarFormat: "webp" | "svg";  // which file lives in /public/avatars/{universe}/
+  kind: HeroKind;      // "hero" or "villain" — drives homepage sub-section
 }
 
 export interface Story {
@@ -33,7 +36,7 @@ export interface Candidate {
   href: string;            // pre-built link string for next/link
 }
 
-type HeroMeta = Pick<Hero, "name" | "emoji"> & { avatarFormat?: "webp" | "svg" };
+type HeroMeta = Pick<Hero, "name" | "emoji"> & { avatarFormat?: "webp" | "svg"; kind?: HeroKind };
 
 const HERO_META: Record<string, HeroMeta> = {
   "iron-man":           { name: "Iron Man",           emoji: "🤖" },
@@ -64,6 +67,47 @@ const HERO_META: Record<string, HeroMeta> = {
   batgirl:              { name: "Batgirl",             emoji: "🦇" },
   "martian-manhunter":  { name: "Martian Manhunter",   emoji: "👽" },
   robin:                { name: "Robin",               emoji: "🐦", avatarFormat: "svg" },
+
+  // ── Marvel heroes: X-Men (added 2026-06-10) ──
+  wolverine:            { name: "Wolverine",           emoji: "🗡️", avatarFormat: "svg" },
+  storm:                { name: "Storm",               emoji: "⛈️", avatarFormat: "svg" },
+  cyclops:              { name: "Cyclops",             emoji: "🥽", avatarFormat: "svg" },
+  "jean-grey":          { name: "Jean Grey",           emoji: "🔥", avatarFormat: "svg" },
+  beast:                { name: "Beast",               emoji: "🦍", avatarFormat: "svg" },
+  rogue:                { name: "Rogue",               emoji: "🧤", avatarFormat: "svg" },
+  nightcrawler:         { name: "Nightcrawler",        emoji: "💨", avatarFormat: "svg" },
+  gambit:               { name: "Gambit",              emoji: "🃏", avatarFormat: "svg" },
+
+  // ── DC heroes (added 2026-06-10) ──
+  starfire:             { name: "Starfire",            emoji: "🧡", avatarFormat: "svg" },
+  raven:                { name: "Raven",               emoji: "🐦‍⬛", avatarFormat: "svg" },
+  "beast-boy":          { name: "Beast Boy",           emoji: "🦖", avatarFormat: "svg" },
+  supergirl:            { name: "Supergirl",           emoji: "💫", avatarFormat: "svg" },
+  "green-arrow":        { name: "Green Arrow",         emoji: "🎯", avatarFormat: "svg" },
+  nightwing:            { name: "Nightwing",           emoji: "🌃", avatarFormat: "svg" },
+
+  // ── Marvel villains (added 2026-06-10) ──
+  "green-goblin":       { name: "Green Goblin",        emoji: "🎃", avatarFormat: "svg", kind: "villain" },
+  "doctor-octopus":     { name: "Doctor Octopus",      emoji: "🐙", avatarFormat: "svg", kind: "villain" },
+  venom:                { name: "Venom",               emoji: "🖤", avatarFormat: "svg", kind: "villain" },
+  magneto:              { name: "Magneto",             emoji: "🧲", avatarFormat: "svg", kind: "villain" },
+  ultron:               { name: "Ultron",              emoji: "⚙️", avatarFormat: "svg", kind: "villain" },
+  "red-skull":          { name: "Red Skull",           emoji: "💀", avatarFormat: "svg", kind: "villain" },
+  abomination:          { name: "Abomination",         emoji: "🦎", avatarFormat: "svg", kind: "villain" },
+  killmonger:           { name: "Killmonger",          emoji: "🐆", avatarFormat: "svg", kind: "villain" },
+  mysterio:             { name: "Mysterio",            emoji: "🎭", avatarFormat: "svg", kind: "villain" },
+
+  // ── DC villains (added 2026-06-10) ──
+  joker:                { name: "The Joker",           emoji: "🤡", avatarFormat: "svg", kind: "villain" },
+  "harley-quinn":       { name: "Harley Quinn",        emoji: "🤹", avatarFormat: "svg", kind: "villain" },
+  "lex-luthor":         { name: "Lex Luthor",          emoji: "🧠", avatarFormat: "svg", kind: "villain" },
+  riddler:              { name: "The Riddler",         emoji: "❓", avatarFormat: "svg", kind: "villain" },
+  "two-face":           { name: "Two-Face",            emoji: "🪙", avatarFormat: "svg", kind: "villain" },
+  catwoman:             { name: "Catwoman",            emoji: "🐱", avatarFormat: "svg", kind: "villain" },
+  bane:                 { name: "Bane",                emoji: "🦾", avatarFormat: "svg", kind: "villain" },
+  sinestro:             { name: "Sinestro",            emoji: "💛", avatarFormat: "svg", kind: "villain" },
+  "black-manta":        { name: "Black Manta",         emoji: "🦈", avatarFormat: "svg", kind: "villain" },
+  darkseid:             { name: "Darkseid",            emoji: "👹", avatarFormat: "svg", kind: "villain" },
 };
 
 function slugToTitle(slug: string): string {
@@ -85,6 +129,7 @@ export function getHeroes(universe: "marvel" | "dc"): Hero[] {
       name: HERO_META[id]?.name ?? id,
       emoji: HERO_META[id]?.emoji ?? "⭐",
       avatarFormat: HERO_META[id]?.avatarFormat ?? "webp",
+      kind: HERO_META[id]?.kind ?? "hero",
     }));
 }
 

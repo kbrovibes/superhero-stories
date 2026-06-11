@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="g-sinestro" cx="32%" cy="28%" r="92%">
+      <stop offset="0%" stop-color="#2aa7bd"/>
+      <stop offset="52%" stop-color="#044049"/>
+      <stop offset="100%" stop-color="#02080a"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#g-sinestro)"/>
+  <circle cx="100" cy="100" r="92" fill="none" stroke="#2aa7bd" stroke-opacity="0.25" stroke-width="3"/>
+  <text x="100" y="100" text-anchor="middle" dominant-baseline="central"
+        font-size="104" font-family="'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif">💛</text>
+</svg>

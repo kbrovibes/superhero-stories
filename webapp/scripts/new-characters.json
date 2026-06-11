@@ -1,0 +1,41 @@
+{
+  "_comment": "Source of truth for the 2026-06-10 roster expansion. Drives avatar generation + content tracking. universe = folder under superhero-repo/.",
+  "characters": [
+    { "id": "wolverine",       "name": "Wolverine",      "universe": "marvel", "kind": "hero",    "emoji": "🗡️" },
+    { "id": "storm",           "name": "Storm",          "universe": "marvel", "kind": "hero",    "emoji": "⛈️" },
+    { "id": "cyclops",         "name": "Cyclops",        "universe": "marvel", "kind": "hero",    "emoji": "🥽" },
+    { "id": "jean-grey",       "name": "Jean Grey",      "universe": "marvel", "kind": "hero",    "emoji": "🔥" },
+    { "id": "beast",           "name": "Beast",          "universe": "marvel", "kind": "hero",    "emoji": "🦍" },
+    { "id": "rogue",           "name": "Rogue",          "universe": "marvel", "kind": "hero",    "emoji": "🧤" },
+    { "id": "nightcrawler",    "name": "Nightcrawler",   "universe": "marvel", "kind": "hero",    "emoji": "💨" },
+    { "id": "gambit",          "name": "Gambit",         "universe": "marvel", "kind": "hero",    "emoji": "🃏" },
+
+    { "id": "starfire",        "name": "Starfire",       "universe": "dc",     "kind": "hero",    "emoji": "🧡" },
+    { "id": "raven",           "name": "Raven",          "universe": "dc",     "kind": "hero",    "emoji": "🐦‍⬛" },
+    { "id": "beast-boy",       "name": "Beast Boy",      "universe": "dc",     "kind": "hero",    "emoji": "🦖" },
+    { "id": "supergirl",       "name": "Supergirl",      "universe": "dc",     "kind": "hero",    "emoji": "💫" },
+    { "id": "green-arrow",     "name": "Green Arrow",    "universe": "dc",     "kind": "hero",    "emoji": "🎯" },
+    { "id": "nightwing",       "name": "Nightwing",      "universe": "dc",     "kind": "hero",    "emoji": "🌃" },
+
+    { "id": "green-goblin",    "name": "Green Goblin",   "universe": "marvel", "kind": "villain", "emoji": "🎃" },
+    { "id": "doctor-octopus",  "name": "Doctor Octopus", "universe": "marvel", "kind": "villain", "emoji": "🐙" },
+    { "id": "venom",           "name": "Venom",          "universe": "marvel", "kind": "villain", "emoji": "🖤" },
+    { "id": "magneto",         "name": "Magneto",        "universe": "marvel", "kind": "villain", "emoji": "🧲" },
+    { "id": "ultron",          "name": "Ultron",         "universe": "marvel", "kind": "villain", "emoji": "⚙️" },
+    { "id": "red-skull",       "name": "Red Skull",      "universe": "marvel", "kind": "villain", "emoji": "💀" },
+    { "id": "abomination",     "name": "Abomination",    "universe": "marvel", "kind": "villain", "emoji": "🦎" },
+    { "id": "killmonger",      "name": "Killmonger",     "universe": "marvel", "kind": "villain", "emoji": "🐆" },
+    { "id": "mysterio",        "name": "Mysterio",       "universe": "marvel", "kind": "villain", "emoji": "🎭" },
+
+    { "id": "joker",           "name": "The Joker",      "universe": "dc",     "kind": "villain", "emoji": "🤡" },
+    { "id": "harley-quinn",    "name": "Harley Quinn",   "universe": "dc",     "kind": "villain", "emoji": "🤹" },
+    { "id": "lex-luthor",      "name": "Lex Luthor",     "universe": "dc",     "kind": "villain", "emoji": "🧠" },
+    { "id": "riddler",         "name": "The Riddler",    "universe": "dc",     "kind": "villain", "emoji": "❓" },
+    { "id": "two-face",        "name": "Two-Face",       "universe": "dc",     "kind": "villain", "emoji": "🪙" },
+    { "id": "catwoman",        "name": "Catwoman",       "universe": "dc",     "kind": "villain", "emoji": "🐱" },
+    { "id": "bane",            "name": "Bane",           "universe": "dc",     "kind": "villain", "emoji": "🦾" },
+    { "id": "sinestro",        "name": "Sinestro",       "universe": "dc",     "kind": "villain", "emoji": "💛" },
+    { "id": "black-manta",     "name": "Black Manta",    "universe": "dc",     "kind": "villain", "emoji": "🦈" },
+    { "id": "darkseid",        "name": "Darkseid",       "universe": "dc",     "kind": "villain", "emoji": "👹" }
+  ]
+}

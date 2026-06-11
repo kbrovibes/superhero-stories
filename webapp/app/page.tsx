@@ -6,8 +6,10 @@ import { getAllCandidates, getHeroes } from "@/lib/stories";
 import React from "react";
 
 export default function Home() {
-  const marvelHeroes = getHeroes("marvel");
-  const dcHeroes = getHeroes("dc");
+  const marvelHeroes = getHeroes("marvel").filter((h) => h.kind === "hero");
+  const marvelVillains = getHeroes("marvel").filter((h) => h.kind === "villain");
+  const dcHeroes = getHeroes("dc").filter((h) => h.kind === "hero");
+  const dcVillains = getHeroes("dc").filter((h) => h.kind === "villain");
   const storyCount = getAllCandidates().length;
 
   const avengersEntry = {
@@ -23,6 +25,29 @@ export default function Home() {
     emoji: "🟣",
     universe: "thanos" as const,
   };
+
+  type CardEntry = {
+    id: string;
+    name: string;
+    emoji: string;
+    universe: "marvel" | "dc" | "avengers" | "thanos";
+    avatarFormat?: "webp" | "svg";
+  };
+
+  const renderCards = (list: CardEntry[]) =>
+    list.map((hero, index) => (
+      <div
+        key={hero.id}
+        style={{
+          animationDelay: `${index * 40}ms`,
+          animationName: "fadeIn",
+          animationDuration: "0.4s",
+          animationFillMode: "both",
+        }}
+      >
+        <HeroCard hero={hero} />
+      </div>
+    ));
 
   return (
     <>
@@ -108,50 +133,29 @@ export default function Home() {
           </div>
         </div>
 
-        <UniverseSection label="ENSEMBLE" count={2}>
-          <div style={{
-            animationDelay: "0ms",
-            animationName: "fadeIn",
-            animationDuration: "0.4s",
-            animationFillMode: "both",
-          }}>
-            <HeroCard hero={avengersEntry} />
-          </div>
-          <div style={{
-            animationDelay: "40ms",
-            animationName: "fadeIn",
-            animationDuration: "0.4s",
-            animationFillMode: "both",
-          }}>
-            <HeroCard hero={thanosEntry} />
-          </div>
+        <UniverseSection label="ENSEMBLE" count={1}>
+          {renderCards([avengersEntry])}
         </UniverseSection>
 
-        <UniverseSection label="MARVEL" count={marvelHeroes.length}>
-          {marvelHeroes.map((hero, index) => (
-            <div key={hero.id} style={{
-              animationDelay: `${index * 40}ms`,
-              animationName: "fadeIn",
-              animationDuration: "0.4s",
-              animationFillMode: "both",
-            }}>
-              <HeroCard hero={hero} />
-            </div>
-          ))}
+        <UniverseSection label="MARVEL · HEROES" count={marvelHeroes.length}>
+          {renderCards(marvelHeroes)}
         </UniverseSection>
 
-        <UniverseSection label="DC" count={dcHeroes.length}>
-          {dcHeroes.map((hero, index) => (
-            <div key={hero.id} style={{
-              animationDelay: `${index * 40}ms`,
-              animationName: "fadeIn",
-              animationDuration: "0.4s",
-              animationFillMode: "both",
-            }}>
-              <HeroCard hero={hero} />
-            </div>
-          ))}
+        {(marvelVillains.length > 0) && (
+          <UniverseSection label="MARVEL · VILLAINS" count={marvelVillains.length + 1}>
+            {renderCards([...marvelVillains, thanosEntry])}
+          </UniverseSection>
+        )}
+
+        <UniverseSection label="DC · HEROES" count={dcHeroes.length}>
+          {renderCards(dcHeroes)}
         </UniverseSection>
+
+        {(dcVillains.length > 0) && (
+          <UniverseSection label="DC · VILLAINS" count={dcVillains.length}>
+            {renderCards(dcVillains)}
+          </UniverseSection>
+        )}
       </main>
     </>
   );
