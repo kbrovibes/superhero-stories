@@ -141,6 +141,39 @@ export function getHeroes(universe: "marvel" | "dc"): Hero[] {
     }));
 }
 
+// ── Ensembles: multi-hero story collections (like the Avengers) ──
+export interface Ensemble {
+  id: string;       // folder under superhero-repo/ AND url slug
+  name: string;
+  emoji: string;
+  accent: string;   // CSS color for story rows / tabs
+  kicker: string;   // short uppercase label
+  route: string;    // full href to the ensemble landing page
+}
+
+export const ENSEMBLES: Ensemble[] = [
+  { id: "avengers",       name: "The Avengers",            emoji: "🛡️", accent: "var(--av-accent)", kicker: "AVENGERS",       route: "/avengers" },
+  { id: "x-men",          name: "The X-Men",               emoji: "🧬", accent: "#ffb000",          kicker: "X-MEN",          route: "/ensemble/x-men" },
+  { id: "guardians",      name: "Guardians of the Galaxy", emoji: "🚀", accent: "#ff7a3c",          kicker: "GUARDIANS",      route: "/ensemble/guardians" },
+  { id: "justice-league", name: "Justice League",          emoji: "⚖️", accent: "#4f8cff",          kicker: "JUSTICE LEAGUE", route: "/ensemble/justice-league" },
+  { id: "teen-titans",    name: "Teen Titans",             emoji: "🏆", accent: "#ff5a5f",          kicker: "TEEN TITANS",    route: "/ensemble/teen-titans" },
+];
+
+export function getEnsemble(id: string): Ensemble | null {
+  return ENSEMBLES.find((e) => e.id === id) ?? null;
+}
+
+// True only once the ensemble's story folder has at least one .txt file.
+export function ensembleHasStories(id: string): boolean {
+  const dir = path.join(REPO_ROOT, id);
+  if (!fs.existsSync(dir)) return false;
+  return fs.readdirSync(dir).some((f) => f.endsWith(".txt"));
+}
+
+export function getEnsembleStories(id: string): Story[] {
+  return readEnsembleStories(id);
+}
+
 export function getAvengersStories(): Story[] {
   return readEnsembleStories("avengers");
 }
@@ -149,7 +182,7 @@ export function getThanosStories(): Story[] {
   return readEnsembleStories("thanos");
 }
 
-function readEnsembleStories(folder: "avengers" | "thanos"): Story[] {
+function readEnsembleStories(folder: string): Story[] {
   const dir = path.join(REPO_ROOT, folder);
   if (!fs.existsSync(dir)) return [];
   const files = fs.readdirSync(dir).filter((f) => f.endsWith(".txt") && !f.endsWith(".tldr.txt") && !f.endsWith(".readaloud.txt") && !f.endsWith(".storytime.txt")).sort();

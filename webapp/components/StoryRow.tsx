@@ -10,11 +10,12 @@ interface StoryRowProps {
   index: number;
   href: string;
   universe: "marvel" | "dc" | "avengers" | "thanos";
+  accent?: string; // override the universe accent (used by ensembles)
 }
 
-export default function StoryRow({ title, storyTheme, index, href, universe }: StoryRowProps) {
+export default function StoryRow({ title, storyTheme, index, href, universe, accent }: StoryRowProps) {
   const [hovered, setHovered] = useState(false);
-  const theme = THEME[universe];
+  const theme = { ...THEME[universe], accent: accent ?? THEME[universe].accent };
 
   return (
     <motion.div

@@ -11,6 +11,9 @@ interface HeroCardProps {
     emoji: string;
     universe: "marvel" | "dc" | "avengers" | "thanos";
     avatarFormat?: "webp" | "svg";
+    href?: string;       // override link (used by ensembles)
+    avatarSrc?: string;  // override avatar image path (used by ensembles)
+    kicker?: string;     // override the small label under the name
   };
 }
 
@@ -18,9 +21,10 @@ export default function HeroCard({ hero }: HeroCardProps) {
   const [hovered, setHovered] = useState(false);
   const theme = THEME[hero.universe];
   const href =
-    hero.universe === "avengers" ? "/avengers" :
-    hero.universe === "thanos"   ? "/thanos"   :
-    `/${hero.universe}/${hero.id}`;
+    hero.href ??
+    (hero.universe === "avengers" ? "/avengers" :
+     hero.universe === "thanos"   ? "/thanos"   :
+     `/${hero.universe}/${hero.id}`);
 
   return (
     <motion.div
@@ -83,9 +87,9 @@ export default function HeroCard({ hero }: HeroCardProps) {
             position: "relative",
           }}>
             <img
-              src={hero.universe === "avengers"
+              src={hero.avatarSrc ?? (hero.universe === "avengers"
                 ? `/avatars/avengers/avengers.svg`
-                : `/avatars/${hero.universe}/${hero.id}.${hero.avatarFormat ?? "webp"}`}
+                : `/avatars/${hero.universe}/${hero.id}.${hero.avatarFormat ?? "webp"}`)}
               alt={hero.name}
               width={68}
               height={68}
@@ -128,7 +132,7 @@ export default function HeroCard({ hero }: HeroCardProps) {
               transition: "opacity 0.3s ease",
               textShadow: `0 0 10px ${theme.accent}44`
             }}>
-              {hero.universe}
+              {hero.kicker ?? hero.universe}
             </span>
           </div>
         </div>

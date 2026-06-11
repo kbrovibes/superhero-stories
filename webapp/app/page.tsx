@@ -1,7 +1,7 @@
 import Link from "next/link";
 import NavBar from "@/components/NavBar";
 import HeroBrowser, { type CardEntry, type Section } from "@/components/HeroBrowser";
-import { getAllCandidates, getHeroes } from "@/lib/stories";
+import { getAllCandidates, getHeroes, ENSEMBLES, ensembleHasStories } from "@/lib/stories";
 import React from "react";
 
 export default function Home() {
@@ -11,13 +11,6 @@ export default function Home() {
   const dcVillains = getHeroes("dc").filter((h) => h.kind === "villain");
   const storyCount = getAllCandidates().length;
 
-  const avengersEntry = {
-    id: "avengers",
-    name: "The Avengers",
-    emoji: "🛡️",
-    universe: "avengers" as const,
-  };
-
   const thanosEntry = {
     id: "thanos",
     name: "Thanos",
@@ -25,8 +18,21 @@ export default function Home() {
     universe: "thanos" as const,
   };
 
+  // Ensembles: Avengers always shows; the rest appear once their stories exist.
+  const ensembleEntries: CardEntry[] = ENSEMBLES.filter(
+    (e) => e.id === "avengers" || ensembleHasStories(e.id),
+  ).map((e) => ({
+    id: e.id,
+    name: e.name,
+    emoji: e.emoji,
+    universe: "avengers" as const,
+    href: e.route,
+    avatarSrc: e.id === "avengers" ? "/avatars/avengers/avengers.svg" : `/avatars/teams/${e.id}.svg`,
+    kicker: "ENSEMBLE",
+  }));
+
   const sections: Section[] = [
-    { label: "ENSEMBLE", entries: [avengersEntry] },
+    { label: "ENSEMBLE", entries: ensembleEntries },
     { label: "MARVEL · HEROES", entries: marvelHeroes },
     ...(marvelVillains.length > 0
       ? [{ label: "MARVEL · VILLAINS", entries: [...marvelVillains, thanosEntry] as CardEntry[] }]

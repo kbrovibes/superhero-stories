@@ -10,6 +10,9 @@ export type CardEntry = {
   emoji: string;
   universe: "marvel" | "dc" | "avengers" | "thanos";
   avatarFormat?: "webp" | "svg";
+  href?: string;
+  avatarSrc?: string;
+  kicker?: string;
 };
 
 export type Section = { label: string; entries: CardEntry[] };
