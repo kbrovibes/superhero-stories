@@ -30343,5 +30343,1805 @@
     "universe": "marvel",
     "heroId": "wolverine",
     "explanation": "Garokk is an ancient being whose domain extends across the central plateau of the Savage Land."
+  },
+  {
+    "id": "x-men-trivia-1",
+    "question": "What is the name of Professor Xavier's school for young mutants?",
+    "options": [
+      "Xavier School for Gifted Youngsters",
+      "Mutant Academy of New York",
+      "The Xavier Institute of Science",
+      "Westchester School of Powers"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Professor Charles Xavier founded the Xavier School for Gifted Youngsters at his mansion in Westchester, New York."
+  },
+  {
+    "id": "x-men-trivia-2",
+    "question": "What is the name of the helmet Professor Xavier wears to amplify his telepathy?",
+    "options": [
+      "Telepathex",
+      "MindLink",
+      "Cerebro",
+      "The Amplifier"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Cerebro is the large computer and helmet system beneath the Xavier School that amplifies Xavier's telepathic range worldwide."
+  },
+  {
+    "id": "x-men-trivia-3",
+    "question": "What special eyewear does Cyclops wear to contain his optic blasts?",
+    "options": [
+      "Titanium-lined goggles",
+      "Diamond-polished lenses",
+      "Obsidian spectacles",
+      "Ruby-quartz visor"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Cyclops wears a ruby-quartz visor that contains his optic blasts, since ruby-quartz is the only material that can stop them."
+  },
+  {
+    "id": "x-men-trivia-4",
+    "question": "What is Storm's real name?",
+    "options": [
+      "Anya Braddock",
+      "Lena Munroe",
+      "Ororo Munroe",
+      "Amara Marcos"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Storm's real name is Ororo Munroe; she grew up in Kenya and has the ability to control the weather."
+  },
+  {
+    "id": "x-men-trivia-5",
+    "question": "What country did Storm come from before joining the X-Men?",
+    "options": [
+      "Egypt",
+      "South Africa",
+      "Nigeria",
+      "Kenya"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Ororo Munroe came from Kenya, where she had been using her weather powers since childhood."
+  },
+  {
+    "id": "x-men-trivia-6",
+    "question": "What nickname does Wolverine go by at the Xavier School?",
+    "options": [
+      "James",
+      "Logan",
+      "Victor",
+      "Frank"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Wolverine goes by Logan; his skeleton is laced with the nearly indestructible metal adamantium and he heals from injuries in minutes."
+  },
+  {
+    "id": "x-men-trivia-7",
+    "question": "What nearly indestructible metal is bonded to Wolverine's skeleton?",
+    "options": [
+      "Vibranium",
+      "Titanium",
+      "Uru",
+      "Adamantium"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Wolverine's skeleton and claws are coated in adamantium, one of the strongest metals in the Marvel universe."
+  },
+  {
+    "id": "x-men-trivia-8",
+    "question": "What is Beast's real name?",
+    "options": [
+      "Henry Pym",
+      "Hank McCoy",
+      "Reed Richards",
+      "Bruce Banner"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Beast's real name is Hank McCoy; he is a brilliant scientist and one of the founding X-Men."
+  },
+  {
+    "id": "x-men-trivia-9",
+    "question": "Besides telepathy, what is Jean Grey's other superpower?",
+    "options": [
+      "Super speed",
+      "Flight",
+      "Telekinesis",
+      "Invisibility"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Jean Grey is both a telepath and a telekinetic, able to move objects with her mind without touching them."
+  },
+  {
+    "id": "x-men-trivia-10",
+    "question": "What is the X-Men's high-speed jet called?",
+    "options": [
+      "The Blackbird",
+      "The Quinjet",
+      "The Avenger",
+      "The Raptor"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "The Blackbird is the X-Men's sleek, fast jet used for missions around the world."
+  },
+  {
+    "id": "x-men-trivia-11",
+    "question": "What is the X-Men's underground training chamber called?",
+    "options": [
+      "The Arena",
+      "The War Chamber",
+      "The Training Vault",
+      "The Danger Room"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "The Danger Room is a high-tech training facility beneath the Xavier School filled with sensors, drones, and simulated threats."
+  },
+  {
+    "id": "x-men-trivia-12",
+    "question": "What is Cyclops's real name?",
+    "options": [
+      "Scott Summers",
+      "Alex Masters",
+      "Ryan Summers",
+      "Scott Grey"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Cyclops's real name is Scott Summers; he is the X-Men's field leader and fires powerful optic blasts from his eyes."
+  },
+  {
+    "id": "x-men-trivia-13",
+    "question": "What happens when Rogue touches someone with bare skin?",
+    "options": [
+      "She creates a forcefield around them",
+      "She gives them her strength",
+      "She absorbs their powers and memories",
+      "She reads their mind briefly"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Rogue absorbs another person's memories and mutant abilities through direct skin contact, which is why she always wears gloves."
+  },
+  {
+    "id": "x-men-trivia-14",
+    "question": "Why does Rogue always wear gloves?",
+    "options": [
+      "She thinks they look cool",
+      "Her skin absorbs others' powers on contact",
+      "They contain energy blasts",
+      "Her hands get cold easily"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Rogue's gloves protect others from her power-absorbing touch; any bare skin contact transfers their abilities and memories to her."
+  },
+  {
+    "id": "x-men-trivia-15",
+    "question": "What is Gambit's real name and where is he from?",
+    "options": [
+      "Henri Lebeau from Paris",
+      "Remy LeBeau from New Orleans",
+      "Remy Deveraux from Baton Rouge",
+      "Jacques LeBeau from Montreal"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Gambit's real name is Remy LeBeau and he is from New Orleans; his power lets him charge objects with explosive kinetic energy."
+  },
+  {
+    "id": "x-men-trivia-16",
+    "question": "What objects does Gambit usually charge with energy to use as weapons?",
+    "options": [
+      "Coins",
+      "Marbles",
+      "Throwing stars",
+      "Playing cards"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Gambit charges playing cards with kinetic energy and throws them as explosive projectiles."
+  },
+  {
+    "id": "x-men-trivia-17",
+    "question": "What is Nightcrawler's special power?",
+    "options": [
+      "Teleportation",
+      "Super strength",
+      "Time travel",
+      "Telepathy"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Nightcrawler can teleport — disappearing and reappearing elsewhere with a BAMF sound and a puff of sulfur smoke."
+  },
+  {
+    "id": "x-men-trivia-18",
+    "question": "What sound does Nightcrawler make when he teleports?",
+    "options": [
+      "CRACK",
+      "WHOOSH",
+      "SNAP",
+      "BAMF"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Nightcrawler's teleportation is accompanied by a BAMF sound and the smell of sulfur."
+  },
+  {
+    "id": "x-men-trivia-19",
+    "question": "What is Nightcrawler's real name?",
+    "options": [
+      "Peter Wagner",
+      "Franz Wagner",
+      "Karl Braun",
+      "Kurt Wagner"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Nightcrawler's real name is Kurt Wagner; he grew up in Bavaria before joining the X-Men."
+  },
+  {
+    "id": "x-men-trivia-20",
+    "question": "Who is the X-Men's main enemy who can control all metal?",
+    "options": [
+      "Doctor Doom",
+      "Red Skull",
+      "Magneto",
+      "Mystique"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Magneto — real name Erik Lehnsherr — can control all forms of metal with his mind and leads the Brotherhood of Mutants."
+  },
+  {
+    "id": "x-men-trivia-21",
+    "question": "What is Magneto's real name?",
+    "options": [
+      "Ernst Hoffman",
+      "Erik Lehnsherr",
+      "Viktor Rasputin",
+      "Otto Brandt"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Magneto's real name is Erik Lehnsherr; he and Professor Xavier were once friends before disagreeing about mutant-human relations."
+  },
+  {
+    "id": "x-men-trivia-22",
+    "question": "What is the name of Magneto's team of mutants?",
+    "options": [
+      "The Mutant Alliance",
+      "The Mutant Revolution",
+      "The Iron Guard",
+      "The Brotherhood of Mutants"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Magneto leads the Brotherhood of Mutants, which includes members like Mystique, Sabretooth, and Toad."
+  },
+  {
+    "id": "x-men-trivia-23",
+    "question": "Which Brotherhood member can disguise herself as any person?",
+    "options": [
+      "Rogue",
+      "Mystique",
+      "Psylocke",
+      "Polaris"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Mystique is a shape-shifter who can perfectly copy the appearance of any person, making her a dangerous spy."
+  },
+  {
+    "id": "x-men-trivia-24",
+    "question": "What are the giant robots that hunt mutants called?",
+    "options": [
+      "Enforcers",
+      "Hunters",
+      "Trackers",
+      "Sentinels"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Sentinels are giant purple-and-grey robots designed to find and capture mutants, created by an engineer named Bolivar Trask."
+  },
+  {
+    "id": "x-men-trivia-25",
+    "question": "Who built the Sentinel robots to hunt mutants?",
+    "options": [
+      "Norman Osborn",
+      "Arcade",
+      "Bolivar Trask",
+      "Sebastian Shaw"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Bolivar Trask designed the Sentinel robots, programming them to track, target, and capture mutants."
+  },
+  {
+    "id": "x-men-trivia-26",
+    "question": "What is Professor Xavier's first name?",
+    "options": [
+      "Christopher",
+      "Carlton",
+      "Conrad",
+      "Charles"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Professor Xavier's full name is Charles Xavier; he is a powerful telepath who uses a wheelchair."
+  },
+  {
+    "id": "x-men-trivia-27",
+    "question": "How does Professor Xavier move around?",
+    "options": [
+      "He uses a wheelchair",
+      "He flies using his powers",
+      "He teleports",
+      "He walks with a cane"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Professor Xavier uses a wheelchair; despite being unable to walk, he leads the X-Men with his powerful telepathic abilities."
+  },
+  {
+    "id": "x-men-trivia-28",
+    "question": "What color is Beast's fur?",
+    "options": [
+      "Grey",
+      "Green",
+      "Brown",
+      "Blue"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Beast develops thick blue fur as his mutation progresses, along with his already large hands and feet."
+  },
+  {
+    "id": "x-men-trivia-29",
+    "question": "Near which city is the Xavier School located?",
+    "options": [
+      "Manhattan, New York",
+      "Albany, New York",
+      "Westchester, New York",
+      "Boston, Massachusetts"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "The Xavier School for Gifted Youngsters is located in Westchester, New York, in a large mansion with extensive grounds."
+  },
+  {
+    "id": "x-men-trivia-30",
+    "question": "What is the main message Professor Xavier teaches every student who arrives at his school?",
+    "options": [
+      "Train hard and fight harder",
+      "Defeat all enemies before they defeat you",
+      "Trust no one outside these walls",
+      "Your gift is not a curse"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Xavier's message to every new student is 'Your gift is not a curse' — the core belief of the Xavier School."
+  },
+  {
+    "id": "x-men-trivia-31",
+    "question": "What natural event can Storm NOT produce?",
+    "options": [
+      "Lightning",
+      "Earthquakes",
+      "Blizzards",
+      "Tornados"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Storm controls weather — wind, rain, lightning, snow — but earthquakes are geological events, not weather, so they are outside her power."
+  },
+  {
+    "id": "x-men-trivia-32",
+    "question": "Why are Storm's powers weakened underground?",
+    "options": [
+      "She is allergic to rock",
+      "Underground there is too much metal",
+      "She needs open sky to control weather",
+      "Her powers only work at night"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Storm's weather powers require access to the open atmosphere; underground with rock walls above her, she cannot control weather systems."
+  },
+  {
+    "id": "x-men-trivia-33",
+    "question": "Where were Wolverine and Storm trapped together during a solo mission?",
+    "options": [
+      "On top of a skyscraper",
+      "In the ocean",
+      "In tunnels under a factory in upstate New York",
+      "Inside a Sentinel robot"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Wolverine and Storm were trapped in tunnels beneath an old manufacturing plant in upstate New York during a Brotherhood safehouse mission."
+  },
+  {
+    "id": "x-men-trivia-34",
+    "question": "Where does Cyclops fire his energy blasts from?",
+    "options": [
+      "His hands",
+      "His chest",
+      "His mouth",
+      "His eyes"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Cyclops fires powerful optic blasts from his eyes; without his ruby-quartz visor, the beams would fire uncontrollably."
+  },
+  {
+    "id": "x-men-trivia-35",
+    "question": "Which description best matches Nightcrawler's appearance?",
+    "options": [
+      "Green skin and large eyes",
+      "Red skin and white hair",
+      "Blue-grey skin, pointed tail, yellow eyes",
+      "Orange skin and claws"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Nightcrawler has blue-grey skin, yellow eyes, a pointed tail, and moves with acrobatic grace."
+  },
+  {
+    "id": "x-men-trivia-36",
+    "question": "What best describes the X-Men's relationship to one another?",
+    "options": [
+      "Rivals competing for Xavier's approval",
+      "Found family",
+      "Coworkers who don't really know each other",
+      "Strangers who each work alone"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "The X-Men are a found family — people who were alone and afraid until Professor Xavier brought them together."
+  },
+  {
+    "id": "x-men-trivia-37",
+    "question": "Where did Magneto set up his machine to change the genetics of world leaders?",
+    "options": [
+      "The Eiffel Tower",
+      "The Statue of Liberty",
+      "The Empire State Building",
+      "The White House"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Magneto took over the Statue of Liberty to use his machine against world leaders meeting at the nearby Ellis Island summit."
+  },
+  {
+    "id": "x-men-trivia-38",
+    "question": "What was Professor Xavier's year-end tradition with the X-Men?",
+    "options": [
+      "He tested all students on their powers",
+      "He chose the X-Man of the year",
+      "He asked each X-Man what surprised them most that year",
+      "He upgraded the Danger Room"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Xavier's year-end tradition was gathering the team and asking each person what surprised them most — focusing on growth, not missions."
+  },
+  {
+    "id": "x-men-trivia-39",
+    "question": "Which X-Man can teleport through locked doors?",
+    "options": [
+      "Jean Grey",
+      "Nightcrawler",
+      "Gambit",
+      "Cyclops"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Nightcrawler's BAMF teleportation lets him travel through solid surfaces, making him perfect for unlocking sealed doors from the inside."
+  },
+  {
+    "id": "x-men-trivia-40",
+    "question": "What word did Cyclops finally use to describe the feeling of being with the X-Men at year-end?",
+    "options": [
+      "Duty",
+      "Strategy",
+      "Family",
+      "Mission"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "When asked what surprised him most, Cyclops said the feeling had no tactical name — then called it 'family.'"
+  },
+  {
+    "id": "guardians-trivia-1",
+    "question": "What is Star-Lord's real name?",
+    "options": [
+      "James Rhodes",
+      "Scott Lang",
+      "Johnny Storm",
+      "Peter Quill"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Peter Quill is a half-human, half-alien who calls himself Star-Lord and was abducted from Earth by the Ravager Yondu as a child."
+  },
+  {
+    "id": "guardians-trivia-2",
+    "question": "What planet were the Guardians thrown into the Kyln prison from?",
+    "options": [
+      "Morag",
+      "Ego",
+      "Knowhere",
+      "Xandar"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The Nova Corps on Xandar arrested Peter, Gamora, Rocket, and Groot after their brawl in the streets."
+  },
+  {
+    "id": "guardians-trivia-3",
+    "question": "What is Gamora's skin color?",
+    "options": [
+      "Blue",
+      "Purple",
+      "Green",
+      "Gold"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Gamora is a green-skinned warrior, trained since childhood by Thanos to be a deadly fighter."
+  },
+  {
+    "id": "guardians-trivia-4",
+    "question": "What are Groot's only three words?",
+    "options": [
+      "I am Groot",
+      "I love you",
+      "We are Groot",
+      "Groot is here"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Groot can only say 'I am Groot,' though his teammates hear layers of meaning in the phrase."
+  },
+  {
+    "id": "guardians-trivia-5",
+    "question": "What is the name of the Guardians' spaceship?",
+    "options": [
+      "Dark Aster",
+      "Milano",
+      "Eclector",
+      "Sanctuary"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The Milano is Peter Quill's beloved personal ship, named after his childhood crush Alyssa Milano."
+  },
+  {
+    "id": "guardians-trivia-6",
+    "question": "What does Peter Quill always carry for music?",
+    "options": [
+      "A vinyl record player",
+      "A CD player",
+      "A Sony Walkman",
+      "A radio transmitter"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Peter's Sony Walkman plays the mixtape his mother gave him before she died, and it is one of his most treasured possessions."
+  },
+  {
+    "id": "guardians-trivia-7",
+    "question": "What is the Power Stone also known as?",
+    "options": [
+      "The Tesseract",
+      "The Aether",
+      "The Eye",
+      "The Orb"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The Power Stone was hidden inside a small silver sphere called the Orb, which Peter stole from the planet Morag."
+  },
+  {
+    "id": "guardians-trivia-8",
+    "question": "Who is Drax's most personal enemy?",
+    "options": [
+      "Thanos",
+      "Ronan",
+      "Nebula",
+      "Korath"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Ronan the Accuser killed Drax's wife Ovette and daughter Kamaria, making him Drax's most personal enemy."
+  },
+  {
+    "id": "guardians-trivia-9",
+    "question": "What is Knowhere built inside?",
+    "options": [
+      "A hollowed-out asteroid",
+      "A derelict space station",
+      "The skull of a Celestial",
+      "An ancient Kree fortress"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Knowhere is a city carved inside the enormous skull of an ancient Celestial being, floating in deep space."
+  },
+  {
+    "id": "guardians-trivia-10",
+    "question": "Who is Gamora's adopted sister?",
+    "options": [
+      "Nebula",
+      "Mantis",
+      "Ayesha",
+      "Nova Prime"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Nebula is Gamora's adopted sister — both were taken by Thanos as children and trained as warriors."
+  },
+  {
+    "id": "guardians-trivia-11",
+    "question": "What is the name of Ronan's warship?",
+    "options": [
+      "The Eclector",
+      "The Milano",
+      "The Dark Aster",
+      "The Sanctuary"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The Dark Aster is Ronan the Accuser's massive warship, covered in Kree war-scripture and large enough to blot out Xandar's sky."
+  },
+  {
+    "id": "guardians-trivia-12",
+    "question": "What does Nebula's body have that makes her different from most people?",
+    "options": [
+      "Wings",
+      "A force-field generator",
+      "Telepathic implants",
+      "Cybernetic mechanical parts"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Nebula is a cyborg — Thanos replaced parts of her body with mechanical components as punishment during her training."
+  },
+  {
+    "id": "guardians-trivia-13",
+    "question": "On which planet was the Power Stone hidden when Peter stole it?",
+    "options": [
+      "Xandar",
+      "Knowhere",
+      "Sovereign",
+      "Morag"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Peter Quill danced through the ruins of the planet Morag to steal the Orb containing the Power Stone."
+  },
+  {
+    "id": "guardians-trivia-14",
+    "question": "What does Drax struggle to understand in conversation?",
+    "options": [
+      "Math",
+      "Sarcasm and metaphors",
+      "Foreign languages",
+      "Rocket's tech talk"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Drax is extremely literal-minded and does not understand sarcasm, metaphors, or figures of speech."
+  },
+  {
+    "id": "guardians-trivia-15",
+    "question": "Who is the leader of the Ravagers who raised Peter Quill?",
+    "options": [
+      "Korath",
+      "Ronan",
+      "Yondu Udonta",
+      "Taserface"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Yondu Udonta is the Ravager captain who abducted Peter from Earth and raised him, often gruffly but with genuine care."
+  },
+  {
+    "id": "guardians-trivia-16",
+    "question": "What is the home planet of the Nova Corps?",
+    "options": [
+      "Xandar",
+      "Hala",
+      "Ego",
+      "Contraxia"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Xandar is the shining home world of the Nova Corps, the galaxy's peacekeeping force, which Ronan threatened to destroy."
+  },
+  {
+    "id": "guardians-trivia-17",
+    "question": "What does Rocket use his skills for most?",
+    "options": [
+      "Diplomacy and negotiations",
+      "Engineering, weapons, and piloting",
+      "Healing and medicine",
+      "Stealth and espionage"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Rocket is a genius engineer and pilot who builds powerful weapons from scrap and flies the Milano with exceptional skill."
+  },
+  {
+    "id": "guardians-trivia-18",
+    "question": "What phrase do the Guardians say to express their bond as a team?",
+    "options": [
+      "We are the Guardians",
+      "Together we stand",
+      "We are Groot",
+      "One for all"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Groot said 'We are Groot' as he wrapped the team in his body during the Dark Aster crash, turning 'I am Groot' into a statement of togetherness."
+  },
+  {
+    "id": "guardians-trivia-19",
+    "question": "What type of creature is Rocket?",
+    "options": [
+      "A fox",
+      "An otter",
+      "A meerkat",
+      "A raccoon"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Rocket resembles a raccoon and was the result of genetic engineering and cybernetic modification, which he is very sensitive about."
+  },
+  {
+    "id": "guardians-trivia-20",
+    "question": "What color is the Power Stone's glow?",
+    "options": [
+      "Purple",
+      "Blue",
+      "Red",
+      "Green"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The Power Stone glows with a dangerous purple light, and its energy can destroy an entire planet."
+  },
+  {
+    "id": "guardians-trivia-21",
+    "question": "How did all four Guardians survive holding the Power Stone?",
+    "options": [
+      "They wore special gloves",
+      "They hid it inside the Orb",
+      "They shared its energy together by holding hands",
+      "Groot absorbed all the energy"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Peter grabbed the Stone and began to die, but Gamora, Drax, and Rocket grabbed onto him to share the energy — together they could survive it."
+  },
+  {
+    "id": "guardians-trivia-22",
+    "question": "What did Groot do to protect the team during the crash of the Dark Aster?",
+    "options": [
+      "Wrapped his body around the team like a cocoon",
+      "Piloted the ship to safety",
+      "Deflected Ronan's hammer",
+      "Created a force field"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Groot grew his body into a protective wooden cage around his teammates to absorb the impact of the crashing Dark Aster, saving their lives."
+  },
+  {
+    "id": "guardians-trivia-23",
+    "question": "Who is the villain who sends Ronan to collect the Infinity Stones?",
+    "options": [
+      "Ego",
+      "Dormammu",
+      "Ultron",
+      "Thanos"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Thanos is the powerful titan behind Ronan's mission and the larger threat the Guardians must eventually face."
+  },
+  {
+    "id": "guardians-trivia-24",
+    "question": "Where did Peter Quill grow up as a child?",
+    "options": [
+      "New York City",
+      "A Missouri town on Earth",
+      "The planet Xandar",
+      "The Ravager ship Eclector"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Peter Quill grew up in Missouri on Earth before being abducted by Yondu's Ravager ship when he was eight years old."
+  },
+  {
+    "id": "guardians-trivia-25",
+    "question": "What planet do Gamora and Nebula fight on during the battle of the Dark Aster?",
+    "options": [
+      "Xandar",
+      "Knowhere",
+      "Morag",
+      "Sovereign"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The sisters fight inside the corridors of the Dark Aster over Xandar during the final battle against Ronan."
+  },
+  {
+    "id": "guardians-trivia-26",
+    "question": "What do the six Infinity Stones together have the power to do?",
+    "options": [
+      "Open a portal to another universe",
+      "Grant one wish to their holder",
+      "Change all of reality if wielded together",
+      "Destroy all stars at once"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The six Infinity Stones — each controlling a different power — together can give their wielder control over all of reality."
+  },
+  {
+    "id": "guardians-trivia-27",
+    "question": "What is Ronan the Accuser's weapon?",
+    "options": [
+      "An energy war hammer",
+      "A vibranium axe",
+      "A double-bladed sword",
+      "A cosmic lance"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Ronan carries an energy war hammer crackling with blue-white power, into which he embeds the Power Stone to devastating effect."
+  },
+  {
+    "id": "guardians-trivia-28",
+    "question": "What does Peter Quill challenge Ronan to as the Dark Aster approaches Xandar?",
+    "options": [
+      "An arm-wrestling contest",
+      "A trivia competition",
+      "A blaster duel",
+      "A dance-off"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Peter calls Ronan on an open channel and challenges him to a dance-off, buying the team thirty crucial seconds."
+  },
+  {
+    "id": "guardians-trivia-29",
+    "question": "What is the name of the person known as 'the Collector' who tries to buy the Power Stone?",
+    "options": [
+      "Taneleer Tivan",
+      "Howard Stark",
+      "J'son of Spartax",
+      "Eson the Searcher"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Taneleer Tivan, known as the Collector, keeps a museum of rare objects in Knowhere and offers to buy the Power Stone from the Guardians."
+  },
+  {
+    "id": "guardians-trivia-30",
+    "question": "Rocket and Groot knew each other before meeting the rest of the team. How did they work together?",
+    "options": [
+      "As Nova Corps officers",
+      "As Ravager crew members",
+      "As bounty hunters",
+      "As Kree soldiers"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Rocket and Groot were bounty hunters who worked across many star systems before meeting the others on Xandar."
+  },
+  {
+    "id": "guardians-trivia-31",
+    "question": "What did Yondu give Peter that replaced his worn-out Walkman?",
+    "options": [
+      "An iPod",
+      "A galaxy radio",
+      "A Kree sound device",
+      "A Zune music player"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Yondu, in a moment of gruff sentiment, left a Zune music player with three hundred songs in Peter's quarters without a note."
+  },
+  {
+    "id": "guardians-trivia-32",
+    "question": "Where was the intelligence about Thanos's Stone-collecting plans delivered to the Guardians?",
+    "options": [
+      "In a message on Xandar",
+      "Through a Nova Corps alert system",
+      "From a Kree contact in the port city of Hrax",
+      "By Nebula directly"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "A Kree contact passed the Guardians a data drive in the port city of Hrax, revealing the alarming progress of Thanos's Stone hunt."
+  },
+  {
+    "id": "guardians-trivia-33",
+    "question": "What happens to Groot after he sacrifices himself to save the team?",
+    "options": [
+      "He disappears forever",
+      "He becomes part of the Milano's systems",
+      "He is rebuilt by Rocket",
+      "He regenerates from a small sprout"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Rocket finds a tiny green sprout in the crash rubble — Groot is still alive and will grow back, beginning again from that small start."
+  },
+  {
+    "id": "guardians-trivia-34",
+    "question": "What does Drax say he cannot understand, no matter how many times it's explained?",
+    "options": [
+      "Terran music",
+      "Mathematics",
+      "Political treaties",
+      "Rocket's technical plans"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Drax is completely literal-minded and struggles with metaphors, sarcasm, and things like Terran pop music."
+  },
+  {
+    "id": "guardians-trivia-35",
+    "question": "What does Gamora use as her primary weapon?",
+    "options": [
+      "Dual blasters",
+      "Her bare hands",
+      "An energy shield",
+      "A sword"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Gamora is a trained swordswoman and carries a blade she wields with the precision and speed of someone who has trained her whole life."
+  },
+  {
+    "id": "guardians-trivia-36",
+    "question": "What is Peter Quill's mother's connection to the music he always carries?",
+    "options": [
+      "She worked for a music company",
+      "She was a famous singer",
+      "She gave him a radio from Earth",
+      "She made him a mixtape before she died"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Peter's mother made him a cassette mixtape before she died, and he has played it so many times the tape went soft from love."
+  },
+  {
+    "id": "guardians-trivia-37",
+    "question": "What was Drax's reason for joining the Guardians at first?",
+    "options": [
+      "He needed a ship to escape the Kyln",
+      "He wanted the Orb's power for himself",
+      "He wanted to hunt Ronan for killing his family",
+      "He was recruited by the Nova Corps"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Drax joined the Guardians because their path led to Ronan, who had killed his wife Ovette and daughter Kamaria."
+  },
+  {
+    "id": "guardians-trivia-38",
+    "question": "What does Baby Groot do when Peter plays music on the Milano's speakers?",
+    "options": [
+      "Hides under a table",
+      "Tries to turn it off",
+      "Grows taller very quickly",
+      "Stands on the table and dances"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Baby Groot climbs to the center of the table and dances very seriously with his eyes closed whenever music plays."
+  },
+  {
+    "id": "guardians-trivia-39",
+    "question": "After the Kyln escape, who is the team's contact to sell the Orb in Knowhere?",
+    "options": [
+      "The Collector",
+      "Yondu Udonta",
+      "Nova Prime",
+      "Korath"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The Collector, Taneleer Tivan, is their buyer for the Orb in Knowhere — though the deal falls apart in a spectacular explosion."
+  },
+  {
+    "id": "guardians-trivia-40",
+    "question": "What race is Ronan the Accuser?",
+    "options": [
+      "Skrull",
+      "Kree",
+      "Asgardian",
+      "Shi'ar"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Ronan is a Kree — a militaristic alien people with a long history of war against Xandar, and he refuses to accept the peace treaty they made."
+  },
+  {
+    "id": "teen-titans-trivia-1",
+    "question": "What shape is Titans Tower built in?",
+    "options": [
+      "A circle",
+      "The letter T",
+      "The letter A",
+      "A star"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Titans Tower is famously shaped like a giant letter T and sits on an island in Jump City harbor."
+  },
+  {
+    "id": "teen-titans-trivia-2",
+    "question": "What city do the Teen Titans protect?",
+    "options": [
+      "Gotham City",
+      "Metropolis",
+      "Jump City",
+      "Star City"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "The Teen Titans are based in Jump City, California, where Titans Tower stands on an island in the harbor."
+  },
+  {
+    "id": "teen-titans-trivia-3",
+    "question": "What is Starfire's real Tamaranean name?",
+    "options": [
+      "Komand'r",
+      "Ryand'r",
+      "Koriand'r",
+      "Karras"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Starfire's real name is Koriand'r, and she is a princess from the planet Tamaran."
+  },
+  {
+    "id": "teen-titans-trivia-4",
+    "question": "What are the golden energy blasts that Starfire fires from her hands called?",
+    "options": [
+      "Photon bolts",
+      "Nova blasts",
+      "Solar flares",
+      "Starbolts"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Starfire fires starbolts — bolts of green-gold energy — from her hands and eyes."
+  },
+  {
+    "id": "teen-titans-trivia-5",
+    "question": "What is Cyborg's real name?",
+    "options": [
+      "Victor Stone",
+      "Ron Stone",
+      "Marcus Graves",
+      "James Harper"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Cyborg's real name is Victor Stone, a teenager whose body was partially rebuilt with advanced technology after an accident."
+  },
+  {
+    "id": "teen-titans-trivia-6",
+    "question": "What is Robin's real name as leader of the Teen Titans?",
+    "options": [
+      "Tim Drake",
+      "Jason Todd",
+      "Dick Grayson",
+      "Damian Wayne"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "The Robin who leads the Teen Titans is Dick Grayson, who trained under Batman before forming his own team."
+  },
+  {
+    "id": "teen-titans-trivia-7",
+    "question": "What color is Beast Boy's skin?",
+    "options": [
+      "Blue",
+      "Green",
+      "Purple",
+      "Yellow"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Beast Boy has green skin, green hair, and can transform into any animal — all of which are also green."
+  },
+  {
+    "id": "teen-titans-trivia-8",
+    "question": "What is Beast Boy's real name?",
+    "options": [
+      "Logan Garfield",
+      "Mark Logan",
+      "Kyle Rayner",
+      "Garfield Logan"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Beast Boy's real name is Garfield Logan, a shapeshifter who can transform into any animal he has encountered."
+  },
+  {
+    "id": "teen-titans-trivia-9",
+    "question": "What color is Raven's cloak?",
+    "options": [
+      "Dark blue",
+      "Black",
+      "Purple",
+      "Dark green"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Raven wears a dark blue cloak and hood, often appearing to materialize silently from shadows."
+  },
+  {
+    "id": "teen-titans-trivia-10",
+    "question": "What special power does Raven have that lets her feel what others are feeling?",
+    "options": [
+      "Telepathy",
+      "Clairvoyance",
+      "Empathy",
+      "Precognition"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Raven is an empath — she can sense and feel the emotions of everyone around her."
+  },
+  {
+    "id": "teen-titans-trivia-11",
+    "question": "What planet is Starfire originally from?",
+    "options": [
+      "Tamaran",
+      "Krypton",
+      "Apokolips",
+      "Oa"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Starfire is a princess from the planet Tamaran, far beyond our solar system."
+  },
+  {
+    "id": "teen-titans-trivia-12",
+    "question": "Who is the masked villain who is the Teen Titans' greatest recurring enemy?",
+    "options": [
+      "Brother Blood",
+      "Trigon",
+      "Slade",
+      "Blackfire"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Slade — a masked mercenary who calls himself the greatest strategist alive — is the Titans' most persistent foe."
+  },
+  {
+    "id": "teen-titans-trivia-13",
+    "question": "What weapon does Cyborg have built into his arm?",
+    "options": [
+      "A sonic cannon",
+      "A laser cannon",
+      "A plasma blaster",
+      "A freeze ray"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Cyborg has a powerful sonic cannon built into his right arm that he uses in combat."
+  },
+  {
+    "id": "teen-titans-trivia-14",
+    "question": "What is the name of Starfire's scheming older sister?",
+    "options": [
+      "Starflame",
+      "Darkfire",
+      "Shadowfire",
+      "Blackfire"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Blackfire — whose real Tamaranean name is Komand'r — is Starfire's cold and scheming older sister."
+  },
+  {
+    "id": "teen-titans-trivia-15",
+    "question": "What is Blackfire's real Tamaranean name?",
+    "options": [
+      "Ryand'r",
+      "Karras",
+      "Komand'r",
+      "Gorthok"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Blackfire's real name is Komand'r — she is the older princess of Tamaran and Starfire's rival sister."
+  },
+  {
+    "id": "teen-titans-trivia-16",
+    "question": "Who is Raven's father?",
+    "options": [
+      "Trigon",
+      "Slade",
+      "Brother Blood",
+      "Deathstroke"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Raven's father is Trigon, an ancient inter-dimensional demon who tried to use his connection to Raven to enter this world."
+  },
+  {
+    "id": "teen-titans-trivia-17",
+    "question": "What school for young villains did Brother Blood run outside Jump City?",
+    "options": [
+      "The Academy of Shadows",
+      "H.I.V.E. Academy",
+      "The Dark School",
+      "The Brotherhood Institute"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Brother Blood ran the H.I.V.E. Academy, a training school for young villains, on the outskirts of Jump City."
+  },
+  {
+    "id": "teen-titans-trivia-18",
+    "question": "Why was Cyborg immune to Brother Blood's mind-control signal?",
+    "options": [
+      "He had special headgear",
+      "Raven shielded him",
+      "His neural architecture is partly synthetic",
+      "He was too strong-willed"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Brother Blood's signal only disrupted organic neural activity — Cyborg's partly synthetic brain let the signal pass right through."
+  },
+  {
+    "id": "teen-titans-trivia-19",
+    "question": "What superhero trained Robin before he formed the Teen Titans?",
+    "options": [
+      "Superman",
+      "Green Arrow",
+      "The Flash",
+      "Batman"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Robin — Dick Grayson — trained under Batman in Gotham City before stepping out to form his own team."
+  },
+  {
+    "id": "teen-titans-trivia-20",
+    "question": "What Tamaranean holiday celebrates your closest chosen companions?",
+    "options": [
+      "The Glorbok",
+      "The Starfest",
+      "The Tamfest",
+      "The Blorthog"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "The Blorthog is a Tamaranean festival held in spring to honor your closest companions with gifts and honest words."
+  },
+  {
+    "id": "teen-titans-trivia-21",
+    "question": "What pizza place did the Teen Titans order from on their pizza nights?",
+    "options": [
+      "Tony's Pizza",
+      "Papa's",
+      "Chico's",
+      "Harbor Slice"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "The Titans ordered their pizza from a place in Jump City called Chico's, with Cyborg always insisting on at least four large pizzas."
+  },
+  {
+    "id": "teen-titans-trivia-22",
+    "question": "What colors are on Slade's mask?",
+    "options": [
+      "Red and black",
+      "Orange and black",
+      "Gold and black",
+      "Silver and black"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Slade's iconic mask is orange and black — his robots and insignia share the same color scheme."
+  },
+  {
+    "id": "teen-titans-trivia-23",
+    "question": "What small object did Slade leave on Robin's windowsill after their first confrontation?",
+    "options": [
+      "A playing card",
+      "An orange coin",
+      "A silver star",
+      "A folded note"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Slade left a single orange coin on Robin's windowsill as a message that he had been watching and would return."
+  },
+  {
+    "id": "teen-titans-trivia-24",
+    "question": "How many eyes does Trigon have?",
+    "options": [
+      "Two",
+      "Three",
+      "Six",
+      "Four"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Trigon has four glowing red eyes, which can appear in the sky above Jump City when he reaches toward this world."
+  },
+  {
+    "id": "teen-titans-trivia-25",
+    "question": "What kind of suit does Beast Boy wear?",
+    "options": [
+      "Green and white",
+      "Purple and black",
+      "Blue and silver",
+      "Red and green"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Beast Boy wears a purple-and-black suit, which provides a colorful contrast to his bright green skin."
+  },
+  {
+    "id": "teen-titans-trivia-26",
+    "question": "What animal did Beast Boy accidentally transform into on the cargo ship during the first mission?",
+    "options": [
+      "A humpback whale",
+      "A blue whale",
+      "A great white shark",
+      "A giant squid"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Beast Boy accidentally became a humpback whale — entirely the wrong choice on a moving cargo ship — before quickly switching to a gorilla."
+  },
+  {
+    "id": "teen-titans-trivia-27",
+    "question": "What device did Cyborg use to finally trap and contain Overload?",
+    "options": [
+      "A signal jammer",
+      "A power surge trap",
+      "An EMP grenade",
+      "A Faraday cage"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Cyborg used a portable Faraday cage to contain Overload once the electrical villain was compressed into a single transformer housing."
+  },
+  {
+    "id": "teen-titans-trivia-28",
+    "question": "What animal did Beast Boy become when searching for survivors in the warehouse fire?",
+    "options": [
+      "A bloodhound",
+      "A German Shepherd",
+      "A Saint Bernard",
+      "A Labrador"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Beast Boy chose a Saint Bernard — a breed famous for rescue work — when searching the smoke-filled warehouse for survivors."
+  },
+  {
+    "id": "teen-titans-trivia-29",
+    "question": "What criminal took over the Sea Arrow cargo ship in the Titans' first mission?",
+    "options": [
+      "Trident",
+      "Slade",
+      "Brother Blood",
+      "Overload"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Trident was the mercenary who seized the cargo vessel Sea Arrow in Jump City harbor during the Titans' first mission."
+  },
+  {
+    "id": "teen-titans-trivia-30",
+    "question": "What color does Raven's dark energy appear as during a fight?",
+    "options": [
+      "Black",
+      "Dark red",
+      "Deep blue",
+      "Violet"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Raven's dark energy appears as a violet glow — sometimes described as black-violet — when she uses her powers."
+  },
+  {
+    "id": "teen-titans-trivia-31",
+    "question": "Which member of the team always sat on the left side of the common room couch nearest the kitchen?",
+    "options": [
+      "Robin",
+      "Beast Boy",
+      "Cyborg",
+      "Starfire"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Cyborg always sat on the left side of the big couch nearest the kitchen during movie nights and downtime."
+  },
+  {
+    "id": "teen-titans-trivia-32",
+    "question": "What unusual habit did Robin have when eating meals with the team?",
+    "options": [
+      "He always ate first",
+      "He always faced the door",
+      "He always used chopsticks",
+      "He always stood up while eating"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Robin always ate standing up — a habit his teammates eventually stopped trying to change."
+  },
+  {
+    "id": "teen-titans-trivia-33",
+    "question": "What did Starfire decorate her room with after moving into Titans Tower?",
+    "options": [
+      "Photographs of everyday Earth things",
+      "Tamaranean battle flags",
+      "Drawings of her teammates",
+      "Star charts"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Starfire filled her walls with photographs she had taken of fascinating Earth things — fire hydrants, dogs in sweaters, grocery stores."
+  },
+  {
+    "id": "teen-titans-trivia-34",
+    "question": "What object did Raven place on her windowsill to light every morning during meditation?",
+    "options": [
+      "A lantern",
+      "A crystal",
+      "A candle",
+      "A night light"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Raven placed a single candle on her windowsill that she lit each morning during her quiet meditation time."
+  },
+  {
+    "id": "teen-titans-trivia-35",
+    "question": "What stickers appeared mysteriously under the kitchen table in Titans Tower?",
+    "options": [
+      "Red star stickers",
+      "Green animal-shaped stickers",
+      "Gold star stickers",
+      "Orange coin stickers"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Green animal-shaped stickers appeared under the kitchen table — nobody admitted to putting them there, but everyone had a strong suspicion."
+  },
+  {
+    "id": "teen-titans-trivia-36",
+    "question": "How many crew members did Raven free from the locked cargo hold in the Titans' first mission?",
+    "options": [
+      "Eight",
+      "Eleven",
+      "Nine",
+      "Ten"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Raven freed eleven crew members from the locked cargo hold aboard the Sea Arrow by unthreading the bolt with her dark energy."
+  },
+  {
+    "id": "teen-titans-trivia-37",
+    "question": "In which city did Dick Grayson train as Robin before coming to Jump City?",
+    "options": [
+      "Metropolis",
+      "Star City",
+      "Central City",
+      "Gotham City"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Dick Grayson trained under Batman in Gotham City before stepping out on his own and forming the Teen Titans."
+  },
+  {
+    "id": "teen-titans-trivia-38",
+    "question": "What villain could merge with electricity and inhabit power systems?",
+    "options": [
+      "Trident",
+      "Brother Blood",
+      "Trigon",
+      "Overload"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Overload could merge himself with electrical systems and grow more powerful by absorbing electrical energy from the grid."
+  },
+  {
+    "id": "teen-titans-trivia-39",
+    "question": "What did Raven say the team became by doing over and over again?",
+    "options": [
+      "Showing up",
+      "Training every day",
+      "Never giving up",
+      "Fighting together"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Raven said the Titans became what they were because they kept showing up — every time, even when it was hard."
+  },
+  {
+    "id": "teen-titans-trivia-40",
+    "question": "What tag did Cyborg put on Beast Boy's replacement room key so it would be easy to find?",
+    "options": [
+      "A green paw-print tag",
+      "A green star tag",
+      "A purple bone tag",
+      "A yellow lightning bolt"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Cyborg made Beast Boy a new room key with a small green paw-print tag attached so it would be easy to spot."
   }
 ]

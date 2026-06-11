@@ -1,0 +1,402 @@
+[
+  {
+    "id": "guardians-trivia-1",
+    "question": "What is Star-Lord's real name?",
+    "options": ["James Rhodes", "Scott Lang", "Johnny Storm", "Peter Quill"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Peter Quill is a half-human, half-alien who calls himself Star-Lord and was abducted from Earth by the Ravager Yondu as a child."
+  },
+  {
+    "id": "guardians-trivia-2",
+    "question": "What planet were the Guardians thrown into the Kyln prison from?",
+    "options": ["Morag", "Ego", "Knowhere", "Xandar"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The Nova Corps on Xandar arrested Peter, Gamora, Rocket, and Groot after their brawl in the streets."
+  },
+  {
+    "id": "guardians-trivia-3",
+    "question": "What is Gamora's skin color?",
+    "options": ["Blue", "Purple", "Green", "Gold"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Gamora is a green-skinned warrior, trained since childhood by Thanos to be a deadly fighter."
+  },
+  {
+    "id": "guardians-trivia-4",
+    "question": "What are Groot's only three words?",
+    "options": ["I am Groot", "I love you", "We are Groot", "Groot is here"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Groot can only say 'I am Groot,' though his teammates hear layers of meaning in the phrase."
+  },
+  {
+    "id": "guardians-trivia-5",
+    "question": "What is the name of the Guardians' spaceship?",
+    "options": ["Dark Aster", "Milano", "Eclector", "Sanctuary"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The Milano is Peter Quill's beloved personal ship, named after his childhood crush Alyssa Milano."
+  },
+  {
+    "id": "guardians-trivia-6",
+    "question": "What does Peter Quill always carry for music?",
+    "options": ["A vinyl record player", "A CD player", "A Sony Walkman", "A radio transmitter"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Peter's Sony Walkman plays the mixtape his mother gave him before she died, and it is one of his most treasured possessions."
+  },
+  {
+    "id": "guardians-trivia-7",
+    "question": "What is the Power Stone also known as?",
+    "options": ["The Tesseract", "The Aether", "The Eye", "The Orb"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The Power Stone was hidden inside a small silver sphere called the Orb, which Peter stole from the planet Morag."
+  },
+  {
+    "id": "guardians-trivia-8",
+    "question": "Who is Drax's most personal enemy?",
+    "options": ["Thanos", "Ronan", "Nebula", "Korath"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Ronan the Accuser killed Drax's wife Ovette and daughter Kamaria, making him Drax's most personal enemy."
+  },
+  {
+    "id": "guardians-trivia-9",
+    "question": "What is Knowhere built inside?",
+    "options": ["A hollowed-out asteroid", "A derelict space station", "The skull of a Celestial", "An ancient Kree fortress"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Knowhere is a city carved inside the enormous skull of an ancient Celestial being, floating in deep space."
+  },
+  {
+    "id": "guardians-trivia-10",
+    "question": "Who is Gamora's adopted sister?",
+    "options": ["Nebula", "Mantis", "Ayesha", "Nova Prime"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Nebula is Gamora's adopted sister — both were taken by Thanos as children and trained as warriors."
+  },
+  {
+    "id": "guardians-trivia-11",
+    "question": "What is the name of Ronan's warship?",
+    "options": ["The Eclector", "The Milano", "The Dark Aster", "The Sanctuary"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The Dark Aster is Ronan the Accuser's massive warship, covered in Kree war-scripture and large enough to blot out Xandar's sky."
+  },
+  {
+    "id": "guardians-trivia-12",
+    "question": "What does Nebula's body have that makes her different from most people?",
+    "options": ["Wings", "A force-field generator", "Telepathic implants", "Cybernetic mechanical parts"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Nebula is a cyborg — Thanos replaced parts of her body with mechanical components as punishment during her training."
+  },
+  {
+    "id": "guardians-trivia-13",
+    "question": "On which planet was the Power Stone hidden when Peter stole it?",
+    "options": ["Xandar", "Knowhere", "Sovereign", "Morag"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Peter Quill danced through the ruins of the planet Morag to steal the Orb containing the Power Stone."
+  },
+  {
+    "id": "guardians-trivia-14",
+    "question": "What does Drax struggle to understand in conversation?",
+    "options": ["Math", "Sarcasm and metaphors", "Foreign languages", "Rocket's tech talk"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Drax is extremely literal-minded and does not understand sarcasm, metaphors, or figures of speech."
+  },
+  {
+    "id": "guardians-trivia-15",
+    "question": "Who is the leader of the Ravagers who raised Peter Quill?",
+    "options": ["Korath", "Ronan", "Yondu Udonta", "Taserface"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Yondu Udonta is the Ravager captain who abducted Peter from Earth and raised him, often gruffly but with genuine care."
+  },
+  {
+    "id": "guardians-trivia-16",
+    "question": "What is the home planet of the Nova Corps?",
+    "options": ["Xandar", "Hala", "Ego", "Contraxia"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Xandar is the shining home world of the Nova Corps, the galaxy's peacekeeping force, which Ronan threatened to destroy."
+  },
+  {
+    "id": "guardians-trivia-17",
+    "question": "What does Rocket use his skills for most?",
+    "options": ["Diplomacy and negotiations", "Engineering, weapons, and piloting", "Healing and medicine", "Stealth and espionage"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Rocket is a genius engineer and pilot who builds powerful weapons from scrap and flies the Milano with exceptional skill."
+  },
+  {
+    "id": "guardians-trivia-18",
+    "question": "What phrase do the Guardians say to express their bond as a team?",
+    "options": ["We are the Guardians", "Together we stand", "We are Groot", "One for all"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Groot said 'We are Groot' as he wrapped the team in his body during the Dark Aster crash, turning 'I am Groot' into a statement of togetherness."
+  },
+  {
+    "id": "guardians-trivia-19",
+    "question": "What type of creature is Rocket?",
+    "options": ["A fox", "An otter", "A meerkat", "A raccoon"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Rocket resembles a raccoon and was the result of genetic engineering and cybernetic modification, which he is very sensitive about."
+  },
+  {
+    "id": "guardians-trivia-20",
+    "question": "What color is the Power Stone's glow?",
+    "options": ["Purple", "Blue", "Red", "Green"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The Power Stone glows with a dangerous purple light, and its energy can destroy an entire planet."
+  },
+  {
+    "id": "guardians-trivia-21",
+    "question": "How did all four Guardians survive holding the Power Stone?",
+    "options": ["They wore special gloves", "They hid it inside the Orb", "They shared its energy together by holding hands", "Groot absorbed all the energy"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Peter grabbed the Stone and began to die, but Gamora, Drax, and Rocket grabbed onto him to share the energy — together they could survive it."
+  },
+  {
+    "id": "guardians-trivia-22",
+    "question": "What did Groot do to protect the team during the crash of the Dark Aster?",
+    "options": ["Wrapped his body around the team like a cocoon", "Piloted the ship to safety", "Deflected Ronan's hammer", "Created a force field"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Groot grew his body into a protective wooden cage around his teammates to absorb the impact of the crashing Dark Aster, saving their lives."
+  },
+  {
+    "id": "guardians-trivia-23",
+    "question": "Who is the villain who sends Ronan to collect the Infinity Stones?",
+    "options": ["Ego", "Dormammu", "Ultron", "Thanos"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Thanos is the powerful titan behind Ronan's mission and the larger threat the Guardians must eventually face."
+  },
+  {
+    "id": "guardians-trivia-24",
+    "question": "Where did Peter Quill grow up as a child?",
+    "options": ["New York City", "A Missouri town on Earth", "The planet Xandar", "The Ravager ship Eclector"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Peter Quill grew up in Missouri on Earth before being abducted by Yondu's Ravager ship when he was eight years old."
+  },
+  {
+    "id": "guardians-trivia-25",
+    "question": "What planet do Gamora and Nebula fight on during the battle of the Dark Aster?",
+    "options": ["Xandar", "Knowhere", "Morag", "Sovereign"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The sisters fight inside the corridors of the Dark Aster over Xandar during the final battle against Ronan."
+  },
+  {
+    "id": "guardians-trivia-26",
+    "question": "What do the six Infinity Stones together have the power to do?",
+    "options": ["Open a portal to another universe", "Grant one wish to their holder", "Change all of reality if wielded together", "Destroy all stars at once"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The six Infinity Stones — each controlling a different power — together can give their wielder control over all of reality."
+  },
+  {
+    "id": "guardians-trivia-27",
+    "question": "What is Ronan the Accuser's weapon?",
+    "options": ["An energy war hammer", "A vibranium axe", "A double-bladed sword", "A cosmic lance"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Ronan carries an energy war hammer crackling with blue-white power, into which he embeds the Power Stone to devastating effect."
+  },
+  {
+    "id": "guardians-trivia-28",
+    "question": "What does Peter Quill challenge Ronan to as the Dark Aster approaches Xandar?",
+    "options": ["An arm-wrestling contest", "A trivia competition", "A blaster duel", "A dance-off"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Peter calls Ronan on an open channel and challenges him to a dance-off, buying the team thirty crucial seconds."
+  },
+  {
+    "id": "guardians-trivia-29",
+    "question": "What is the name of the person known as 'the Collector' who tries to buy the Power Stone?",
+    "options": ["Taneleer Tivan", "Howard Stark", "J'son of Spartax", "Eson the Searcher"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Taneleer Tivan, known as the Collector, keeps a museum of rare objects in Knowhere and offers to buy the Power Stone from the Guardians."
+  },
+  {
+    "id": "guardians-trivia-30",
+    "question": "Rocket and Groot knew each other before meeting the rest of the team. How did they work together?",
+    "options": ["As Nova Corps officers", "As Ravager crew members", "As bounty hunters", "As Kree soldiers"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Rocket and Groot were bounty hunters who worked across many star systems before meeting the others on Xandar."
+  },
+  {
+    "id": "guardians-trivia-31",
+    "question": "What did Yondu give Peter that replaced his worn-out Walkman?",
+    "options": ["An iPod", "A galaxy radio", "A Kree sound device", "A Zune music player"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Yondu, in a moment of gruff sentiment, left a Zune music player with three hundred songs in Peter's quarters without a note."
+  },
+  {
+    "id": "guardians-trivia-32",
+    "question": "Where was the intelligence about Thanos's Stone-collecting plans delivered to the Guardians?",
+    "options": ["In a message on Xandar", "Through a Nova Corps alert system", "From a Kree contact in the port city of Hrax", "By Nebula directly"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "A Kree contact passed the Guardians a data drive in the port city of Hrax, revealing the alarming progress of Thanos's Stone hunt."
+  },
+  {
+    "id": "guardians-trivia-33",
+    "question": "What happens to Groot after he sacrifices himself to save the team?",
+    "options": ["He disappears forever", "He becomes part of the Milano's systems", "He is rebuilt by Rocket", "He regenerates from a small sprout"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Rocket finds a tiny green sprout in the crash rubble — Groot is still alive and will grow back, beginning again from that small start."
+  },
+  {
+    "id": "guardians-trivia-34",
+    "question": "What does Drax say he cannot understand, no matter how many times it's explained?",
+    "options": ["Terran music", "Mathematics", "Political treaties", "Rocket's technical plans"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Drax is completely literal-minded and struggles with metaphors, sarcasm, and things like Terran pop music."
+  },
+  {
+    "id": "guardians-trivia-35",
+    "question": "What does Gamora use as her primary weapon?",
+    "options": ["Dual blasters", "Her bare hands", "An energy shield", "A sword"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Gamora is a trained swordswoman and carries a blade she wields with the precision and speed of someone who has trained her whole life."
+  },
+  {
+    "id": "guardians-trivia-36",
+    "question": "What is Peter Quill's mother's connection to the music he always carries?",
+    "options": ["She worked for a music company", "She was a famous singer", "She gave him a radio from Earth", "She made him a mixtape before she died"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Peter's mother made him a cassette mixtape before she died, and he has played it so many times the tape went soft from love."
+  },
+  {
+    "id": "guardians-trivia-37",
+    "question": "What was Drax's reason for joining the Guardians at first?",
+    "options": ["He needed a ship to escape the Kyln", "He wanted the Orb's power for himself", "He wanted to hunt Ronan for killing his family", "He was recruited by the Nova Corps"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Drax joined the Guardians because their path led to Ronan, who had killed his wife Ovette and daughter Kamaria."
+  },
+  {
+    "id": "guardians-trivia-38",
+    "question": "What does Baby Groot do when Peter plays music on the Milano's speakers?",
+    "options": ["Hides under a table", "Tries to turn it off", "Grows taller very quickly", "Stands on the table and dances"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Baby Groot climbs to the center of the table and dances very seriously with his eyes closed whenever music plays."
+  },
+  {
+    "id": "guardians-trivia-39",
+    "question": "After the Kyln escape, who is the team's contact to sell the Orb in Knowhere?",
+    "options": ["The Collector", "Yondu Udonta", "Nova Prime", "Korath"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "The Collector, Taneleer Tivan, is their buyer for the Orb in Knowhere — though the deal falls apart in a spectacular explosion."
+  },
+  {
+    "id": "guardians-trivia-40",
+    "question": "What race is Ronan the Accuser?",
+    "options": ["Skrull", "Kree", "Asgardian", "Shi'ar"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "guardians",
+    "explanation": "Ronan is a Kree — a militaristic alien people with a long history of war against Xandar, and he refuses to accept the peace treaty they made."
+  }
+]

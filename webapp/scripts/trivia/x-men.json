@@ -1,0 +1,402 @@
+[
+  {
+    "id": "x-men-trivia-1",
+    "question": "What is the name of Professor Xavier's school for young mutants?",
+    "options": ["Xavier School for Gifted Youngsters", "Mutant Academy of New York", "The Xavier Institute of Science", "Westchester School of Powers"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Professor Charles Xavier founded the Xavier School for Gifted Youngsters at his mansion in Westchester, New York."
+  },
+  {
+    "id": "x-men-trivia-2",
+    "question": "What is the name of the helmet Professor Xavier wears to amplify his telepathy?",
+    "options": ["Telepathex", "MindLink", "Cerebro", "The Amplifier"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Cerebro is the large computer and helmet system beneath the Xavier School that amplifies Xavier's telepathic range worldwide."
+  },
+  {
+    "id": "x-men-trivia-3",
+    "question": "What special eyewear does Cyclops wear to contain his optic blasts?",
+    "options": ["Titanium-lined goggles", "Diamond-polished lenses", "Obsidian spectacles", "Ruby-quartz visor"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Cyclops wears a ruby-quartz visor that contains his optic blasts, since ruby-quartz is the only material that can stop them."
+  },
+  {
+    "id": "x-men-trivia-4",
+    "question": "What is Storm's real name?",
+    "options": ["Anya Braddock", "Lena Munroe", "Ororo Munroe", "Amara Marcos"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Storm's real name is Ororo Munroe; she grew up in Kenya and has the ability to control the weather."
+  },
+  {
+    "id": "x-men-trivia-5",
+    "question": "What country did Storm come from before joining the X-Men?",
+    "options": ["Egypt", "South Africa", "Nigeria", "Kenya"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Ororo Munroe came from Kenya, where she had been using her weather powers since childhood."
+  },
+  {
+    "id": "x-men-trivia-6",
+    "question": "What nickname does Wolverine go by at the Xavier School?",
+    "options": ["James", "Logan", "Victor", "Frank"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Wolverine goes by Logan; his skeleton is laced with the nearly indestructible metal adamantium and he heals from injuries in minutes."
+  },
+  {
+    "id": "x-men-trivia-7",
+    "question": "What nearly indestructible metal is bonded to Wolverine's skeleton?",
+    "options": ["Vibranium", "Titanium", "Uru", "Adamantium"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Wolverine's skeleton and claws are coated in adamantium, one of the strongest metals in the Marvel universe."
+  },
+  {
+    "id": "x-men-trivia-8",
+    "question": "What is Beast's real name?",
+    "options": ["Henry Pym", "Hank McCoy", "Reed Richards", "Bruce Banner"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Beast's real name is Hank McCoy; he is a brilliant scientist and one of the founding X-Men."
+  },
+  {
+    "id": "x-men-trivia-9",
+    "question": "Besides telepathy, what is Jean Grey's other superpower?",
+    "options": ["Super speed", "Flight", "Telekinesis", "Invisibility"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Jean Grey is both a telepath and a telekinetic, able to move objects with her mind without touching them."
+  },
+  {
+    "id": "x-men-trivia-10",
+    "question": "What is the X-Men's high-speed jet called?",
+    "options": ["The Blackbird", "The Quinjet", "The Avenger", "The Raptor"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "The Blackbird is the X-Men's sleek, fast jet used for missions around the world."
+  },
+  {
+    "id": "x-men-trivia-11",
+    "question": "What is the X-Men's underground training chamber called?",
+    "options": ["The Arena", "The War Chamber", "The Training Vault", "The Danger Room"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "The Danger Room is a high-tech training facility beneath the Xavier School filled with sensors, drones, and simulated threats."
+  },
+  {
+    "id": "x-men-trivia-12",
+    "question": "What is Cyclops's real name?",
+    "options": ["Scott Summers", "Alex Masters", "Ryan Summers", "Scott Grey"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Cyclops's real name is Scott Summers; he is the X-Men's field leader and fires powerful optic blasts from his eyes."
+  },
+  {
+    "id": "x-men-trivia-13",
+    "question": "What happens when Rogue touches someone with bare skin?",
+    "options": ["She creates a forcefield around them", "She gives them her strength", "She absorbs their powers and memories", "She reads their mind briefly"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Rogue absorbs another person's memories and mutant abilities through direct skin contact, which is why she always wears gloves."
+  },
+  {
+    "id": "x-men-trivia-14",
+    "question": "Why does Rogue always wear gloves?",
+    "options": ["She thinks they look cool", "Her skin absorbs others' powers on contact", "They contain energy blasts", "Her hands get cold easily"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Rogue's gloves protect others from her power-absorbing touch; any bare skin contact transfers their abilities and memories to her."
+  },
+  {
+    "id": "x-men-trivia-15",
+    "question": "What is Gambit's real name and where is he from?",
+    "options": ["Henri Lebeau from Paris", "Remy LeBeau from New Orleans", "Remy Deveraux from Baton Rouge", "Jacques LeBeau from Montreal"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Gambit's real name is Remy LeBeau and he is from New Orleans; his power lets him charge objects with explosive kinetic energy."
+  },
+  {
+    "id": "x-men-trivia-16",
+    "question": "What objects does Gambit usually charge with energy to use as weapons?",
+    "options": ["Coins", "Marbles", "Throwing stars", "Playing cards"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Gambit charges playing cards with kinetic energy and throws them as explosive projectiles."
+  },
+  {
+    "id": "x-men-trivia-17",
+    "question": "What is Nightcrawler's special power?",
+    "options": ["Teleportation", "Super strength", "Time travel", "Telepathy"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Nightcrawler can teleport — disappearing and reappearing elsewhere with a BAMF sound and a puff of sulfur smoke."
+  },
+  {
+    "id": "x-men-trivia-18",
+    "question": "What sound does Nightcrawler make when he teleports?",
+    "options": ["CRACK", "WHOOSH", "SNAP", "BAMF"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Nightcrawler's teleportation is accompanied by a BAMF sound and the smell of sulfur."
+  },
+  {
+    "id": "x-men-trivia-19",
+    "question": "What is Nightcrawler's real name?",
+    "options": ["Peter Wagner", "Franz Wagner", "Karl Braun", "Kurt Wagner"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Nightcrawler's real name is Kurt Wagner; he grew up in Bavaria before joining the X-Men."
+  },
+  {
+    "id": "x-men-trivia-20",
+    "question": "Who is the X-Men's main enemy who can control all metal?",
+    "options": ["Doctor Doom", "Red Skull", "Magneto", "Mystique"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Magneto — real name Erik Lehnsherr — can control all forms of metal with his mind and leads the Brotherhood of Mutants."
+  },
+  {
+    "id": "x-men-trivia-21",
+    "question": "What is Magneto's real name?",
+    "options": ["Ernst Hoffman", "Erik Lehnsherr", "Viktor Rasputin", "Otto Brandt"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Magneto's real name is Erik Lehnsherr; he and Professor Xavier were once friends before disagreeing about mutant-human relations."
+  },
+  {
+    "id": "x-men-trivia-22",
+    "question": "What is the name of Magneto's team of mutants?",
+    "options": ["The Mutant Alliance", "The Mutant Revolution", "The Iron Guard", "The Brotherhood of Mutants"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Magneto leads the Brotherhood of Mutants, which includes members like Mystique, Sabretooth, and Toad."
+  },
+  {
+    "id": "x-men-trivia-23",
+    "question": "Which Brotherhood member can disguise herself as any person?",
+    "options": ["Rogue", "Mystique", "Psylocke", "Polaris"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Mystique is a shape-shifter who can perfectly copy the appearance of any person, making her a dangerous spy."
+  },
+  {
+    "id": "x-men-trivia-24",
+    "question": "What are the giant robots that hunt mutants called?",
+    "options": ["Enforcers", "Hunters", "Trackers", "Sentinels"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Sentinels are giant purple-and-grey robots designed to find and capture mutants, created by an engineer named Bolivar Trask."
+  },
+  {
+    "id": "x-men-trivia-25",
+    "question": "Who built the Sentinel robots to hunt mutants?",
+    "options": ["Norman Osborn", "Arcade", "Bolivar Trask", "Sebastian Shaw"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Bolivar Trask designed the Sentinel robots, programming them to track, target, and capture mutants."
+  },
+  {
+    "id": "x-men-trivia-26",
+    "question": "What is Professor Xavier's first name?",
+    "options": ["Christopher", "Carlton", "Conrad", "Charles"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Professor Xavier's full name is Charles Xavier; he is a powerful telepath who uses a wheelchair."
+  },
+  {
+    "id": "x-men-trivia-27",
+    "question": "How does Professor Xavier move around?",
+    "options": ["He uses a wheelchair", "He flies using his powers", "He teleports", "He walks with a cane"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Professor Xavier uses a wheelchair; despite being unable to walk, he leads the X-Men with his powerful telepathic abilities."
+  },
+  {
+    "id": "x-men-trivia-28",
+    "question": "What color is Beast's fur?",
+    "options": ["Grey", "Green", "Brown", "Blue"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Beast develops thick blue fur as his mutation progresses, along with his already large hands and feet."
+  },
+  {
+    "id": "x-men-trivia-29",
+    "question": "Near which city is the Xavier School located?",
+    "options": ["Manhattan, New York", "Albany, New York", "Westchester, New York", "Boston, Massachusetts"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "The Xavier School for Gifted Youngsters is located in Westchester, New York, in a large mansion with extensive grounds."
+  },
+  {
+    "id": "x-men-trivia-30",
+    "question": "What is the main message Professor Xavier teaches every student who arrives at his school?",
+    "options": ["Train hard and fight harder", "Defeat all enemies before they defeat you", "Trust no one outside these walls", "Your gift is not a curse"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Xavier's message to every new student is 'Your gift is not a curse' — the core belief of the Xavier School."
+  },
+  {
+    "id": "x-men-trivia-31",
+    "question": "What natural event can Storm NOT produce?",
+    "options": ["Lightning", "Earthquakes", "Blizzards", "Tornados"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Storm controls weather — wind, rain, lightning, snow — but earthquakes are geological events, not weather, so they are outside her power."
+  },
+  {
+    "id": "x-men-trivia-32",
+    "question": "Why are Storm's powers weakened underground?",
+    "options": ["She is allergic to rock", "Underground there is too much metal", "She needs open sky to control weather", "Her powers only work at night"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Storm's weather powers require access to the open atmosphere; underground with rock walls above her, she cannot control weather systems."
+  },
+  {
+    "id": "x-men-trivia-33",
+    "question": "Where were Wolverine and Storm trapped together during a solo mission?",
+    "options": ["On top of a skyscraper", "In the ocean", "In tunnels under a factory in upstate New York", "Inside a Sentinel robot"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Wolverine and Storm were trapped in tunnels beneath an old manufacturing plant in upstate New York during a Brotherhood safehouse mission."
+  },
+  {
+    "id": "x-men-trivia-34",
+    "question": "Where does Cyclops fire his energy blasts from?",
+    "options": ["His hands", "His chest", "His mouth", "His eyes"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Cyclops fires powerful optic blasts from his eyes; without his ruby-quartz visor, the beams would fire uncontrollably."
+  },
+  {
+    "id": "x-men-trivia-35",
+    "question": "Which description best matches Nightcrawler's appearance?",
+    "options": ["Green skin and large eyes", "Red skin and white hair", "Blue-grey skin, pointed tail, yellow eyes", "Orange skin and claws"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Nightcrawler has blue-grey skin, yellow eyes, a pointed tail, and moves with acrobatic grace."
+  },
+  {
+    "id": "x-men-trivia-36",
+    "question": "What best describes the X-Men's relationship to one another?",
+    "options": ["Rivals competing for Xavier's approval", "Found family", "Coworkers who don't really know each other", "Strangers who each work alone"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "The X-Men are a found family — people who were alone and afraid until Professor Xavier brought them together."
+  },
+  {
+    "id": "x-men-trivia-37",
+    "question": "Where did Magneto set up his machine to change the genetics of world leaders?",
+    "options": ["The Eiffel Tower", "The Statue of Liberty", "The Empire State Building", "The White House"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Magneto took over the Statue of Liberty to use his machine against world leaders meeting at the nearby Ellis Island summit."
+  },
+  {
+    "id": "x-men-trivia-38",
+    "question": "What was Professor Xavier's year-end tradition with the X-Men?",
+    "options": ["He tested all students on their powers", "He chose the X-Man of the year", "He asked each X-Man what surprised them most that year", "He upgraded the Danger Room"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Xavier's year-end tradition was gathering the team and asking each person what surprised them most — focusing on growth, not missions."
+  },
+  {
+    "id": "x-men-trivia-39",
+    "question": "Which X-Man can teleport through locked doors?",
+    "options": ["Jean Grey", "Nightcrawler", "Gambit", "Cyclops"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "Nightcrawler's BAMF teleportation lets him travel through solid surfaces, making him perfect for unlocking sealed doors from the inside."
+  },
+  {
+    "id": "x-men-trivia-40",
+    "question": "What word did Cyclops finally use to describe the feeling of being with the X-Men at year-end?",
+    "options": ["Duty", "Strategy", "Family", "Mission"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "x-men",
+    "explanation": "When asked what surprised him most, Cyclops said the feeling had no tactical name — then called it 'family.'"
+  }
+]

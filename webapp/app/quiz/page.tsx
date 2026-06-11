@@ -96,6 +96,11 @@ const HERO_LIST: { id: string; name: string; universe: "marvel" | "dc" }[] = [
   { id: "sinestro",        name: "Sinestro",         universe: "dc" },
   { id: "black-manta",     name: "Black Manta",      universe: "dc" },
   { id: "darkseid",        name: "Darkseid",         universe: "dc" },
+  // Ensembles
+  { id: "x-men",           name: "The X-Men",        universe: "marvel" },
+  { id: "guardians",       name: "Guardians of the Galaxy", universe: "marvel" },
+  { id: "justice-league",  name: "Justice League",   universe: "dc" },
+  { id: "teen-titans",     name: "Teen Titans",      universe: "dc" },
 ];
 
 const ALL_IDS = HERO_LIST.map((h) => h.id);

@@ -1,0 +1,402 @@
+[
+  {
+    "id": "teen-titans-trivia-1",
+    "question": "What shape is Titans Tower built in?",
+    "options": ["A circle", "The letter T", "The letter A", "A star"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Titans Tower is famously shaped like a giant letter T and sits on an island in Jump City harbor."
+  },
+  {
+    "id": "teen-titans-trivia-2",
+    "question": "What city do the Teen Titans protect?",
+    "options": ["Gotham City", "Metropolis", "Jump City", "Star City"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "The Teen Titans are based in Jump City, California, where Titans Tower stands on an island in the harbor."
+  },
+  {
+    "id": "teen-titans-trivia-3",
+    "question": "What is Starfire's real Tamaranean name?",
+    "options": ["Komand'r", "Ryand'r", "Koriand'r", "Karras"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Starfire's real name is Koriand'r, and she is a princess from the planet Tamaran."
+  },
+  {
+    "id": "teen-titans-trivia-4",
+    "question": "What are the golden energy blasts that Starfire fires from her hands called?",
+    "options": ["Photon bolts", "Nova blasts", "Solar flares", "Starbolts"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Starfire fires starbolts — bolts of green-gold energy — from her hands and eyes."
+  },
+  {
+    "id": "teen-titans-trivia-5",
+    "question": "What is Cyborg's real name?",
+    "options": ["Victor Stone", "Ron Stone", "Marcus Graves", "James Harper"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Cyborg's real name is Victor Stone, a teenager whose body was partially rebuilt with advanced technology after an accident."
+  },
+  {
+    "id": "teen-titans-trivia-6",
+    "question": "What is Robin's real name as leader of the Teen Titans?",
+    "options": ["Tim Drake", "Jason Todd", "Dick Grayson", "Damian Wayne"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "The Robin who leads the Teen Titans is Dick Grayson, who trained under Batman before forming his own team."
+  },
+  {
+    "id": "teen-titans-trivia-7",
+    "question": "What color is Beast Boy's skin?",
+    "options": ["Blue", "Green", "Purple", "Yellow"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Beast Boy has green skin, green hair, and can transform into any animal — all of which are also green."
+  },
+  {
+    "id": "teen-titans-trivia-8",
+    "question": "What is Beast Boy's real name?",
+    "options": ["Logan Garfield", "Mark Logan", "Kyle Rayner", "Garfield Logan"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Beast Boy's real name is Garfield Logan, a shapeshifter who can transform into any animal he has encountered."
+  },
+  {
+    "id": "teen-titans-trivia-9",
+    "question": "What color is Raven's cloak?",
+    "options": ["Dark blue", "Black", "Purple", "Dark green"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Raven wears a dark blue cloak and hood, often appearing to materialize silently from shadows."
+  },
+  {
+    "id": "teen-titans-trivia-10",
+    "question": "What special power does Raven have that lets her feel what others are feeling?",
+    "options": ["Telepathy", "Clairvoyance", "Empathy", "Precognition"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Raven is an empath — she can sense and feel the emotions of everyone around her."
+  },
+  {
+    "id": "teen-titans-trivia-11",
+    "question": "What planet is Starfire originally from?",
+    "options": ["Tamaran", "Krypton", "Apokolips", "Oa"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Starfire is a princess from the planet Tamaran, far beyond our solar system."
+  },
+  {
+    "id": "teen-titans-trivia-12",
+    "question": "Who is the masked villain who is the Teen Titans' greatest recurring enemy?",
+    "options": ["Brother Blood", "Trigon", "Slade", "Blackfire"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Slade — a masked mercenary who calls himself the greatest strategist alive — is the Titans' most persistent foe."
+  },
+  {
+    "id": "teen-titans-trivia-13",
+    "question": "What weapon does Cyborg have built into his arm?",
+    "options": ["A sonic cannon", "A laser cannon", "A plasma blaster", "A freeze ray"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Cyborg has a powerful sonic cannon built into his right arm that he uses in combat."
+  },
+  {
+    "id": "teen-titans-trivia-14",
+    "question": "What is the name of Starfire's scheming older sister?",
+    "options": ["Starflame", "Darkfire", "Shadowfire", "Blackfire"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Blackfire — whose real Tamaranean name is Komand'r — is Starfire's cold and scheming older sister."
+  },
+  {
+    "id": "teen-titans-trivia-15",
+    "question": "What is Blackfire's real Tamaranean name?",
+    "options": ["Ryand'r", "Karras", "Komand'r", "Gorthok"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Blackfire's real name is Komand'r — she is the older princess of Tamaran and Starfire's rival sister."
+  },
+  {
+    "id": "teen-titans-trivia-16",
+    "question": "Who is Raven's father?",
+    "options": ["Trigon", "Slade", "Brother Blood", "Deathstroke"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Raven's father is Trigon, an ancient inter-dimensional demon who tried to use his connection to Raven to enter this world."
+  },
+  {
+    "id": "teen-titans-trivia-17",
+    "question": "What school for young villains did Brother Blood run outside Jump City?",
+    "options": ["The Academy of Shadows", "H.I.V.E. Academy", "The Dark School", "The Brotherhood Institute"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Brother Blood ran the H.I.V.E. Academy, a training school for young villains, on the outskirts of Jump City."
+  },
+  {
+    "id": "teen-titans-trivia-18",
+    "question": "Why was Cyborg immune to Brother Blood's mind-control signal?",
+    "options": ["He had special headgear", "Raven shielded him", "His neural architecture is partly synthetic", "He was too strong-willed"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Brother Blood's signal only disrupted organic neural activity — Cyborg's partly synthetic brain let the signal pass right through."
+  },
+  {
+    "id": "teen-titans-trivia-19",
+    "question": "What superhero trained Robin before he formed the Teen Titans?",
+    "options": ["Superman", "Green Arrow", "The Flash", "Batman"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Robin — Dick Grayson — trained under Batman in Gotham City before stepping out to form his own team."
+  },
+  {
+    "id": "teen-titans-trivia-20",
+    "question": "What Tamaranean holiday celebrates your closest chosen companions?",
+    "options": ["The Glorbok", "The Starfest", "The Tamfest", "The Blorthog"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "The Blorthog is a Tamaranean festival held in spring to honor your closest companions with gifts and honest words."
+  },
+  {
+    "id": "teen-titans-trivia-21",
+    "question": "What pizza place did the Teen Titans order from on their pizza nights?",
+    "options": ["Tony's Pizza", "Papa's", "Chico's", "Harbor Slice"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "The Titans ordered their pizza from a place in Jump City called Chico's, with Cyborg always insisting on at least four large pizzas."
+  },
+  {
+    "id": "teen-titans-trivia-22",
+    "question": "What colors are on Slade's mask?",
+    "options": ["Red and black", "Orange and black", "Gold and black", "Silver and black"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Slade's iconic mask is orange and black — his robots and insignia share the same color scheme."
+  },
+  {
+    "id": "teen-titans-trivia-23",
+    "question": "What small object did Slade leave on Robin's windowsill after their first confrontation?",
+    "options": ["A playing card", "An orange coin", "A silver star", "A folded note"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Slade left a single orange coin on Robin's windowsill as a message that he had been watching and would return."
+  },
+  {
+    "id": "teen-titans-trivia-24",
+    "question": "How many eyes does Trigon have?",
+    "options": ["Two", "Three", "Six", "Four"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Trigon has four glowing red eyes, which can appear in the sky above Jump City when he reaches toward this world."
+  },
+  {
+    "id": "teen-titans-trivia-25",
+    "question": "What kind of suit does Beast Boy wear?",
+    "options": ["Green and white", "Purple and black", "Blue and silver", "Red and green"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Beast Boy wears a purple-and-black suit, which provides a colorful contrast to his bright green skin."
+  },
+  {
+    "id": "teen-titans-trivia-26",
+    "question": "What animal did Beast Boy accidentally transform into on the cargo ship during the first mission?",
+    "options": ["A humpback whale", "A blue whale", "A great white shark", "A giant squid"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Beast Boy accidentally became a humpback whale — entirely the wrong choice on a moving cargo ship — before quickly switching to a gorilla."
+  },
+  {
+    "id": "teen-titans-trivia-27",
+    "question": "What device did Cyborg use to finally trap and contain Overload?",
+    "options": ["A signal jammer", "A power surge trap", "An EMP grenade", "A Faraday cage"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Cyborg used a portable Faraday cage to contain Overload once the electrical villain was compressed into a single transformer housing."
+  },
+  {
+    "id": "teen-titans-trivia-28",
+    "question": "What animal did Beast Boy become when searching for survivors in the warehouse fire?",
+    "options": ["A bloodhound", "A German Shepherd", "A Saint Bernard", "A Labrador"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Beast Boy chose a Saint Bernard — a breed famous for rescue work — when searching the smoke-filled warehouse for survivors."
+  },
+  {
+    "id": "teen-titans-trivia-29",
+    "question": "What criminal took over the Sea Arrow cargo ship in the Titans' first mission?",
+    "options": ["Trident", "Slade", "Brother Blood", "Overload"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Trident was the mercenary who seized the cargo vessel Sea Arrow in Jump City harbor during the Titans' first mission."
+  },
+  {
+    "id": "teen-titans-trivia-30",
+    "question": "What color does Raven's dark energy appear as during a fight?",
+    "options": ["Black", "Dark red", "Deep blue", "Violet"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Raven's dark energy appears as a violet glow — sometimes described as black-violet — when she uses her powers."
+  },
+  {
+    "id": "teen-titans-trivia-31",
+    "question": "Which member of the team always sat on the left side of the common room couch nearest the kitchen?",
+    "options": ["Robin", "Beast Boy", "Cyborg", "Starfire"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Cyborg always sat on the left side of the big couch nearest the kitchen during movie nights and downtime."
+  },
+  {
+    "id": "teen-titans-trivia-32",
+    "question": "What unusual habit did Robin have when eating meals with the team?",
+    "options": ["He always ate first", "He always faced the door", "He always used chopsticks", "He always stood up while eating"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Robin always ate standing up — a habit his teammates eventually stopped trying to change."
+  },
+  {
+    "id": "teen-titans-trivia-33",
+    "question": "What did Starfire decorate her room with after moving into Titans Tower?",
+    "options": ["Photographs of everyday Earth things", "Tamaranean battle flags", "Drawings of her teammates", "Star charts"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Starfire filled her walls with photographs she had taken of fascinating Earth things — fire hydrants, dogs in sweaters, grocery stores."
+  },
+  {
+    "id": "teen-titans-trivia-34",
+    "question": "What object did Raven place on her windowsill to light every morning during meditation?",
+    "options": ["A lantern", "A crystal", "A candle", "A night light"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Raven placed a single candle on her windowsill that she lit each morning during her quiet meditation time."
+  },
+  {
+    "id": "teen-titans-trivia-35",
+    "question": "What stickers appeared mysteriously under the kitchen table in Titans Tower?",
+    "options": ["Red star stickers", "Green animal-shaped stickers", "Gold star stickers", "Orange coin stickers"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Green animal-shaped stickers appeared under the kitchen table — nobody admitted to putting them there, but everyone had a strong suspicion."
+  },
+  {
+    "id": "teen-titans-trivia-36",
+    "question": "How many crew members did Raven free from the locked cargo hold in the Titans' first mission?",
+    "options": ["Eight", "Eleven", "Nine", "Ten"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Raven freed eleven crew members from the locked cargo hold aboard the Sea Arrow by unthreading the bolt with her dark energy."
+  },
+  {
+    "id": "teen-titans-trivia-37",
+    "question": "In which city did Dick Grayson train as Robin before coming to Jump City?",
+    "options": ["Metropolis", "Star City", "Central City", "Gotham City"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Dick Grayson trained under Batman in Gotham City before stepping out on his own and forming the Teen Titans."
+  },
+  {
+    "id": "teen-titans-trivia-38",
+    "question": "What villain could merge with electricity and inhabit power systems?",
+    "options": ["Trident", "Brother Blood", "Trigon", "Overload"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Overload could merge himself with electrical systems and grow more powerful by absorbing electrical energy from the grid."
+  },
+  {
+    "id": "teen-titans-trivia-39",
+    "question": "What did Raven say the team became by doing over and over again?",
+    "options": ["Showing up", "Training every day", "Never giving up", "Fighting together"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Raven said the Titans became what they were because they kept showing up — every time, even when it was hard."
+  },
+  {
+    "id": "teen-titans-trivia-40",
+    "question": "What tag did Cyborg put on Beast Boy's replacement room key so it would be easy to find?",
+    "options": ["A green paw-print tag", "A green star tag", "A purple bone tag", "A yellow lightning bolt"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "teen-titans",
+    "explanation": "Cyborg made Beast Boy a new room key with a small green paw-print tag attached so it would be easy to spot."
+  }
+]
