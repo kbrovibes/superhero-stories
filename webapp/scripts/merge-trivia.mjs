@@ -17,6 +17,20 @@ const TRIVIA_DIR = path.join(__dirname, "trivia");
 
 const KEYS = ["id", "question", "options", "correctIndex", "difficulty", "universe", "heroId", "explanation"];
 
+// Repair known agent typos in-place before validation (e.g. an "exploration"
+// key instead of "explanation"). Returns the count of fixed objects.
+function normalize(arr) {
+  let fixed = 0;
+  for (const q of arr) {
+    if (q && typeof q === "object" && "exploration" in q) {
+      if (!q.explanation) q.explanation = q.exploration;
+      delete q.exploration;
+      fixed++;
+    }
+  }
+  return fixed;
+}
+
 function validate(q, file, i) {
   const errs = [];
   const keys = Object.keys(q).sort();
@@ -45,6 +59,11 @@ for (const file of files) {
   if (!fs.existsSync(file)) { console.error(`missing ${file}`); process.exit(1); }
   const incoming = JSON.parse(fs.readFileSync(file, "utf-8"));
   if (!Array.isArray(incoming) || incoming.length === 0) throw new Error(`${file}: not a non-empty array`);
+  const repaired = normalize(incoming);
+  if (repaired) {
+    fs.writeFileSync(file, JSON.stringify(incoming, null, 2) + "\n");
+    console.log(`  normalized ${repaired} object(s) in ${path.basename(file)}`);
+  }
   incoming.forEach((q, i) => validate(q, file, i));
   const heroId = incoming[0].heroId;
   if (!incoming.every((q) => q.heroId === heroId)) throw new Error(`${file}: mixed heroId`);

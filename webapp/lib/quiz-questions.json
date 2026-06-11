@@ -32143,5 +32143,605 @@
     "universe": "dc",
     "heroId": "teen-titans",
     "explanation": "Cyborg made Beast Boy a new room key with a small green paw-print tag attached so it would be easy to spot."
+  },
+  {
+    "id": "justice-league-trivia-1",
+    "question": "What is the name of the Justice League's headquarters building in Washington?",
+    "options": [
+      "Hall of Justice",
+      "Watchtower",
+      "Bat-Bunker",
+      "Fortress of Solitude"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "The Hall of Justice is the Justice League's base, built into the cliffs above the Potomac River in Washington."
+  },
+  {
+    "id": "justice-league-trivia-2",
+    "question": "Which villain rules the world of Apokolips and is one of the Justice League's greatest foes?",
+    "options": [
+      "Brainiac",
+      "Darkseid",
+      "Lex Luthor",
+      "Gorilla Grodd"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Darkseid is the tyrant of Apokolips who commands armies of Parademons and seeks the Anti-Life Equation."
+  },
+  {
+    "id": "justice-league-trivia-3",
+    "question": "What is Arthur Curry's royal title?",
+    "options": [
+      "Duke of Atlantis",
+      "Prince of the Deep",
+      "Lord of the Sea",
+      "King of Atlantis"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Arthur Curry — Aquaman — is the King of Atlantis and commands the sea and its creatures."
+  },
+  {
+    "id": "justice-league-trivia-4",
+    "question": "What object does Darkseid's army search for that can open portals to Apokolips?",
+    "options": [
+      "Mother Box",
+      "Boom Cube",
+      "Parademon Engine",
+      "Infinity Stone"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "A Mother Box is an ancient living computer from Apokolips that can open Boom Tubes — portals through space."
+  },
+  {
+    "id": "justice-league-trivia-5",
+    "question": "What is the real name of the Flash who is a member of the Justice League?",
+    "options": [
+      "Wally West",
+      "Barry Allen",
+      "Jay Garrick",
+      "Bart Allen"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Barry Allen is the Flash and forensic scientist who serves as a founding member of the Justice League."
+  },
+  {
+    "id": "justice-league-trivia-6",
+    "question": "What is the name of Wonder Woman's golden weapon that compels truth?",
+    "options": [
+      "Sword of Truth",
+      "Lasso of Truth",
+      "Lasso of Justice",
+      "Golden Chain"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "The Lasso of Truth is Wonder Woman's weapon — anyone caught in it cannot speak a lie."
+  },
+  {
+    "id": "justice-league-trivia-7",
+    "question": "Hal Jordan is the Justice League's Green Lantern. What powers his ring?",
+    "options": [
+      "Solar energy",
+      "Willpower",
+      "Fear",
+      "Love"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Hal Jordan's Green Lantern ring is powered by willpower — the stronger his will, the more powerful his constructs."
+  },
+  {
+    "id": "justice-league-trivia-8",
+    "question": "Victor Stone combines human and machine. By what hero name is he known?",
+    "options": [
+      "Iron Man",
+      "Metallo",
+      "Steel",
+      "Cyborg"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Victor Stone is Cyborg — half-human, half-machine — whose built-in technology allows him to interface with any system."
+  },
+  {
+    "id": "justice-league-trivia-9",
+    "question": "J'onn J'onzz is the Martian Manhunter. Which planet is he the last survivor of?",
+    "options": [
+      "Krypton",
+      "Mars",
+      "Venus",
+      "Apokolips"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "J'onn J'onzz is the last survivor of Mars, making him a telepath and shapeshifter who carries his world's memory."
+  },
+  {
+    "id": "justice-league-trivia-10",
+    "question": "What shape is the Justice League's conference table in the Hall of Justice?",
+    "options": [
+      "Rectangular",
+      "Round",
+      "Oval",
+      "Hexagonal"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "The round table has eight equal seats with no seat at the head, representing that every member's voice counts equally."
+  },
+  {
+    "id": "justice-league-trivia-11",
+    "question": "What is Superman's human name?",
+    "options": [
+      "Kal-El only",
+      "Clark Kent",
+      "Bruce Wayne",
+      "Hal Jordan"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Clark Kent is Superman's human name; his Kryptonian birth name is Kal-El."
+  },
+  {
+    "id": "justice-league-trivia-12",
+    "question": "What is Batman's real name?",
+    "options": [
+      "Bruce Wayne",
+      "Dick Grayson",
+      "Barry Allen",
+      "Oliver Queen"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Bruce Wayne is Batman — a detective and gadget expert who uses intelligence rather than superpowers."
+  },
+  {
+    "id": "justice-league-trivia-13",
+    "question": "From which island did Wonder Woman come before joining the wider world?",
+    "options": [
+      "Themyscira",
+      "Atlantis",
+      "Krypton",
+      "Apokolips"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Wonder Woman — Diana — came from Themyscira, the hidden island home of the Amazons, ruled by Queen Hippolyta."
+  },
+  {
+    "id": "justice-league-trivia-14",
+    "question": "What do Darkseid's winged soldiers who serve him look like?",
+    "options": [
+      "Blue-eyed angels",
+      "Golden robots",
+      "Stone giants",
+      "Red-eyed Parademons"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Parademons are Darkseid's winged armored soldiers with burning red eyes who pour from Boom Tubes."
+  },
+  {
+    "id": "justice-league-trivia-15",
+    "question": "The alien Brainiac collects cities by doing what to them?",
+    "options": [
+      "Miniaturizing them and sealing them in bottles",
+      "Flooding them",
+      "Burning them",
+      "Teleporting them to space"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Brainiac uses shrink-ray technology to miniaturize cities and keeps them in glass bottles aboard his ship."
+  },
+  {
+    "id": "justice-league-trivia-16",
+    "question": "Which Kryptonian city was stolen and miniaturized by Brainiac and kept in a bottle?",
+    "options": [
+      "Metropolis",
+      "Gotham",
+      "Coast City",
+      "Kandor"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Kandor was a great Kryptonian city that Brainiac miniaturized and keeps in a glass bottle on his ship."
+  },
+  {
+    "id": "justice-league-trivia-17",
+    "question": "What color does Sinestro's power ring glow?",
+    "options": [
+      "Green",
+      "Yellow",
+      "Blue",
+      "Red"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Sinestro wields a yellow fear-powered ring, which is effective against the Green Lanterns' willpower-based rings."
+  },
+  {
+    "id": "justice-league-trivia-18",
+    "question": "In which city does the Flash, Barry Allen, live and protect?",
+    "options": [
+      "Gotham City",
+      "Metropolis",
+      "Central City",
+      "Coast City"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Barry Allen protects Central City as the Flash and works there as a forensic scientist."
+  },
+  {
+    "id": "justice-league-trivia-19",
+    "question": "In which city does Hal Jordan live as the Green Lantern?",
+    "options": [
+      "Coast City",
+      "Star City",
+      "Central City",
+      "Gotham City"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Hal Jordan grew up in Coast City, near Ferris Aircraft, where he became a test pilot before becoming Green Lantern."
+  },
+  {
+    "id": "justice-league-trivia-20",
+    "question": "What terrifying thing would happen if Darkseid found the Anti-Life Equation?",
+    "options": [
+      "He would destroy the sun",
+      "Free will would vanish from every mind on Earth",
+      "All water would disappear",
+      "Time would stop"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "The Anti-Life Equation is a mathematical truth that, if used by Darkseid, would erase free will from every mind on Earth."
+  },
+  {
+    "id": "justice-league-trivia-21",
+    "question": "What does a Boom Tube do?",
+    "options": [
+      "It creates a deafening noise to stun enemies",
+      "It launches missiles",
+      "It powers Cyborg's systems",
+      "It opens a portal through space"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "A Boom Tube is a crackling portal that opens a doorway through space, used by Darkseid and his forces to travel between worlds."
+  },
+  {
+    "id": "justice-league-trivia-22",
+    "question": "The Legion of Doom is led by which villain?",
+    "options": [
+      "Darkseid",
+      "Lex Luthor",
+      "Brainiac",
+      "The Joker"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Lex Luthor organizes the Legion of Doom, assembling villains specifically chosen to defeat individual Justice League members."
+  },
+  {
+    "id": "justice-league-trivia-23",
+    "question": "Which villain from the Legion of Doom is a giant telepathic gorilla?",
+    "options": [
+      "Cheetah",
+      "Black Manta",
+      "Gorilla Grodd",
+      "Sinestro"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Gorilla Grodd is a giant telepathic gorilla who can rewrite what people see and feel, making him especially dangerous."
+  },
+  {
+    "id": "justice-league-trivia-24",
+    "question": "Which Legion of Doom villain is an armored deep-sea hunter who fights Aquaman?",
+    "options": [
+      "Black Manta",
+      "Captain Cold",
+      "Ocean Master",
+      "Deathstroke"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Black Manta wears armor built to withstand deep ocean pressure and is one of Aquaman's most persistent enemies."
+  },
+  {
+    "id": "justice-league-trivia-25",
+    "question": "Which city did the Martian Manhunter quietly live in as an ordinary person before joining the League?",
+    "options": [
+      "Metropolis",
+      "Gotham",
+      "Middleton",
+      "Coast City"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "J'onn J'onzz lived in Middleton, Colorado for years under a human identity before joining the Justice League."
+  },
+  {
+    "id": "justice-league-trivia-26",
+    "question": "What weapon does Aquaman carry?",
+    "options": [
+      "A golden hammer",
+      "An energy lance",
+      "A lasso",
+      "A silver trident"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Aquaman wields a silver trident, which channels his power and serves as both weapon and symbol of his kingship."
+  },
+  {
+    "id": "justice-league-trivia-27",
+    "question": "What special ability does the Martian Manhunter have besides shapeshifting?",
+    "options": [
+      "Super speed",
+      "Flight only",
+      "Heat vision only",
+      "Telepathy"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "J'onn J'onzz is a telepath who can read minds, sense emotions, and locate people by their thoughts."
+  },
+  {
+    "id": "justice-league-trivia-28",
+    "question": "During the Legion of Doom battle, what did Batman secretly prepare to defeat Luthor's Kryptonite armor?",
+    "options": [
+      "A lead shield for Superman",
+      "A signal to overload the containment field's power regulator",
+      "A sonic blaster",
+      "A red-sun grenade"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Batman prepared a precise frequency signal that overloads the Kryptonite containment field's regulator, disabling it."
+  },
+  {
+    "id": "justice-league-trivia-29",
+    "question": "What does Green Lantern create using his power ring?",
+    "options": [
+      "Physical constructs made of green light",
+      "Fire blasts",
+      "Ice barriers",
+      "Energy shields only"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Green Lantern's ring can create any physical construct the wearer can imagine out of green energy, powered by willpower."
+  },
+  {
+    "id": "justice-league-trivia-30",
+    "question": "What is the name of Batman's home city?",
+    "options": [
+      "Metropolis",
+      "Gotham City",
+      "Central City",
+      "Star City"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Bruce Wayne is deeply connected to Gotham City, which he has dedicated his life to protecting."
+  },
+  {
+    "id": "justice-league-trivia-31",
+    "question": "What did J'onn J'onzz bring to the common room shelf at the Hall of Justice?",
+    "options": [
+      "A seashell from Mars",
+      "A golden ring",
+      "A framed photograph from Mars",
+      "A playing card"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "J'onn placed his single framed photograph — the only object he brought from Mars — on the shared shelf as a sign of belonging."
+  },
+  {
+    "id": "justice-league-trivia-32",
+    "question": "During the rescue mission against Darkseid, how many people were taken by Parademons in the first seven minutes?",
+    "options": [
+      "50",
+      "100",
+      "200",
+      "500"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Two hundred people were seized by Darkseid's Parademons across twelve locations in the first seven minutes."
+  },
+  {
+    "id": "justice-league-trivia-33",
+    "question": "How did Wonder Woman's Lasso of Truth help against Gorilla Grodd's illusions?",
+    "options": [
+      "Truth dissolved the illusions instantly",
+      "It physically tied him up",
+      "It reflected his powers back at him",
+      "It made him fall asleep"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "The Lasso of Truth is truth itself, and illusions cannot survive in the presence of truth — Grodd's visions dissolved immediately."
+  },
+  {
+    "id": "justice-league-trivia-34",
+    "question": "Which two Justice League members are described as best friends who argue about pancake syrup?",
+    "options": [
+      "Superman and Batman",
+      "Aquaman and Cyborg",
+      "Wonder Woman and Martian Manhunter",
+      "The Flash and Green Lantern"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Barry Allen (the Flash) and Hal Jordan (Green Lantern) became best friends despite their very different personalities."
+  },
+  {
+    "id": "justice-league-trivia-35",
+    "question": "What did Cyborg do during the Justice League's rescue mission to keep the final Boom Tube open?",
+    "options": [
+      "Held it open with his hands",
+      "Asked Green Lantern to hold it",
+      "Built a machine to keep it running",
+      "Used his own power systems as a conductor"
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Victor Stone used his own built-in power systems as a conductor to keep the Boom Tube open past its natural closing time."
+  },
+  {
+    "id": "justice-league-trivia-36",
+    "question": "What did Wonder Woman notice about her bedroom window when she moved into the Hall of Justice?",
+    "options": [
+      "It had a view of the Potomac River",
+      "It faced Gotham City",
+      "It was too small",
+      "It opened to the roof"
+    ],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Diana chose the room with a view of the Potomac River and placed her golden tiara on the windowsill."
+  },
+  {
+    "id": "justice-league-trivia-37",
+    "question": "During the Brainiac disagreement, what combined plan did the League settle on for fighting him?",
+    "options": [
+      "In orbit above Earth",
+      "In the upper atmosphere between Earth and space",
+      "On the streets of Metropolis",
+      "Underwater in the Pacific"
+    ],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "The team combined Superman's plan (going high) and Batman's plan (using Earth) by fighting in the upper atmosphere."
+  },
+  {
+    "id": "justice-league-trivia-38",
+    "question": "What is Superman's home planet called?",
+    "options": [
+      "Apokolips",
+      "Themyscira",
+      "Krypton",
+      "Mars"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Superman — Kal-El — was born on the planet Krypton before being sent to Earth as a baby."
+  },
+  {
+    "id": "justice-league-trivia-39",
+    "question": "What speech did Batman give at the Justice League's one-year anniversary?",
+    "options": [
+      "We are the best team.",
+      "Good work. Same time tomorrow.",
+      "I am proud of everyone.",
+      "You kept your word. All of you."
+    ],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "Batman's speech was simply 'You kept your word. All of you.' — brief words that meant a great deal coming from Bruce Wayne."
+  },
+  {
+    "id": "justice-league-trivia-40",
+    "question": "What does J'onn J'onzz — the Martian Manhunter — keep as the only object brought from Mars?",
+    "options": [
+      "A map of Mars",
+      "A small red stone",
+      "A framed photograph",
+      "A book written in Martian"
+    ],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "dc",
+    "heroId": "justice-league",
+    "explanation": "J'onn carries a single framed photograph — the only object he brought from Mars — which he eventually places on the shared shelf at the Hall."
   }
 ]
