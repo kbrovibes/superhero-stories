@@ -127,28 +127,48 @@ export default async function HeroPage({ params }: { params: Params }) {
           </Link>
         </div>
 
-        <div style={{ 
-          display: "grid", 
-          gridTemplateColumns: "repeat(3, 1fr)", 
-          gap: 12 
-        }}>
-          {stories.map((story, index) => (
-            <div key={story.id} style={{
-              animationDelay: `${index * 50}ms`,
-              animationName: "fadeIn",
-              animationDuration: "0.4s",
-              animationFillMode: "both",
-            }}>
-              <StoryRow
-                title={story.title}
-                storyTheme={STORY_THEMES[index] ?? "Story"}
-                index={index}
-                href={`/${universe}/${heroId}/${story.id}`}
-                universe={universe as "marvel" | "dc" | "avengers"}
-              />
-            </div>
-          ))}
-        </div>
+        {stories.length === 0 ? (
+          <div style={{
+            border: "1px dashed var(--border)",
+            borderRadius: 16,
+            padding: "36px 24px",
+            textAlign: "center",
+            color: "var(--text-muted)",
+            background: "rgba(20,20,30,0.4)",
+          }}>
+            <div style={{ fontSize: 32, marginBottom: 8 }}>📜</div>
+            <p style={{ fontSize: 14, fontWeight: 600, color: "var(--text-secondary)", margin: 0 }}>
+              Stories for {hero.name} aren&apos;t written yet.
+            </p>
+            <p style={{ fontSize: 12, marginTop: 8, lineHeight: 1.5, opacity: 0.75 }}>
+              The archive is still gathering files on this {hero.kind === "villain" ? "villain" : "hero"}.
+              Check back soon — or pick another character from the home page.
+            </p>
+          </div>
+        ) : (
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(3, 1fr)",
+            gap: 12
+          }}>
+            {stories.map((story, index) => (
+              <div key={story.id} style={{
+                animationDelay: `${index * 50}ms`,
+                animationName: "fadeIn",
+                animationDuration: "0.4s",
+                animationFillMode: "both",
+              }}>
+                <StoryRow
+                  title={story.title}
+                  storyTheme={STORY_THEMES[index] ?? "Story"}
+                  index={index}
+                  href={`/${universe}/${heroId}/${story.id}`}
+                  universe={universe as "marvel" | "dc" | "avengers"}
+                />
+              </div>
+            ))}
+          </div>
+        )}
       </main>
     </>
   );

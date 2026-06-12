@@ -126,19 +126,43 @@ function slugToTitle(slug: string): string {
     .join(" ");
 }
 
+// Villains live in HERO_META but their story directories haven't been
+// authored yet. They should still appear as tiles on the homepage and be
+// selectable; the detail page renders "no stories yet" until content lands.
+const VILLAIN_IDS_BY_UNIVERSE: Record<"marvel" | "dc", string[]> = {
+  marvel: [
+    "green-goblin", "doctor-octopus", "venom", "magneto", "ultron",
+    "red-skull", "abomination", "killmonger", "mysterio",
+  ],
+  dc: [
+    "joker", "harley-quinn", "lex-luthor", "riddler", "two-face",
+    "catwoman", "bane", "sinestro", "black-manta", "darkseid",
+  ],
+};
+
+function buildHero(id: string, universe: "marvel" | "dc", kindOverride?: HeroKind): Hero {
+  return {
+    id,
+    universe,
+    name: HERO_META[id]?.name ?? id,
+    emoji: HERO_META[id]?.emoji ?? "⭐",
+    avatarFormat: HERO_META[id]?.avatarFormat ?? "webp",
+    kind: kindOverride ?? HERO_META[id]?.kind ?? "hero",
+  };
+}
+
 export function getHeroes(universe: "marvel" | "dc"): Hero[] {
   const dir = path.join(REPO_ROOT, universe);
-  if (!fs.existsSync(dir)) return [];
-  return fs.readdirSync(dir)
-    .filter((f) => fs.statSync(path.join(dir, f)).isDirectory())
-    .map((id) => ({
-      id,
-      universe,
-      name: HERO_META[id]?.name ?? id,
-      emoji: HERO_META[id]?.emoji ?? "⭐",
-      avatarFormat: HERO_META[id]?.avatarFormat ?? "webp",
-      kind: HERO_META[id]?.kind ?? "hero",
-    }));
+  const fsHeroes: Hero[] = fs.existsSync(dir)
+    ? fs.readdirSync(dir)
+        .filter((f) => fs.statSync(path.join(dir, f)).isDirectory())
+        .map((id) => buildHero(id, universe))
+    : [];
+  const fsIds = new Set(fsHeroes.map((h) => h.id));
+  const extraVillains = VILLAIN_IDS_BY_UNIVERSE[universe]
+    .filter((id) => !fsIds.has(id))
+    .map((id) => buildHero(id, universe, "villain"));
+  return [...fsHeroes, ...extraVillains];
 }
 
 // ── Ensembles: multi-hero story collections (like the Avengers) ──
