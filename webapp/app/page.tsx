@@ -61,7 +61,7 @@ export default function Home() {
             lineHeight: 1.5,
             opacity: 0.7
           }}>
-            {storyCount} canonical narratives for young heroes.
+            From Krypton to Wakanda — {storyCount} bedtime-ready adventures, one tap away.
           </p>
 
           <div style={{ display: "flex", gap: 12, marginTop: 28, justifyContent: "center", flexWrap: "wrap", width: "100%", maxWidth: 380, marginInline: "auto" }}>

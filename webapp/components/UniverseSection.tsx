@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function UniverseSection({ label, count, children }: { label: string; count: number; children: React.ReactNode }) {
+export default function UniverseSection({ label, count, children, action }: { label: string; count: number; children: React.ReactNode; action?: React.ReactNode }) {
   return (
     <section style={{ marginBottom: 64 }}>
       <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 24 }}>
@@ -43,6 +43,7 @@ export default function UniverseSection({ label, count, children }: { label: str
         }}>
           {count}
         </span>
+        {action}
       </div>
       <div style={{
         display: "grid",
