@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { PREHYDRATE_SCRIPT } from "@/lib/tile-theme";
+import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -64,6 +65,7 @@ export default function RootLayout({
         </svg>
 
         {children}
+        <ServiceWorkerRegister />
       </body>
     </html>
   );
