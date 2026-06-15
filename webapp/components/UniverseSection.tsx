@@ -2,9 +2,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function UniverseSection({ label, count, children, action }: { label: string; count: number; children: React.ReactNode; action?: React.ReactNode }) {
+export default function UniverseSection({ id, label, count, children, action }: { id?: string; label: string; count: number; children: React.ReactNode; action?: React.ReactNode }) {
   return (
-    <section style={{ marginBottom: 64 }}>
+    <section id={id} style={{ marginBottom: 64, scrollMarginTop: 80 }}>
       <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 24 }}>
         <h2 style={{ 
           fontSize: 12, 
