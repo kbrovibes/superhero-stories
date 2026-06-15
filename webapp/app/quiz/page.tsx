@@ -105,14 +105,38 @@ function sortKey(name: string): string {
 }
 
 const ALL_IDS = HERO_LIST.map((h) => h.id);
-const MARVEL_HEROES = HERO_LIST.filter((h) => h.universe === "marvel")
-  .slice()
-  .sort((a, b) => sortKey(a.name).localeCompare(sortKey(b.name)));
-const DC_HEROES = HERO_LIST.filter((h) => h.universe === "dc")
-  .slice()
-  .sort((a, b) => sortKey(a.name).localeCompare(sortKey(b.name)));
-const MARVEL_IDS = MARVEL_HEROES.map((h) => h.id);
-const DC_IDS = DC_HEROES.map((h) => h.id);
+
+// Villains (everything else is a hero). Used to group the picker by kind.
+const VILLAIN_IDS = new Set<string>([
+  "green-goblin", "doctor-octopus", "venom", "magneto", "ultron", "red-skull",
+  "abomination", "killmonger", "mysterio",
+  "joker", "harley-quinn", "lex-luthor", "riddler", "two-face", "catwoman",
+  "bane", "sinestro", "black-manta", "darkseid",
+]);
+const isVillain = (id: string) => VILLAIN_IDS.has(id);
+
+const byName = (a: { name: string }, b: { name: string }) =>
+  sortKey(a.name).localeCompare(sortKey(b.name));
+
+function group(universe: "marvel" | "dc", kind: "hero" | "villain") {
+  return HERO_LIST.filter(
+    (h) => h.universe === universe && isVillain(h.id) === (kind === "villain"),
+  )
+    .slice()
+    .sort(byName);
+}
+
+const PICKER_GROUPS = [
+  { key: "marvel-hero",    label: "Marvel Heroes",   accent: "var(--marvel-accent)", tint: "rgba(229,9,20,0.18)",  heroes: group("marvel", "hero") },
+  { key: "marvel-villain", label: "Marvel Villains", accent: "var(--marvel-accent)", tint: "rgba(229,9,20,0.18)",  heroes: group("marvel", "villain") },
+  { key: "dc-hero",        label: "DC Heroes",       accent: "var(--dc-accent)",     tint: "rgba(0,153,255,0.18)", heroes: group("dc", "hero") },
+  { key: "dc-villain",     label: "DC Villains",     accent: "var(--dc-accent)",     tint: "rgba(0,153,255,0.18)", heroes: group("dc", "villain") },
+] as const;
+
+const MARVEL_IDS = HERO_LIST.filter((h) => h.universe === "marvel").map((h) => h.id);
+const DC_IDS = HERO_LIST.filter((h) => h.universe === "dc").map((h) => h.id);
+const HERO_IDS = HERO_LIST.filter((h) => !isVillain(h.id)).map((h) => h.id);
+const VILLAIN_ID_LIST = HERO_LIST.filter((h) => isVillain(h.id)).map((h) => h.id);
 
 // ─── Config ───────────────────────────────────────────────────────────────────
 
@@ -180,7 +204,12 @@ function ConfigScreen({
   function selectAll() { setSelected([...ALL_IDS]); }
   function selectMarvel() { setSelected([...MARVEL_IDS]); }
   function selectDC() { setSelected([...DC_IDS]); }
+  function selectHeroes() { setSelected([...HERO_IDS]); }
+  function selectVillains() { setSelected([...VILLAIN_ID_LIST]); }
   function selectNone() { setSelected([]); }
+
+  const sameSet = (ids: string[]) =>
+    selected.length === ids.length && selected.every((id) => ids.includes(id));
 
   const available = filterQuestionsByHeroes(
     allQuestions as QuizQuestion[],
@@ -212,7 +241,7 @@ function ConfigScreen({
       <div style={{ marginBottom: 36 }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 12 }}>
           <label style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--text-muted)" }}>
-            Heroes · {selected.length} selected
+            Who to quiz · {selected.length} picked
           </label>
           <button
             onClick={selectNone}
@@ -233,82 +262,42 @@ function ConfigScreen({
           </button>
         </div>
 
-        {/* Quick-select buttons */}
-        <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>
-          <button
-            onClick={selectAll}
-            style={quickBtnStyle(selected.length === ALL_IDS.length)}
-          >
-            All
-          </button>
-          <button
-            onClick={selectMarvel}
-            style={quickBtnStyle(selected.length === MARVEL_IDS.length && selected.every((id) => MARVEL_IDS.includes(id)))}
-          >
-            Marvel
-          </button>
-          <button
-            onClick={selectDC}
-            style={quickBtnStyle(selected.length === DC_IDS.length && selected.every((id) => DC_IDS.includes(id)))}
-          >
-            DC
-          </button>
+        {/* Quick-select pills */}
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginBottom: 20 }}>
+          <button onClick={selectAll}      style={quickBtnStyle(sameSet(ALL_IDS))}>All</button>
+          <button onClick={selectMarvel}   style={quickBtnStyle(sameSet(MARVEL_IDS))}>Marvel</button>
+          <button onClick={selectDC}       style={quickBtnStyle(sameSet(DC_IDS))}>DC</button>
+          <button onClick={selectHeroes}   style={quickBtnStyle(sameSet(HERO_IDS))}>Heroes</button>
+          <button onClick={selectVillains} style={quickBtnStyle(sameSet(VILLAIN_ID_LIST))}>Villains</button>
         </div>
 
-        {/* Hero chips — multi-select, grouped by universe, sorted A-Z */}
-        {([
-          { label: "Marvel", heroes: MARVEL_HEROES, accent: "var(--marvel-accent)", tint: "rgba(229,9,20,0.18)" },
-          { label: "DC",     heroes: DC_HEROES,     accent: "var(--dc-accent)",     tint: "rgba(0,153,255,0.18)" },
-        ] as const).map((group) => (
-          <div key={group.label} style={{ marginBottom: 16 }}>
-            <div style={{ fontSize: 10, fontWeight: 800, letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--text-muted)", marginBottom: 8 }}>
-              {group.label}
+        {/* Grouped, justified avatar-tile grid */}
+        {PICKER_GROUPS.map((g) => (
+          <div key={g.key} style={{ marginBottom: 22 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 10 }}>
+              <span style={{ width: 6, height: 6, borderRadius: "50%", background: g.accent }} />
+              <span style={{ fontSize: 10, fontWeight: 800, letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--text-secondary)" }}>
+                {g.label}
+              </span>
+              <span style={{ fontSize: 10, fontWeight: 600, color: "var(--text-muted)" }}>{g.heroes.length}</span>
             </div>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
-              {group.heroes.map((h) => {
-                const on = selectedSet.has(h.id);
-                return (
-                  <button
-                    key={h.id}
-                    onClick={() => toggleHero(h.id)}
-                    style={{
-                      display: "inline-flex",
-                      alignItems: "center",
-                      gap: 8,
-                      padding: "4px 12px 4px 4px",
-                      borderRadius: 999,
-                      border: on ? `2px solid ${group.accent}` : "1px solid var(--border)",
-                      background: on ? group.tint : "transparent",
-                      color: on ? group.accent : "var(--text-secondary)",
-                      fontWeight: on ? 700 : 500,
-                      fontSize: 13,
-                      cursor: "pointer",
-                      transition: "all 0.15s",
-                      whiteSpace: "nowrap",
-                    }}
-                  >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={`/avatars/${h.universe}/${h.id}.webp`}
-                      alt=""
-                      aria-hidden
-                      width={24}
-                      height={24}
-                      loading="lazy"
-                      style={{
-                        width: 24,
-                        height: 24,
-                        borderRadius: "50%",
-                        objectFit: "cover",
-                        background: "var(--surface)",
-                        filter: on ? "none" : "saturate(0.7)",
-                        opacity: on ? 1 : 0.85,
-                      }}
-                    />
-                    {h.name}
-                  </button>
-                );
-              })}
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fill, minmax(72px, 1fr))",
+                gap: 8,
+              }}
+            >
+              {g.heroes.map((h) => (
+                <HeroTile
+                  key={h.id}
+                  hero={h}
+                  on={selectedSet.has(h.id)}
+                  accent={g.accent}
+                  tint={g.tint}
+                  onToggle={() => toggleHero(h.id)}
+                />
+              ))}
             </div>
           </div>
         ))}
@@ -382,9 +371,10 @@ function ConfigScreen({
 
 function quickBtnStyle(active: boolean): React.CSSProperties {
   return {
-    flex: 1,
-    padding: "9px 0",
-    borderRadius: 10,
+    flex: "1 1 auto",
+    minWidth: 64,
+    padding: "9px 14px",
+    borderRadius: 999,
     border: active ? "2px solid var(--av-accent)" : "2px solid var(--border)",
     background: active ? "rgba(255,217,0,0.12)" : "var(--surface)",
     color: active ? "var(--av-accent)" : "var(--text-muted)",
@@ -395,6 +385,218 @@ function quickBtnStyle(active: boolean): React.CSSProperties {
     cursor: "pointer",
     transition: "all 0.15s",
   };
+}
+
+// Selectable avatar tile used in the picker grid.
+function HeroTile({
+  hero,
+  on,
+  accent,
+  tint,
+  onToggle,
+}: {
+  hero: { id: string; name: string; universe: "marvel" | "dc" };
+  on: boolean;
+  accent: string;
+  tint: string;
+  onToggle: () => void;
+}) {
+  return (
+    <button
+      onClick={onToggle}
+      aria-pressed={on}
+      title={hero.name}
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        gap: 6,
+        padding: "10px 4px 8px",
+        borderRadius: 14,
+        border: on ? `2px solid ${accent}` : "1px solid var(--border)",
+        background: on ? tint : "var(--surface)",
+        cursor: "pointer",
+        transition: "all 0.15s",
+        position: "relative",
+        minWidth: 0,
+      }}
+    >
+      {on && (
+        <span
+          aria-hidden
+          style={{
+            position: "absolute", top: 4, right: 4,
+            width: 16, height: 16, borderRadius: "50%",
+            background: accent, color: "#0a0a14",
+            fontSize: 10, fontWeight: 900, lineHeight: "16px", textAlign: "center",
+          }}
+        >
+          ✓
+        </span>
+      )}
+      <span style={{
+        width: 46, height: 46, borderRadius: "50%", overflow: "hidden",
+        border: on ? `2px solid ${accent}` : "1px solid var(--border)",
+        background: "#0a0a14", flexShrink: 0,
+      }}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={`/avatars/${hero.universe}/${hero.id}.webp`}
+          alt=""
+          aria-hidden
+          width={46}
+          height={46}
+          loading="lazy"
+          style={{
+            width: "100%", height: "100%", objectFit: "cover", display: "block",
+            filter: on ? "none" : "saturate(0.65)",
+            opacity: on ? 1 : 0.8,
+          }}
+        />
+      </span>
+      <span style={{
+        fontSize: 10.5, fontWeight: on ? 700 : 500,
+        color: on ? accent : "var(--text-secondary)",
+        textAlign: "center", lineHeight: 1.15,
+        width: "100%", overflow: "hidden", textOverflow: "ellipsis",
+        display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical",
+      }}>
+        {hero.name}
+      </span>
+    </button>
+  );
+}
+
+// ─── Focused (single-character) Config Screen ──────────────────────────────────
+
+function FocusedConfigScreen({
+  hero,
+  stats,
+  onStart,
+  onBrowseAll,
+}: {
+  hero: { id: string; name: string; universe: "marvel" | "dc" };
+  stats: QuizStats;
+  onStart: (mode: Difficulty, selected: string[], scopeLabel: string, count: number, questions: QuizQuestion[]) => void;
+  onBrowseAll: () => void;
+}) {
+  const [count, setCount] = useState(10);
+  const accent = hero.universe === "marvel" ? "var(--marvel-accent)" : "var(--dc-accent)";
+  const selected = useMemo(() => [hero.id], [hero.id]);
+
+  const available = filterQuestionsByHeroes(allQuestions as QuizQuestion[], MODE, selected).length;
+
+  function handleStart() {
+    const pool = filterQuestionsByHeroes(allQuestions as QuizQuestion[], MODE, selected);
+    const picked = pickSmart(pool, count, stats).map(shuffleOptions);
+    recordSelects(selected);
+    onStart(MODE, selected, hero.name, count, picked);
+  }
+
+  return (
+    <div style={{ maxWidth: 460, margin: "0 auto", padding: "40px 24px 80px" }}>
+      <div style={{ textAlign: "center", marginBottom: 36 }}>
+        <div style={{
+          width: 116, height: 116, margin: "0 auto 18px", borderRadius: "50%",
+          overflow: "hidden", border: `3px solid ${accent}`, background: "#0a0a14",
+          boxShadow: `0 10px 36px ${accent}44`,
+        }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={`/avatars/${hero.universe}/${hero.id}.webp`}
+            alt={hero.name}
+            width={116}
+            height={116}
+            style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+          />
+        </div>
+        <p style={{ fontSize: 11, fontWeight: 800, letterSpacing: "0.18em", textTransform: "uppercase", color: accent, margin: "0 0 4px" }}>
+          Quiz Me
+        </p>
+        <h1 className="liquid-text" style={{ fontSize: 40, fontWeight: 900, margin: 0, lineHeight: 0.95, textTransform: "uppercase" }}>
+          {hero.name}
+        </h1>
+        <p style={{ fontSize: 13, color: "var(--text-muted)", margin: "10px 0 0" }}>
+          {available} trivia question{available === 1 ? "" : "s"} ready
+        </p>
+      </div>
+
+      {/* Question count */}
+      <div style={{ marginBottom: 28 }}>
+        <label style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--text-muted)", display: "block", marginBottom: 12, textAlign: "center" }}>
+          How many questions?
+        </label>
+        <div style={{ display: "flex", gap: 10, justifyContent: "center" }}>
+          {COUNTS.map((n) => {
+            const on = count === n;
+            const disabled = available > 0 && n > available && n !== COUNTS[0];
+            return (
+              <button
+                key={n}
+                onClick={() => setCount(n)}
+                style={{
+                  flex: "1 1 0",
+                  maxWidth: 72,
+                  height: 56,
+                  borderRadius: 14,
+                  border: on ? `2px solid ${accent}` : "2px solid var(--border)",
+                  background: on ? `${accent}22` : "var(--surface)",
+                  color: on ? accent : "var(--text-muted)",
+                  fontWeight: 800,
+                  fontSize: 18,
+                  cursor: "pointer",
+                  transition: "all 0.15s",
+                  opacity: disabled ? 0.5 : 1,
+                }}
+              >
+                {n}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Start */}
+      <button
+        onClick={handleStart}
+        disabled={available === 0}
+        style={{
+          width: "100%",
+          padding: "16px 0",
+          borderRadius: 16,
+          border: "none",
+          background: available === 0 ? "var(--surface)" : `radial-gradient(circle at 30% 30%, var(--thanos-accent), ${accent} 75%)`,
+          color: available === 0 ? "var(--text-muted)" : "#0a0a14",
+          fontWeight: 800,
+          fontSize: 16,
+          letterSpacing: "0.08em",
+          textTransform: "uppercase",
+          cursor: available === 0 ? "not-allowed" : "pointer",
+        }}
+      >
+        {available === 0 ? "No questions yet" : `Start · ${Math.min(count, available)} Questions`}
+      </button>
+
+      <button
+        onClick={onBrowseAll}
+        style={{
+          width: "100%",
+          marginTop: 14,
+          padding: "12px 0",
+          borderRadius: 14,
+          border: "none",
+          background: "transparent",
+          color: "var(--text-muted)",
+          fontWeight: 600,
+          fontSize: 13,
+          letterSpacing: "0.04em",
+          cursor: "pointer",
+        }}
+      >
+        Or pick other heroes →
+      </button>
+    </div>
+  );
 }
 
 // ─── Question Screen ──────────────────────────────────────────────────────────
@@ -738,6 +940,16 @@ function QuizController() {
     [searchParams],
   );
 
+  // A single-hero scope (the per-character "Quiz Me" link) opens a focused
+  // screen that only asks for question count — not the full picker.
+  const focusHero = useMemo(
+    () => (initialSelected.length === 1
+      ? HERO_LIST.find((h) => h.id === initialSelected[0]) ?? null
+      : null),
+    [initialSelected],
+  );
+  const [browseAll, setBrowseAll] = useState(false);
+
   const [phase, setPhase] = useState<Phase>("config");
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -817,6 +1029,16 @@ function QuizController() {
   }
 
   if (phase === "config") {
+    if (focusHero && !browseAll) {
+      return (
+        <FocusedConfigScreen
+          hero={focusHero}
+          stats={stats}
+          onStart={handleStart}
+          onBrowseAll={() => setBrowseAll(true)}
+        />
+      );
+    }
     return <ConfigScreen initialSelected={initialSelected} stats={stats} onStart={handleStart} />;
   }
 
