@@ -52,6 +52,11 @@ assets.sort();
 const version = hash.digest("hex").slice(0, 12);
 
 const manifest = { version, assets };
+// Write to public/ so the second `next build` pass copies it into out/ where
+// Vercel's onBuildComplete hook captures it. (A post-build write into out/
+// directly is too late — Vercel has already ingested the export output.)
+const PUBLIC = new URL("../public/", import.meta.url).pathname;
+writeFileSync(join(PUBLIC, "sw-manifest.json"), JSON.stringify(manifest));
 writeFileSync(join(OUT, "sw-manifest.json"), JSON.stringify(manifest));
 
 console.log(
