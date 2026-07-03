@@ -16,12 +16,12 @@ const PARA_STYLE = { fontSize: 18, lineHeight: 1.8, color: "var(--text-secondary
 const STORY_PARA_STYLE = { fontSize: 20, lineHeight: 2.0, color: "var(--text-secondary)", margin: "0 0 24px" } as const;
 
 export default function StoryTabs({ body, tldr, readAloud, storyTime, accent }: StoryTabsProps) {
-  const [active, setActive] = useState<TabId>("summary");
+  const [active, setActive] = useState<TabId>("storytime");
 
   const allTabs: { id: TabId; label: string; available: boolean }[] = [
-    { id: "tldr",      label: "TLDR",        available: !!tldr },
-    { id: "summary",   label: "Summary",     available: true },
     { id: "storytime", label: "Story Time",  available: !!storyTime },
+    { id: "summary",   label: "Summary",     available: true },
+    { id: "tldr",      label: "TLDR",        available: !!tldr },
   ];
   const tabs = allTabs.filter((t) => t.available);
   const activeTab = tabs.find((t) => t.id === active) ? active : tabs[0]?.id ?? "summary";

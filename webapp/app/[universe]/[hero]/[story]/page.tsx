@@ -57,16 +57,40 @@ export default async function StoryPage({ params }: { params: Params }) {
       </div>
 
       <main style={{ maxWidth: 680, margin: "0 auto", padding: "40px 24px 80px" }}>
-        <div style={{
-          display: "inline-block",
-          border: "1px solid var(--border)",
-          borderRadius: 999,
-          padding: "4px 12px",
-          fontSize: 12,
-          color: "var(--text-muted)",
-          marginBottom: 20,
-        }}>
-          {storyIndex + 1} / {stories.length}
+        <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 20 }}>
+          <a
+            href={`/${universe}/${heroId}`}
+            title={hero.name}
+            style={{
+              width: 48,
+              height: 48,
+              borderRadius: "50%",
+              overflow: "hidden",
+              flexShrink: 0,
+              border: `2px solid ${accent}`,
+              boxShadow: "0 2px 8px rgba(0,0,0,0.18)",
+              display: "block",
+            }}
+          >
+            <img
+              src={`/avatars/${universe}/${heroId}.${hero.avatarFormat}`}
+              alt={hero.name}
+              width={48}
+              height={48}
+              style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+            />
+          </a>
+          <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
+            <a
+              href={`/${universe}/${heroId}`}
+              style={{ fontSize: 15, fontWeight: 700, color: "var(--text-primary)", textDecoration: "none" }}
+            >
+              {hero.name}
+            </a>
+            <span style={{ fontSize: 12, color: "var(--text-muted)" }}>
+              Story {storyIndex + 1} of {stories.length}
+            </span>
+          </div>
         </div>
 
         <h1 className="liquid-text" style={{ fontSize: 36, fontWeight: 900, margin: "0 0 32px", lineHeight: 1.15 }}>
