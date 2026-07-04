@@ -1,6 +1,7 @@
-import { getHero, getHeroStories, getHeroes, THEME } from "@/lib/stories";
+import { getHero, getHeroStories, getHeroes, getStoryAudioSrc, THEME } from "@/lib/stories";
 import NavBar from "@/components/NavBar";
 import StoryTabs from "@/components/StoryTabs";
+import ReadAloudButton from "@/components/ReadAloudButton";
 import { notFound } from "next/navigation";
 
 type Params = Promise<{ universe: string; hero: string; story: string }>;
@@ -37,6 +38,7 @@ export default async function StoryPage({ params }: { params: Params }) {
   const prev = storyIndex > 0 ? stories[storyIndex - 1] : null;
   const next = storyIndex < stories.length - 1 ? stories[storyIndex + 1] : null;
   const accent = THEME[universe as "marvel" | "dc"].accent;
+  const audioSrc = getStoryAudioSrc(universe, heroId, storyId);
 
   return (
     <>
@@ -96,6 +98,8 @@ export default async function StoryPage({ params }: { params: Params }) {
         <h1 className="liquid-text" style={{ fontSize: 36, fontWeight: 900, margin: "0 0 32px", lineHeight: 1.15 }}>
           {current.title}
         </h1>
+
+        {audioSrc && <ReadAloudButton src={audioSrc} accent={accent} />}
 
         <StoryTabs
           body={current.body}

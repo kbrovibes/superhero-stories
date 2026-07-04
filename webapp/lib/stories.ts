@@ -228,6 +228,14 @@ function readEnsembleStories(folder: string): Story[] {
   });
 }
 
+// Returns the public URL for a story's narrated audio if it has been generated
+// (public/audio/<universe>/<hero>/<story>.wav), else null. Audio is optional and
+// network-only — it is not precached for offline use.
+export function getStoryAudioSrc(universe: string, heroId: string, storyId: string): string | null {
+  const rel = `audio/${universe}/${heroId}/${storyId}.wav`;
+  return fs.existsSync(path.join(process.cwd(), "public", rel)) ? `/${rel}` : null;
+}
+
 export function getHeroStories(universe: "marvel" | "dc", heroId: string): Story[] {
   const dir = path.join(REPO_ROOT, universe, heroId);
   if (!fs.existsSync(dir)) return [];

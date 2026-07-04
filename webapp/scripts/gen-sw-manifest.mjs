@@ -9,7 +9,8 @@ import { join, relative } from "node:path";
 
 const OUT = new URL("../out/", import.meta.url).pathname;
 
-const SKIP_EXT = new Set([".txt", ".db", ".map"]);
+// .wav/.mp3: story narration is network-only by design — never precache it.
+const SKIP_EXT = new Set([".txt", ".db", ".map", ".wav", ".mp3"]);
 const SKIP_NAMES = new Set([
   ".DS_Store",
   "sw.js",

@@ -86,6 +86,11 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
 
+  // Story narration is network-only by design: bypass the SW so it streams
+  // straight from the network (supports range requests / seeking) and is
+  // never cached, precached, or served offline.
+  if (url.pathname.startsWith("/audio/")) return;
+
   if (req.mode === "navigate") {
     event.respondWith(handleNavigate(req));
     return;
