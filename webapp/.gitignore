@@ -42,3 +42,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# python venv for audio tooling (bundled ffmpeg binary)
+scripts/.venv/

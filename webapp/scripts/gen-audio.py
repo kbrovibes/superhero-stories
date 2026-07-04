@@ -10,8 +10,9 @@ Run:  GEMINI_API_KEY=...  python3 scripts/gen-audio.py marvel groot 01-origin
       GEMINI_API_KEY=...  python3 scripts/gen-audio.py marvel/groot/01-origin ...
 """
 import os
+import shutil
+import subprocess
 import sys
-import wave
 from pathlib import Path
 
 API_KEY = os.environ.get("GEMINI_API_KEY", "")
@@ -26,6 +27,24 @@ ROOT = HERE.parent
 REPO = ROOT / "superhero-repo"
 MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-2.5-flash-preview-tts")
 VOICE = os.environ.get("GEMINI_TTS_VOICE", "Callirrhoe")  # warm, easy-going
+BITRATE = os.environ.get("GEMINI_TTS_BITRATE", "32k")  # mono MP3 ~ 0.24 MB/min
+
+
+def find_ffmpeg():
+    override = os.environ.get("GEMINI_FFMPEG")
+    if override and Path(override).exists():
+        return override
+    exe = shutil.which("ffmpeg")
+    if exe:
+        return exe
+    try:
+        import imageio_ffmpeg  # bundled static binary (scripts/.venv)
+        return imageio_ffmpeg.get_ffmpeg_exe()
+    except Exception:
+        sys.exit("No ffmpeg. Install: scripts/.venv/bin/pip install imageio-ffmpeg")
+
+
+FFMPEG = find_ffmpeg()
 
 # A natural-language style directive; Gemini TTS applies it and does NOT read it
 # aloud. Keeps the pace gentle and unhurried for young children.
@@ -79,11 +98,13 @@ for universe, hero, story in targets:
     pcm = resp.candidates[0].content.parts[0].inline_data.data
     out_dir = ROOT / "public" / "audio" / universe / hero
     out_dir.mkdir(parents=True, exist_ok=True)
-    out = out_dir / f"{story}.wav"
-    with wave.open(str(out), "wb") as w:
-        w.setnchannels(1)
-        w.setsampwidth(2)
-        w.setframerate(24000)
-        w.writeframes(pcm)
+    out = out_dir / f"{story}.mp3"
+    # Pipe raw 24kHz/16-bit/mono PCM straight to a low-bitrate mono MP3.
+    subprocess.run(
+        [FFMPEG, "-hide_banner", "-loglevel", "error", "-y",
+         "-f", "s16le", "-ar", "24000", "-ac", "1", "-i", "pipe:0",
+         "-c:a", "libmp3lame", "-b:a", BITRATE, "-ac", "1", str(out)],
+        input=pcm, check=True,
+    )
     secs = len(pcm) / 2 / 24000
-    print(f"  wrote {out.relative_to(ROOT)}  ({secs:.0f}s, {out.stat().st_size//1024} KB)")
+    print(f"  wrote {out.relative_to(ROOT)}  ({secs:.0f}s, {out.stat().st_size//1024} KB @ {BITRATE})")

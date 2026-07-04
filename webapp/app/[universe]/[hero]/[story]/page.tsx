@@ -99,7 +99,15 @@ export default async function StoryPage({ params }: { params: Params }) {
           {current.title}
         </h1>
 
-        {audioSrc && <ReadAloudButton src={audioSrc} accent={accent} />}
+        {audioSrc && (
+          <ReadAloudButton
+            src={audioSrc}
+            accent={accent}
+            title={current.title}
+            heroName={hero.name}
+            artwork={`/avatars/${universe}/${heroId}.${hero.avatarFormat}`}
+          />
+        )}
 
         <StoryTabs
           body={current.body}

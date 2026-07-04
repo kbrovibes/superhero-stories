@@ -232,7 +232,7 @@ function readEnsembleStories(folder: string): Story[] {
 // (public/audio/<universe>/<hero>/<story>.wav), else null. Audio is optional and
 // network-only — it is not precached for offline use.
 export function getStoryAudioSrc(universe: string, heroId: string, storyId: string): string | null {
-  const rel = `audio/${universe}/${heroId}/${storyId}.wav`;
+  const rel = `audio/${universe}/${heroId}/${storyId}.mp3`;
   return fs.existsSync(path.join(process.cwd(), "public", rel)) ? `/${rel}` : null;
 }
 
