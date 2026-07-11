@@ -79,6 +79,9 @@ const HERO_META: Record<string, HeroMeta> = {
   gambit:               { name: "Gambit",              emoji: "🃏" },
   "professor-x":        { name: "Professor X",         emoji: "🎓" },
 
+  // ── Marvel heroes: symbiote protectors (added 2026-07-11) ──
+  "anti-venom":         { name: "Anti-Venom",          emoji: "🤍" },
+
   // ── Marvel heroes: Guardians of the Galaxy backfill (added 2026-06-10) ──
   gamora:               { name: "Gamora",              emoji: "🌿" },
   drax:                 { name: "Drax",                emoji: "🔪" },

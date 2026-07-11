@@ -1,0 +1,402 @@
+[
+  {
+    "id": "anti-venom-trivia-1",
+    "question": "Who was Anti-Venom before he became a white symbiote hero?",
+    "options": ["Peter Parker", "Flash Thompson", "Mac Gargan", "Eddie Brock"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Eddie Brock had once been Venom before a healing light turned him into the white hero Anti-Venom."
+  },
+  {
+    "id": "anti-venom-trivia-2",
+    "question": "What color is the Anti-Venom symbiote?",
+    "options": ["Black", "Red", "White", "Blue"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Anti-Venom is glossy white with swirling black tendrils, the mirror-opposite of the black Venom symbiote."
+  },
+  {
+    "id": "anti-venom-trivia-3",
+    "question": "Who healed Eddie's serious sickness with a special glowing light?",
+    "options": ["Martin Li", "Reed Richards", "Aunt May", "The Jackal"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Martin Li touched Eddie with his healing Lightforce, which washed away the illness and helped create Anti-Venom."
+  },
+  {
+    "id": "anti-venom-trivia-4",
+    "question": "What is the name of the healing energy Martin Li carries?",
+    "options": ["The Speed Force", "The Power Cosmic", "The Lightforce", "The Odinforce"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Martin Li's gentle white healing energy is called the Lightforce."
+  },
+  {
+    "id": "anti-venom-trivia-5",
+    "question": "What kind of place did Martin Li run to help hungry people?",
+    "options": ["A hospital", "A police station", "A soup kitchen called F.E.A.S.T.", "A school"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Martin Li ran the F.E.A.S.T. shelter, a warm soup kitchen for people who had nowhere else to go."
+  },
+  {
+    "id": "anti-venom-trivia-6",
+    "question": "How was the Anti-Venom symbiote created?",
+    "options": ["It fell from space", "Martin's healing light mixed with traces of Venom in Eddie's blood", "A scientist built it", "It came from Wakanda"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "The Lightforce mixed with tiny leftover traces of the Venom symbiote in Eddie's blood to make a brand-new white symbiote."
+  },
+  {
+    "id": "anti-venom-trivia-7",
+    "question": "What special mark is on Anti-Venom's chest?",
+    "options": ["A white spider on black", "A red star", "A gold lightning bolt", "A black spider on white"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Anti-Venom wears a black spider shape on his white chest, the flipped mirror of Venom's white-on-black emblem."
+  },
+  {
+    "id": "anti-venom-trivia-8",
+    "question": "What is Anti-Venom's most special and rare power?",
+    "options": ["Flying", "Shooting lasers", "A healing touch that cures sickness", "Turning invisible forever"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Anti-Venom's rarest gift is a healing touch that can cure sickness and wash poison out of a person."
+  },
+  {
+    "id": "anti-venom-trivia-9",
+    "question": "What happens when Anti-Venom touches another black symbiote?",
+    "options": ["Nothing", "It grows stronger", "The black goo dissolves and pulls away", "They become friends"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Anti-Venom's antibodies are the antidote to symbiotes, so his touch makes black goo dissolve and shrink away."
+  },
+  {
+    "id": "anti-venom-trivia-10",
+    "question": "Which scary red symbiote is Anti-Venom the natural enemy of?",
+    "options": ["Carnage", "Groot", "Rocket", "Drax"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Carnage is a red symbiote, and Anti-Venom's cure is exactly what it fears most."
+  },
+  {
+    "id": "anti-venom-trivia-11",
+    "question": "Who is the host of the red symbiote Carnage?",
+    "options": ["Mac Gargan", "Cletus Kasady", "Flash Thompson", "Martin Li"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "The troubled man Cletus Kasady is the host of the chaotic red symbiote called Carnage."
+  },
+  {
+    "id": "anti-venom-trivia-12",
+    "question": "When Carnage broke loose, which hero did Anti-Venom team up with?",
+    "options": ["Iron Man", "Thor", "Spider-Man", "Captain America"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Anti-Venom teamed up with Spider-Man, his old rival, to stop Carnage in Manhattan."
+  },
+  {
+    "id": "anti-venom-trivia-13",
+    "question": "How can Anti-Venom sense when another symbiote is near?",
+    "options": ["He hears a bell", "His eyes glow red", "He smells smoke", "He feels a prickle like a splinter"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Anti-Venom feels other symbiotes like a splinter prickling at the edge of his senses."
+  },
+  {
+    "id": "anti-venom-trivia-14",
+    "question": "Which villain wore the Venom symbiote when Anti-Venom fought to free him?",
+    "options": ["Mac Gargan", "Cletus Kasady", "The Jackal", "Mister Negative"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Mac Gargan, once the villain Scorpion, wore the black Venom symbiote during the events called New Ways to Die."
+  },
+  {
+    "id": "anti-venom-trivia-15",
+    "question": "What did Anti-Venom want to do to Mac Gargan's black goo?",
+    "options": ["Feed it", "Dissolve it and free him", "Copy it", "Hide from it"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Eddie wanted to peel and dissolve the black symbiote off Mac Gargan to give him a second chance."
+  },
+  {
+    "id": "anti-venom-trivia-16",
+    "question": "What was Mac Gargan's villain name before he wore the Venom symbiote?",
+    "options": ["The Vulture", "The Shocker", "The Rhino", "The Scorpion"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Mac Gargan had once been the villain known as the Scorpion."
+  },
+  {
+    "id": "anti-venom-trivia-17",
+    "question": "Who is Martin Li's shadowy, silver-haired alter-ego?",
+    "options": ["The Green Goblin", "The Kingpin", "Mister Negative", "Doctor Octopus"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Hidden inside kind Martin Li is a cold shadow-self named Mister Negative."
+  },
+  {
+    "id": "anti-venom-trivia-18",
+    "question": "What is the name of Mister Negative's gang of masked fighters?",
+    "options": ["The Inner Demons", "The Sinister Six", "The Wrecking Crew", "The Maggia"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Mister Negative commands a gang of masked fighters called the Inner Demons."
+  },
+  {
+    "id": "anti-venom-trivia-19",
+    "question": "What kind of energy does Mister Negative use, opposite to the Lightforce?",
+    "options": ["Fire", "Ice", "The Darkforce", "Lightning"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Where Martin's Lightforce heals, Mister Negative's cold Darkforce twists and corrupts things."
+  },
+  {
+    "id": "anti-venom-trivia-20",
+    "question": "How did Eddie feel about fighting Mister Negative?",
+    "options": ["Full of hate", "Bored", "Torn, since Martin had healed him", "Happy and excited"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Eddie's feelings were tangled because Mister Negative wore the face of the man who had once healed him."
+  },
+  {
+    "id": "anti-venom-trivia-21",
+    "question": "What are the tiny helpers inside Anti-Venom that fight sickness called?",
+    "options": ["Antibodies", "Batteries", "Sparks", "Seeds"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "The white symbiote is full of powerful antibodies, the same kind of helpers your own body uses to fight germs."
+  },
+  {
+    "id": "anti-venom-trivia-22",
+    "question": "Besides curing sickness, what else can Anti-Venom's touch wash out of a person?",
+    "options": ["Their memories", "Their strength", "Poison and disease", "Their voice"],
+    "correctIndex": 2,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "His healing touch can pull poison, harmful drugs, and disease out of a person's body."
+  },
+  {
+    "id": "anti-venom-trivia-23",
+    "question": "What is the big limit on Anti-Venom's healing power?",
+    "options": ["It only works at night", "It only heals animals", "It needs sunlight", "It is not endless and can run low"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "The healing power drains like water from a pitcher, so if he cures too much too fast it runs low."
+  },
+  {
+    "id": "anti-venom-trivia-24",
+    "question": "Where did Anti-Venom prefer to help people?",
+    "options": ["Only on television", "The quiet, forgotten corners of the city", "Only in space", "Only in Wakanda"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Instead of chasing fame, Eddie guarded the alleys, shelters, and quiet blocks no other hero watched."
+  },
+  {
+    "id": "anti-venom-trivia-25",
+    "question": "What nickname did Eddie give himself as a hero?",
+    "options": ["The Lethal Protector", "The Web-Slinger", "The Man of Steel", "The Caped Crusader"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Eddie called himself a Lethal Protector, and the word that mattered most to him was 'protector.'"
+  },
+  {
+    "id": "anti-venom-trivia-26",
+    "question": "Which classic symbiote power does Anti-Venom also have?",
+    "options": ["Time travel", "Wall-crawling", "Reading minds", "Breathing fire"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Like other symbiotes, Anti-Venom can crawl straight up walls, plus super strength and webbing."
+  },
+  {
+    "id": "anti-venom-trivia-27",
+    "question": "How can Anti-Venom seem to vanish?",
+    "options": ["By flying very fast", "By digging underground", "By turning into water", "By shape-shifting and changing color to blend in"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "He can shift the color of his living goo and flatten against a wall, using camouflage to disappear."
+  },
+  {
+    "id": "anti-venom-trivia-28",
+    "question": "What comes out of Anti-Venom's hands when he swings across the city?",
+    "options": ["Fire", "White webbing", "Bubbles", "Sparks"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Anti-Venom fires strong white webbing to swing across the skyline and snare crooks."
+  },
+  {
+    "id": "anti-venom-trivia-29",
+    "question": "What is the big disaster where Manhattan started turning into spider-creatures?",
+    "options": ["Spider-Island", "Secret Wars", "Civil War", "The Snap"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Spider-Island was the event where a spider-virus began turning the people of Manhattan into spider-creatures."
+  },
+  {
+    "id": "anti-venom-trivia-30",
+    "question": "Which villain set the spider-virus loose during Spider-Island?",
+    "options": ["The Jackal", "Carnage", "Green Goblin", "Kingpin"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "A villain called the Jackal cooked up the sneaky spider-virus and spread it across the island."
+  },
+  {
+    "id": "anti-venom-trivia-31",
+    "question": "During Spider-Island, what turned out to be the cure for the spider-virus?",
+    "options": ["A magic potion", "Cold weather", "Loud music", "Anti-Venom's blood and antibodies"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Reed Richards discovered that Anti-Venom's white antibodies were the perfect cure for the spider-virus."
+  },
+  {
+    "id": "anti-venom-trivia-32",
+    "question": "Which brilliant scientist helped discover that Anti-Venom was the cure?",
+    "options": ["Tony Stark", "Reed Richards", "Bruce Banner", "Hank Pym"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Reed Richards of the Fantastic Four figured out that the cure was already walking the city as Anti-Venom."
+  },
+  {
+    "id": "anti-venom-trivia-33",
+    "question": "What did Eddie give up to save the whole city during Spider-Island?",
+    "options": ["His house", "His entire Anti-Venom symbiote", "His best friend", "His memories"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Eddie poured out every drop of his cure and gave up his whole symbiote to heal all of Manhattan."
+  },
+  {
+    "id": "anti-venom-trivia-34",
+    "question": "How did Eddie feel after giving up his symbiote to save the city?",
+    "options": ["Angry and bitter", "Scared", "Jealous", "Tired but at peace"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Eddie stood ordinary once more, tired to his bones but quietly at peace with his brave choice."
+  },
+  {
+    "id": "anti-venom-trivia-35",
+    "question": "Which soldier later carried the Anti-Venom power as Agent Anti-Venom?",
+    "options": ["Flash Thompson", "Mac Gargan", "Cletus Kasady", "Martin Li"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "The brave soldier Flash Thompson later carried the healing power forward as Agent Anti-Venom."
+  },
+  {
+    "id": "anti-venom-trivia-36",
+    "question": "What did Flash Thompson used to do to young Peter Parker?",
+    "options": ["Tutor him", "Bully him", "Feed him lunch", "Drive him to school"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Flash Thompson once bullied Peter Parker before growing up into a hero himself."
+  },
+  {
+    "id": "anti-venom-trivia-37",
+    "question": "What is the big lesson of Anti-Venom's story?",
+    "options": ["Never trust anyone", "Winning is everything", "Always be first", "Everyone deserves a second chance"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Anti-Venom's story teaches that everyone deserves a second chance and that healing is the greatest power."
+  },
+  {
+    "id": "anti-venom-trivia-38",
+    "question": "Why does Eddie try to cure his enemies instead of destroy them?",
+    "options": ["He is too weak to fight", "Because he believes in passing on second chances", "He is afraid of them", "He wants their powers"],
+    "correctIndex": 1,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Because he was given a second chance, Eddie believes in curing and forgiving instead of destroying."
+  },
+  {
+    "id": "anti-venom-trivia-39",
+    "question": "Anti-Venom is often described as the mirror-opposite of which villain?",
+    "options": ["Venom", "The Joker", "Thanos", "Loki"],
+    "correctIndex": 0,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "White where Venom is black and healing where Venom is hungry, Anti-Venom is Venom's mirror-opposite."
+  },
+  {
+    "id": "anti-venom-trivia-40",
+    "question": "In which big city does Anti-Venom protect the innocent?",
+    "options": ["Gotham City", "Metropolis", "Wakanda", "New York City"],
+    "correctIndex": 3,
+    "difficulty": "trivia",
+    "universe": "marvel",
+    "heroId": "anti-venom",
+    "explanation": "Eddie Brock guards the innocent people of New York City as its Lethal Protector."
+  }
+]

@@ -69,6 +69,8 @@ const HERO_LIST: { id: string; name: string; universe: "marvel" | "dc" }[] = [
   { id: "rocket",          name: "Rocket",           universe: "marvel" },
   { id: "groot",           name: "Groot",            universe: "marvel" },
   { id: "nebula",          name: "Nebula",           universe: "marvel" },
+  // ── Symbiote protectors (Marvel) ──
+  { id: "anti-venom",      name: "Anti-Venom",       universe: "marvel" },
   // ── DC heroes ──
   { id: "starfire",        name: "Starfire",         universe: "dc" },
   { id: "raven",           name: "Raven",            universe: "dc" },

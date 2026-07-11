@@ -43,6 +43,7 @@
     { "id": "bane",            "name": "Bane",           "universe": "dc",     "kind": "villain", "emoji": "🦾" },
     { "id": "sinestro",        "name": "Sinestro",       "universe": "dc",     "kind": "villain", "emoji": "💛" },
     { "id": "black-manta",     "name": "Black Manta",    "universe": "dc",     "kind": "villain", "emoji": "🦈" },
-    { "id": "darkseid",        "name": "Darkseid",       "universe": "dc",     "kind": "villain", "emoji": "👹" }
+    { "id": "darkseid",        "name": "Darkseid",       "universe": "dc",     "kind": "villain", "emoji": "👹" },
+    { "id": "anti-venom",      "name": "Anti-Venom",     "universe": "marvel", "kind": "hero",    "emoji": "🤍" }
   ]
 }
